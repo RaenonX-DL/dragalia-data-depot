@@ -9,12 +9,12 @@ Data will be parsed by [dragalia-data-parser][parser] for [DL info website][DL-i
 
 ------
 
-## Date updating procedure
+## Data updating procedure
 
 1. Push the new data. The commit message should follow the [naming convention below](#commit-naming).
 
 2. Add a tag for the commit (for easier access & searching). 
-The tag name should follow the [naming convention below](#rag-naming).
+The tag name should follow the [naming convention below](#tag-naming).
 
 ------
 
