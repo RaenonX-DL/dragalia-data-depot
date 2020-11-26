@@ -223,10 +223,10 @@
         "_useForEachChargeTime": 0,
         "_chargeSec": 3.0,
         "_chargeLvSec": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
+          3.0,
+          3.0,
+          3.0,
+          3.0
         ],
         "_chargeAfterSec": 0.8,
         "_traceSec": 0.0,
@@ -322,10 +322,10 @@
         "_useForEachChargeTime": 0,
         "_chargeSec": 3.0,
         "_chargeLvSec": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
+          3.0,
+          3.0,
+          3.0,
+          3.0
         ],
         "_chargeAfterSec": 1.0,
         "_traceSec": 0.0,
@@ -389,13 +389,13 @@
         "_characterType": 1,
         "_hitLabel": "r007_107_01",
         "_useSameComponent": 0,
-        "_useElementalHit": 0,
+        "_useElementalHit": 1,
         "_elementalHitLabel": [
           "",
           "",
           "",
-          "",
-          ""
+          "r007_107_01",
+          "r007_107_01_CUR"
         ],
         "_collision": 14,
         "_collisionPosId": 24,
@@ -633,16 +633,16 @@
           "",
           "",
           "",
-          "",
-          ""
+          "EFF_RID_010_006",
+          "EFF_RID_017_009"
         ],
         "_effectControlerKey": "",
         "_effectTriggerIdx": 8,
         "_isReplaceTrigger": 0,
-        "_influencedCharaterElement": 0,
+        "_influencedCharaterElement": 1,
         "_influencedCharacterMode": 0,
         "_influencedCharacterModeOffset": 0,
-        "_useElementalTrigger": 1,
+        "_useElementalTrigger": 0,
         "_useMarkerTrigger": 0,
         "_followRotType": 16,
         "_nearestRange": 0.0,
@@ -728,16 +728,16 @@
           "",
           "",
           "",
-          "",
-          ""
+          "EFF_RID_010_006",
+          "EFF_RID_017_009"
         ],
         "_effectControlerKey": "",
         "_effectTriggerIdx": 9,
         "_isReplaceTrigger": 0,
-        "_influencedCharaterElement": 0,
+        "_influencedCharaterElement": 1,
         "_influencedCharacterMode": 0,
         "_influencedCharacterModeOffset": 0,
-        "_useElementalTrigger": 1,
+        "_useElementalTrigger": 0,
         "_useMarkerTrigger": 0,
         "_followRotType": 16,
         "_nearestRange": 0.0,
@@ -963,6 +963,105 @@
         },
         "_enableForceStop": 0,
         "_priority": 2147483647
+      }
+    },
+    {
+      "$Script": "ActionPartsMarker",
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -8946980542806449701
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -6514497031660650522
+      },
+      "m_Name": "",
+      "_data": {
+        "commandType": 8,
+        "_seconds": 0.0,
+        "_speed": 1.0,
+        "_duration": 0.0,
+        "_activateId": 0,
+        "_conditionData": {
+          "_conditionType": 0,
+          "_conditionValue": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "_loopData": {
+          "flag": 0,
+          "loopNum": 0,
+          "restartFrame": 0,
+          "restartSec": 0.0
+        },
+        "_posId": 1,
+        "_ignoreRotForTargetP": 0,
+        "_offsetPos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "_angle": 180.0,
+        "_slotFront": 0,
+        "_shapeType": 0,
+        "_colorType": 3,
+        "_useDifficultyColor": 0,
+        "_isMarkerToTarget": 0,
+        "_difficultyColorType": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "_difficultyColorType_Hell": 0,
+        "_difficultyColorType_Ultimate": 0,
+        "_length": 1.0,
+        "_width": 22.5,
+        "_distanceMin": 0.0,
+        "_distanceMax": 0.0,
+        "_useForEachChargeTime": 0,
+        "_chargeSec": 3.0,
+        "_chargeLvSec": [
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "_chargeAfterSec": 1.0,
+        "_traceSec": 0.0,
+        "_useSkinScale": 0,
+        "_useScaleAtTheTime": 0,
+        "_traceType": 0,
+        "_sudden": 1,
+        "_groupId": 0,
+        "_ignoredByPlayerAI": 0,
+        "_invisibleForPlayerAI": 1,
+        "_playerAIEscapeDir": 0,
+        "_ignoredImpactWaitForPlayerColor": 0,
+        "_isGroundHeight": 0,
+        "_activateOnChargeImpact": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "_nextLevelMarkerCount": 0,
+        "_nextLevelMarkerData": [],
+        "_chargeBulletEffect": "",
+        "_minRandomBulletEffectTrigger": -1,
+        "_maxRandomBulletEffectTrigger": -1
       }
     }
   ]
