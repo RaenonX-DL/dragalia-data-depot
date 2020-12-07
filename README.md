@@ -35,3 +35,5 @@ Tags should be named in the following format:
 ```
 2020.11.23-08NV7KO9YyXMIlB2
 ```
+
+> Note that the timezones for all the timestamps should be UTC +8 (Taipei Standard Time).
