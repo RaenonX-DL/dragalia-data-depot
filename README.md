@@ -37,3 +37,10 @@ Tags should be named in the following format:
 ```
 
 > Note that the timezones for all the timestamps should be UTC +8 (Taipei Standard Time).
+
+-------
+
+# Notes
+
+For pipeline, monitor the tag added/updated event instead, because it is possible that there are some commits for updating another non-asset files.
+For example, update for the README.md, which creates a commit but will not create a tag.
