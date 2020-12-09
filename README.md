@@ -1,11 +1,11 @@
 # dragalia-data-depot
 
-This stores all dumped and parsed Dragalia Lost data.
+This stores all dumped and partially parsed Dragalia Lost data.
 
-Data will be parsed by [dragalia-data-parser][parser] for [DL info website][DL-info] to use.
+Data will be further parsed and processed by [dragalia-data-parse][parser] for the use of [DL info website][DL-info].
 
 [DL-info]: http://dl.raenonx.cc
-[parser]: https://github.com/RaenonX-DL/dragalia-data-parser
+[parser]: https://github.com/RaenonX-DL/dragalia-data-parse
 
 ------
 
@@ -13,7 +13,7 @@ Data will be parsed by [dragalia-data-parser][parser] for [DL info website][DL-i
 
 1. Push the new data. The commit message should follow the [naming convention below](#commit-naming).
 
-2. Add a tag for the commit (for easier access & searching). 
+2. Add a tag for the cUpdate READMEommit (for easier access & searching). 
 The tag name should follow the [naming convention below](#tag-naming).
 
 ------
