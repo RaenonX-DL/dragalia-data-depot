@@ -1,0 +1,111 @@
+name: Resource Deployment (Workflow Dispatch)
+
+on:
+  workflow_dispatch:
+    inputs:
+      iv:
+        description: 'Manifest IV'
+        required: true
+      key:
+        description: 'Manifest key'
+        required: true
+      version-code:
+        description: 'Patch version code'
+        required: true
+      date:
+        description: 'Patch releasing date in the format of YYYY/MM/DD.'
+        required: true
+      time:
+        description: 'Patch releasing time in UTC+8 and the format of HH:MM AA.'
+        required: true
+
+jobs:
+  info:
+    name: Deployment info
+
+    runs-on: windows-latest
+    
+    steps:
+      - name: "[INFO] Manifest IV available"
+        run: echo "Manifest IV available"
+        
+      - name: "[INFO] Manifest key available"
+        run: echo "Manifest key available"
+        
+      - name: "[INFO] Version code"
+        run: echo "${{ github.event.inputs.version-code }}"
+        
+      - name: "[INFO] Patch releasing date"
+        run: echo "${{ github.event.inputs.date }}"
+        
+      - name: "[INFO] Patch releasing time"
+        run: echo "${{ github.event.inputs.time }}"
+     
+  deploy-resource:
+    name: Deploy resources
+
+    needs: [info]
+
+    runs-on: windows-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '3.1.x' # SDK Version to use; x will use the latest version of the 3.1 channel
+      
+      - name: "[Git] Prepare Commit Message"
+        id: git-commit-msg
+        run: |
+          $commit = "${{ github.event.inputs.date }} ${{ github.event.inputs.time }} - ${{ github.event.inputs.version-code }}"
+          echo $commit
+          echo "::set-output name=out::$commit"
+          
+      - name: "[Git] Prepare Tag Name"
+        id: git-tag-name
+        run: |
+          $tag = "$("${{ github.event.inputs.date }}" -replace "/", ".")-${{ github.event.inputs.version-code }}"
+          echo $tag
+          echo "::set-output name=out::$tag"
+          
+      - name: "Dump Resources"
+        run: |
+          $event = Get-Content $Env:GITHUB_EVENT_PATH | ConvertFrom-Json
+          $iv = $event.inputs.iv
+          $key = $event.inputs.key
+          dumper/bin/dldump.exe ${{ github.event.inputs.version-code }} `
+            --export-path . `
+            --cdn-path dumper/cdn `
+            --config-path dumper/config.json `
+            --iv $iv `
+            --key $key
+      
+      - name: "[Git] Configure"
+        run: |
+          git config --global user.name "RaenonX"
+          git config --global user.email "raenonx0710@gmail.com"
+          
+      - name: "[Git] Check Changes"
+        id: git-check
+        run: |
+          $diff = $(git status --porcelain)
+          echo $diff
+          echo "::set-output name=diff::$diff"
+          
+      - name: "[Git] Commit Changes"
+        if: steps.git-check.outputs.diff
+        run: |
+          git add .
+          git commit -m "${{ steps.git-commit-msg.outputs.out }}"
+          
+      - name: "[Git] Add Tag"
+        if: steps.git-check.outputs.diff
+        run: |
+          git tag -a "${{ steps.git-tag-name.outputs.out }}" -m "${{ steps.git-tag-name.outputs.out }}"
+          
+      - name: "[Git] Push Changes"
+        if: steps.git-check.outputs.diff
+        run: |
+          git pull
+          git push --follow-tags
