@@ -69,10 +69,8 @@ jobs:
           $event = Get-Content $Env:GITHUB_EVENT_PATH | ConvertFrom-Json
           $iv = $event.client_payload.iv
           $key = $event.client_payload.key
-          dumper/bin/dldump.exe ${{ github.event.inputs.version-code }} `
-            --export-path . `
-            --cdn-path dumper/cdn `
-            --config-path dumper/config.json `
+          .dumper/dldump.exe ${{ github.event.inputs.version-code }} `
+            --config-path .dumper/config.json `
             --iv $iv `
             --key $key
       

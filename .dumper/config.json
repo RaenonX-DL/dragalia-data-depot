@@ -1,0 +1,57 @@
+{
+  "paths": {
+	"decrypter": {
+      "dir": "lib/Decrypter",
+      "dll": "Decrypt.dll"
+    },
+    "assetStudio": {
+      "configDir": "as",
+      "cliDir": "lib/AssetStudio",
+      "cliExe": "AssetStudioCLI.exe"
+    },
+    "audio": {
+      "regExp": ".^",
+      "exportDir": "audio",
+      "vgmStreamDir": "lib/vgmstream",
+      "vgmStreamExe": "vgmstream.exe"
+    },
+    "index": {
+      "indexPath": "index.json"
+    },
+    "cdnDir": ".exclude/cdn",
+    "exportDir": "..",
+    "incrDir": "../incr",
+    "tempDir": ".exclude/temp"
+  },
+  "single": [
+    {
+      "name": "master",
+      "config": "master.json"
+    },
+    {
+      "name": "actions",
+      "config": "actions.json"
+    },
+    {
+      "name": "images/ingame/ui",
+      "config": "ui.json"
+    }
+  ],
+  "multi": [
+    {
+      "regExp": "images/icon/",
+      "config": "icons.json",
+      "skipExists": true
+    },
+    {
+      "regExp": "images/outgame/unitdetail/(amulet|chara|dragon)",
+      "config": "unitdetail.json",
+      "skipExists": true
+    },
+    {
+      "regExp": "characters/motion/",
+      "config": "animation.json",
+      "skipExists": true
+    }
+  ]
+}
