@@ -1,8 +1,8 @@
 # dragalia-data-depot
 
-This stores all dumped and partially parsed Dragalia Lost data.
+This stores all dumped and pre-processed Dragalia Lost assets.
 
-Data will be further parsed and processed by [dragalia-data-parse][parser] for the use of [DL info website][DL-info].
+These assets will be further parsed and processed by [dragalia-data-parse][parser] for the use of [DL info website][DL-info].
 
 [DL-info]: http://dl.raenonx.cc
 [parser]: https://github.com/RaenonX-DL/dragalia-data-parse
