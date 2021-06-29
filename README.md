@@ -29,7 +29,7 @@ These assets will be further parsed and processed by [dragalia-data-parse][parse
 
 1. Push the new data. The commit message should follow the [naming convention below](#commit-naming).
 
-2. Add a tag for the cUpdate READMEommit (for easier access & searching). 
+2. Add a tag for the commit (for easier access & searching). 
 The tag name should follow the [naming convention below](#tag-naming).
 
 ------
