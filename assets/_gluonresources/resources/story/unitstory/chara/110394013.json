@@ -1,0 +1,5258 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110394013",
+  "filename": "110394013",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "このストーリーをスキップしますか？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "……ただいま。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 13,
+          "command": "ruby",
+          "args": [
+            "魔獣",
+            "まじゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 13,
+          "command": "ruby",
+          "args": [
+            "討伐",
+            "とうばつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "print",
+          "args": [
+            "してきたわ。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "ODOROKI_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "おかえり～！　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 22,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "cn0107"
+          ],
+          "end": 0
+        },
+        {
+          "row": 22,
+          "command": "chara_face",
+          "args": [
+            "m00701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "ODOROKI_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "って、ええっ!?\\nもう"
+          ],
+          "end": 0
+        },
+        {
+          "row": 22,
+          "command": "ruby",
+          "args": [
+            "終",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "わったの!?　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 22,
+          "command": "ruby",
+          "args": [
+            "今朝",
+            "けさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "ruby",
+          "args": [
+            "出",
+            "で"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "かけた\\nばっかりだったのに……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 28,
+          "command": "ruby",
+          "args": [
+            "数",
+            "かず"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 28,
+          "command": "ruby",
+          "args": [
+            "多",
+            "おお"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "かったけど、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 28,
+          "command": "ruby",
+          "args": [
+            "大",
+            "たい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "したことなかった\\nから……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "た、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 33,
+          "command": "ruby",
+          "args": [
+            "大",
+            "たい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "したこと、ない……!?\\nロブレールの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 33,
+          "command": "ruby",
+          "args": [
+            "自警団",
+            "じけいだん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 33,
+          "command": "ruby",
+          "args": [
+            "束",
+            "たば"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "になっても\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 33,
+          "command": "ruby",
+          "args": [
+            "敵",
+            "かな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "わなかった"
+          ],
+          "end": 0
+        },
+        {
+          "row": 33,
+          "command": "ruby",
+          "args": [
+            "魔獣",
+            "まじゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "たちですよ!?"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "WARAI_EMO",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "c_bound2_t",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "うわぁ～……！\\nセシルって、すっごく"
+          ],
+          "end": 0
+        },
+        {
+          "row": 40,
+          "command": "ruby",
+          "args": [
+            "強",
+            "つよ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "いんだねっ！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "c_swing_h",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 46,
+          "command": "ruby",
+          "args": [
+            "強",
+            "つよ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "print",
+          "args": [
+            "くなんて、ないわ……。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 46,
+          "command": "ruby",
+          "args": [
+            "殿下",
+            "でんか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "print",
+          "args": [
+            "とリーフのおかげで、ここに\\nいられることにはなったけど……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "StopEye_close",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 48,
+          "command": "ruby",
+          "args": [
+            "本来",
+            "ほんらい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "ruby",
+          "args": [
+            "向",
+            "む"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "き"
+          ],
+          "end": 0
+        },
+        {
+          "row": 48,
+          "command": "ruby",
+          "args": [
+            "合",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "おうと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 48,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "っていた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 48,
+          "command": "ruby",
+          "args": [
+            "騎士道",
+            "きしどう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "とは\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 48,
+          "command": "ruby",
+          "args": [
+            "向",
+            "む"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "き"
+          ],
+          "end": 0
+        },
+        {
+          "row": 48,
+          "command": "ruby",
+          "args": [
+            "合",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "えずじまいだもの……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 54,
+          "command": "ruby",
+          "args": [
+            "少",
+            "すこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "しずつでいいんじゃないですか？\\nお"
+          ],
+          "end": 0
+        },
+        {
+          "row": 54,
+          "command": "ruby",
+          "args": [
+            "城",
+            "しろ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "ruby",
+          "args": [
+            "務",
+            "づと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "めを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 54,
+          "command": "ruby",
+          "args": [
+            "始",
+            "はじ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "めただけで、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 54,
+          "command": "ruby",
+          "args": [
+            "大",
+            "おお"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "きな"
+          ],
+          "end": 0
+        },
+        {
+          "row": 54,
+          "command": "ruby",
+          "args": [
+            "前進",
+            "ぜんしん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "\\nだと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 54,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "います。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "……ありがとう。でも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 59,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 59,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 59,
+          "command": "ruby",
+          "args": [
+            "自分",
+            "じぶん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "に\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 59,
+          "command": "ruby",
+          "args": [
+            "戻",
+            "もど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "りたい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 59,
+          "command": "ruby",
+          "args": [
+            "気持",
+            "きも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "ちは、どんどん"
+          ],
+          "end": 0
+        },
+        {
+          "row": 59,
+          "command": "ruby",
+          "args": [
+            "強",
+            "つよ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "くなって\\nきてるの……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "また"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "理想",
+            "りそう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "や"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "騎士道",
+            "きしどう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "にまっすぐ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "向",
+            "む"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "き"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "合",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "える\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "自分",
+            "じぶん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "に。そうすれば、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "殿下",
+            "でんか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "やリーフの\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "恩",
+            "おん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "にも、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "報",
+            "むく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "いられるから……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "う～ん……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "自分",
+            "じぶん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "戻",
+            "もど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "る、かぁ……。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0107"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "HIRAMEKI_EMO",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "chara_face",
+          "args": [
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "あ！　じゃあもっと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "出",
+            "だ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "して\\nみたら？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "え……？　どういうこと？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "c_bound2_b",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "cn0107"
+          ],
+          "end": 0
+        },
+        {
+          "row": 78,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 78,
+          "command": "ruby",
+          "args": [
+            "自分",
+            "じぶん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 78,
+          "command": "ruby",
+          "args": [
+            "戻",
+            "もど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "るためには、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 78,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 78,
+          "command": "ruby",
+          "args": [
+            "自分",
+            "じぶん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "を\\nもう"
+          ],
+          "end": 0
+        },
+        {
+          "row": 78,
+          "command": "ruby",
+          "args": [
+            "一回",
+            "いっかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "よーく"
+          ],
+          "end": 0
+        },
+        {
+          "row": 78,
+          "command": "ruby",
+          "args": [
+            "知",
+            "し"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "ってみよーってこと！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "ONPU_EMO",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "cn0107"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "知",
+            "し"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "っていくうちにさ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "少",
+            "すこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "しず～つ、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "自分",
+            "じぶん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "取",
+            "と"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "り"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "戻",
+            "もど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "せるかもよー？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "を、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "出",
+            "だ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "す……か。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "c_swing_h_fast",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "でも……\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "騎士",
+            "きし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "時代",
+            "じだい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "なんて"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "出",
+            "だ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "したら、\\nまた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 86,
+          "command": "ruby",
+          "args": [
+            "情緒不安定",
+            "じょうちょふあんてい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "になるんじゃ……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "c_swing_h",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "cn0107"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "騎士",
+            "きし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "時代",
+            "じだい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "じゃなくていいんじゃない？\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "好",
+            "す"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "きだったことやいい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "出",
+            "で"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "辿",
+            "たど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "れば、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "前向",
+            "まえむ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "きな"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "気持",
+            "きも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "ちを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 91,
+          "command": "ruby",
+          "args": [
+            "出",
+            "だ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "せるかも！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "そうね……。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 95,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 95,
+          "command": "StopEye_close",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "ruby",
+          "args": [
+            "好",
+            "す"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "きだったこと、か……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0043_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7",
+            "SE_NHAA"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "わあ……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 107,
+          "command": "ruby",
+          "args": [
+            "立派",
+            "りっぱ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "なお"
+          ],
+          "end": 0
+        },
+        {
+          "row": 107,
+          "command": "ruby",
+          "args": [
+            "屋敷",
+            "やしき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "だね～！\\nここは、なんなの？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "祖父",
+            "そふ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "別荘",
+            "べっそう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "よ……。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "家族",
+            "かぞく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "はまだ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "帝国",
+            "ていこく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "に\\nいるから、ほとんど"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "廃屋",
+            "はいおく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "だけどね。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "HATENA_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "こんな"
+          ],
+          "end": 0
+        },
+        {
+          "row": 117,
+          "command": "ruby",
+          "args": [
+            "立派",
+            "りっぱ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "な"
+          ],
+          "end": 0
+        },
+        {
+          "row": 117,
+          "command": "ruby",
+          "args": [
+            "別荘",
+            "べっそう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "があるなんて、\\nセシルさんはもしや、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 117,
+          "command": "ruby",
+          "args": [
+            "貴族",
+            "きぞく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "なのですか？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "c_bound_t_slow",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 122,
+          "command": "ruby",
+          "args": [
+            "一応",
+            "いちおう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "ね。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 122,
+          "command": "ruby",
+          "args": [
+            "代々",
+            "だいだい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "ruby",
+          "args": [
+            "近衛騎士",
+            "このえきし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 122,
+          "command": "ruby",
+          "args": [
+            "輩出",
+            "はいしゅつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "してきた\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 122,
+          "command": "ruby",
+          "args": [
+            "名家",
+            "めいか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "……なんて"
+          ],
+          "end": 0
+        },
+        {
+          "row": 122,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "われてたわ。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "だから"
+          ],
+          "end": 0
+        },
+        {
+          "row": 125,
+          "command": "ruby",
+          "args": [
+            "小",
+            "ちい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "さい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 125,
+          "command": "ruby",
+          "args": [
+            "頃",
+            "ころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "から、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 125,
+          "command": "ruby",
+          "args": [
+            "騎士",
+            "きし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "になること\\nしか"
+          ],
+          "end": 0
+        },
+        {
+          "row": 125,
+          "command": "ruby",
+          "args": [
+            "考",
+            "かんが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "えてこなかった……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 125,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 125,
+          "command": "StopEye_close",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "c_swing_h",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "って、あぁ、\\nこういうこと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 125,
+          "command": "ruby",
+          "args": [
+            "考",
+            "かんが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "えちゃだめね。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 129,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 129,
+          "command": "ruby",
+          "args": [
+            "振",
+            "ふ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "り"
+          ],
+          "end": 0
+        },
+        {
+          "row": 129,
+          "command": "ruby",
+          "args": [
+            "返",
+            "かえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "りたいのはそこじゃない。\\nテラスに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 129,
+          "command": "ruby",
+          "args": [
+            "出",
+            "で"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "たいの……ついてきて。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0034_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0017_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "ナーム＆クラウ",
+            "わぁ……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "ONPU_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "すっごく"
+          ],
+          "end": 0
+        },
+        {
+          "row": 144,
+          "command": "ruby",
+          "args": [
+            "景色",
+            "けしき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "がきれ～い！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "でしょう？　ふふ……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 148,
+          "command": "ruby",
+          "args": [
+            "懐",
+            "なつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "かしい。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 148,
+          "command": "ruby",
+          "args": [
+            "剣術",
+            "けんじゅつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 148,
+          "command": "ruby",
+          "args": [
+            "修業",
+            "しゅぎょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 148,
+          "command": "ruby",
+          "args": [
+            "明",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 148,
+          "command": "ruby",
+          "args": [
+            "暮",
+            "く"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "れていたけど……\\nここにいる"
+          ],
+          "end": 0
+        },
+        {
+          "row": 148,
+          "command": "ruby",
+          "args": [
+            "時",
+            "とき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "だけは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 148,
+          "command": "ruby",
+          "args": [
+            "違",
+            "ちが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "った。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 151,
+          "command": "ruby",
+          "args": [
+            "避暑",
+            "ひしょ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 151,
+          "command": "ruby",
+          "args": [
+            "来",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "たときは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 151,
+          "command": "ruby",
+          "args": [
+            "決",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "まって、この"
+          ],
+          "end": 0
+        },
+        {
+          "row": 151,
+          "command": "ruby",
+          "args": [
+            "風景",
+            "ふうけい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "を\\nキャンバスに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 151,
+          "command": "ruby",
+          "args": [
+            "描",
+            "えが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "いたものよ。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "WARAI_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "へえ……！　セシルさんは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 157,
+          "command": "ruby",
+          "args": [
+            "芸術",
+            "げいじゅつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "の\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 157,
+          "command": "ruby",
+          "args": [
+            "才能",
+            "さいのう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "もあったのですね。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "c_swing_h",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "いいえ。ただの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 162,
+          "command": "ruby",
+          "args": [
+            "下手",
+            "へた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 162,
+          "command": "ruby",
+          "args": [
+            "横好",
+            "よこず"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "きよ。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 162,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 162,
+          "command": "RestartEye",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "でも……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 162,
+          "command": "ruby",
+          "args": [
+            "詩",
+            "し"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 162,
+          "command": "ruby",
+          "args": [
+            "作",
+            "つく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "るのはまあまあ\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 162,
+          "command": "ruby",
+          "args": [
+            "上手",
+            "じょうず"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "だったかもね。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39401",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_bound_t",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 166,
+          "command": "ruby",
+          "args": [
+            "社交場",
+            "しゃこうば"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "でも、よく"
+          ],
+          "end": 0
+        },
+        {
+          "row": 166,
+          "command": "ruby",
+          "args": [
+            "女",
+            "おんな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 166,
+          "command": "ruby",
+          "args": [
+            "子",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "たちから\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 166,
+          "command": "ruby",
+          "args": [
+            "褒",
+            "ほ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "められたりしたんだから……ふふっ。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "WARAI_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "あ……。セシル、やっと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 172,
+          "command": "ruby",
+          "args": [
+            "楽",
+            "たの"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "しそうに\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 172,
+          "command": "ruby",
+          "args": [
+            "笑",
+            "わら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "った～！　ちょっと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 172,
+          "command": "ruby",
+          "args": [
+            "前向",
+            "まえむ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "きになって\\nきた？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "！　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "本当",
+            "ほんとう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "ね。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "今",
+            "いま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "のことを\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "出",
+            "だ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "して、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "楽",
+            "たの"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "しかった……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "ふふ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "騎士",
+            "きし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "以外",
+            "いがい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "出",
+            "で"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "辿",
+            "たど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "るのは、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "正解",
+            "せいかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "だったかもしれませんね。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "そ、そうね……。よし……じゃあ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "次",
+            "つぎ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "は、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "部屋",
+            "へや"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "行",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "きましょう。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 190,
+          "command": "ruby",
+          "args": [
+            "昔書",
+            "むかしか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "いた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 190,
+          "command": "ruby",
+          "args": [
+            "詩",
+            "し"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "もたくさん"
+          ],
+          "end": 0
+        },
+        {
+          "row": 190,
+          "command": "ruby",
+          "args": [
+            "残",
+            "のこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "ってるはず――"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0044_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "SYS"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "青",
+            "あお"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "空",
+            "そら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "にはだれも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "近",
+            "ちか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "づけない\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "小鳥",
+            "ことり"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "さんたちの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "秘密",
+            "ひみつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "花園",
+            "はなぞの"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "\\nだけどとどいてマイウィッシュ\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "絶対",
+            "ぜったい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "かなえるマイハート\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "理想",
+            "りそう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 201,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "にインフィニティ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0343"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "…………。\\nなんでこんなひどい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 209,
+          "command": "ruby",
+          "args": [
+            "詩",
+            "し"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "……\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 209,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 209,
+          "command": "ruby",
+          "args": [
+            "見",
+            "み"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "せてたのかしら……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "SHAKE_CH_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "ま、ま、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 211,
+          "command": "ruby",
+          "args": [
+            "魔養石",
+            "マナリミン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 211,
+          "command": "ruby",
+          "args": [
+            "魔養石",
+            "マナリミン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "を……。\\nガリガリガリガリガリガリ……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "SHAKE_CH_STOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "ASE_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "あ、あはは……。まあまあ。\\nいい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 219,
+          "command": "ruby",
+          "args": [
+            "詩",
+            "し"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "だと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 219,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "いますよ？\\nその……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 219,
+          "command": "ruby",
+          "args": [
+            "若",
+            "わか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "さが、にじみ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 219,
+          "command": "ruby",
+          "args": [
+            "出",
+            "で"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "てて……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m00701",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "c_bound2_b",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "う、うんうん！　なんていうか……\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 225,
+          "command": "ruby",
+          "args": [
+            "本当",
+            "ほんとう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 225,
+          "command": "ruby",
+          "args": [
+            "夢",
+            "ゆめ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 225,
+          "command": "ruby",
+          "args": [
+            "向",
+            "む"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "かって"
+          ],
+          "end": 0
+        },
+        {
+          "row": 225,
+          "command": "ruby",
+          "args": [
+            "前向",
+            "まえむ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "きだったん\\nだね！　セシルは！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "も、もうやめてっ！\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 231,
+          "command": "ruby",
+          "args": [
+            "追",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 231,
+          "command": "ruby",
+          "args": [
+            "打",
+            "う"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "ちをかけないでぇっ！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "ハァハァ……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 235,
+          "command": "ruby",
+          "args": [
+            "騎士道",
+            "きしどう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "にも、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 235,
+          "command": "ruby",
+          "args": [
+            "向",
+            "む"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "き"
+          ],
+          "end": 0
+        },
+        {
+          "row": 235,
+          "command": "ruby",
+          "args": [
+            "合",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "うのはつらいけど……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "c_zoom_wide_stay",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "こんな"
+          ],
+          "end": 0
+        },
+        {
+          "row": 240,
+          "command": "ruby",
+          "args": [
+            "恥",
+            "は"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "ずかしい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 240,
+          "command": "ruby",
+          "args": [
+            "過去",
+            "かこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "cn3594",
+            "……\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 240,
+          "command": "ruby",
+          "args": [
+            "絶対",
+            "ぜったい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "cn3594"
+          ],
+          "end": 0
+        },
+        {
+          "row": 240,
+          "command": "ruby",
+          "args": [
+            "向",
+            "む"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "き"
+          ],
+          "end": 0
+        },
+        {
+          "row": 240,
+          "command": "ruby",
+          "args": [
+            "合",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "えなーーーーいッ!!"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

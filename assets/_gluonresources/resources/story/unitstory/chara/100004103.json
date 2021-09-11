@@ -1,0 +1,9253 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "100004103",
+  "filename": "100004103",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "このストーリーをスキップしますか？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "HATENA_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "おや？　あれは……",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0101",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "c_jump",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "KAMITE_OUT_FAST",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "{player_name}。あの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 43,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "、\\nあなたの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 43,
+          "command": "ruby",
+          "args": [
+            "後",
+            "あと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "をつけているようですが……",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ああ、あの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 50,
+          "command": "ruby",
+          "args": [
+            "子",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 50,
+          "command": "ruby",
+          "args": [
+            "昨日",
+            "きのう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 50,
+          "command": "ruby",
+          "args": [
+            "森",
+            "もり"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "で"
+          ],
+          "end": 0
+        },
+        {
+          "row": 50,
+          "command": "ruby",
+          "args": [
+            "狼",
+            "おおかみ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 50,
+          "command": "ruby",
+          "args": [
+            "襲",
+            "おそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "われてた\\nんだよ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 50,
+          "command": "ruby",
+          "args": [
+            "助",
+            "たす"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "けたらついてきちゃって……\\nそれからずっと、ああなんだ。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "猫",
+            "（じーーー……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "けど、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 62,
+          "command": "ruby",
+          "args": [
+            "近",
+            "ちか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "づくと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 62,
+          "command": "ruby",
+          "args": [
+            "逃",
+            "に"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "げちゃうんだよなぁ。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 62,
+          "command": "wait",
+          "args": [
+            "2.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 62,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "だから"
+          ],
+          "end": 0
+        },
+        {
+          "row": 62,
+          "command": "ruby",
+          "args": [
+            "保護",
+            "ほご"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "しようにも、できなくて。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "なるほど……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 69,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 69,
+          "command": "ruby",
+          "args": [
+            "慣",
+            "な"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "れるまでは、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 69,
+          "command": "ruby",
+          "args": [
+            "時間",
+            "じかん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "がかかりそうですね。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "WARAI_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "そういうことなら"
+          ],
+          "end": 0
+        },
+        {
+          "row": 74,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "も、しばらく\\nお"
+          ],
+          "end": 0
+        },
+        {
+          "row": 74,
+          "command": "ruby",
+          "args": [
+            "世話",
+            "せわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 74,
+          "command": "ruby",
+          "args": [
+            "手伝",
+            "てつだ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "いましょう。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "いいのか？　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "最近",
+            "さいきん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "魔法",
+            "まほう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "稽古",
+            "けいこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "で\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 81,
+          "command": "ruby",
+          "args": [
+            "忙",
+            "いそが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "しそうなのに……",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "c_bound_b",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 88,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "はいつも、みなさんのお"
+          ],
+          "end": 0
+        },
+        {
+          "row": 88,
+          "command": "ruby",
+          "args": [
+            "世話",
+            "せわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "をして\\nますから。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 88,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "が1"
+          ],
+          "end": 0
+        },
+        {
+          "row": 88,
+          "command": "ruby",
+          "args": [
+            "匹",
+            "ぴき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "ruby",
+          "args": [
+            "増",
+            "ふ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "えるくらい、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 88,
+          "command": "ruby",
+          "args": [
+            "大",
+            "たい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "したことではありませんよ。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c010411",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "――と。\\nあの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 101,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 101,
+          "command": "ruby",
+          "args": [
+            "甘",
+            "あま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "く"
+          ],
+          "end": 0
+        },
+        {
+          "row": 101,
+          "command": "ruby",
+          "args": [
+            "見",
+            "み"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "ていました。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 101,
+          "command": "ruby",
+          "args": [
+            "数日前",
+            "すうじつまえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "までは。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010411",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 106,
+          "command": "ruby",
+          "args": [
+            "一向",
+            "いっこう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 106,
+          "command": "ruby",
+          "args": [
+            "警戒",
+            "けいかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 106,
+          "command": "ruby",
+          "args": [
+            "解",
+            "と"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "いてくれませんし……\\nご"
+          ],
+          "end": 0
+        },
+        {
+          "row": 106,
+          "command": "ruby",
+          "args": [
+            "飯",
+            "はん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 106,
+          "command": "ruby",
+          "args": [
+            "人前",
+            "ひとまえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "じゃ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 106,
+          "command": "ruby",
+          "args": [
+            "食",
+            "た"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "べてくれませんし……\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 106,
+          "command": "ruby",
+          "args": [
+            "玩具",
+            "おもちゃ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 106,
+          "command": "ruby",
+          "args": [
+            "見向",
+            "みむ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "きもしませんし……",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010411",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "c_jump",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "とくに！　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "作",
+            "つく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "ったご"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "飯",
+            "はん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "にそっぽを\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "向",
+            "む"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "かれたのは、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "数百年生",
+            "すうひゃくねんい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "きてきて\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "初",
+            "はじ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "めてです。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "wait",
+          "args": [
+            "5.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "NO_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "StopEye_close",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "なんという"
+          ],
+          "end": 0
+        },
+        {
+          "row": 112,
+          "command": "ruby",
+          "args": [
+            "屈辱",
+            "くつじょく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "……っ！",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "c_bound2_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "まあまあ……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 119,
+          "command": "wait",
+          "args": [
+            "1.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 119,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "でも、おれも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 119,
+          "command": "ruby",
+          "args": [
+            "正直",
+            "しょうじき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "、\\nここまで"
+          ],
+          "end": 0
+        },
+        {
+          "row": 119,
+          "command": "ruby",
+          "args": [
+            "大変",
+            "たいへん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "とは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 119,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "わなかったよ。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "HATENA_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "あれ？　そういえば"
+          ],
+          "end": 0
+        },
+        {
+          "row": 126,
+          "command": "ruby",
+          "args": [
+            "今日",
+            "きょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 126,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "さん、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 126,
+          "command": "ruby",
+          "args": [
+            "一緒",
+            "いっしょ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "じゃないんですか？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "それが、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 133,
+          "command": "ruby",
+          "args": [
+            "今朝",
+            "けさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "から"
+          ],
+          "end": 0
+        },
+        {
+          "row": 133,
+          "command": "ruby",
+          "args": [
+            "姿",
+            "すがた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 133,
+          "command": "ruby",
+          "args": [
+            "見",
+            "み"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "えないんだ。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 133,
+          "command": "wait",
+          "args": [
+            "2.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 133,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "いったいどこに――",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_SET_0",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "true",
+            "0.01",
+            "0",
+            "0",
+            "1",
+            "0.01",
+            "0.3",
+            "0.3",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.01",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.4",
+            "0",
+            "-240",
+            "EaseInCubic",
+            "0.4",
+            "1.8",
+            "1.8",
+            "EaseInCubic",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "1",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "cmp",
+          "args": [
+            "c0107",
+            "0.41",
+            "0",
+            "-240",
+            "1.8",
+            "1.8",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "wait",
+          "args": [
+            "0.41"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "うわぁ～んっ！\\nた～す～け～て～～～っ!!",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "StopLip_close",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "猫",
+            "ニャーーーッ！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_mnu_reset",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "な、なんだぁっ!?",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "c_jump2",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "{player_name}、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 179,
+          "command": "ruby",
+          "args": [
+            "助",
+            "たす"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "けて～！\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 179,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 179,
+          "command": "ruby",
+          "args": [
+            "追",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "っかけてくるんだよーっ！",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "450",
+            "0",
+            "c0107",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "450",
+            "0",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "-450",
+            "0",
+            "c12062",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "true",
+            "0.6",
+            "-900",
+            "0",
+            "EaseInSine",
+            "0.6",
+            "1",
+            "1",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.5",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.5",
+            "1",
+            "1",
+            "1",
+            "0.5",
+            "0",
+            "1",
+            "0.5",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.6",
+            "900",
+            "0",
+            "EaseInSine",
+            "0.6",
+            "1",
+            "1",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.5",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.5",
+            "1",
+            "1",
+            "1",
+            "0.5",
+            "0",
+            "1",
+            "0.5",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.6",
+            "-900",
+            "0",
+            "EaseInSine",
+            "0.6",
+            "1",
+            "1",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "cmp",
+          "args": [
+            "c0107",
+            "2.86",
+            "-900",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "true",
+            "0.5",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.5",
+            "1",
+            "1",
+            "1",
+            "0.5",
+            "0",
+            "1",
+            "0.5",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.02",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.02",
+            "1",
+            "1",
+            "1",
+            "0.02",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "1.12",
+            "900",
+            "0",
+            "EaseInSine",
+            "1.12",
+            "1",
+            "1",
+            "1",
+            "1.12",
+            "0",
+            "1",
+            "1.12",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.5",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.5",
+            "1",
+            "1",
+            "1",
+            "0.5",
+            "0",
+            "1",
+            "0.5",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.02",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.02",
+            "1",
+            "1",
+            "1",
+            "0.02",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.04",
+            "-900",
+            "0",
+            "EaseInSine",
+            "0.04",
+            "1",
+            "1",
+            "1",
+            "0.04",
+            "0",
+            "1",
+            "0.04",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "cmp",
+          "args": [
+            "c1206",
+            "3.4",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "true",
+            "1.62",
+            "0",
+            "0",
+            "EaseInSine",
+            "1.62",
+            "1",
+            "1",
+            "1",
+            "1.62",
+            "0",
+            "1",
+            "1.62",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.02",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.02",
+            "1",
+            "1",
+            "1",
+            "0.02",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "cmp",
+          "args": [
+            "c12062",
+            "2.24",
+            "900",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "きゃ～～～っ！　ストップストップ！\\nわたしは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "食",
+            "た"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "cn0107",
+            "べてもおいしくないの～っ!!",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "true",
+            "0.6",
+            "900",
+            "0",
+            "EaseInSine",
+            "0.6",
+            "1",
+            "1",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "cmp",
+          "args": [
+            "c0107",
+            "0.62",
+            "900",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "true",
+            "0.5",
+            "-900",
+            "0",
+            "EaseInSine",
+            "0.5",
+            "1",
+            "1",
+            "1",
+            "0.5",
+            "0",
+            "1",
+            "0.5",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.1",
+            "150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "mnu",
+          "args": [
+            "c12062",
+            "false",
+            "0.02",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.02",
+            "1",
+            "1",
+            "1",
+            "0.02",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "cmp",
+          "args": [
+            "c12062",
+            "1.12",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "print",
+          "args": [
+            "猫",
+            "ニャーッ！　ニャッ！　ニャウッ！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "true",
+            "0.6",
+            "-900",
+            "0",
+            "EaseInSine",
+            "0.6",
+            "1",
+            "1",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "mnu",
+          "args": [
+            "c0107",
+            "false",
+            "0.01",
+            "0",
+            "0",
+            "EaseInSine",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.02",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "cmp",
+          "args": [
+            "c0107",
+            "0.62",
+            "-900",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "true",
+            "0.1",
+            "-150",
+            "30",
+            "EaseInCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "mnu",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "-150",
+            "-30",
+            "EaseOutCirc",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0.1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "cmp",
+          "args": [
+            "c1206",
+            "0.3",
+            "-300",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "-200",
+            "0",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "mnu",
+          "args": [
+            "c0101",
+            "true",
+            "0.2",
+            "120",
+            "0",
+            "EaseInSine",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "cmp",
+          "args": [
+            "c0101",
+            "0.2",
+            "120",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "NO_EMO",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "あぁ～、コラコラ！　ナームは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 260,
+          "command": "ruby",
+          "args": [
+            "仲間",
+            "なかま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "！\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 260,
+          "command": "ruby",
+          "args": [
+            "追",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "いかけちゃだめだって！",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "StopLip_close",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "RestartLip",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "print",
+          "args": [
+            "猫",
+            "ウウウウウウ……ギニャッ！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "mnu_move",
+          "args": [
+            "c1206",
+            "true",
+            "0.2",
+            "-40",
+            "50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "mnu_move",
+          "args": [
+            "c1206",
+            "false",
+            "0.2",
+            "40",
+            "-60",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "mnu_move",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "0",
+            "14",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "mnu_move",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "0",
+            "-4",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "cmp_move",
+          "args": [
+            "c1206",
+            "0.6",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_017",
+            "0.5",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "いてっ!?",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c0101",
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "{player_name}!?",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0001_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "MAGIC_CURE",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "はい、これで"
+          ],
+          "end": 0
+        },
+        {
+          "row": 308,
+          "command": "ruby",
+          "args": [
+            "大丈夫",
+            "だいじょうぶ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "です。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ありがとう、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 315,
+          "command": "ruby",
+          "args": [
+            "助",
+            "たす"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "かったよ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 315,
+          "command": "wait",
+          "args": [
+            "2.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 315,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "けど……\\nこの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 315,
+          "command": "ruby",
+          "args": [
+            "件",
+            "けん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "で"
+          ],
+          "end": 0
+        },
+        {
+          "row": 315,
+          "command": "ruby",
+          "args": [
+            "懐",
+            "なつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "いてもらうどころか、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 315,
+          "command": "ruby",
+          "args": [
+            "余計",
+            "よけい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "に\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 315,
+          "command": "ruby",
+          "args": [
+            "警戒",
+            "けいかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "されちゃったみたいだなぁ……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "猫",
+            "グルルルル……。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 328,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "さん……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 328,
+          "command": "wait",
+          "args": [
+            "2.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "HATENA_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "{player_name}を\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 328,
+          "command": "ruby",
+          "args": [
+            "信用",
+            "しんよう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "できると"
+          ],
+          "end": 0
+        },
+        {
+          "row": 328,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "ったから、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 328,
+          "command": "ruby",
+          "args": [
+            "後",
+            "あと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "をついて\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 328,
+          "command": "ruby",
+          "args": [
+            "回",
+            "まわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "っているんでしょう？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "NO_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010411",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "それならもう"
+          ],
+          "end": 0
+        },
+        {
+          "row": 333,
+          "command": "ruby",
+          "args": [
+            "少",
+            "すこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "し、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 333,
+          "command": "ruby",
+          "args": [
+            "素直",
+            "すなお"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "になっても――",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "print",
+          "args": [
+            "？？？#補佐官",
+            "もう"
+          ],
+          "end": 0
+        },
+        {
+          "row": 340,
+          "command": "ruby",
+          "args": [
+            "少",
+            "すこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "print",
+          "args": [
+            "？？？#補佐官",
+            "し、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 340,
+          "command": "ruby",
+          "args": [
+            "素直",
+            "すなお"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "print",
+          "args": [
+            "？？？#補佐官",
+            "になってもいいと\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 340,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "print",
+          "args": [
+            "？？？#補佐官",
+            "うけど……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "あ……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c010411",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "（このセリフ。300"
+          ],
+          "end": 0
+        },
+        {
+          "row": 351,
+          "command": "ruby",
+          "args": [
+            "年前",
+            "ねんまえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 351,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "うのでは\\n　なく……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 351,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "われたんですよね）",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0049_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1234",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "SEPIA_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0007_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "まったくもう……。クラウったら\\nアルべリウス"
+          ],
+          "end": 0
+        },
+        {
+          "row": 364,
+          "command": "ruby",
+          "args": [
+            "様",
+            "さま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 364,
+          "command": "ruby",
+          "args": [
+            "来",
+            "く"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "ると、\\nすぐ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 364,
+          "command": "ruby",
+          "args": [
+            "身構",
+            "みがま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "えるんだから……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "名札",
+            "アルべリウスの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 368,
+          "command": "ruby",
+          "args": [
+            "補佐官",
+            "ほさかん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "名札"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 377,
+          "command": "ruby",
+          "args": [
+            "離",
+            "はな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "れているわけではありません。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 377,
+          "command": "ruby",
+          "args": [
+            "適正",
+            "てきせい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "な"
+          ],
+          "end": 0
+        },
+        {
+          "row": 377,
+          "command": "ruby",
+          "args": [
+            "距離",
+            "きょり"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 377,
+          "command": "ruby",
+          "args": [
+            "身",
+            "み"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 377,
+          "command": "ruby",
+          "args": [
+            "置",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "いているだけです。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c1234",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "はぁ……それが、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 384,
+          "command": "ruby",
+          "args": [
+            "離",
+            "はな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "れてるって\\nことなのよ……？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "HATENA_EMO",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "RestartEye",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "アルべリウス"
+          ],
+          "end": 0
+        },
+        {
+          "row": 389,
+          "command": "ruby",
+          "args": [
+            "様",
+            "さま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "のことを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 389,
+          "command": "ruby",
+          "args": [
+            "尊敬",
+            "そんけい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "してるから\\nこの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 389,
+          "command": "ruby",
+          "args": [
+            "城",
+            "しろ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 389,
+          "command": "ruby",
+          "args": [
+            "来",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "たんでしょう？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "NO_EMO",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c1234",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "それならもう"
+          ],
+          "end": 0
+        },
+        {
+          "row": 394,
+          "command": "ruby",
+          "args": [
+            "少",
+            "すこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "し、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 394,
+          "command": "ruby",
+          "args": [
+            "素直",
+            "すなお"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "になっても\\nいいと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 394,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "うけど……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "はあくまで"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "ruby",
+          "args": [
+            "仕",
+            "つか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "える"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "ruby",
+          "args": [
+            "者",
+            "もの"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "です。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "wait",
+          "args": [
+            "2.85"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "ruby",
+          "args": [
+            "主",
+            "あるじ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "を\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "ruby",
+          "args": [
+            "仲間",
+            "なかま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "と"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "うなんて、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "ruby",
+          "args": [
+            "恐",
+            "おそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "れ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 400,
+          "command": "ruby",
+          "args": [
+            "多",
+            "おお"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "いですから。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1234",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "MOYA_EMO",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "補佐官"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "本当",
+            "ほんとう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "頑固",
+            "がんこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "ね、クラウは。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "NO_EMO",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c1234",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "……でもあの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 413,
+          "command": "ruby",
+          "args": [
+            "方",
+            "かた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "、そういう"
+          ],
+          "end": 0
+        },
+        {
+          "row": 413,
+          "command": "ruby",
+          "args": [
+            "頑",
+            "かたく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "なさが\\nクラウらしさだって"
+          ],
+          "end": 0
+        },
+        {
+          "row": 413,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "ってた。\\nだからこそ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 413,
+          "command": "ruby",
+          "args": [
+            "放",
+            "ほう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "っておけない、とも。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c1234",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "あなたの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 417,
+          "command": "ruby",
+          "args": [
+            "性分",
+            "しょうぶん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "はわかるけど、\\nアルベリウス"
+          ],
+          "end": 0
+        },
+        {
+          "row": 417,
+          "command": "ruby",
+          "args": [
+            "様",
+            "さま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 417,
+          "command": "ruby",
+          "args": [
+            "気持",
+            "きも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "ちも\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 417,
+          "command": "ruby",
+          "args": [
+            "少",
+            "すこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "print",
+          "args": [
+            "補佐官",
+            "し、わかってあげてね。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0001_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c010411",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "（この"
+          ],
+          "end": 0
+        },
+        {
+          "row": 432,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "さんのこと、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 432,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "えませんね。\\n　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 432,
+          "command": "ruby",
+          "args": [
+            "慕",
+            "した"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "っているのに、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 432,
+          "command": "ruby",
+          "args": [
+            "距離",
+            "きょり"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "をとって……）",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "RestartEye",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "（いつも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 436,
+          "command": "ruby",
+          "args": [
+            "変",
+            "か"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "わらないあの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 436,
+          "command": "ruby",
+          "args": [
+            "方",
+            "かた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 436,
+          "command": "ruby",
+          "args": [
+            "優",
+            "やさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "しさに、\\n　ずっと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 436,
+          "command": "ruby",
+          "args": [
+            "救",
+            "すく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "われていたのに……\\n　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 436,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "は……）",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010411",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "{player_name}……あなたはなぜ\\nこの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 440,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "さんに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 440,
+          "command": "ruby",
+          "args": [
+            "優",
+            "やさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "しくするんですか？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "どうしてって、そうだなぁ……。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 447,
+          "command": "wait",
+          "args": [
+            "3.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 447,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "print",
+          "args": [
+            "なんかほっとけないんだよな。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "……っ。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 455,
+          "command": "wait",
+          "args": [
+            "1.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 455,
+          "command": "NO_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "print",
+          "args": [
+            "それは、どうしてですか？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "だって"
+          ],
+          "end": 0
+        },
+        {
+          "row": 462,
+          "command": "ruby",
+          "args": [
+            "気持",
+            "きも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ちは、なんとなく\\nわかるんだよ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 462,
+          "command": "ruby",
+          "args": [
+            "本当",
+            "ほんとう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "は\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 462,
+          "command": "ruby",
+          "args": [
+            "近",
+            "ちか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "づきたいんだろうなって。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "でも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 467,
+          "command": "ruby",
+          "args": [
+            "向",
+            "む"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "こうからは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 467,
+          "command": "ruby",
+          "args": [
+            "来",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "てくれない。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 467,
+          "command": "wait",
+          "args": [
+            "1.85"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 467,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "なら\\nこっちから"
+          ],
+          "end": 0
+        },
+        {
+          "row": 467,
+          "command": "ruby",
+          "args": [
+            "行",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "くしかないじゃないか。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 472,
+          "command": "ruby",
+          "args": [
+            "信",
+            "しん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "じていいんだよって"
+          ],
+          "end": 0
+        },
+        {
+          "row": 472,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 472,
+          "command": "ruby",
+          "args": [
+            "続",
+            "つづ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "ける。\\nそれがたぶん、この"
+          ],
+          "end": 0
+        },
+        {
+          "row": 472,
+          "command": "ruby",
+          "args": [
+            "子",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "にとっての"
+          ],
+          "end": 0
+        },
+        {
+          "row": 472,
+          "command": "ruby",
+          "args": [
+            "一番",
+            "いちばん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "の\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 472,
+          "command": "ruby",
+          "args": [
+            "幸",
+            "しあわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "せになるのかなって。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "c_bound_b",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "……そう、ですか。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 479,
+          "command": "wait",
+          "args": [
+            "2.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 479,
+          "command": "RestartEye",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "ONPU_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "print",
+          "args": [
+            "くすっ……ふふふっ……",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "えっ!?　おれ、ヘンなこと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 487,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ったかな!?",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "c_swing_h",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "いいえ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 494,
+          "command": "ruby",
+          "args": [
+            "何",
+            "なに"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "も。お"
+          ],
+          "end": 0
+        },
+        {
+          "row": 494,
+          "command": "ruby",
+          "args": [
+            "優",
+            "やさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "しいことでなにより\\nです。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "print",
+          "args": [
+            "猫",
+            "くしゅんっ！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 500,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "あっ！　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 506,
+          "command": "ruby",
+          "args": [
+            "大丈夫",
+            "だいじょうぶ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "かっ？　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 506,
+          "command": "wait",
+          "args": [
+            "1.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 506,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "ruby",
+          "args": [
+            "今日",
+            "きょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 506,
+          "command": "ruby",
+          "args": [
+            "少",
+            "すこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "し"
+          ],
+          "end": 0
+        },
+        {
+          "row": 506,
+          "command": "ruby",
+          "args": [
+            "寒",
+            "さむ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "い\\nもんな。ほら、この"
+          ],
+          "end": 0
+        },
+        {
+          "row": 506,
+          "command": "ruby",
+          "args": [
+            "毛布",
+            "もうふ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "ruby",
+          "args": [
+            "使",
+            "つか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "って――",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "mnu_move",
+          "args": [
+            "c1206",
+            "true",
+            "0.1",
+            "150",
+            "30",
+            "EaseInCirc"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "mnu_move",
+          "args": [
+            "c1206",
+            "false",
+            "0.1",
+            "150",
+            "-30",
+            "EaseOutCirc"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "cmp_move",
+          "args": [
+            "c1206",
+            "0.3",
+            "-300",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "chara_shake_h",
+          "args": [
+            "c1206",
+            "3",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "print",
+          "args": [
+            "猫",
+            "フシャーーッ!!"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "chara_shake_h",
+          "args": [
+            "c1206",
+            "3",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ああ～！　ごめん、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 525,
+          "command": "ruby",
+          "args": [
+            "近",
+            "ちか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "づかないからっ！\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 525,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 525,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "print",
+          "args": [
+            "はぁ……やっぱり"
+          ],
+          "end": 0
+        },
+        {
+          "row": 525,
+          "command": "ruby",
+          "args": [
+            "警戒",
+            "けいかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "print",
+          "args": [
+            "されちゃってる\\nなぁ……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 529,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "いえ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 532,
+          "command": "ruby",
+          "args": [
+            "大丈夫",
+            "だいじょうぶ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "ですよ。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "StopEye_close",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "あなたの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 536,
+          "command": "ruby",
+          "args": [
+            "優",
+            "やさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "しさは、しっかりその"
+          ],
+          "end": 0
+        },
+        {
+          "row": 536,
+          "command": "ruby",
+          "args": [
+            "子",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "に\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 536,
+          "command": "ruby",
+          "args": [
+            "届",
+            "とど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "いていると"
+          ],
+          "end": 0
+        },
+        {
+          "row": 536,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "います――",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 539,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 543,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0001_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "print",
+          "args": [
+            "SYS",
+            "その"
+          ],
+          "end": 0
+        },
+        {
+          "row": 544,
+          "command": "ruby",
+          "args": [
+            "夜",
+            "よる"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "print",
+          "args": [
+            "SYS",
+            "――"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 550,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ふう～。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 552,
+          "command": "ruby",
+          "args": [
+            "今日",
+            "きょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 552,
+          "command": "ruby",
+          "args": [
+            "寒",
+            "さむ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "いなぁ～……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 556,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "……おまえも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 557,
+          "command": "ruby",
+          "args": [
+            "寒",
+            "さむ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "くないか？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "print",
+          "args": [
+            "猫",
+            "…………。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "CHARA_KAMITE_POS",
+          "args": [
+            "M",
+            "M",
+            "120",
+            "0",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "NO_EMO",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "！　おまえ……",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "NO_EMO",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 580,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c1206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "……はは。だろっ？　くっついてると、\\nあったかいよな……？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "StopLip_close",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "RestartLip",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 588,
+          "command": "print",
+          "args": [
+            "猫",
+            "にゃあ～。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c0101",
+            "c1206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0015_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "その"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "後",
+            "ご"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "、ふたりは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "里親",
+            "さとおや"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "探",
+            "さが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "し、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "猫",
+            "ねこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "は\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "無事",
+            "ぶじ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "新",
+            "あたら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "しい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "飼",
+            "か"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "主",
+            "ぬし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "へ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "引",
+            "ひ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "き"
+          ],
+          "end": 0
+        },
+        {
+          "row": 596,
+          "command": "ruby",
+          "args": [
+            "渡",
+            "わた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "SYS",
+            "された。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 599,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ちょっと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 604,
+          "command": "ruby",
+          "args": [
+            "緊張",
+            "きんちょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "してたけど、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 604,
+          "command": "ruby",
+          "args": [
+            "大丈夫",
+            "だいじょうぶ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "かな？\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 604,
+          "command": "wait",
+          "args": [
+            "2.65"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 604,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "print",
+          "args": [
+            "うまくやれるといいけど……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 611,
+          "command": "ruby",
+          "args": [
+            "大丈夫",
+            "だいじょうぶ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "print",
+          "args": [
+            "ですよ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 611,
+          "command": "ruby",
+          "args": [
+            "新",
+            "あたら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "print",
+          "args": [
+            "しい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 611,
+          "command": "ruby",
+          "args": [
+            "主人",
+            "しゅじん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "print",
+          "args": [
+            "のもとで、\\nきっと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 611,
+          "command": "ruby",
+          "args": [
+            "幸",
+            "しあわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "print",
+          "args": [
+            "せになれます。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "HATENA_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "あなたがあの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 615,
+          "command": "ruby",
+          "args": [
+            "子",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "に、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 615,
+          "command": "ruby",
+          "args": [
+            "教",
+            "おし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "えたのでしょう？\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 615,
+          "command": "ruby",
+          "args": [
+            "誰",
+            "だれ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "かを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 615,
+          "command": "ruby",
+          "args": [
+            "信",
+            "しん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "じることのすばらしさを……。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 616,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "はは、そうだな……。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 621,
+          "command": "wait",
+          "args": [
+            "2.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 621,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "14"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "ruby",
+          "args": [
+            "幸",
+            "しあわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "せになって\\nくれるなら、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 621,
+          "command": "ruby",
+          "args": [
+            "引",
+            "ひ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "っかかれたことも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 621,
+          "command": "ruby",
+          "args": [
+            "全部",
+            "ぜんぶ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "、\\nいい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 621,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 621,
+          "command": "ruby",
+          "args": [
+            "出",
+            "で"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "だよ。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c010411",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 626,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "……まったく。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 628,
+          "command": "ruby",
+          "args": [
+            "重度",
+            "じゅうど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "のお"
+          ],
+          "end": 0
+        },
+        {
+          "row": 628,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "よしは、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 628,
+          "command": "ruby",
+          "args": [
+            "脈々",
+            "みゃくみゃく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "と"
+          ],
+          "end": 0
+        },
+        {
+          "row": 628,
+          "command": "ruby",
+          "args": [
+            "受",
+            "う"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 628,
+          "command": "ruby",
+          "args": [
+            "継",
+            "つ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "がれる"
+          ],
+          "end": 0
+        },
+        {
+          "row": 628,
+          "command": "ruby",
+          "args": [
+            "血",
+            "ち"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "ですね。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "？　クラウ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 635,
+          "command": "ruby",
+          "args": [
+            "何",
+            "なん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "か"
+          ],
+          "end": 0
+        },
+        {
+          "row": 635,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ったか？",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010411",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "いーえ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 642,
+          "command": "wait",
+          "args": [
+            "0.95"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 642,
+          "command": "ONPU_EMO",
+          "args": [
+            "c010411"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "じゃあ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 642,
+          "command": "ruby",
+          "args": [
+            "帰",
+            "かえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "りましょうか。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 642,
+          "command": "ruby",
+          "args": [
+            "私",
+            "わたし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "たちの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 642,
+          "command": "ruby",
+          "args": [
+            "家",
+            "いえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "にっ。",
+            "VO_CHR_KNIGHTSSTORY_100004_10_02_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
