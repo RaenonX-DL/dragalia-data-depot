@@ -1,0 +1,2928 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2082602",
+  "filename": "2082602",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 2,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 2,
+          "command": "OL_TITLE",
+          "args": [
+            "Summary"
+          ],
+          "end": 1
+        },
+        {
+          "row": 2,
+          "command": "outline",
+          "args": [
+            "The party finds themselves relieved of their\\nsweets by fiends, and Althemia suggests\\ndisguising themselves as those same fiends in\\norder to approach the culprits. The party goes\\nalong with this suggestion and heads out to\\ngather materials for their costumes."
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "CHARA_BEAT_AXE_BEFORE",
+          "args": [
+            "M",
+            "M",
+            "c0207",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "SHOUT_MON",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "SHIMOTE_OUT_FAST",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "*huff* *pant* Finally...drove 'em off...",
+            "VO_CHR_EVENTSTORY_20801_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "Are you all right, {player_name}?",
+            "VO_CHR_EVENTSTORY_20801_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Yes. I'm glad the rest of you are, too.",
+            "VO_CHR_EVENTSTORY_20801_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "O",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "print",
+          "args": [
+            "Notte",
+            "NOOOOOOOOO!",
+            "VO_CHR_EVENTSTORY_20801_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Notte? What's wrong?!",
+            "VO_CHR_EVENTSTORY_20801_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "Notte",
+            "All our sweets... They're...",
+            "VO_CHR_EVENTSTORY_20801_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "NO_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "It seems the fiends made off with them.",
+            "VO_CHR_EVENTSTORY_20801_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "They did WHAT?!",
+            "VO_CHR_EVENTSTORY_20801_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "NO_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0747",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "HIRAMEKI_EMO",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "Um, actually, I've heard of this.",
+            "VO_CHR_EVENTSTORY_20801_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "NO_EMO",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "c_bound_b",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "Apparently there are certain sweet-fanged\\nfiends who attack villages and steal their\\ntreats.",
+            "VO_CHR_EVENTSTORY_20801_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "The fiends we just dealt with must be of\\nthat particular variety.",
+            "VO_CHR_EVENTSTORY_20801_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "chara_face",
+          "args": [
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "And after all the trouble we went to!\\nThere's no way we can complete our\\ncandy-house centerpiece now.",
+            "VO_CHR_EVENTSTORY_20801_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0749",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "print",
+          "args": [
+            "Edward",
+            "If I may, everyone, we should cease\\nmoping and continue work on the house.\\nTime is growing ever nigh.",
+            "VO_CHR_EVENTSTORY_20801_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0749"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "Luca",
+            "Hey, were you even listening?\\nEverything got stolen by the fiends!",
+            "VO_CHR_EVENTSTORY_20801_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0749",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "c_swing_h",
+          "args": [
+            "c0749"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "print",
+          "args": [
+            "Edward",
+            "Not quite. It appears there are enough\\ningredients left to form the basis of the\\nSweet Retreat.",
+            "VO_CHR_EVENTSTORY_20801_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "chara_face",
+          "args": [
+            "c0749",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "Edward",
+            "While it may be a bit more simplistic\\nthan initially planned, we can at least\\ncomplete the rough structure of the house.",
+            "VO_CHR_EVENTSTORY_20801_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "chara_face",
+          "args": [
+            "c0749",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "print",
+          "args": [
+            "Edward",
+            "Even though it may prove to be a meager\\nsugary abode, we should push on and\\nbuild it anyway.",
+            "VO_CHR_EVENTSTORY_20801_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "chara_face",
+          "args": [
+            "c0749",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "Edward",
+            "A sweet crown jewel that each of us\\nworked together on sounds more than\\nsufficient for this party, does it not?",
+            "VO_CHR_EVENTSTORY_20801_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0749"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I'm with Edward. Let's use what we've got\\nand build ourselves a house.",
+            "VO_CHR_EVENTSTORY_20801_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "print",
+          "args": [
+            "SYS",
+            "Using what materials remained, the group\\nresumed construction on the Sweet Retreat."
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "screen_fadeout",
+          "args": [
+            "1.0",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "SYS",
+            "However..."
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "MONSTER_SHIMOTE3",
+          "args": [
+            "c0207",
+            "c0207b",
+            "c0207c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "SHOUT_MON",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0207",
+            "c0207b",
+            "c0207c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "More fiends!",
+            "VO_CHR_EVENTSTORY_20801_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "ASE_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "Damn! They just don't quit!",
+            "VO_CHR_EVENTSTORY_20801_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "NO_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4",
+            "SE_020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "Fiends are attacking!",
+            "VO_CHR_EVENTSTORY_20801_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "print",
+          "args": [
+            "Luca",
+            "AGAIN?!",
+            "VO_CHR_EVENTSTORY_20801_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "NO_EMO",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "ASE_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "Notte",
+            "This is bad! Or terrible! Or terribad!",
+            "VO_CHR_EVENTSTORY_20801_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "NO_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "CHARA_BEAT_DARK_BEFORE",
+          "args": [
+            "M",
+            "M",
+            "c0207",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "SHOUT_MON",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "SHIMOTE_OUT_FAST",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "*sigh* Does anyone else feel like there\\nhave been a few too many fiend attacks\\nof late?",
+            "VO_CHR_EVENTSTORY_20801_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "It's been all day, every day. At this rate,\\nwe won't have anything left.",
+            "VO_CHR_EVENTSTORY_20801_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0749",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "Edward",
+            "And decorating for Halloween will come to\\na complete standstill.",
+            "VO_CHR_EVENTSTORY_20801_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "chara_face",
+          "args": [
+            "c0749",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0749"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "print",
+          "args": [
+            "Edward",
+            "We've already run far over the alloted\\nschedule as it is.",
+            "VO_CHR_EVENTSTORY_20801_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0749"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "You're worried about the PARTY?\\nWe should be worryin' about the fiends!",
+            "VO_CHR_EVENTSTORY_20801_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "NO_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "These jerks seem to know exactly where\\nand how to strike us—and how to get\\naway clean.",
+            "VO_CHR_EVENTSTORY_20801_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "They always bolt before we can even try\\nto mount a counterattack.",
+            "VO_CHR_EVENTSTORY_20801_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0747",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "Um... About that...",
+            "VO_CHR_EVENTSTORY_20801_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "Perhaps it is time for us to turn the tables\\nand launch an attack of our own?",
+            "VO_CHR_EVENTSTORY_20801_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0747",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "c_jump",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "So, um...",
+            "VO_CHR_EVENTSTORY_20801_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Hmm... Well, I'm open to ideas if anyone\\nhas them.",
+            "VO_CHR_EVENTSTORY_20801_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0747",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "ASE_jump",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "Um... Well, I think maybe...",
+            "VO_CHR_EVENTSTORY_20801_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0749",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "c_bound_b",
+          "args": [
+            "c0749"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "print",
+          "args": [
+            "Edward",
+            "We can groan and moan all we like,\\nbut it won't make a difference. Instead,\\nwe must calmly assess the facts and—",
+            "VO_CHR_EVENTSTORY_20801_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0749"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0747",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "IKARI_EMO",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "c_jump2",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "WOULD YOU ALL SHUT UP AND LET ME\\nTALK ALREADY?!",
+            "VO_CHR_EVENTSTORY_20801_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "NO_EMO",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "RestartEye",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "c_jump",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "I'm TRYING to suggest a plan that the\\nfiends won't be likely to suss out,\\nbut you guys are all, ＂Yap, yap, yap!＂",
+            "VO_CHR_EVENTSTORY_20801_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Althemia, that's—",
+            "VO_CHR_EVENTSTORY_20801_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0747",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "c_jump",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "Eeek! Umm, I really didn't... I'm sorry.\\nI didn't mean to yell at everyone.",
+            "VO_CHR_EVENTSTORY_20801_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "NO_EMO",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "c_swing2_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "No, that's great! If you have a plan to get\\nthe drop on those fiends, tell us!",
+            "VO_CHR_EVENTSTORY_20801_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0747",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "Well...um...yes.",
+            "VO_CHR_EVENTSTORY_20801_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "chara_face",
+          "args": [
+            "c0747",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "You see, these fiends appear to be quite\\nwary of any nearby humans.",
+            "VO_CHR_EVENTSTORY_20801_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "chara_face",
+          "args": [
+            "c0747",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "So I thought that if we wore costumes,\\nthey might...let down their guard a little?",
+            "VO_CHR_EVENTSTORY_20801_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "What?",
+            "VO_CHR_EVENTSTORY_20801_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "c_swing_h",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "I'm sorry, Althemia, but I don't see how\\ncostumes will help us defeat them.",
+            "VO_CHR_EVENTSTORY_20801_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0747",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "IKARI_jump",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "W-wait a minute! Let me finish!",
+            "VO_CHR_EVENTSTORY_20801_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "NO_EMO",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "chara_face",
+          "args": [
+            "c0747",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "What's important is that the fiends don't\\ncatch on to the fact enemies are nearby.",
+            "VO_CHR_EVENTSTORY_20801_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "chara_face",
+          "args": [
+            "c0747",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "c_bound_b",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "So to avoid that, we'll make outfits using\\nfiend-pelt cloth and the vegetation that\\ngrows near their burrows.",
+            "VO_CHR_EVENTSTORY_20801_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "chara_face",
+          "args": [
+            "c0747",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "These won't be just any costumes—they'll\\nbe costumes that mimic the appearance\\nof fiends!",
+            "VO_CHR_EVENTSTORY_20801_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Interesting. That would mean we would\\nboth look AND smell like fiends.",
+            "VO_CHR_EVENTSTORY_20801_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "c_bound_b",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "Hmm, I see.\\nThough I'm not sure how I feel about\\ndressing up like a fiend...",
+            "VO_CHR_EVENTSTORY_20801_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "Well, for what it's worth, I think this\\nidea's aces!",
+            "VO_CHR_EVENTSTORY_20801_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "print",
+          "args": [
+            "Luca",
+            "Yeah, we don't get many opportunities to\\nwear costumes. Let's make the most of it!",
+            "VO_CHR_EVENTSTORY_20801_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 500,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Right then. Let's do this while we still\\nhave some candy left to save.",
+            "VO_CHR_EVENTSTORY_20801_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "We'll gather up materials for the outfits\\nbefore the fiends return.",
+            "VO_CHR_EVENTSTORY_20801_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0101",
+            "SE_STORY_COMMON_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0747",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20801_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "print",
+          "args": [
+            "Althemia",
+            "What, NOW?! But it's night! ...Hey, wait!\\nAre you listening?! I'm coming too!",
+            "VO_CHR_EVENTSTORY_20801_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "NO_EMO",
+          "args": [
+            "c0747"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0747",
+            "SE_STORY_COMMON_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

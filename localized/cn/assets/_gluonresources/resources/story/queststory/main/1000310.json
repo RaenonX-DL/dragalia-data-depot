@@ -1,0 +1,825 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1000310",
+  "filename": "1000310",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "王子追上了绯龙。\\n龙化后的王子想帮助绯龙阻止火山喷发。\\n但绯龙不愿领地被他人插足，极力反对。\\n为了平息即将喷发的火山，\\n王子只能战胜绯龙，与其缔结契约。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0023_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0002_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "telop",
+          "args": [
+            "阿德拉火山",
+            "火山口",
+            " ",
+            " "
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "EARTHSHAKE",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "呃……\\n紊乱的魔力……无法平息。",
+            "VO_CHR_INGAMESTORY_03_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "chara_face",
+          "args": [
+            "d2102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "听我的话啊！",
+            "VO_CHR_INGAMESTORY_03_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "至少要坚持到那群人逃出去为止，\\n不能让它喷发！",
+            "VO_CHR_INGAMESTORY_03_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这里就是火山口吗！绯龙，你没事吧？",
+            "VO_CHR_INGAMESTORY_03_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "咦……等、等等！\\n你们怎么跑到这里来了！",
+            "VO_CHR_INGAMESTORY_03_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "绯龙，我们来帮你。",
+            "VO_CHR_INGAMESTORY_03_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不能让受伤的你\\n独自承受这一切！",
+            "VO_CHR_INGAMESTORY_03_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "不用你们帮忙！\\n我不打算借助任何人的力量！",
+            "VO_CHR_INGAMESTORY_03_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你浑身是伤，\\n就别逞强了。",
+            "VO_CHR_INGAMESTORY_03_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "StopEye_close",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "现在的你，能做什么？",
+            "VO_CHR_INGAMESTORY_03_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "真没礼貌啊，你这森隐族的家伙！\\n你以为我是谁啊！",
+            "VO_CHR_INGAMESTORY_03_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我会龙化，\\n应该多少能帮上点忙。",
+            "VO_CHR_INGAMESTORY_03_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHANGE_DRAGON_LUMINE_SE",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "touch_wait",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "等、等一下！你在干吗？",
+            "VO_CHR_INGAMESTORY_03_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "如果非要做到那种地步，\\n还不如和你缔结契约！",
+            "VO_CHR_INGAMESTORY_03_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "我不想让别的龙\\n染指这块土地！",
+            "VO_CHR_INGAMESTORY_03_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "如果缔结契约，把魔力转化为契约石，\\n说不定能抑制失控！",
+            "VO_CHR_INGAMESTORY_03_05_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "好的……\\n绯龙！和我缔结契约吧！",
+            "VO_CHR_INGAMESTORY_03_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "“嗯，我很乐意！”\\n要是就这么轻易地答应你，\\n岂不是显得我很没节操。\\n感觉像个轻浮的女人……",
+            "VO_CHR_INGAMESTORY_03_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "chara_face",
+          "args": [
+            "d2102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "省略神圣的仪式\\n这可不太好。",
+            "VO_CHR_INGAMESTORY_03_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_BATTLE_0002_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_INGAMESTORY_03_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "绯龙",
+            "规矩就是规矩。\\n想要缔结契约，就让我见识下你的力量吧！",
+            "VO_CHR_INGAMESTORY_03_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "chara_face",
+          "args": [
+            "d2102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "SHOUT_BRY",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

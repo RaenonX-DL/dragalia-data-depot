@@ -1,0 +1,4562 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2081802",
+  "filename": "2081802",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 4,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "一行人以風之祠堂的力量趕走了迦樓羅。\\n得知迦樓羅是以守護村莊為條件，\\n要求獻上活祭品。\\n因此只要擊退村莊的魔獸，就沒有必要\\n獻上活祭品，於是一行人決定前往村莊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "EFF_SCE_2D_CMN_063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_063",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "SE_167"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "c_bound_b",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "妳終於來了呢，迦樓羅！\\n就讓妳見識一下這祠堂的瑪納之力！",
+            "VO_CHR_EVENTSTORY_20802_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c2556",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "乘風而行……\\n去吧，裂空之矢！喝啊啊！",
+            "VO_CHR_EVENTSTORY_20802_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2556",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_ATTACK_BOW",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2136",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_BEAT_WIND_BOW_BEFORE_IN",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "print",
+          "args": [
+            "迦樓羅",
+            "咕……！這威力是……！？\\n那座祠堂，難不成……",
+            "VO_CHR_EVENTSTORY_20802_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "NO_EMO",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "d2136",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "c_bound2_t",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "迦樓羅",
+            "呵呵、哈哈哈哈……！\\n要做到如此來拒絕妾身嗎……好吧。",
+            "VO_CHR_EVENTSTORY_20802_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "NO_EMO",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "d2136",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "print",
+          "args": [
+            "迦樓羅",
+            "那麼，妾身也拿出真本事吧。\\n將你們這些傢伙徹底擊潰，得到少年！",
+            "VO_CHR_EVENTSTORY_20802_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "d2136",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "迦樓羅",
+            "下次妾身前來時，\\n就是你們這些傢伙的死期！\\n做好覺悟吧！",
+            "VO_CHR_EVENTSTORY_20802_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "d_flyaway_r",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_063",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "O",
+            "C",
+            "c2556",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "呼～暫時把她擊退了呢。\\n但是似乎還不能大意……",
+            "VO_CHR_EVENTSTORY_20802_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "路恩",
+            "……………………",
+            "VO_CHR_EVENTSTORY_20802_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c2556",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "HATENA_EMO",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "……嗯？路恩，你怎麼了？",
+            "VO_CHR_EVENTSTORY_20802_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "NO_EMO",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "O",
+            "C",
+            "c2557",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "路恩",
+            "啊、沒、沒什麼事！\\n只是……",
+            "VO_CHR_EVENTSTORY_20802_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "RestartLip",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "路恩",
+            "（迦樓羅，剛剛那一瞬間\\n似乎露出了寂寞的眼神……\\n為什麼呢……？）",
+            "VO_CHR_EVENTSTORY_20802_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "迦樓羅還沒有放棄路恩，\\n我想趕快擬出下一個對策。",
+            "VO_CHR_EVENTSTORY_20802_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "因此，你們能不能將來龍去脈\\n告訴我呢？",
+            "VO_CHR_EVENTSTORY_20802_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "c_bound_b",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "好的……首先，請讓我表達謝意。\\n謝謝你們救了我們。",
+            "VO_CHR_EVENTSTORY_20802_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "chara_face",
+          "args": [
+            "c2556",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "我叫路易潔，\\n他是我的弟弟路恩。",
+            "VO_CHR_EVENTSTORY_20802_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "NO_EMO",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "chara_face",
+          "args": [
+            "c2556",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "我們是從距離這裡非常遙遠的\\n北方小村莊過來的。",
+            "VO_CHR_EVENTSTORY_20802_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "因為村莊周圍常有魔獸出沒，\\n所以迦樓羅總會現身守護村莊……",
+            "VO_CHR_EVENTSTORY_20802_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "嗯？你們不是被迦樓羅追趕嗎？\\n這是怎麼回事？",
+            "VO_CHR_EVENTSTORY_20802_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "NO_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "print",
+          "args": [
+            "路恩",
+            "迦樓羅是村裡的守護神。\\n但某天，她卻突然向我們要求\\n獻上活祭品……",
+            "VO_CHR_EVENTSTORY_20802_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "突然要求？\\n為什麼？",
+            "VO_CHR_EVENTSTORY_20802_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "c_swing_h",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "我不知道。但若是沒有迦樓羅的守護，\\n村莊很快就會被消滅。",
+            "VO_CHR_EVENTSTORY_20802_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2556",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "c_bound_b",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "於是村長們就決定按照迦樓羅的意思，\\n獻上活祭品。",
+            "VO_CHR_EVENTSTORY_20802_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "因為妳弟弟被選為活祭品，\\n所以你們才逃了出來是吧。",
+            "VO_CHR_EVENTSTORY_20802_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "c_bound_b",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "是的，但這都被迦樓羅看穿了，\\n所以她就這樣追著我們……",
+            "VO_CHR_EVENTSTORY_20802_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "她那麼想要活祭品的理由\\n究竟是什麼呢……？",
+            "VO_CHR_EVENTSTORY_20802_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "誰知道呢……只是能確定的是，\\n再這樣下去路恩的小命肯定不保。",
+            "VO_CHR_EVENTSTORY_20802_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "話雖如此，但那隻龍族\\n看起來不像是可以講道理的喔？",
+            "VO_CHR_EVENTSTORY_20802_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "看來還是唯有戰鬥一途……",
+            "VO_CHR_EVENTSTORY_20802_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "ASE_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "但若把迦樓羅打倒了，\\n村莊就會失去庇護，\\n因而被魔獸襲擊喔？",
+            "VO_CHR_EVENTSTORY_20802_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "那姆",
+            "真是的，這也不行那也不行～！\\n到底該怎麼辦才好呢～！？",
+            "VO_CHR_EVENTSTORY_20802_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "NO_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……大家聽我說，\\n我想到了一個對策。",
+            "VO_CHR_EVENTSTORY_20802_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "若能將村莊周圍的魔獸一掃而空，\\n那不就沒有必要獻上活祭品了嗎？",
+            "VO_CHR_EVENTSTORY_20802_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "不、不可能啦！那裡可是有巨型魔獸，\\n再怎麼說都……",
+            "VO_CHR_EVENTSTORY_20802_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我們所有人都會幫忙，\\n絕對能成功的。我們一起前往村莊吧。",
+            "VO_CHR_EVENTSTORY_20802_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "為什麼要為了我們\\n做到如此地步呢……？",
+            "VO_CHR_EVENTSTORY_20802_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我不是說過嗎。怎麼可能丟下\\n遇到困難的人不管呢。而且，我也\\n想知道迦樓羅忽然改變心性的理由呢。",
+            "VO_CHR_EVENTSTORY_20802_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "……謝謝你們。已經好久沒有\\n體會到這麼溫暖的心意了……",
+            "VO_CHR_EVENTSTORY_20802_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "c_bound_b",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "路恩",
+            "嗯……非常讓人感到放心。\\n各位，真的非常感謝你們！",
+            "VO_CHR_EVENTSTORY_20802_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "……那麼，路恩就當個好孩子，\\n乖乖待在城裡等吧！",
+            "VO_CHR_EVENTSTORY_20802_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "print",
+          "args": [
+            "路恩",
+            "咦！？我也要去啦。\\n而且這是我自己的事……！",
+            "VO_CHR_EVENTSTORY_20802_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2556",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "c_swing2_h",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "不～行！路途上會遇到很多危險。\\n你就好好待在這裡！聽到沒？",
+            "VO_CHR_EVENTSTORY_20802_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c2557",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "MOYA_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "路恩",
+            "……………………",
+            "VO_CHR_EVENTSTORY_20802_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那麼等路易潔恢復後，我們就出發吧。\\n先在城裡休息個兩、三天，\\n養精蓄銳吧。",
+            "VO_CHR_EVENTSTORY_20802_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0049_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "換洗衣物我就放在這裡，\\n請任意取用。",
+            "VO_CHR_EVENTSTORY_20802_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2556",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "c_bound_b",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "好的，謝謝妳克菈兒。\\n來吧，路恩，我幫你脫衣服。",
+            "VO_CHR_EVENTSTORY_20802_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "路恩",
+            "姊姊！我自己會脫啦！\\n而且克菈兒小姐也在這……！",
+            "VO_CHR_EVENTSTORY_20802_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "你在說什麼呢！快點，\\n照姊姊說的話做！",
+            "VO_CHR_EVENTSTORY_20802_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2556",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "c_zoom",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "print",
+          "args": [
+            "路恩",
+            "呀、啊……啊啊啊啊啊～！",
+            "VO_CHR_EVENTSTORY_20802_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "CHARA_RESET",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0031_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "路恩，來！嘴巴張開，啊～……",
+            "VO_CHR_EVENTSTORY_20802_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "路易潔，至少吃飯讓他自己來吧？",
+            "VO_CHR_EVENTSTORY_20802_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "c_swing_h",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "不行啦！\\n這湯太燙了，魚也有很多小刺。",
+            "VO_CHR_EVENTSTORY_20802_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "NO_EMO",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "我重要的路恩要是出了什麼意外，\\n我會很困擾的。所以，來，啊～……",
+            "VO_CHR_EVENTSTORY_20802_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "ASE_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "print",
+          "args": [
+            "路恩",
+            "啊、啊嗯……",
+            "VO_CHR_EVENTSTORY_20802_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "CHARA_RESET",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "路恩、路恩！？",
+            "VO_CHR_EVENTSTORY_20802_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "怎麼又是路恩啊。\\n我說妳，會不會太保護他了啊？",
+            "VO_CHR_EVENTSTORY_20802_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "NO_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "哪有啊！這點程度很普通吧？",
+            "VO_CHR_EVENTSTORY_20802_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "chara_face",
+          "args": [
+            "c2556",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "想說找他一起泡澡的，\\n看來不在這裡呢。",
+            "VO_CHR_EVENTSTORY_20802_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "泡澡！？和姊姊一起泡澡……\\n那樣不行、不行啦！",
+            "VO_CHR_EVENTSTORY_20802_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2556",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "MOYA_EMO",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "c_swing_h",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "……你想到哪裡去了啦。\\n我只是對路恩放不下心而已。",
+            "VO_CHR_EVENTSTORY_20802_02_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "NO_EMO",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2556",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "print",
+          "args": [
+            "路易潔",
+            "現在這個當下，\\n他不在身邊就讓我很不安了。\\n到底跑到哪去了，路恩……",
+            "VO_CHR_EVENTSTORY_20802_02_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "CHARA_RESET",
+          "args": [
+            "c2556"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……怎麼了，路恩？\\n突然把我叫來這裡……",
+            "VO_CHR_EVENTSTORY_20802_02_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "ASE_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 529,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "print",
+          "args": [
+            "路恩",
+            "那、那個！\\n請你和我較量一場！",
+            "VO_CHR_EVENTSTORY_20802_02_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 533,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "chara_face",
+          "args": [
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "print",
+          "args": [
+            "路恩",
+            "若我能證明自己也有能力戰鬥，\\n就請你帶我一起回村莊！",
+            "VO_CHR_EVENTSTORY_20802_02_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 543,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦咦！？\\n但是，路易潔不是說不行嗎……",
+            "VO_CHR_EVENTSTORY_20802_02_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2557",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "c_swing_h",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "print",
+          "args": [
+            "路恩",
+            "我討厭這樣。明明就是自己的事，\\n卻只能依賴姊姊！",
+            "VO_CHR_EVENTSTORY_20802_02_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 560,
+          "command": "print",
+          "args": [
+            "路恩",
+            "而且，我也有一件在意的事……",
+            "VO_CHR_EVENTSTORY_20802_02_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "在意的事？",
+            "VO_CHR_EVENTSTORY_20802_02_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 576,
+          "command": "c_bound_b",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "print",
+          "args": [
+            "路恩",
+            "嗯，其實我曾經去過迦樓羅的巢穴……",
+            "VO_CHR_EVENTSTORY_20802_02_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "RestartEye",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "CHARA_RESET",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "BGMTUNE_DOWN",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0038_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2136",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 588,
+          "command": "SEPIA_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "print",
+          "args": [
+            "迦樓羅",
+            "……是誰，有何貴幹？",
+            "VO_CHR_EVENTSTORY_20802_02_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "print",
+          "args": [
+            "路恩",
+            "我叫做路恩，那個，\\n因為我很好奇這裡是什麼樣的地方。",
+            "VO_CHR_EVENTSTORY_20802_02_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c2557",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "print",
+          "args": [
+            "路恩",
+            "……所以就來玩了。",
+            "VO_CHR_EVENTSTORY_20802_02_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2136",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "print",
+          "args": [
+            "迦樓羅",
+            "來玩？跑到妾身的巢穴？",
+            "VO_CHR_EVENTSTORY_20802_02_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 617,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2557",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 618,
+          "command": "ASE_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "路恩",
+            "對、對不起。\\n雖然大人都對我說，\\n不可以接近這裡……！",
+            "VO_CHR_EVENTSTORY_20802_02_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "chara_face",
+          "args": [
+            "c2557",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 626,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "print",
+          "args": [
+            "路恩",
+            "但我無論如何都想看看\\n妳的巢穴是什麼樣的地方！",
+            "VO_CHR_EVENTSTORY_20802_02_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2136",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "ONPU_EMO",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "print",
+          "args": [
+            "迦樓羅",
+            "是嗎！你來得好！\\n這兒好久沒有來客了！",
+            "VO_CHR_EVENTSTORY_20802_02_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "NO_EMO",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 643,
+          "command": "ASE_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "print",
+          "args": [
+            "路恩",
+            "咦……？妳不生氣嗎？",
+            "VO_CHR_EVENTSTORY_20802_02_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2136",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "HATENA_EMO",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "print",
+          "args": [
+            "迦樓羅",
+            "有何事需要妾身動怒的？\\n你難得到這裡來，就不必拘束了！",
+            "VO_CHR_EVENTSTORY_20802_02_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "NO_EMO",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 663,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "print",
+          "args": [
+            "路恩",
+            "咦……啊、嗯！\\n謝謝……！",
+            "VO_CHR_EVENTSTORY_20802_02_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 671,
+          "command": "CHARA_RESET",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "BGMTUNE_DEF",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "WHITE_IN_LONG",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 679,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 680,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "聽你這番話，\\n跟我們對迦樓羅的印象差很多呢。",
+            "VO_CHR_EVENTSTORY_20802_02_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 687,
+          "command": "print",
+          "args": [
+            "路恩",
+            "這些話我沒有對姊姊說過，\\n但我一直很在意……",
+            "VO_CHR_EVENTSTORY_20802_02_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "chara_face",
+          "args": [
+            "c2557",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 692,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 693,
+          "command": "print",
+          "args": [
+            "路恩",
+            "……她那麼溫柔，\\n為什麼會突然性情大變，太奇怪了。",
+            "VO_CHR_EVENTSTORY_20802_02_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 695,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 700,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 701,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "謝謝你告訴我這些。\\n路恩其實也想了很多呢。",
+            "VO_CHR_EVENTSTORY_20802_02_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 707,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 708,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……好。我們就來較量一下吧，路恩。\\n讓我見識一下你的力量！",
+            "VO_CHR_EVENTSTORY_20802_02_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 710,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 713,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 714,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 715,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "print",
+          "args": [
+            "路恩",
+            "謝……謝謝你！\\n請多多指教！",
+            "VO_CHR_EVENTSTORY_20802_02_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 719,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 721,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 722,
+          "command": "CHARA_RESET",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 723,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 724,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 725,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 726,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 727,
+          "command": "ASE_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 728,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 729,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 730,
+          "command": "print",
+          "args": [
+            "路恩",
+            "哈啊、哈啊……！\\n還沒、我還可以繼續……！",
+            "VO_CHR_EVENTSTORY_20802_02_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 732,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 735,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 736,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 737,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 738,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "這樣就夠了，\\n我已經充分了解你的能力了。\\n……我們一起前往村莊吧！",
+            "VO_CHR_EVENTSTORY_20802_02_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 740,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 742,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 744,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 745,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 746,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 747,
+          "command": "print",
+          "args": [
+            "路恩",
+            "真、真的嗎！？太好了！\\n謝謝你，{player_name}王子！",
+            "VO_CHR_EVENTSTORY_20802_02_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 750,
+          "command": "NO_EMO",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 751,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2557",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 752,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 753,
+          "command": "print",
+          "args": [
+            "路恩",
+            "我還是第一次能像這樣全力戰鬥。\\n沒想到竟然這麼愉快……",
+            "VO_CHR_EVENTSTORY_20802_02_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 755,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2557"
+          ],
+          "end": 1
+        },
+        {
+          "row": 758,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 759,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 760,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "途中我們將會與魔獸戰鬥，\\n到時候就拜託你囉，路恩！",
+            "VO_CHR_EVENTSTORY_20802_02_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 762,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 765,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2557",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 766,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20802_02_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 767,
+          "command": "print",
+          "args": [
+            "路恩",
+            "是……！\\n我會用盡全力加油的！",
+            "VO_CHR_EVENTSTORY_20802_02_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 769,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 770,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "CHARA_BEAT_WIND_BOW_BEFORE",
+      "args": [
+        "eye",
+        "lip",
+        "CID",
+        "int"
+      ],
+      "defaultValues": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 7,
+          "command": "CHARA_SET",
+          "args": [
+            "eye",
+            "lip",
+            "C",
+            "CID",
+            "int"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "CHARA_BEAT_WIND_BOW_BEFORE_IN",
+          "args": [
+            "CID"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "CHARA_BEAT_WIND_BOW_BEFORE_IN",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 12,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_092",
+            "80",
+            "247",
+            "28"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_092",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "3",
+            "3",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "play_sound",
+          "args": [
+            "SE_239"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "play_sound",
+          "args": [
+            "SE_242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "CID"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "wait",
+          "args": [
+            "0.25"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

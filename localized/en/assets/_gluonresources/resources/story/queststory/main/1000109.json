@@ -1,0 +1,1441 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1000109",
+  "filename": "1000109",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "Summary"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "The prince triumphs over the Windwyrm\\nand completes his pact. Cleo, a sylvan and\\nguardian of the Mistholt, guides the company\\ndeeper into the forest to find the Shard."
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0006_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0021_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "bg_enable_shader",
+          "args": [
+            "sty_bg_0021_100",
+            "false",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_030",
+            "EFF_029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "print",
+          "args": [
+            "Windwyrm",
+            "Ha! What a thrill! The dragonblood\\nruns strong in you, man-child.",
+            "VO_CHR_MAINSTORY_01_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I take strength from my friends,\\nnot my blood.",
+            "VO_CHR_MAINSTORY_01_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "You should remember that, dragon.",
+            "VO_CHR_MAINSTORY_01_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "print",
+          "args": [
+            "Windwyrm",
+            "Ha ha! True, very true. A king's power is\\noft found lurking behind the throne.",
+            "VO_CHR_MAINSTORY_01_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "RestartAll",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "Windwyrm",
+            "And you do have the makings of a king,\\nfor you have been tested and found worthy!",
+            "VO_CHR_MAINSTORY_01_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "chara_face",
+          "args": [
+            "d2101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "SHOUT_MID_EFF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "chara_face",
+          "args": [
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "print",
+          "args": [
+            "Midgardsormr",
+            "{player_name}... My king.\\nI hereby cede all of my power to\\nyou and your chosen.",
+            "VO_CHR_MAINSTORY_01_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "Midgardsormr",
+            "I am Midgardsormr—lord of maelstroms,\\nmaster of this land, and the storm\\nthat shall keep you from harm!",
+            "VO_CHR_MAINSTORY_01_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "The prince's ＂chosen＂? That means any\\nof us could potentially shapeshift\\nif His Highness wills it to be so.",
+            "VO_CHR_MAINSTORY_01_05_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "WARAI_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_1002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "Notte",
+            "Oh, heck yeah, {player_name}!\\nI can't believe you made a dragonpact\\nwith one of the Six Greatwyrms!",
+            "VO_CHR_MAINSTORY_01_05_1002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "Midgardsormr",
+            "The Shard you seek lies deeper in\\nthe forest. And who better to show\\nthe way than a child of the wood?",
+            "VO_CHR_MAINSTORY_01_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "Midgardsormr",
+            "Cleo! Step forward.",
+            "VO_CHR_MAINSTORY_01_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "print",
+          "args": [
+            "???",
+            "Yes, Lord Wyrm.",
+            "VO_CHR_MAINSTORY_01_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "Notte",
+            "Whaaa?! Who's there?!",
+            "VO_CHR_MAINSTORY_01_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "VIS",
+          "args": [
+            "c0104",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "chara_fadein",
+          "args": [
+            "c0104",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "???",
+            "Greetings, O Alberian prince and\\nheir to dragonblood.",
+            "VO_CHR_MAINSTORY_01_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "???",
+            "I have been waiting for you.",
+            "VO_CHR_MAINSTORY_01_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_INTRO_SET_EFF",
+          "args": [
+            "c0104",
+            "Cleo",
+            "Belle Healer",
+            " ",
+            "Guardian of the Mistholt",
+            " ",
+            "Icon_Emblem_Story_01",
+            "EFF_030",
+            "EFF_029",
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "My name is Cleo.",
+            "VO_CHR_MAINSTORY_01_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "I have guarded this land of mist for\\nuncountable years in preparation for\\nthis day.",
+            "VO_CHR_MAINSTORY_01_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_1003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "He called you a child of the wood.\\nI take it you're a sylvan, then?",
+            "VO_CHR_MAINSTORY_01_05_1003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "What did you mean when you said you've\\nbeen ＂waiting for me＂?",
+            "VO_CHR_MAINSTORY_01_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Exactly that, my prince.",
+            "VO_CHR_MAINSTORY_01_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "RestartEye",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "You are to be my new master.",
+            "VO_CHR_MAINSTORY_01_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "You are the one who will\\ngrant my greatest wish.",
+            "VO_CHR_MAINSTORY_01_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "And...what is that?",
+            "VO_CHR_MAINSTORY_01_05_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "To see the mists banished.",
+            "VO_CHR_MAINSTORY_01_05_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "They hang over this forest, clouding\\nboth the landscape and my mind.",
+            "VO_CHR_MAINSTORY_01_05_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "I chronicle as much of my memory as\\nI can in words and pictures, but time's\\ncruel flow has washed most of it away.",
+            "VO_CHR_MAINSTORY_01_05_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "I cannot even remember the face\\nof my previous master.",
+            "VO_CHR_MAINSTORY_01_05_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "Zethia",
+            "So when you said ＂uncountable years,＂\\nyou meant exactly that.",
+            "VO_CHR_MAINSTORY_01_05_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Yes. But now my wait is over.",
+            "VO_CHR_MAINSTORY_01_05_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Together we will banish the mists\\nbetween past and present.",
+            "VO_CHR_MAINSTORY_01_05_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "I believe in you.",
+            "VO_CHR_MAINSTORY_01_05_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Allow me to accompany you deeper\\ninto the forest, where you will find\\nwhat you seek.",
+            "VO_CHR_MAINSTORY_01_05_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Thank you, Cleo. I can't imagine standing\\nguard over a land for so long, and I'm\\nexcited for you to show it to me.",
+            "VO_CHR_MAINSTORY_01_05_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "It is...strange. I can no longer recall\\nhis face or voice, yet I feel certain\\nyou have his spirit.",
+            "VO_CHR_MAINSTORY_01_05_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Er, whose spirit?",
+            "VO_CHR_MAINSTORY_01_05_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "A man now lost to mist.",
+            "VO_CHR_MAINSTORY_01_05_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Come, {player_name}.\\nI will show you the way.",
+            "VO_CHR_MAINSTORY_01_05_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0104",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

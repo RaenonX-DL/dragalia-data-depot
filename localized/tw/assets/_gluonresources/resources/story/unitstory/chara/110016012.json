@@ -1,0 +1,1466 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110016012",
+  "filename": "110016012",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 7,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0021_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "呼……這次的戰鬥\\n真是陷入了苦戰啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是啊。\\n大家回到城堡後就好好休息吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_LANDING",
+          "args": [
+            "M",
+            "M",
+            "c0244",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "暗殺者",
+            "{player_name}，\\n你已經沒有回到城裡的那一天了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "什麼……\\n你、是誰？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0244",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "c_swing_h",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120008_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "print",
+          "args": [
+            "暗殺者",
+            "對於將死之人，\\n沒有必要自報姓名吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0244",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "print",
+          "args": [
+            "暗殺者",
+            "──死吧！！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_ATTACK_DAG",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "休想得逞。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_LANDING",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "GUARD_KNIFE",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_ATTACK_DAG",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c0101",
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHARA_BEAT_SWD_BEFORE",
+          "args": [
+            "M",
+            "M",
+            "c0244",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "c_push_b",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0244",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120008_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "暗殺者",
+            "嗚啊！？\\n你……你這小子……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "您有沒有受傷？\\n{player_name}殿下。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊……我沒事。\\n幸虧有你救我呢，十郎太。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0416",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "您沒事就好。\\n要是殿下您有個萬一，在下會因此困擾。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "接下來……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "在下沒有瞄準要害，\\n你應該還有氣對吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0244",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "暗殺者",
+            "嗚、咳……十郎太……\\n你這小子……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "在下不會讓你痛快死去的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "得讓你深刻體會在下的怨恨……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "c_jump",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "住手！十郎太！\\n沒有必要再對他們施加更多痛苦了吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "即使是您的命令，在下也不會遵從。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "因為在下一直在期待著\\n能像這樣對仇敵復仇的機會到來。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "復仇……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0244",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "print",
+          "args": [
+            "暗殺者",
+            "是嗎……你這小子還沒忘掉\\n對我們的怨恨嗎……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "當然。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "在尚未報復完所有陷害在下的人之前，\\n在下絕不會忘記這份怨恨。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0244",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "暗殺者",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "十郎太，\\n你說的復仇是指……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "……在下被以前曾侍奉過\\n同一主人的夥伴們背叛了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "在下過去的主人，正在圖謀暗殺\\n{player_name}殿下……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "因此在下成為了殿下您的家臣。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "這都是為了向那些被派來當刺客的\\n過往同袍復仇。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你是為了復仇……嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那麼，你說過來這裡\\n是為了保護我……是謊言嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "c_swing_h",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "非也。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "c_bound_b",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "因為在下要斬除危害您性命的刺客，\\n這一點並無不同。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0416"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "…………"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "在下已經說出實情了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "如果殿下要趕在下走的話\\n……在下會遵從您的意思。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110016_STORY_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "十郎太",
+            "到那時候……\\n在下只要再想別的手段來復仇就好。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0416",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

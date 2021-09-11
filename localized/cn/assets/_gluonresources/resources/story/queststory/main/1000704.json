@@ -1,0 +1,2817 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1000704",
+  "filename": "1000704",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "兰扎卜和扎卡利亚斯进行了谈话。\\n扎卡利亚斯提出条件：\\n“只要你回来，我就与新王国结盟”。\\n而兰扎卜并未答复。\\n一行人为了打倒魔兽，前往达比亚湿地。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0032_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "讨伐……完毕。",
+            "VO_CHR_MAINSTORY_07_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "{player_name}，魔兽巢穴\\n这下彻底清理完了……",
+            "VO_CHR_MAINSTORY_07_04_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "等等，埃尔菲莉丝。\\n远处的那个栅栏是……",
+            "VO_CHR_MAINSTORY_07_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "那前面是达比亚湿地。",
+            "VO_CHR_MAINSTORY_07_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0103",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "是沉睡着大量危险遗迹的古战场，\\n所以一直被封锁着。",
+            "VO_CHR_MAINSTORY_07_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "魔兽应该不会\\n跑到那里去。",
+            "VO_CHR_MAINSTORY_07_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "我们赶紧\\n回圣罗塔斯吧。",
+            "VO_CHR_MAINSTORY_07_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0103",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0018_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0014_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0002_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SHIMOTE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "这是怎么回事！？\\n你们说已经清理了巢穴，\\n但还有报告说魔兽在四处作恶！",
+            "VO_CHR_MAINSTORY_07_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "ASE_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "那就不关我们的事啦～\\n我们收拾得很干净哦～",
+            "VO_CHR_MAINSTORY_07_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "穆穆",
+            "哎呀？会不会有漏网之鱼？",
+            "VO_CHR_MAINSTORY_07_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "chara_face",
+          "args": [
+            "c01105",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "穆穆",
+            "可是当时那附近\\n连只老鼠都没有啊。也就是说……",
+            "VO_CHR_MAINSTORY_07_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "难道是……达比亚湿地？",
+            "VO_CHR_MAINSTORY_07_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "NO_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "chara_face",
+          "args": [
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "兰扎卜所说的，\\n被封锁的那个地方……",
+            "VO_CHR_MAINSTORY_07_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "达比亚湿地？\\n但那里有强力的封印……",
+            "VO_CHR_MAINSTORY_07_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "说到可能性的话，\\n就只能是那里了。",
+            "VO_CHR_MAINSTORY_07_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "任何对城市的威胁都不能放任不管。",
+            "VO_CHR_MAINSTORY_07_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "各位，我们去达比亚湿地吧！\\n要保护圣罗塔斯的民众！",
+            "VO_CHR_MAINSTORY_07_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "如果打破禁忌冲进那里，\\n可不知道会发生什么啊。",
+            "VO_CHR_MAINSTORY_07_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "喂，老爸……以防万一，\\n让北部的居民避难吧。",
+            "VO_CHR_MAINSTORY_07_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "让都市警备队\\n立刻发布避难命令。",
+            "VO_CHR_MAINSTORY_07_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "嚯，兰扎卜，你……\\n看来你的视野也变广阔了啊。",
+            "VO_CHR_MAINSTORY_07_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "过去的你总是不顾周围，\\n横冲直撞。",
+            "VO_CHR_MAINSTORY_07_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0103",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "c_swing_h",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "别说了……\\n才没有那么夸张。",
+            "VO_CHR_MAINSTORY_07_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "{player_name}殿下，\\n那就请你继续讨伐魔兽吧。",
+            "VO_CHR_MAINSTORY_07_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "要让我作为同盟国信任你，\\n你做的还不够。",
+            "VO_CHR_MAINSTORY_07_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "另外，兰扎卜，\\n你先别走。",
+            "VO_CHR_MAINSTORY_07_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "什么事，老爸？",
+            "VO_CHR_MAINSTORY_07_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "true",
+            "0.25",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "-12",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "12",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "-8",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "8",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "呵呵，那位王子挺勇猛的嘛。",
+            "VO_CHR_MAINSTORY_07_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "他相信只要为圣罗塔斯拼尽全力，\\n就能结盟……",
+            "VO_CHR_MAINSTORY_07_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "就让我好好利用他一下。\\n往后我还会提出各种要求\\n为难他。",
+            "VO_CHR_MAINSTORY_07_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "你说什么！？\\n那你打从一开始就……",
+            "VO_CHR_MAINSTORY_07_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "当然了，这就是政治。",
+            "VO_CHR_MAINSTORY_07_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "不过，我也可以看情况，\\n不为难他。",
+            "VO_CHR_MAINSTORY_07_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "只要你答应我\\n一个简单的条件。",
+            "VO_CHR_MAINSTORY_07_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "什么条件？",
+            "VO_CHR_MAINSTORY_07_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "回来吧，兰扎卜。别管那种国家了，\\n回到这个生你养你的城市。",
+            "VO_CHR_MAINSTORY_07_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "只要你答应，我就同意\\n和那个王子的国家结盟。",
+            "VO_CHR_MAINSTORY_07_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "要我……回去？",
+            "VO_CHR_MAINSTORY_07_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "NO_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "只要我那样做，\\n你就能下定决心对抗帝国？",
+            "VO_CHR_MAINSTORY_07_04_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "我已经听说了\\n皇帝塞西娅的残暴行径。",
+            "VO_CHR_MAINSTORY_07_04_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "总有一天，\\n她的魔爪也会伸向这里吧。",
+            "VO_CHR_MAINSTORY_07_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "如果你回到圣罗塔斯\\n统领军队，\\n那么提早开战也不是坏事。",
+            "VO_CHR_MAINSTORY_07_04_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "但是……",
+            "VO_CHR_MAINSTORY_07_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "你好好想想吧。什么是你该做的事，\\n什么是只有你才能做到的事。",
+            "VO_CHR_MAINSTORY_07_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "扎卡利亚斯",
+            "与大海为邻，与大海共生。\\n这是生于圣罗塔斯者的命运。",
+            "VO_CHR_MAINSTORY_07_04_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0032_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "12",
+            "SE_NHAA"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "{player_name}，看到了！\\n是达比亚湿地！",
+            "VO_CHR_MAINSTORY_07_04_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "NO_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "chara_face",
+          "args": [
+            "c0107",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "那里一定有魔兽！",
+            "VO_CHR_MAINSTORY_07_04_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是啊。\\n你怎么了，兰扎卜？\\n一路上一声不吭。",
+            "VO_CHR_MAINSTORY_07_04_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "{player_name}……\\n其实，刚才……",
+            "VO_CHR_MAINSTORY_07_04_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "什么！？\\n要兰扎卜回去？",
+            "VO_CHR_MAINSTORY_07_04_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "print",
+          "args": [
+            "穆穆",
+            "而且居然从一开始\\n就打算欺骗亲爱的！",
+            "VO_CHR_MAINSTORY_07_04_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "chara_face",
+          "args": [
+            "c01105",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "IKARI_EMO",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "print",
+          "args": [
+            "穆穆",
+            "那个大叔，我等下就把他烤了！",
+            "VO_CHR_MAINSTORY_07_04_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那……你打算怎么办，\\n兰扎卜？",
+            "VO_CHR_MAINSTORY_07_04_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "我也不知道……\\n但老爸丝毫没有\\n要认可你的意思。",
+            "VO_CHR_MAINSTORY_07_04_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "所以，还是现在就打道回府……",
+            "VO_CHR_MAINSTORY_07_04_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不……无论如何，\\n都要去达比亚湿地。",
+            "VO_CHR_MAINSTORY_07_04_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "再往前走，\\n魔兽肯定会蜂拥而至。",
+            "VO_CHR_MAINSTORY_07_04_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "如果不消灭它们，\\n圣罗塔斯的居民们就会遭殃。\\n这和领主的阴谋没有关系。",
+            "VO_CHR_MAINSTORY_07_04_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "是吗……\\n你这家伙真是……",
+            "VO_CHR_MAINSTORY_07_04_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "嗯！？",
+            "VO_CHR_MAINSTORY_07_04_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "play_sound",
+          "args": [
+            "SE_169"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "effect_shake_bg",
+          "args": [
+            "1",
+            "2.0",
+            "2.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "刚、刚才的声音，是怎么回事！？\\n好像是从前面传来的……",
+            "VO_CHR_MAINSTORY_07_04_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "ASE_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "“吱嘎，吱嘎，嘎吱吱”的声音！\\n是魔兽的吼叫声吗？",
+            "VO_CHR_MAINSTORY_07_04_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "c_swing_h",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "print",
+          "args": [
+            "穆穆",
+            "不，\\n听起来不像呢。",
+            "VO_CHR_MAINSTORY_07_04_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "chara_face",
+          "args": [
+            "c01105",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "print",
+          "args": [
+            "穆穆",
+            "倒像是以锻造术闻名的罗卡族\\n制作的铁质工艺品一样……",
+            "VO_CHR_MAINSTORY_07_04_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "哎呀，虽然这话不该由我来说，\\n但这里果然很不得了啊。",
+            "VO_CHR_MAINSTORY_07_04_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "走吧……\\n看来我们的直觉是正确的。",
+            "VO_CHR_MAINSTORY_07_04_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那片湿地里……一定有什么！",
+            "VO_CHR_MAINSTORY_07_04_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0101",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

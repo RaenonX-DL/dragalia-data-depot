@@ -1,0 +1,2817 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1000704",
+  "filename": "1000704",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "蘭薩弗與薩卡利亞斯進行了對談。\\n「若願意回到鎮中，就跟新王國結盟。」\\n薩卡利亞斯開出如此條件，\\n蘭薩弗還未能答覆，便為了討伐魔獸，\\n前往達比亞濕地。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0032_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "討伐……完畢。",
+            "VO_CHR_MAINSTORY_07_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "{player_name}，\\n這樣一來魔獸的巢穴都清乾淨……",
+            "VO_CHR_MAINSTORY_07_04_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "等等，耶魯菲莉絲。\\n遠方的那個柵欄是……？",
+            "VO_CHR_MAINSTORY_07_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "啊，那邊再過去就是達比亞濕地。",
+            "VO_CHR_MAINSTORY_07_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0103",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "那裡是個古戰場，\\n有許多危險的遺蹟沉眠在那，\\n所以從以前就被封鎖起來了。",
+            "VO_CHR_MAINSTORY_07_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "那裡的話，\\n可是連魔獸也都進不去的。",
+            "VO_CHR_MAINSTORY_07_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "好了，我們就快點\\n回去聖魯塔斯吧！",
+            "VO_CHR_MAINSTORY_07_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0103",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0018_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0014_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0002_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SHIMOTE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "到底怎麼回事！？\\n你們說已經把巢穴都清乾淨了，\\n怎麼還是有報告說魔獸依然在到處肆虐！",
+            "VO_CHR_MAINSTORY_07_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "ASE_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "那姆",
+            "那種事情我怎麼知道啊～\\n我們可是好好把魔獸都除掉了耶～",
+            "VO_CHR_MAINSTORY_07_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "哎呀？難道是有漏網之魚？",
+            "VO_CHR_MAINSTORY_07_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "chara_face",
+          "args": [
+            "c01105",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "不過附近連一隻小貓都不剩了，\\n這麼說來……",
+            "VO_CHR_MAINSTORY_07_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "難道是……達比亞濕地？",
+            "VO_CHR_MAINSTORY_07_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "NO_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "chara_face",
+          "args": [
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "是在蘭薩弗說已被封鎖的那個濕地……",
+            "VO_CHR_MAINSTORY_07_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "達比亞濕地？但是，\\n那裡被封鎖在強力的封印下……",
+            "VO_CHR_MAINSTORY_07_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "但說到可能性，\\n應該就只有那裡了吧。",
+            "VO_CHR_MAINSTORY_07_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那些會對城鎮造成威脅的東西，\\n可不能置之不理。",
+            "VO_CHR_MAINSTORY_07_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "各位，前往達比亞濕地吧！\\n我們得守護聖魯塔斯的人民才行！",
+            "VO_CHR_MAINSTORY_07_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "如果打破禁忌，闖進那裡的話，\\n可不知道會發生什麼事啊。",
+            "VO_CHR_MAINSTORY_07_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "……喂，老爸。\\n以防萬一，你先讓北側的居民避難去吧。",
+            "VO_CHR_MAINSTORY_07_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "透過都市警備隊發布避難命令，\\n現在馬上這麼做。",
+            "VO_CHR_MAINSTORY_07_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "哦，蘭薩弗，你……\\n看來視野有變得比較廣了呢。",
+            "VO_CHR_MAINSTORY_07_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "以前的你完全不看周圍情況，\\n只會到處撒野呢。",
+            "VO_CHR_MAINSTORY_07_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0103",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "c_swing_h",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "……那就別提了。\\n也不是什麼大不了的事。",
+            "VO_CHR_MAINSTORY_07_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "那麼，{player_name}殿下，\\n請你繼續去討伐魔獸。",
+            "VO_CHR_MAINSTORY_07_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "你的所作所為，\\n尚不足以讓我採信你能成為同盟國。",
+            "VO_CHR_MAINSTORY_07_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "還有蘭薩弗，\\n你稍微留在這裡一下。",
+            "VO_CHR_MAINSTORY_07_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "有什麼事，老爸？",
+            "VO_CHR_MAINSTORY_07_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "true",
+            "0.25",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "-12",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "12",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "-8",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "mnu_move",
+          "args": [
+            "c0123",
+            "false",
+            "0.25",
+            "0",
+            "8",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "呵呵呵，那位王子還真有活力啊。",
+            "VO_CHR_MAINSTORY_07_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "他相信只要為了聖魯塔斯竭盡全力，\\n就可以和我們結為同盟……",
+            "VO_CHR_MAINSTORY_07_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "我就好好地利用他一番吧。\\n以後也向他丟出各種要求好了。",
+            "VO_CHR_MAINSTORY_07_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "你說什麼！？\\n老爸你打從一開始就……！",
+            "VO_CHR_MAINSTORY_07_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "當然，這就是政治。",
+            "VO_CHR_MAINSTORY_07_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "但是看情況，要我停止提出\\n不合理的要求也是可以。",
+            "VO_CHR_MAINSTORY_07_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "只要你答應我一個簡單的條件。",
+            "VO_CHR_MAINSTORY_07_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "什麼條件，說看看啊！？",
+            "VO_CHR_MAINSTORY_07_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "回來吧，蘭薩弗。\\n放棄那種國家，\\n回到你出生成長的這個城市來。",
+            "VO_CHR_MAINSTORY_07_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "只要你答應，我就願意認同\\n那位王子的國家是同盟國。",
+            "VO_CHR_MAINSTORY_07_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "你說……要我回來！？",
+            "VO_CHR_MAINSTORY_07_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "NO_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "你這麼做，\\n是要鞏固與帝國對抗的覺悟嗎！？",
+            "VO_CHR_MAINSTORY_07_04_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "我已聽說過皇帝潔西雅\\n慘無人道的行徑了。",
+            "VO_CHR_MAINSTORY_07_04_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "她的魔掌遲早都會延伸到這個都市吧。",
+            "VO_CHR_MAINSTORY_07_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "如果你回來聖魯塔斯率領整個軍隊的話，\\n那麼提早開戰也是個不壞的選擇。",
+            "VO_CHR_MAINSTORY_07_04_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "呃，但是……",
+            "VO_CHR_MAINSTORY_07_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0123",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "你好好思考一下吧。\\n什麼才是自己該做的事、\\n什麼又是別人做不到的事。",
+            "VO_CHR_MAINSTORY_07_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "chara_face",
+          "args": [
+            "c0123",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "薩卡利亞斯",
+            "既鄰蒼海，則應與蒼海共生。\\n這才是出身於聖魯塔斯者的不變準則。",
+            "VO_CHR_MAINSTORY_07_04_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0032_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "12",
+            "SE_NHAA"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "那姆",
+            "{player_name}，看到了！\\n是達比亞濕地！",
+            "VO_CHR_MAINSTORY_07_04_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "NO_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "chara_face",
+          "args": [
+            "c0107",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "print",
+          "args": [
+            "那姆",
+            "魔獸一定就在那裡！",
+            "VO_CHR_MAINSTORY_07_04_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是啊……你怎麼了，蘭薩弗？\\n自從出發之後，你就一直很安靜。",
+            "VO_CHR_MAINSTORY_07_04_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "……{player_name}，\\n其實剛才……",
+            "VO_CHR_MAINSTORY_07_04_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "什麼？\\n要蘭薩弗回去？",
+            "VO_CHR_MAINSTORY_07_04_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "而且竟然打從一開始\\n就打算欺騙達令！",
+            "VO_CHR_MAINSTORY_07_04_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "chara_face",
+          "args": [
+            "c01105",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "IKARI_EMO",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "那個臭老頭，\\n等等一定要把他燒成灰！",
+            "VO_CHR_MAINSTORY_07_04_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那麼……你打算怎麼做，\\n蘭薩弗？",
+            "VO_CHR_MAINSTORY_07_04_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "……我也不知道。\\n雖然不知道，但我老爸完全沒有打算\\n要認同你的誠意。",
+            "VO_CHR_MAINSTORY_07_04_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "所以，趁現在折回去比較……",
+            "VO_CHR_MAINSTORY_07_04_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……不，無論如何，\\n我還是要去達比亞濕地。",
+            "VO_CHR_MAINSTORY_07_04_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "前方有魔獸朝這而來是明確的事實。",
+            "VO_CHR_MAINSTORY_07_04_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "如果不把牠們打倒，\\n聖魯塔斯的住民就會面臨苦難，\\n這和領主的企圖是沒有關係的。",
+            "VO_CHR_MAINSTORY_07_04_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "……是嗎？\\n真是的，你這傢伙實在是……",
+            "VO_CHR_MAINSTORY_07_04_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "chara_face",
+          "args": [
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "……嗯！？",
+            "VO_CHR_MAINSTORY_07_04_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "play_sound",
+          "args": [
+            "SE_169"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "effect_shake_bg",
+          "args": [
+            "1",
+            "2.0",
+            "2.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "剛、剛才那聲音是什麼！？\\n感覺有聽到什麼從前方傳來……",
+            "VO_CHR_MAINSTORY_07_04_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "ASE_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "print",
+          "args": [
+            "那姆",
+            "嘰咕嘰咕地叫！\\n是魔獸的吼叫聲嗎～？",
+            "VO_CHR_MAINSTORY_07_04_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "c_swing_h",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "不，聽起來不像是那種聲音耶。",
+            "VO_CHR_MAINSTORY_07_04_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "chara_face",
+          "args": [
+            "c01105",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "簡直像是鍛造一族羅卡所製作的\\n鐵製工藝品所發出的聲音……",
+            "VO_CHR_MAINSTORY_07_04_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "哎呀，由我來說感覺不太對，\\n但這裡果然很不得了啊。",
+            "VO_CHR_MAINSTORY_07_04_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……快走吧，\\n看來我們的直覺是正確的。",
+            "VO_CHR_MAINSTORY_07_04_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_07_04_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "有某種東西……在那濕地裡！",
+            "VO_CHR_MAINSTORY_07_04_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0101",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

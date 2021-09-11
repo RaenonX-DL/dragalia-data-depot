@@ -1,0 +1,4553 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2040407",
+  "filename": "2040407",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "款待對決第二回合是，傳統技藝對決。\\n由於結果不分軒輊，家康提議以\\n爭奪舞獅發的紅包來定勝負。\\n一行人也一同參戰，並在對決場所\\n「神樂舞台」與舞獅展開對戰。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0354"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "SYS",
+            "款待對決　第二回合\\n傳統技藝表演\\n牡丹　VS　阿迪斯"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "HATENA_EMO",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我們來到中庭要做什麼呢？",
+            "VO_CHR_EVENTSTORY_20404_07_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "print",
+          "args": [
+            "家康",
+            "我想向大家表演日初之國的技藝。",
+            "VO_CHR_EVENTSTORY_20404_07_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "print",
+          "args": [
+            "家康",
+            "在日初之國，修習武道者所追求的\\n並非強大的力量，而是卓越的技藝。",
+            "VO_CHR_EVENTSTORY_20404_07_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "家康",
+            "接下來要表演的，\\n便是利用那些技藝發展出的餘興節目。",
+            "VO_CHR_EVENTSTORY_20404_07_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "喔……！真令人期待啊。",
+            "VO_CHR_EVENTSTORY_20404_07_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "先攻就由我阿迪斯擔任。\\n要上囉……",
+            "VO_CHR_EVENTSTORY_20404_07_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c3510",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "c_push_b",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01035",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "他閉上眼睛，還把刀收入了刀鞘？\\n是想幹嘛？",
+            "VO_CHR_EVENTSTORY_20404_07_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010210",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "真是驚人的集中力。\\n周圍的空氣似乎都變得緊張起來……",
+            "VO_CHR_EVENTSTORY_20404_07_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010210"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c3510",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "RestartEye",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "c_push_t",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "喝！！",
+            "VO_CHR_EVENTSTORY_20404_07_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "BLACK_OUT_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "post_film",
+          "args": [
+            "0",
+            "0.0",
+            "filmMode_Lerp",
+            "2.0",
+            "2.0",
+            "0",
+            "0",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "CHARA_BEAT_KAT_BEFORE_IN",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "BLACK_OUT_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "post_film",
+          "args": [
+            "0",
+            "0.0",
+            "filmMode_Lerp",
+            "2.0",
+            "2.0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01049",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "HATENA_EMO",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "咦……？\\n他剛才砍了什麼東西？",
+            "VO_CHR_EVENTSTORY_20404_07_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "event_still_set",
+          "args": [
+            "2",
+            "0.2",
+            "common_001001",
+            "0",
+            "raid0004_003",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "草靶完～全沒有變化。\\n該不會是揮空了？",
+            "VO_CHR_EVENTSTORY_20404_07_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "common_001001",
+            "raid0004_003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "既然看似如此的話，\\n那你們就摸摸看吧。",
+            "VO_CHR_EVENTSTORY_20404_07_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01106",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "c_bound_b",
+          "args": [
+            "c01106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "好啊，我看看──咦！？",
+            "VO_CHR_EVENTSTORY_20404_07_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "event_still_set",
+          "args": [
+            "2",
+            "0.2",
+            "common_001001",
+            "0",
+            "raid0004_003",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "raid0004_003_2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "effect_shake_bg",
+          "args": [
+            "3",
+            "0.2",
+            "0.4",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "wait",
+          "args": [
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "CHARA_RESET",
+          "args": [
+            "raid0004_003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "common_001001",
+            "raid0004_003_2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01073",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "print",
+          "args": [
+            "那姆",
+            "咦！？慕慕只是輕輕碰了一下，\\n草靶就整個粉碎了！？",
+            "VO_CHR_EVENTSTORY_20404_07_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01066",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c01066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "原來如此……\\n因為砍的速度太快了，所以草靶看起來\\n還是原本的樣子嗎……！",
+            "VO_CHR_EVENTSTORY_20404_07_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "WARAI_EMO",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "很有意思吧？\\n明明砍下去了卻不著痕跡。",
+            "VO_CHR_EVENTSTORY_20404_07_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "確實很有意思，\\n但你們可別忘了我喲。",
+            "VO_CHR_EVENTSTORY_20404_07_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3712",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "ONPU_EMO",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "後攻，牡丹。\\n接下來由我表演薙刀技法！",
+            "VO_CHR_EVENTSTORY_20404_07_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "NO_EMO",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c3712",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "c_push_b",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "開始……喝！\\n呀！",
+            "VO_CHR_EVENTSTORY_20404_07_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3712",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "mnu_move",
+          "args": [
+            "c3712",
+            "true",
+            "0.2",
+            "0",
+            "50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "mnu_move",
+          "args": [
+            "c3712",
+            "false",
+            "0.2",
+            "-100",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "cmp_move",
+          "args": [
+            "c3712",
+            "0.4",
+            "-100",
+            "50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "kirisute_LR",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010210",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "好厲害……\\n那行雲流水般美麗的招式……\\n而且簡直是毫無破綻。",
+            "VO_CHR_EVENTSTORY_20404_07_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010210"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01035",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "嘿……真是小看她了啊。\\n那個完全不顧周圍狀況的小姑娘\\n竟然有此身手。",
+            "VO_CHR_EVENTSTORY_20404_07_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "嘿呀呀呀呀啊！！",
+            "VO_CHR_EVENTSTORY_20404_07_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "Naginata_loop",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "BLACK_OUT_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "post_film",
+          "args": [
+            "0",
+            "0.0",
+            "filmMode_Lerp",
+            "2.0",
+            "2.0",
+            "0",
+            "0",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "SE_239"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "SE_239"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "BLACK_OUT_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "post_film",
+          "args": [
+            "0",
+            "0.0",
+            "filmMode_Lerp",
+            "2.0",
+            "2.0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "什……竟然把自己周圍的草靶\\n一口氣全砍斷了！？",
+            "VO_CHR_EVENTSTORY_20404_07_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010210",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "拿著那樣的長刀，還有如此身手……\\n看得出是個相當厲害的好手喔。",
+            "VO_CHR_EVENTSTORY_20404_07_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010210"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "ONPU_EMO",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "哼哼♪\\n只要我拿出真本事，這只是小意思。\\n這場對決我贏定了！",
+            "VO_CHR_EVENTSTORY_20404_07_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01066",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "c_swing_h",
+          "args": [
+            "c01066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "不，阿迪斯的劍技也非常了得喔。",
+            "VO_CHR_EVENTSTORY_20404_07_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01049",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "c_bound_b",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "這似乎會是場難分高下的對決呢。",
+            "VO_CHR_EVENTSTORY_20404_07_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2178",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "print",
+          "args": [
+            "舞獅",
+            "{player_name}殿下，\\n這回合是誰獲勝呢？",
+            "VO_CHR_EVENTSTORY_20404_07_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯……真煩惱呢……\\n雙方都非常厲害……",
+            "VO_CHR_EVENTSTORY_20404_07_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c3712",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "是嗎……那就沒辦法了。\\n我們就簡單些地分出高下吧。",
+            "VO_CHR_EVENTSTORY_20404_07_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "c_bound_b",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "真巧，我也是這麼想呢。",
+            "VO_CHR_EVENTSTORY_20404_07_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "ASE_EMO",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦？兩位打算做什麼？",
+            "VO_CHR_EVENTSTORY_20404_07_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "那當然是……",
+            "VO_CHR_EVENTSTORY_20404_07_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "c_jump",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "薙刀與刀的決鬥囉！\\n{player_name}，你看好囉。",
+            "VO_CHR_EVENTSTORY_20404_07_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "到底誰技高一籌，\\n就來弄個清楚吧！來場公平的──",
+            "VO_CHR_EVENTSTORY_20404_07_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "CHARA_SET2",
+          "args": [
+            "M",
+            "M",
+            "c3510",
+            "4",
+            "M",
+            "M",
+            "c3712",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "c_push_r",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "c_push_l",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "print",
+          "args": [
+            "阿迪斯＆牡丹",
+            "對決！",
+            "VO_CHR_EVENTSTORY_20404_07_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "CHARA_SET_0",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c3713",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "mnu_fade",
+          "args": [
+            "c3713",
+            "true",
+            "0.8",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "cmp_fade",
+          "args": [
+            "c3713",
+            "0.8",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "SE_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "SHIMOTE_OUT_FAST",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "play_sound",
+          "args": [
+            "SE_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "KAMITE_OUT_FAST",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3713"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "ASE_EMO",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦！？家康介入兩人之間\\n阻止了對決！？",
+            "VO_CHR_EVENTSTORY_20404_07_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010210",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010210"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "一邊閃躲牡丹的薙刀，\\n同時用自己的刀\\n接住了阿迪斯的刀啊……",
+            "VO_CHR_EVENTSTORY_20404_07_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010210"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "家康",
+            "真是的，你們兩個都住手。\\n我們是為了什麼舉行款待對決呢？",
+            "VO_CHR_EVENTSTORY_20404_07_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "殿下……！真的非常抱歉。\\n不禁一時激動……",
+            "VO_CHR_EVENTSTORY_20404_07_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "有什麼不對啊。直接對決\\n才能看出誰比較厲害不是嗎？",
+            "VO_CHR_EVENTSTORY_20404_07_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "print",
+          "args": [
+            "家康",
+            "在日初之國，修習武道者所追求的\\n並非強大的力量，而是卓越的技藝。",
+            "VO_CHR_EVENTSTORY_20404_07_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "StopEye_close",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "print",
+          "args": [
+            "家康",
+            "即使靠對決展示了力量的強大，\\n也無法令人著迷於技藝的精湛喔。",
+            "VO_CHR_EVENTSTORY_20404_07_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "RestartEye",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "print",
+          "args": [
+            "家康",
+            "更適合展示給異國貴賓觀賞的款待，\\n妳說是哪一個呢？",
+            "VO_CHR_EVENTSTORY_20404_07_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c3712",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "c_bound_t",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "你思想很死板耶！\\n只要又強技藝又精湛不就好了！",
+            "VO_CHR_EVENTSTORY_20404_07_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "c_zoom_stay",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "妳這傢伙，竟敢對殿下出言不遜……！",
+            "VO_CHR_EVENTSTORY_20404_07_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "哼，果然要來打一場是嗎！？\\n正合我意！",
+            "VO_CHR_EVENTSTORY_20404_07_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "print",
+          "args": [
+            "家康",
+            "你們兩個，適可而止──",
+            "VO_CHR_EVENTSTORY_20404_07_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2178",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "print",
+          "args": [
+            "舞獅",
+            "就說了不准吵架～～～！！",
+            "VO_CHR_EVENTSTORY_20404_07_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "IKARI_jump",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "print",
+          "args": [
+            "舞獅",
+            "真是的！你們要吵的話，\\n那這場對決就無效──！",
+            "VO_CHR_EVENTSTORY_20404_07_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "咦咦──！？\\n明明我表現得那麼帥耶！？",
+            "VO_CHR_EVENTSTORY_20404_07_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c01049",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "說起來，原本就是為了不要吵架\\n才舉辦對決的嘛……",
+            "VO_CHR_EVENTSTORY_20404_07_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010210",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "吵架雙方都有錯。\\n我覺得這是很適當的判斷。",
+            "VO_CHR_EVENTSTORY_20404_07_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010210"
+          ],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2178",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "print",
+          "args": [
+            "舞獅",
+            "在可喜可賀的日子裡吵架的壞孩子，\\n我是不會給紅包的喔！",
+            "VO_CHR_EVENTSTORY_20404_07_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "print",
+          "args": [
+            "家康",
+            "紅包……對了，\\n我有個好主意。",
+            "VO_CHR_EVENTSTORY_20404_07_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "HATENA_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 533,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "print",
+          "args": [
+            "家康",
+            "下一回合，\\n就以紅包爭奪戰來分勝負如何？",
+            "VO_CHR_EVENTSTORY_20404_07_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 537,
+          "command": "NO_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 539,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "print",
+          "args": [
+            "家康",
+            "從舞獅那裡奪得最多紅包的一方獲勝。\\n這樣的話就簡單多了吧？",
+            "VO_CHR_EVENTSTORY_20404_07_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "這倒是……\\n似乎可以明確地分出輸贏呢。",
+            "VO_CHR_EVENTSTORY_20404_07_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2178",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "print",
+          "args": [
+            "舞獅",
+            "不過家康大人，紅包不是要送給\\n{player_name}殿下的東西嗎？",
+            "VO_CHR_EVENTSTORY_20404_07_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 556,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 560,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "print",
+          "args": [
+            "家康",
+            "當然，{player_name}殿下他們\\n也要一起參加喔。",
+            "VO_CHR_EVENTSTORY_20404_07_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "HATENA_EMO",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦？擔任裁判的我們也可以參加嗎？",
+            "VO_CHR_EVENTSTORY_20404_07_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 576,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "print",
+          "args": [
+            "家康",
+            "這原本就是為了讓大家開心\\n才想出的遊戲。",
+            "VO_CHR_EVENTSTORY_20404_07_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 580,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "print",
+          "args": [
+            "家康",
+            "請各位不要顧慮對決的事，\\n儘管和舞獅爭奪紅包吧。",
+            "VO_CHR_EVENTSTORY_20404_07_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "WARAI_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "print",
+          "args": [
+            "家康",
+            "奪得的紅包\\n就直接贈予各位了。",
+            "VO_CHR_EVENTSTORY_20404_07_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01073",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "print",
+          "args": [
+            "那姆",
+            "哇啊……！\\n好像很好玩耶！",
+            "VO_CHR_EVENTSTORY_20404_07_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 599,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01049",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "ASE_EMO",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "請、請等一下！\\n與那樣的龍族互相爭奪紅包的話，\\n那城堡會被搞得一團亂的……！",
+            "VO_CHR_EVENTSTORY_20404_07_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "print",
+          "args": [
+            "家康",
+            "請放心。\\n為了不在過程中增添困擾，\\n我們準備了對決用的舞台。",
+            "VO_CHR_EVENTSTORY_20404_07_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "家康",
+            "其名為「神樂舞台」。\\n是天照所創造出來的異界。",
+            "VO_CHR_EVENTSTORY_20404_07_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 617,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01106",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "c_bound_b",
+          "args": [
+            "c01106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 623,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "原來如此啊。在異界的話，\\n那再怎麼鬧也不用擔心了。",
+            "VO_CHR_EVENTSTORY_20404_07_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01066",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "但是，那個異界要怎麼去……\\n啊！難道說，是用這個東西！",
+            "VO_CHR_EVENTSTORY_20404_07_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 637,
+          "command": "play_sound",
+          "args": [
+            "SE_125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "WHITE_OUT_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "play_sound",
+          "args": [
+            "SE_049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 643,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_023",
+            "224",
+            "102",
+            "255",
+            "1",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "print",
+          "args": [
+            "家康",
+            "沒錯，「天岩戶之輝石」……\\n也就是這裡所稱的「異界的碎片」，\\n正是前往神樂舞台的通行證。",
+            "VO_CHR_EVENTSTORY_20404_07_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "WARAI_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 660,
+          "command": "print",
+          "args": [
+            "家康",
+            "只要有了它，就能劃破空間，\\n引導各位前往神樂舞台喔。",
+            "VO_CHR_EVENTSTORY_20404_07_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01066",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "c_jump",
+          "args": [
+            "c01066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "好厲害──！{player_name}，\\n我們參加吧！紅包爭奪戰！",
+            "VO_CHR_EVENTSTORY_20404_07_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "c_bound_b",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯！請務必讓我們挑戰！",
+            "VO_CHR_EVENTSTORY_20404_07_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2178",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "ONPU_EMO",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "c_jump2",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "print",
+          "args": [
+            "舞獅",
+            "嘿嘿～！\\n我可是不會輕易給你們的喔！",
+            "VO_CHR_EVENTSTORY_20404_07_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 687,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 692,
+          "command": "print",
+          "args": [
+            "家康",
+            "阿迪斯、牡丹，\\n你們都沒意見吧？",
+            "VO_CHR_EVENTSTORY_20404_07_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 694,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3510",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "c_bound_b",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 700,
+          "command": "print",
+          "args": [
+            "阿迪斯",
+            "遵照殿下指示。",
+            "VO_CHR_EVENTSTORY_20404_07_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 702,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3510"
+          ],
+          "end": 1
+        },
+        {
+          "row": 705,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 707,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "我也沒問題。\\n無論是什麼對決我都不會輸的！",
+            "VO_CHR_EVENTSTORY_20404_07_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 709,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3712"
+          ],
+          "end": 1
+        },
+        {
+          "row": 712,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2178",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 713,
+          "command": "c_jump",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 714,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 715,
+          "command": "print",
+          "args": [
+            "舞獅",
+            "好～！那麼，\\n大家一起朝神樂舞台出發吧！",
+            "VO_CHR_EVENTSTORY_20404_07_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 717,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2178"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01014",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 721,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_07_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 722,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "會是怎麼樣的舞台在等著我們呢，\\n真令人期待！各位，我們走吧！",
+            "VO_CHR_EVENTSTORY_20404_07_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 726,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 727,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "kirisute_LR",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 8,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "true",
+            "0.3",
+            "100",
+            "-100",
+            "EaseOutCubic",
+            "0.3",
+            "1.0",
+            "1.0",
+            "EaseOutCubic",
+            "0.3",
+            "0",
+            "EaseOutCubic",
+            "0.3",
+            "1",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "cmp",
+          "args": [
+            "CID",
+            "0.3",
+            "100",
+            "-100",
+            "1.0",
+            "1.0",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "SE_234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "true",
+            "0.2",
+            "700",
+            "50",
+            "EaseOutCirc",
+            "0.2",
+            "1.0",
+            "1.0",
+            "EaseOutCirc",
+            "0.2",
+            "0",
+            "EaseOutCirc",
+            "0.2",
+            "0",
+            "EaseOutCirc"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "cmp",
+          "args": [
+            "CID",
+            "0.2",
+            "700",
+            "50",
+            "1.0",
+            "1.0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "Naginata_loop",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 18,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "true",
+            "0.1",
+            "0",
+            "0",
+            "EaseOutCirc",
+            "0.1",
+            "0.95",
+            "0.95",
+            "EaseOutCirc",
+            "0.1",
+            "0",
+            "EaseInSine",
+            "0.1",
+            "1",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.075",
+            "-500",
+            "30",
+            "EaseOutCirc",
+            "0.075",
+            "1.05",
+            "1.05",
+            "EaseOutCirc",
+            "0.075",
+            "0",
+            "EaseInSine",
+            "0.075",
+            "1",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.075",
+            "150",
+            "10",
+            "EaseInCirc",
+            "0.075",
+            "1.1",
+            "1.1",
+            "EaseInCirc",
+            "0.075",
+            "0",
+            "EaseInSine",
+            "0.075",
+            "1",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.15",
+            "700",
+            "0",
+            "1",
+            "0.15",
+            "1.1",
+            "1.1",
+            "EaseInSine",
+            "0.15",
+            "0",
+            "EaseInSine",
+            "0.15",
+            "1",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.075",
+            "150",
+            "-10",
+            "EaseOutCirc",
+            "0.075",
+            "1.05",
+            "1.05",
+            "EaseOutCirc",
+            "0.075",
+            "0",
+            "EaseInSine",
+            "0.075",
+            "1",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.075",
+            "-500",
+            "-30",
+            "EaseInCirc",
+            "0.075",
+            "1.0",
+            "1.0",
+            "EaseInCirc",
+            "0.075",
+            "0",
+            "EaseInSine",
+            "0.075",
+            "1",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "cmp",
+          "args": [
+            "CID",
+            "0.5",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

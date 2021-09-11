@@ -1,0 +1,2139 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110385015",
+  "filename": "110385015",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 7,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0027_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "print",
+          "args": [
+            "SYS",
+            "墨丘利在\\n守護聖魯塔斯一戰中負傷之後，\\n經過一段時間……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2181",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "MAGIC_CURE_CH",
+          "args": [
+            "M",
+            "M",
+            "d2181",
+            "c3485",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3485"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2181",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2181"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "print",
+          "args": [
+            "希莫鳥",
+            "好，這樣治療就全部結束了。\\n可以不用再保持人類的模樣囉。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2181"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3485",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110385_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "真的嗎！\\n謝謝妳幫我治療，希莫鳥。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHANGE_DRAGON_RELEASE",
+          "args": [
+            "c3485",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "呼……總算能解除變化了。\\n果然還是這個模樣比較讓人放鬆呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "HATENA_EMO",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_1003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "咦，墨丘利？\\n什麼嘛～妳不變成人類的模樣囉？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "哎呀，緋龍。是啊，畢竟傷已痊癒，\\n想說應該差不多了。\\n況且理解人類這個目標也算大致達成。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "咦～真浪費。有什麼關係嘛，\\n沒有目標也可以保持人類的模樣啊。\\n和人一起生活的話，那樣比較方便吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "無論哪種模樣都沒有差別。\\n現在的話，我可以很肯定地這麼說。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "唔～嗯，妳真看得開呢。\\n我還沒辦法到那種境界。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01105",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "c_bound_b",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "因為要和達令相愛的話，\\n龍族的模樣實在有點……\\n我還是無法接受。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "呵呵，無論擁有怎樣的外貌，\\n都能互相尊重，彼此認同啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "c_bound_b",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "這個嘛……\\n如果妳這麼說的話，或許是吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7",
+            "SE_NHAA"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "c_jump2",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "那姆",
+            "不好、不好啦～！\\n墨丘利在這裡嗎！？\\n聽說聖魯塔斯有事件發生了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "play_sound",
+          "args": [
+            "VO_DRG_210003_STORY_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "咦……莫非又是帝國！？\\n竟然如此學不乖……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "c_swing_h",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "print",
+          "args": [
+            "那姆",
+            "不是，這次好像是魔獸！\\n墨丘利也要去幫忙嗎！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "c_bound_b_slow",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "是啊，當然。\\n緋龍，抱歉在談話途中離開，\\n但我得走了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "c_bound_b",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "沒關係，我也去。\\n妳珍視的事物，我陪妳一起守護！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "c01105",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "SE_136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "KAMITE_OUT_SLOW",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "fade_color",
+          "args": [
+            "0.15",
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "fade_color",
+          "args": [
+            "0.15",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0018_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0207",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "魔獸",
+            "嘎喔喔喔喔！！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0235",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120035_STORY_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "print",
+          "args": [
+            "聖魯塔斯兵",
+            "採取陣形進行掩護！\\n記得和守護龍大人攜手合作！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "謝謝各位。好了，退下吧！\\n我將用這一擊將敵人吹散。\\n──高壓噴射！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_ATTACK_WATER",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0207",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_163",
+            "EFF_SCE_2D_CMN_061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_061",
+            "24",
+            "10",
+            "255"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "10",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0126"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "wait",
+          "args": [
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_061",
+            "0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0205"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "魔獸",
+            "咕嚕喔啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "MONSTER_BEAT_AFTER_0",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0235",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "c_bound_b",
+          "args": [
+            "c0235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120035_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "聖魯塔斯兵",
+            "好……成功啦！\\n謝謝您，守護龍大人！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "該道謝的是我才對。\\n因為你們教會了我很重要的事情。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0235",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "print",
+          "args": [
+            "聖魯塔斯兵",
+            "咦？我們嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "c_bound_b_slow",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "是的。你們從最初開始，\\n就並非以「龍族」這一種族看待我，\\n而是認同我為深愛同一都市的夥伴吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "多虧有許多並非以種族看我，\\n而是認同我這個個體的人們存在，\\n我才能真正理解。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "我之所以想守護聖魯塔斯的居民，\\n不是因為人類弱小，\\n而是因為我很珍惜你們。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0235",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "聖魯塔斯兵",
+            "……守護龍大人……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "打從最初就和種族什麼的無關。\\n我將不再因為龍族的身份，\\n而是以我自己守護這座都市與居民。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "所以，今後也請各位\\n繼續與我共同守護這座都市。\\n……可以嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0235",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "c_bound_b",
+          "args": [
+            "c0235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120035_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "聖魯塔斯兵",
+            "當然啊！身為人類與龍族\\n攜手共存的聖魯塔斯居民，\\n能聽見這番話真的很高興。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "謝謝你們。我擁有的強大力量，\\n是為了守護重要事物而存在。\\n我也很高興自己能打從心底這麼想。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0235",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0235",
+            "SE_WALK_OUT_GR_ARM"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0017_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "哎喲，墨丘利真是的，\\n說得很令人感動呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "「無論擁有怎樣的外貌，\\n　都能互相尊重，彼此認同。」\\n就是指這個意思吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "是啊。\\n……緋龍，妳願意聽我說嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "c_bound_b",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "嗯，好啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "我在剛以人類的模樣生活時，\\n單純以為是由於外貌相近，\\n才讓我變得能理解人類。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "哼～"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "play_sound",
+          "args": [
+            "VO_DRG_210003_STORY_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "但聖城裡擁有各種不同外貌的人們，\\n告訴了我其實並非如此。\\n所以我一直在思考那個理由……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "而最近，我終於明白了。\\n我對自己並非人類而是龍族的自覺，\\n在內心築起了一道高牆。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "所以，變身人類模樣時，\\n我便感覺那道高牆似乎變薄了。\\n因為身為龍族的自傲稍微減輕了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "……原來妳一直在想這麼複雜的事呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "不過，也多虧我思考了許多事，\\n才能更了解人類，\\n並加深人類與龍族的羈絆啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "人類與龍族的羈絆嗎。\\n總覺得聽到剛才那些話，\\n讓我想起了阿爾博流斯。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "那傢伙也常把那些話掛在嘴邊呢。\\n說將人類與龍族區分開來的世界\\n太狹窄了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "所以他要創造人類與龍族\\n能夠沒有隔閡共處的廣大世界。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "是啊。而阿爾博流斯的志向\\n遺留在我們心中，並指引我們來到\\n與他擁有相同志向的主人身邊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "阿爾博流斯和碧龍構築起的羈絆歷史，\\n現在也確實存在。我如此希望。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "c_bound_b",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100010_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "那當然啊。並且以後，\\n也會透過妳、我、以及達令的手\\n持～續地連繫著未來！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "和人類還是龍族無關，\\n只要擁有想守護的心情，\\n就一定辦得到。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "是啊。我今後也打算繼續為此\\n與人類交流，讓彼此心意相通，\\n並一同邁向未來。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "不僅以聖魯塔斯守護龍的身分。\\n也以吾等主人契約龍的身分──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "BLACK_OUT_DEF_STOP_FIN",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,5454 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1001307",
+  "filename": "1001307",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "在设施的最深处，法尔艾斯开始了他的实验。\\n贝维特将魔幻炉中的魔力注入龙体内，\\n创造出了拥有黑暗魔力的波塞冬。\\n王子一行人与赶来救援的利弗\\n一同向强大的龙发起挑战。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0115_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "这里就是最深处了吗……",
+            "VO_CHR_MAINSTORY_13_07_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这地方还挺宽敞的……\\n嗯？那是……",
+            "VO_CHR_MAINSTORY_13_07_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0349"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "set_volume",
+          "args": [
+            "0.5",
+            "0",
+            "SE_STORY_COMMON_0349"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0209"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "stop_se",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "这是什么……好像……也不是水啊。\\n还闪着诡异的光……",
+            "VO_CHR_MAINSTORY_13_07_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "c_bound_b",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "像是被吸过来一样……\\n莫非……这就是所谓的人造魔力？",
+            "VO_CHR_MAINSTORY_13_07_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "按理说，魔力本该是既看不见\\n也无法触碰的无形之力才对……",
+            "VO_CHR_MAINSTORY_13_07_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "做成这种形状是为了\\n便于控制魔力吗……\\n真是难以想象的先进技术……",
+            "VO_CHR_MAINSTORY_13_07_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "但这也太过分了吧……\\n汲取了这么多魔力，\\n难怪湖水和森林会变得异常……",
+            "VO_CHR_MAINSTORY_13_07_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "c_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "{player_name}！\\n他们两个在那里！",
+            "VO_CHR_MAINSTORY_13_07_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "mnu_fade",
+          "args": [
+            "c01142",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "mnu_fade",
+          "args": [
+            "c0138",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "cmp_fade",
+          "args": [
+            "c01142",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "cmp_fade",
+          "args": [
+            "c0138",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "chara_visible",
+          "args": [
+            "c01142",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "chara_visible",
+          "args": [
+            "c0138",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c01142",
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "11",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "法尔艾斯哥哥！贝维特！",
+            "VO_CHR_MAINSTORY_13_07_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "{player_name}，\\n你还真来了呢。\\n我很欢迎你们的到来。",
+            "VO_CHR_MAINSTORY_13_07_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "法尔艾斯哥哥！\\n你之前就知道这处设施吗…",
+            "VO_CHR_MAINSTORY_13_07_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "魔幻炉——即采集魔力\\n并将其实体化加以利用的\\n古代智慧。",
+            "VO_CHR_MAINSTORY_13_07_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "依我所见，建造这处设施\\n是为了对早期的魔幻炉\\n进行性能测试。",
+            "VO_CHR_MAINSTORY_13_07_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "这里积蓄了庞大的魔力——\\n用来进行我的实验\\n真是再合适不过了。",
+            "VO_CHR_MAINSTORY_13_07_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "好了贝维特，开始吧……",
+            "VO_CHR_MAINSTORY_13_07_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "贝维特",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "StopEye_close",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0138",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0167"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_207",
+            "EFF_SCE_2D_CMN_062",
+            "EFF_SCE_2D_CMN_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_207",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_207",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_207",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_207",
+            "0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_207",
+            "4",
+            "1",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "1.0",
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0167"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0187"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "2",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "set_BG_effect",
+          "args": [
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0002_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "mnu_move",
+          "args": [
+            "c0102",
+            "true",
+            "0.2",
+            "50",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "mnu_move",
+          "args": [
+            "c0102",
+            "false",
+            "0.08",
+            "6",
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "mnu_move",
+          "args": [
+            "c0102",
+            "false",
+            "0.1",
+            "-12",
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "mnu_move",
+          "args": [
+            "c0102",
+            "false",
+            "0.08",
+            "6",
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "cmp_move",
+          "args": [
+            "c0102",
+            "0.46",
+            "50",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "呃……\\n这阵猛烈的风是怎么回事……",
+            "VO_CHR_MAINSTORY_13_07_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "那个小鬼，到底做了什么！",
+            "VO_CHR_MAINSTORY_13_07_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "呜……大家找个东西抓紧！",
+            "VO_CHR_MAINSTORY_13_07_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "c_swing_h",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "要被吹飞了！",
+            "VO_CHR_MAINSTORY_13_07_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "c_bound_b",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "纳姆，抓紧我！",
+            "VO_CHR_MAINSTORY_13_07_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "c_bound_b",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "嗯，好！",
+            "VO_CHR_MAINSTORY_13_07_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "Q",
+            "M",
+            "R",
+            "c0107",
+            "6",
+            "SE_NHAA"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c01019",
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0153"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "set_volume",
+          "args": [
+            "0",
+            "1.0",
+            "SE_STORY_COMMON_0187"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_REN_005",
+            "1",
+            "1",
+            "EFF_SCE_2D_CMN_201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0",
+            "100",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "3",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0.1",
+            "0.1",
+            "2.0",
+            "EaseInQuart",
+            "3",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "1",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_REN_005",
+            "0",
+            "600"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_REN_005",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "set_BG_effect_rotation",
+          "args": [
+            "EFF_SCE_2D_REN_005",
+            "180"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "25",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "0.1",
+            "0.3",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "0",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "wait",
+          "args": [
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0423"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "EFF_SCE_2D_CMN_213",
+            "EFF_SCE_2D_CMN_214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "9",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "2",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1",
+            "1",
+            "1.0",
+            "1",
+            "2",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "-55"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "魔力全都、被吸进去了……",
+            "VO_CHR_MAINSTORY_13_07_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "好浓烈的瘴气……\\n甚至无法直视……",
+            "VO_CHR_MAINSTORY_13_07_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "c_jump",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "那家伙的身体\\n到底是什么情况……",
+            "VO_CHR_MAINSTORY_13_07_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "贝维特准备就绪了呢。\\n那么接下来就是这个……",
+            "VO_CHR_MAINSTORY_13_07_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "set_camera_distortion",
+          "args": [
+            "cameraType_Chara",
+            "true",
+            "EFF_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "EFF_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_007",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_007",
+            "1.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.5",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "set_camera_distortion",
+          "args": [
+            "cameraType_Chara",
+            "false",
+            "EFF_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "有什么东西从里面出来了！",
+            "VO_CHR_MAINSTORY_13_07_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "可恶，又是黑暗魔力之龙吗！\\n接连不断地冒出来！",
+            "VO_CHR_MAINSTORY_13_07_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不、不对……听这叫声，\\n是还保有一丝理智的龙。\\n但好像充满了愤怒……",
+            "VO_CHR_MAINSTORY_13_07_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "CHARA_SHIMOTE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2125",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "print",
+          "args": [
+            "波塞冬",
+            "嗷嗷嗷嗷嗷！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这头龙……\\n难道是黎布湖的……",
+            "VO_CHR_MAINSTORY_13_07_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "c_bound_b",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "你没猜错，\\n这正是掌管湖中魔力的水龙。",
+            "VO_CHR_MAINSTORY_13_07_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "c_swing_h",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "难怪没在湖里看到……\\n原来你把龙抓来了这里吗！？",
+            "VO_CHR_MAINSTORY_13_07_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "准确地来说，\\n我只是接管了这头被皇帝陛下\\n下令活捉的龙而已。",
+            "VO_CHR_MAINSTORY_13_07_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "莫尔托梅塞亚的命令！？\\n法尔艾斯哥哥，\\n你为什么要与魔神为伍！",
+            "VO_CHR_MAINSTORY_13_07_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "帮助我研究的是魔神\\n还是人类，我并不在意。",
+            "VO_CHR_MAINSTORY_13_07_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "我和皇帝陛下\\n有着共同的目标。",
+            "VO_CHR_MAINSTORY_13_07_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2125",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "波塞冬",
+            "嗷嗷嗷嗷嗷！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "法尔艾斯哥哥，\\n那孩子有危险！",
+            "VO_CHR_MAINSTORY_13_07_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "……",
+            "VO_CHR_MAINSTORY_13_07_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2125",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "play_sound",
+          "args": [
+            "SE_129"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "set_camera_distortion",
+          "args": [
+            "1",
+            "true",
+            "EFF_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "EFF_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_007",
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "mnu_scale",
+          "args": [
+            "d2125",
+            "true",
+            "0.15",
+            "1.35",
+            "1.35",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "mnu_scale",
+          "args": [
+            "d2125",
+            "false",
+            "0.15",
+            "1",
+            "1",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "cmp_scale",
+          "args": [
+            "d2125",
+            "0.3",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "set_camera_distortion",
+          "args": [
+            "1",
+            "false",
+            "EFF_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 458,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1.1",
+            "1.1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1.1",
+            "1.1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "c_zoom_stay",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯！？到底要做什么……",
+            "VO_CHR_MAINSTORY_13_07_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "2",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0",
+            "3",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0.1",
+            "0.1",
+            "3",
+            "1",
+            "1.1",
+            "1.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0",
+            "640",
+            "3",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "wait",
+          "args": [
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "c_mnu_reset",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2125",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "set_render_target",
+          "args": [
+            "d2125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 500,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_010",
+            "EFF_SCE_2D_REN_001",
+            "EFF_SCE_2D_CMN_011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_REN_001",
+            "1.1",
+            "1.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_REN_001",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_010",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_010",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_010",
+            "96",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "96",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "0.1",
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "0",
+            "640"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "8",
+            "25",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_010",
+            "1",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "1",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "2",
+            "2",
+            "3",
+            "1",
+            "0.1",
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "0",
+            "-640",
+            "3",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1",
+            "3",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1",
+            "1",
+            "3",
+            "1",
+            "0.1",
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0",
+            "-640",
+            "3",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "wait",
+          "args": [
+            "3.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "mnu",
+          "args": [
+            "d2201",
+            "true",
+            "0.01",
+            "41",
+            "-26",
+            "1",
+            "0.01",
+            "1.573",
+            "1.573",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.01",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "cmp",
+          "args": [
+            "d2201",
+            "0.01",
+            "41",
+            "-26",
+            "1.573",
+            "1.573",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_REN_001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_001",
+            "27",
+            "22",
+            "38",
+            "1",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0453"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "wait",
+          "args": [
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 529,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_010",
+            "0",
+            "0.2",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "0",
+            "0.2",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "c0102",
+            "7",
+            "M",
+            "Q",
+            "c0103",
+            "7",
+            "M",
+            "Q",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 539,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "print",
+          "args": [
+            "全员",
+            "！？",
+            "VO_CHR_MAINSTORY_13_07_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0102",
+            "c0103",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0002_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "1",
+            "0.2",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_010",
+            "1",
+            "0.2",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "1",
+            "0.2",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 550,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0153"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "stop_se",
+          "args": [
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_010",
+            "0",
+            "2.8",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_011",
+            "0",
+            "2.8",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 556,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_213",
+            "0",
+            "2.8",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "print",
+          "args": [
+            "波塞冬",
+            "嗷、嗷、嗷……嗷嗷嗷嗷嗷！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 560,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "龙被……",
+            "VO_CHR_MAINSTORY_13_07_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "被黑暗魔力吞噬了……",
+            "VO_CHR_MAINSTORY_13_07_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 576,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 580,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "是那个孩子\\n在创造黑暗魔力之龙……",
+            "VO_CHR_MAINSTORY_13_07_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 588,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "mnu_fade",
+          "args": [
+            "d2201",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "mnu_fade",
+          "args": [
+            "c0138",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "cmp_fade",
+          "args": [
+            "d2201",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "cmp_fade",
+          "args": [
+            "c0138",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "chara_visible",
+          "args": [
+            "d2201",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "chara_visible",
+          "args": [
+            "c0138",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "d2201",
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这么说，是你一直\\n在派龙袭击我们……",
+            "VO_CHR_MAINSTORY_13_07_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "c_bound_b",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "print",
+          "args": [
+            "贝维特",
+            "嗯，是啊。我还在想\\n你们什么时候才能发现呢。",
+            "VO_CHR_MAINSTORY_13_07_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 616,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 617,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 618,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "啧，所以才有那么多龙\\n朝我们冲过来啊。",
+            "VO_CHR_MAINSTORY_13_07_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 626,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "那家伙，竟敢骗我们！",
+            "VO_CHR_MAINSTORY_13_07_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "好了，让我见识一下\\n全新的黑暗魔力之龙\\n有多大能耐吧……",
+            "VO_CHR_MAINSTORY_13_07_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 637,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "正好这里就有\\n很合适的实验对象呢……\\n就请你们协助我的实验吧。",
+            "VO_CHR_MAINSTORY_13_07_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "法尔艾斯哥哥！",
+            "VO_CHR_MAINSTORY_13_07_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "NO_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "呃……等等！\\n为什么！到底是为什么！",
+            "VO_CHR_MAINSTORY_13_07_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 657,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "艾德……不，贝维特……哥哥。\\n你也快住手吧！",
+            "VO_CHR_MAINSTORY_13_07_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 663,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "为什么我们\\n非得互相争斗呢！",
+            "VO_CHR_MAINSTORY_13_07_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 671,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "print",
+          "args": [
+            "贝维特",
+            "你叫我……哥哥吗。\\n无知还真是可悲呢。",
+            "VO_CHR_MAINSTORY_13_07_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 679,
+          "command": "CHARA_ATTACK_DRG",
+          "args": [
+            "d2201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 680,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 687,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 688,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "{player_name}！\\n危险！快躲开！",
+            "VO_CHR_MAINSTORY_13_07_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 693,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 694,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 695,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "！",
+            "VO_CHR_MAINSTORY_13_07_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 700,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 703,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "mainstory_013004",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "CHARA_UNCOLOR",
+          "args": [
+            "mainstory_013004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 705,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "print",
+          "args": [
+            "？？？",
+            "{player_name}殿下，\\n抱歉我来晚了——",
+            "VO_CHR_MAINSTORY_13_07_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 708,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 709,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 710,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0099"
+          ],
+          "end": 1
+        },
+        {
+          "row": 711,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 712,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 715,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0454"
+          ],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 717,
+          "command": "effect_shake_chara",
+          "args": [
+            "1",
+            "0.3",
+            "0.3",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 719,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "利弗！",
+            "VO_CHR_MAINSTORY_13_07_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 723,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 724,
+          "command": "print",
+          "args": [
+            "利弗",
+            "殿下，您没受伤吧？",
+            "VO_CHR_MAINSTORY_13_07_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 727,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 728,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊、嗯。谢谢你，利弗……\\n但你是怎么找到这里的……",
+            "VO_CHR_MAINSTORY_13_07_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 731,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 732,
+          "command": "print",
+          "args": [
+            "利弗",
+            "是谢斯大人告诉我的。\\n她掌握了法尔艾斯大人\\n正在此地图谋不轨的情报。",
+            "VO_CHR_MAINSTORY_13_07_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 735,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 736,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "mainstory_013004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 737,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 738,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 740,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 741,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 742,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "原来，是谢斯姐姐……",
+            "VO_CHR_MAINSTORY_13_07_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 744,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 747,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01182",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 748,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 749,
+          "command": "print",
+          "args": [
+            "利弗",
+            "法尔艾斯大人，\\n请恕我冒昧谏言。\\n您已经误入歧途……",
+            "VO_CHR_MAINSTORY_13_07_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 752,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01182",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 753,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 754,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 755,
+          "command": "print",
+          "args": [
+            "利弗",
+            "您的才智应当\\n为阿尔贝里亚带来光明——\\n而绝非用在这种地方。",
+            "VO_CHR_MAINSTORY_13_07_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 757,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 760,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 761,
+          "command": "c_bound2_t",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 762,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 763,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "呵呵，利弗，你真是没变呢，\\n还是那么喜欢说教。\\n不过……",
+            "VO_CHR_MAINSTORY_13_07_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 766,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 767,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 768,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 769,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "既然利弗也来了，\\n实验的舞台已经趋于完美。",
+            "VO_CHR_MAINSTORY_13_07_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 772,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 773,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 774,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "对龙注入超过其原本力量的魔力\\n会导致什么样的结果呢……\\n让我们快点开始验证吧。",
+            "VO_CHR_MAINSTORY_13_07_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 776,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 778,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 779,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0451"
+          ],
+          "end": 1
+        },
+        {
+          "row": 780,
+          "command": "print",
+          "args": [
+            "波塞冬",
+            "嗷嗷嗷嗷嗷！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 781,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 782,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 785,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 786,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 787,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 788,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "法尔艾斯哥哥……\\n你已经听不进我的话了吗……",
+            "VO_CHR_MAINSTORY_13_07_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 791,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 792,
+          "command": "StopEye_close",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 793,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 794,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 795,
+          "command": "c_bound_b",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 796,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 797,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 798,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那么……我就只能用武力\\n来阻止你和那头龙了！",
+            "VO_CHR_MAINSTORY_13_07_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 800,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 803,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01182",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 804,
+          "command": "c_swing_h",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 805,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 806,
+          "command": "print",
+          "args": [
+            "利弗",
+            "殿下，请千万当心。\\n那头黑暗魔力之龙……\\n看起来很不好对付。",
+            "VO_CHR_MAINSTORY_13_07_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 809,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01182",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 810,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 811,
+          "command": "print",
+          "args": [
+            "利弗",
+            "还请让我为您\\n献上微薄之力。",
+            "VO_CHR_MAINSTORY_13_07_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 813,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 816,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 817,
+          "command": "c_bound_b",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 818,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 819,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "利弗，那就拜托你了！\\n各位，我们上！",
+            "VO_CHR_MAINSTORY_13_07_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 821,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 823,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "c0103",
+            "11",
+            "M",
+            "M",
+            "c0104",
+            "11",
+            "M",
+            "M",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 824,
+          "command": "c_bound_b",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 825,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 826,
+          "command": "c_bound_b",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 827,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_07_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 828,
+          "command": "print",
+          "args": [
+            "全员",
+            "好！",
+            "VO_CHR_MAINSTORY_13_07_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 834,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 835,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

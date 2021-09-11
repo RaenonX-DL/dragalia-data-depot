@@ -1,0 +1,4559 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1001609",
+  "filename": "1001609",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 10,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "outline",
+          "args": [
+            "莱昂尼多收到迦道夫的来信\\n说想带王子去精灵国。\\n他给王子看了信件并命其前往\\n北格拉斯迪亚的格拉姆斯见迦道夫。\\n王子同意，将与谢斯一同上路。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_074",
+            "EFF_SCE_2D_CMN_205",
+            "EFF_SCE_2D_CMN_206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "2",
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_205",
+            "20"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_206",
+            "20"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0135",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_205",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "screen_fadeout",
+          "args": [
+            "0.05",
+            "255",
+            "255",
+            "255"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0219"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "WHITE_IN_LONG",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "print",
+          "args": [
+            "谢希耶尔",
+            "哈啊、哈啊……\\n看来你多少有些长进啊，\\n埃尔菲莉丝……唔、呃……",
+            "VO_CHR_MAINSTORY_16_09_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "mnu_move",
+          "args": [
+            "c0135",
+            "true",
+            "0.2",
+            "0",
+            "-50",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "cmp_move",
+          "args": [
+            "c0135",
+            "0.2",
+            "0",
+            "-50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "谢希耶尔，你没事吧……\\n我这就为你疗伤！",
+            "VO_CHR_MAINSTORY_16_09_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c0135",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "c_swing2_h",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "print",
+          "args": [
+            "谢希耶尔",
+            "别碰我！\\n与其被你救……\\n我还不如死在这里！",
+            "VO_CHR_MAINSTORY_16_09_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0135",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "谢希耶尔",
+            "！",
+            "VO_CHR_MAINSTORY_16_09_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "赶紧滚。\\n如果撤退违反你的美学，\\n我就给你一个借口……",
+            "VO_CHR_MAINSTORY_16_09_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "你告诉奈迪犹——让阿尔贝里亚\\n陷入混乱，将我的弟弟们玩弄于\\n股掌之间，这份礼我一定会还……",
+            "VO_CHR_MAINSTORY_16_09_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c0135",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "谢希耶尔",
+            "你们不愧是兄弟……\\n都让人绝望……",
+            "VO_CHR_MAINSTORY_16_09_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "mnu_move",
+          "args": [
+            "c0135",
+            "true",
+            "0.4",
+            "0",
+            "50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "cmp_move",
+          "args": [
+            "c0135",
+            "0.4",
+            "0",
+            "50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "chara_brightness",
+          "args": [
+            "c0135",
+            "0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "EFF_SCE_2D_CMN_063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "SHIMOTE_OUT_VERYFAST",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "又消失了吗……",
+            "VO_CHR_MAINSTORY_16_09_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "谢希耶尔……你怎么会\\n变成现在这副样子……",
+            "VO_CHR_MAINSTORY_16_09_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "嗯？{player_name}！\\n对面来了一支军队！",
+            "VO_CHR_MAINSTORY_16_09_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "什么，是敌人来袭吗？\\n不，那面军旗是……\\n谢斯姐姐！",
+            "VO_CHR_MAINSTORY_16_09_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "{player_name}！\\n莱昂尼多王兄！",
+            "VO_CHR_MAINSTORY_16_09_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "谢斯这家伙，总算来了。\\n{player_name}，我们回圣城。\\n看来有些话该告诉你了。",
+            "VO_CHR_MAINSTORY_16_09_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "！",
+            "VO_CHR_MAINSTORY_16_09_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "击退散布谣言的无礼之徒\\n和净化黑暗魔力之龙的场面，\\n我都没赶上……",
+            "VO_CHR_MAINSTORY_16_09_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0115",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "怎么能在我赶到之前\\n就把一切都处理完了呢，\\n你们两个像招待淑女的样子吗？",
+            "VO_CHR_MAINSTORY_16_09_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "是你自己算准了\\n一切都结束了才来的吧？",
+            "VO_CHR_MAINSTORY_16_09_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "谢斯，现在可没空陪你演戏。\\n我要开始说了，\\n非王室成员先退下……",
+            "VO_CHR_MAINSTORY_16_09_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "c_swing2_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不，哥哥，我希望所有人都留下，\\n我想让这些支持我的伙伴们\\n也听听这些话……",
+            "VO_CHR_MAINSTORY_16_09_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "那就是你的原则吗……\\n行吧。",
+            "VO_CHR_MAINSTORY_16_09_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "谢谢你，莱昂尼多哥哥……\\n那你说的想告诉我的事是……",
+            "VO_CHR_MAINSTORY_16_09_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "当然是关于你的身世。",
+            "VO_CHR_MAINSTORY_16_09_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "O",
+            "c0102",
+            "7",
+            "M",
+            "O",
+            "c0103",
+            "7",
+            "M",
+            "O",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "print",
+          "args": [
+            "全员",
+            "！",
+            "VO_CHR_MAINSTORY_16_09_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0102",
+            "c0103",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "莱昂尼多哥哥果然知道\\n我出生时相关的事吗？",
+            "VO_CHR_MAINSTORY_16_09_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "c_swing_h",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "你别误会。关于你的秘密，\\n我既不是亲眼所见，\\n也不是听父王所说。",
+            "VO_CHR_MAINSTORY_16_09_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "但有一件事是千真万确的。",
+            "VO_CHR_MAINSTORY_16_09_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "那本史书，并不是伪造的……\\n它的确是被人从王室偷走的。",
+            "VO_CHR_MAINSTORY_16_09_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "也就是说，那本史书的内容……",
+            "VO_CHR_MAINSTORY_16_09_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "很可能就是事实……\\n{player_name}，你恐怕\\n并没有继承父王的血脉。",
+            "VO_CHR_MAINSTORY_16_09_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "c0104",
+            "9",
+            "M",
+            "Q",
+            "c0103",
+            "4",
+            "M",
+            "Q",
+            "c01055",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "全员",
+            "……",
+            "VO_CHR_MAINSTORY_16_09_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0104",
+            "c0103",
+            "c01055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "c_swing_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "怎、怎么会……那我是……",
+            "VO_CHR_MAINSTORY_16_09_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "先别急，听我说完。\\n还有一件事，\\n是关于那份盟约书的。",
+            "VO_CHR_MAINSTORY_16_09_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "上面的印章和署名\\n都不是伪造的。\\n那无疑是父王签下的……",
+            "VO_CHR_MAINSTORY_16_09_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "而且如那上面的署名所示，\\n和父王秘密约定调换王子的，\\n是一个叫芬罗达的男人。",
+            "VO_CHR_MAINSTORY_16_09_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "他是曾与阿尔贝里亚王室有过交流、\\n位于北格拉斯迪亚的国家——\\n“精灵国”的国王。",
+            "VO_CHR_MAINSTORY_16_09_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "O",
+            "c01097",
+            "7",
+            "M",
+            "O",
+            "c0106",
+            "7",
+            "M",
+            "O",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "print",
+          "args": [
+            "全员",
+            "！？",
+            "VO_CHR_MAINSTORY_16_09_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c01097",
+            "c0106",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01097",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "泽娜",
+            "那么，也就是说……\\n哥哥是在那个“精灵国”\\n出生的吗……",
+            "VO_CHR_MAINSTORY_16_09_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "{player_name}……\\n在精灵的国家……",
+            "VO_CHR_MAINSTORY_16_09_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "喂，纳姆！\\n精灵国是个什么样的国家？\\n你知道些什么吗！",
+            "VO_CHR_MAINSTORY_16_09_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "ASE_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "c_swing2_h",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "我、我什么都不知道！\\n就连有这样一个国家存在\\n也是第一次听说……",
+            "VO_CHR_MAINSTORY_16_09_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0107",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "NO_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "虽然的确听说过\\n北格拉斯迪亚有一个地方\\n住着像我一样的精灵……",
+            "VO_CHR_MAINSTORY_16_09_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0107",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "但是……\\n我从来没有离开过阿尔贝里亚，\\n所以不知道啊……",
+            "VO_CHR_MAINSTORY_16_09_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01097",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "print",
+          "args": [
+            "泽娜",
+            "可是，哥哥他\\n明显不是精灵……",
+            "VO_CHR_MAINSTORY_16_09_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那……我，到底是……",
+            "VO_CHR_MAINSTORY_16_09_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "关于你的真实身份，\\n还没有任何线索。",
+            "VO_CHR_MAINSTORY_16_09_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "但是，北格拉斯迪亚那边似乎有\\n掌握线索的关键人物。前几天我收到了\\n那个男人寄来的信件。给你——",
+            "VO_CHR_MAINSTORY_16_09_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "c_zoom",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……",
+            "VO_CHR_MAINSTORY_16_09_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0319"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "各位……我来读这封信，\\n你们都听一下吧——",
+            "VO_CHR_MAINSTORY_16_09_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "“听闻亚罗拉斯大人已过世，\\n特此执笔悼念我们往日的\\n深厚友谊——”",
+            "VO_CHR_MAINSTORY_16_09_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "“我知道自己是时候完成\\n大人生前托付给我的使命了。”",
+            "VO_CHR_MAINSTORY_16_09_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "“即是带{player_name}殿下\\n前往北格拉斯迪亚的精灵国——”",
+            "VO_CHR_MAINSTORY_16_09_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "“因此，还请告知王子殿下\\n先前往圣都格拉姆斯。”",
+            "VO_CHR_MAINSTORY_16_09_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "“望身为长兄的阁下\\n能帮助王子顺利\\n从阿尔贝里亚出发……”",
+            "VO_CHR_MAINSTORY_16_09_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "“格拉姆斯第十二支部自卫团团长\\n迦道夫 敬上”。\\n这……",
+            "VO_CHR_MAINSTORY_16_09_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "{player_name}，\\n你应该也多多少少听说过\\n格拉姆斯这个名字吧？",
+            "VO_CHR_MAINSTORY_16_09_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "那里是由伊莉雅教统治的\\n北格拉斯迪亚之都。",
+            "VO_CHR_MAINSTORY_16_09_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "父王生前也对我说过，\\n要是他有一天不在了，\\n就让我去格拉姆斯……",
+            "VO_CHR_MAINSTORY_16_09_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "应该也是为了向这个男人\\n寻求帮助吧。",
+            "VO_CHR_MAINSTORY_16_09_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "莱昂尼多哥哥认识\\n这个叫迦道夫的人吗？",
+            "VO_CHR_MAINSTORY_16_09_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "他从很久以前就和父王交好，\\n以前也来过王城几次，\\n但具体情况我就不清楚了。",
+            "VO_CHR_MAINSTORY_16_09_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "c_bound_b",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "好了，我要告诉你的\\n就是这些了……",
+            "VO_CHR_MAINSTORY_16_09_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "综上所述，我要作为长兄\\n对你下达命令——",
+            "VO_CHR_MAINSTORY_16_09_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "择日从阿尔贝里亚启程\\n前往北格拉斯迪亚，\\n拜访父王的旧友迦道夫。",
+            "VO_CHR_MAINSTORY_16_09_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "等一下，莱昂尼多哥哥！\\n我不在的时候谁来保护圣城，\\n不，谁来保护阿尔贝里亚啊！",
+            "VO_CHR_MAINSTORY_16_09_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "之前我一心想着魔神与塞西娅的事\\n而置民众于不顾……\\n通过这次的事我才幡然醒悟。",
+            "VO_CHR_MAINSTORY_16_09_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "c_swing2_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "在形势如此不稳定的情况下，\\n我怎么能离开阿尔贝里亚！",
+            "VO_CHR_MAINSTORY_16_09_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "正如我之前对民众所说，\\n阿尔贝里亚由我来统治。",
+            "VO_CHR_MAINSTORY_16_09_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "c_swing_h",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "这场骚乱不过是暂时平息了而已。\\n和王室作对的人，\\n一定还会利用关于你的谣言。",
+            "VO_CHR_MAINSTORY_16_09_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "你现在留在阿尔贝里亚，\\n可能对这个国家的重建\\n造成负面影响。",
+            "VO_CHR_MAINSTORY_16_09_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这……\\n的确如哥哥所说……",
+            "VO_CHR_MAINSTORY_16_09_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "而且根据情报，\\n那个叫奈迪犹的男人\\n也带着塞西娅一路向北……",
+            "VO_CHR_MAINSTORY_16_09_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你说什么！？\\n谢斯姐姐，这是真的吗！",
+            "VO_CHR_MAINSTORY_16_09_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "c_bound_b",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "千真万确。就算是为了夺回妹妹，\\n也要尽量在周边观察他的动向，\\n难道不是吗？",
+            "VO_CHR_MAINSTORY_16_09_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这样啊……\\n塞西娅也向北……",
+            "VO_CHR_MAINSTORY_16_09_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "{player_name}，你听好——",
+            "VO_CHR_MAINSTORY_16_09_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "你到底是什么来头，\\n我现在也没有任何线索。",
+            "VO_CHR_MAINSTORY_16_09_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "但是，不管你是谁，\\n你都是我弟弟，\\n也是打败我的男人。",
+            "VO_CHR_MAINSTORY_16_09_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "去外面的世界开阔视野吧。\\n然后去查明你的真实身份，\\n直到你能接受为止。",
+            "VO_CHR_MAINSTORY_16_09_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "莱昂尼多哥哥……谢谢。\\n听了哥哥的这一番话，\\n我觉得释怀了一些……",
+            "VO_CHR_MAINSTORY_16_09_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "{player_name}，\\n你哥哥的提议，\\n我倒是觉得不错。",
+            "VO_CHR_MAINSTORY_16_09_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "c_bound_b",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "我也赞成！\\n我们去北格拉斯迪亚看看吧！",
+            "VO_CHR_MAINSTORY_16_09_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "print",
+          "args": [
+            "穆穆",
+            "对啊，亲爱的！\\n听起来就很有趣！",
+            "VO_CHR_MAINSTORY_16_09_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "c_bound2_b",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 529,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "嗯嗯，塞西娅也一定\\n在等着{player_name}呢！",
+            "VO_CHR_MAINSTORY_16_09_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 533,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你放心，不管发生什么事，\\n我们都不会离开\\n{player_name}身边的。",
+            "VO_CHR_MAINSTORY_16_09_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "请让我也同行吧。\\n我愿与殿下一起\\n面对任何困难险阻……",
+            "VO_CHR_MAINSTORY_16_09_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01097",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "c_bound_b",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "print",
+          "args": [
+            "泽娜",
+            "哥哥，我们向北进发吧！\\n去寻找新的自己——",
+            "VO_CHR_MAINSTORY_16_09_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "14"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "各位……\\n谢谢你们。",
+            "VO_CHR_MAINSTORY_16_09_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我知道了，莱昂尼多哥哥……\\n虽然有很多事让我不安，\\n但我还是决定去格拉姆斯看看。",
+            "VO_CHR_MAINSTORY_16_09_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "莱昂尼多哥哥，谢斯姐姐，\\n我不在的这段时间，\\n应该会给你们添很多麻烦。",
+            "VO_CHR_MAINSTORY_16_09_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "新阿尔贝里亚的民众和士兵们，\\n能否拜托你们照顾一下……",
+            "VO_CHR_MAINSTORY_16_09_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "咦，谁说要和莱昂尼多王兄\\n一起“看家”了？",
+            "VO_CHR_MAINSTORY_16_09_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 576,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "HATENA_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "诶？",
+            "VO_CHR_MAINSTORY_16_09_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "我很担心即将踏上旅程的\\n心爱的弟弟呢——",
+            "VO_CHR_MAINSTORY_16_09_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "我可没法\\n坐等弟弟回来。",
+            "VO_CHR_MAINSTORY_16_09_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0115",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0095"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "而且，我一直觉得阿尔贝利亚\\n对于我这种德才兼备的名媛来说\\n太过狭小而深感不满。",
+            "VO_CHR_MAINSTORY_16_09_0095"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0115",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 599,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "果然还是世界这个舞台\\n才配得上我！",
+            "VO_CHR_MAINSTORY_16_09_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "谢斯姐姐？\\n也就是说……",
+            "VO_CHR_MAINSTORY_16_09_0097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "c_bound_b",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0098"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "对，就是这么回事。\\n我决定跟你一同出发。",
+            "VO_CHR_MAINSTORY_16_09_0098"
+          ],
+          "end": 1
+        },
+        {
+          "row": 616,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 618,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "7",
+            "M",
+            "M",
+            "c0106",
+            "10",
+            "M",
+            "M",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0099"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "print",
+          "args": [
+            "全员",
+            "诶诶诶诶！",
+            "VO_CHR_MAINSTORY_16_09_0099"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0104",
+            "c0106",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "{player_name}，感到高兴吧！\\n有我当参谋，不管是多么\\n艰难的旅途都不足为惧！",
+            "VO_CHR_MAINSTORY_16_09_0100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "{player_name}，\\n这也是我的要求，带上谢斯\\n在路上会对你有所帮助。",
+            "VO_CHR_MAINSTORY_16_09_0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "如果能有谢斯姐姐同行\\n确实很可靠……\\n可是莱昂尼多哥哥没问题吗？",
+            "VO_CHR_MAINSTORY_16_09_0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "c_swing_h",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "统治阿尔贝里亚我一个人\\n就足够了。等你回来的时候，\\n所有问题应该都已经解决了。",
+            "VO_CHR_MAINSTORY_16_09_0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "呵呵，这话听着可真霸气。\\n那就让大家见识一下\\n阿尔贝里亚王室长子的手段吧。",
+            "VO_CHR_MAINSTORY_16_09_0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 657,
+          "command": "c_bound_b",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "好了，既然已经得出了结论，\\n我就先回一趟香榭利亚\\n做好上路的准备。",
+            "VO_CHR_MAINSTORY_16_09_0105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "{player_name}，\\n准备完毕后我再联系你。\\n那么我就先失陪了……",
+            "VO_CHR_MAINSTORY_16_09_0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "c0115",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "我要回巴尔加海姆。\\n{player_name}，\\n你也做好准备就出发吧。",
+            "VO_CHR_MAINSTORY_16_09_0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "c01135",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0108"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "莱昂尼多哥哥，谢斯姐姐，\\n谢谢你们……\\n你们总是指引我前进……",
+            "VO_CHR_MAINSTORY_16_09_0108"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我也不能在这里认输……\\n各位，我们先商量一下\\n离开圣城前该做的事吧！",
+            "VO_CHR_MAINSTORY_16_09_0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 688,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "c01097",
+            "1",
+            "M",
+            "M",
+            "c0102",
+            "1",
+            "M",
+            "M",
+            "c01055",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "c_bound_b",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 692,
+          "command": "c_bound_b",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 693,
+          "command": "c_bound_b",
+          "args": [
+            "c01055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 694,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0110"
+          ],
+          "end": 1
+        },
+        {
+          "row": 695,
+          "command": "print",
+          "args": [
+            "全员",
+            "好！",
+            "VO_CHR_MAINSTORY_16_09_0110"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c01097",
+            "c0102",
+            "c01055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 702,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 703,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "SHIMOTE_OUT_VERYFAST",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "NO_EMO",
+          "args": [
+            "CID"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "true",
+            "0.2",
+            "-360",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "chara_fadeout",
+          "args": [
+            "CID",
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "RestartAll",
+          "args": [
+            "CID"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

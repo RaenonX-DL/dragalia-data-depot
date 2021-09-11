@@ -1,0 +1,4559 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1001609",
+  "filename": "1001609",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 10,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "OL_TITLE",
+          "args": [
+            "Summary"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "outline",
+          "args": [
+            "Leonidas shows the prince a letter from a man\\nnamed Gatov, who wishes to guide the prince\\nto the Faerie Kingdom. He then orders him to\\nGrams in North Grastaea to meet with the man.\\nThe prince assents, and Chelle ends up\\naccompanying him on the journey."
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_074",
+            "EFF_SCE_2D_CMN_205",
+            "EFF_SCE_2D_CMN_206"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "2",
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_205",
+            "20"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_206",
+            "20"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0135",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_205",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_206",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "screen_fadeout",
+          "args": [
+            "0.05",
+            "255",
+            "255",
+            "255"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0219"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "WHITE_IN_LONG",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "print",
+          "args": [
+            "Ciella",
+            "*pant* *pant* You have improved, girl...",
+            "VO_CHR_MAINSTORY_16_09_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "mnu_move",
+          "args": [
+            "c0135",
+            "true",
+            "0.2",
+            "0",
+            "-50",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "cmp_move",
+          "args": [
+            "c0135",
+            "0.2",
+            "0",
+            "-50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "Hold still, Ciella!\\nWe must treat your wounds!",
+            "VO_CHR_MAINSTORY_16_09_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c0135",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "c_swing2_h",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "print",
+          "args": [
+            "Ciella",
+            "Stay your pity! I'd sooner perish and\\ncrumble into dust than accept it!",
+            "VO_CHR_MAINSTORY_16_09_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0135",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "Ciella",
+            "!",
+            "VO_CHR_MAINSTORY_16_09_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Begone from here. If fleeing goes against\\nyour sense of aesthetics—such as they\\nare—then I shall give you pretext.",
+            "VO_CHR_MAINSTORY_16_09_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Return to this ＂Nedrick＂ and tell him thus:\\nRetribution for casting Alberia into chaos\\nand making mockery of my brother comes\\nsure and swift as the morrow's sun.",
+            "VO_CHR_MAINSTORY_16_09_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c0135",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "Ciella",
+            "Two siblings cut from the same cloth.\\nYou people truly are hopeless.",
+            "VO_CHR_MAINSTORY_16_09_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "mnu_move",
+          "args": [
+            "c0135",
+            "true",
+            "0.4",
+            "0",
+            "50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "cmp_move",
+          "args": [
+            "c0135",
+            "0.4",
+            "0",
+            "50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "chara_brightness",
+          "args": [
+            "c0135",
+            "0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "EFF_SCE_2D_CMN_063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "SHIMOTE_OUT_VERYFAST",
+          "args": [
+            "c0135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "She's gone.",
+            "VO_CHR_MAINSTORY_16_09_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "Why have you changed so much, Ciella?",
+            "VO_CHR_MAINSTORY_16_09_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "No time for navel-gazing, folks!\\nWe got a military force comin' our way!",
+            "VO_CHR_MAINSTORY_16_09_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "That standard they're flying... It's Chelle!",
+            "VO_CHR_MAINSTORY_16_09_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Greetings, my dear brothers!",
+            "VO_CHR_MAINSTORY_16_09_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "You've come at last, Chelle. Good.\\nNow let us all make for the Halidom;\\nthe time has come for a discussion.",
+            "VO_CHR_MAINSTORY_16_09_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "!",
+            "VO_CHR_MAINSTORY_16_09_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "What a shame I wasn't here in time to see\\nyou dealing with that ineffable miscreant\\nspreading false rumors OR the purification\\nof that ghastly void dragon.",
+            "VO_CHR_MAINSTORY_16_09_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0115",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Finishing everything before I even arrive?\\nHonestly! The two of you clearly have\\nno idea of how to entertain a lady.",
+            "VO_CHR_MAINSTORY_16_09_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "If anyone knew exactly what would be\\nsettled and when, Chelle, it is you.\\nYou came precisely when you wished to.",
+            "VO_CHR_MAINSTORY_16_09_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "In any event, I have not the time to waste\\non your theatrics. This discussion begins\\nnow, and all those not of the royal family\\nmust depart at once.",
+            "VO_CHR_MAINSTORY_16_09_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "c_swing2_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Actually, Brother, I'd like them to stay.\\nThey're in this with me.",
+            "VO_CHR_MAINSTORY_16_09_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Such is your way, is it? Very well.",
+            "VO_CHR_MAINSTORY_16_09_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Thank you. Now, what is it that you\\nwant to talk to us about?",
+            "VO_CHR_MAINSTORY_16_09_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "It concerns your birth.",
+            "VO_CHR_MAINSTORY_16_09_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "O",
+            "c0102",
+            "7",
+            "M",
+            "O",
+            "c0103",
+            "7",
+            "M",
+            "O",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "!",
+            "VO_CHR_MAINSTORY_16_09_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0102",
+            "c0103",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "What do you know of it?",
+            "VO_CHR_MAINSTORY_16_09_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "c_swing_h",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Do not misunderstand: I had no direct\\nknowledge of your secret, nor did I ever\\nhear anything from our late father.",
+            "VO_CHR_MAINSTORY_16_09_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "However, one thing is certain...",
+            "VO_CHR_MAINSTORY_16_09_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "That historical book is not spurious.\\nIt was, without a doubt, stolen from the\\npossession of the royal family.",
+            "VO_CHR_MAINSTORY_16_09_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "So what it said was...",
+            "VO_CHR_MAINSTORY_16_09_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Highly likely to be true, yes. I'm sorry,\\nmy brother, but you mostlike do not bear\\nthe blood of our father.",
+            "VO_CHR_MAINSTORY_16_09_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "c0104",
+            "9",
+            "M",
+            "Q",
+            "c0103",
+            "4",
+            "M",
+            "Q",
+            "c01055",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "......",
+            "VO_CHR_MAINSTORY_16_09_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0104",
+            "c0103",
+            "c01055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "c_swing_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "That's... Wow. That's hard to hear.",
+            "VO_CHR_MAINSTORY_16_09_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Keep your head until I am finished, I beg.\\nI turn now to the covenant referenced\\nin the document.",
+            "VO_CHR_MAINSTORY_16_09_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Neither seal nor signature was forged.\\nThere can be no doubt it was our father\\nwho made the agreement.",
+            "VO_CHR_MAINSTORY_16_09_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "As the signature states, the man who\\nexchanged a child with our father in that\\nsecret agreement was named Finlorda.",
+            "VO_CHR_MAINSTORY_16_09_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "This Finlorda rules a land in northern\\nGrastaea that once had a relationship\\nwith Alberia. Specifically, he is the king\\nof the Faerie Kingdom.",
+            "VO_CHR_MAINSTORY_16_09_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "O",
+            "c01097",
+            "7",
+            "M",
+            "O",
+            "c0106",
+            "7",
+            "M",
+            "O",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "?!",
+            "VO_CHR_MAINSTORY_16_09_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c01097",
+            "c0106",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01097",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "Zena",
+            "Are you saying {player_name}\\nwas born in this Faerie Kingdom?",
+            "VO_CHR_MAINSTORY_16_09_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "print",
+          "args": [
+            "Notte",
+            "Holy snot...",
+            "VO_CHR_MAINSTORY_16_09_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "Luca",
+            "Yo, Notte! Give us the details here!\\nWhat's this Faerie Kingdom like?",
+            "VO_CHR_MAINSTORY_16_09_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "ASE_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "c_swing2_h",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "print",
+          "args": [
+            "Notte",
+            "Dude, I have no freakin' idea. I didn't even\\nknow it EXISTED until like six seconds ago.",
+            "VO_CHR_MAINSTORY_16_09_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0107",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "NO_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "Notte",
+            "I mean, I guess I'd heard about a place in\\nNorth Grastaea where faeries lived, but...",
+            "VO_CHR_MAINSTORY_16_09_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0107",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "print",
+          "args": [
+            "Notte",
+            "Yeah, I dunno. I mean, I've lived here\\nin Alberia for my entire life.",
+            "VO_CHR_MAINSTORY_16_09_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01097",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "print",
+          "args": [
+            "Zena",
+            "But my brother is clearly no faerie,\\nno matter where he may hail from.",
+            "VO_CHR_MAINSTORY_16_09_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Then what AM I?",
+            "VO_CHR_MAINSTORY_16_09_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "I have yet to ascertain any firm facts\\non your true origins.",
+            "VO_CHR_MAINSTORY_16_09_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "However, a man in North Grastaea may\\nhold the key—I received this missive\\nfrom him some days prior.",
+            "VO_CHR_MAINSTORY_16_09_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "c_zoom",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "......",
+            "VO_CHR_MAINSTORY_16_09_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0319"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Here's what it says:",
+            "VO_CHR_MAINSTORY_16_09_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "＂When news of Aurelius's death reached\\nme, I took pen in hand whilst reminiscing\\nupon the days of yore in which we\\ndeepened our bonds of friendship.＂",
+            "VO_CHR_MAINSTORY_16_09_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "＂I suspect the time is nigh for me to fulfill\\nthe duty entrusted to me by him.＂",
+            "VO_CHR_MAINSTORY_16_09_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "＂The duty to guide {player_name}\\nto the Faerie Kingdom in North Grastaea.＂",
+            "VO_CHR_MAINSTORY_16_09_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "＂To that end, I request you inform the lad\\nto make for the Holy City of Grams.＂",
+            "VO_CHR_MAINSTORY_16_09_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "＂As his elder brother, please facilitate his\\nsafe departure from Alberia.＂",
+            "VO_CHR_MAINSTORY_16_09_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "...It's signed, ＂Gatov, Captain of Grams's\\n12th Division Watch.＂",
+            "VO_CHR_MAINSTORY_16_09_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Do you know this Grams, dear brother?",
+            "VO_CHR_MAINSTORY_16_09_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "It is the capital of North Grastaea;\\na city ruled by the Ilian Church.",
+            "VO_CHR_MAINSTORY_16_09_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "When he was alive, Father instructed me\\nto make for Grams should he ever meet\\nwith his demise.",
+            "VO_CHR_MAINSTORY_16_09_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "It seems that, too, is evidence he was\\nrelying upon this man Gatov.",
+            "VO_CHR_MAINSTORY_16_09_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Do you know this Gatov person?",
+            "VO_CHR_MAINSTORY_16_09_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "He had a close relationship with our father\\nstretching back many years. But though\\nhe has visited the royal castle several\\ntimes, I know little by way of specifics.",
+            "VO_CHR_MAINSTORY_16_09_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "c_bound_b",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "This is the end of what I have to tell you.",
+            "VO_CHR_MAINSTORY_16_09_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "But by rights as your elder brother,\\nI now issue this command to you:",
+            "VO_CHR_MAINSTORY_16_09_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Leave Alberia at once, make for Grams,\\nand find our father's friend Gatov.",
+            "VO_CHR_MAINSTORY_16_09_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "But what about the Halidom?!\\nIn fact, what about ALBERIA?!\\nWho will protect them if I'm gone?!",
+            "VO_CHR_MAINSTORY_16_09_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Everything that's happened recently has\\nmade me face a very unpleasant fact:\\nI pursued the Other and Zethia at the\\nexpense of my own people.",
+            "VO_CHR_MAINSTORY_16_09_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "c_swing2_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "We walk a razor's edge with them now,\\nand I won't leave with things in such\\na precarious balance!",
+            "VO_CHR_MAINSTORY_16_09_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "As I said when I stood down the people,\\nI govern Alberia.",
+            "VO_CHR_MAINSTORY_16_09_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "c_swing_h",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "The present turmoil may have subsided,\\nbut those who oppose our family will soon\\nmake use of the rumors concerning you\\nonce again.",
+            "VO_CHR_MAINSTORY_16_09_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Your wish to aid Alberia is noble indeed,\\nbut your remaining here could well serve\\nto undermine her instead of helping.",
+            "VO_CHR_MAINSTORY_16_09_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "...You might be right.",
+            "VO_CHR_MAINSTORY_16_09_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "What's more, reports indicate that this\\nNedrick man is headed north with Zethia.",
+            "VO_CHR_MAINSTORY_16_09_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Are you sure?!",
+            "VO_CHR_MAINSTORY_16_09_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "c_bound_b",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "My information is ALWAYS sound. And so,\\nis it not preferable for us to observe their\\nmovements up close and perhaps have our\\ndear sister returned to us unharmed?",
+            "VO_CHR_MAINSTORY_16_09_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Well, if Zethia will be in the north...",
+            "VO_CHR_MAINSTORY_16_09_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Hear me well, {player_name}.",
+            "VO_CHR_MAINSTORY_16_09_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "I cannot guess at present as to what\\nyour true origins may be.",
+            "VO_CHR_MAINSTORY_16_09_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "But no matter who you might be, you are\\nmy brother—and the man who bested me.",
+            "VO_CHR_MAINSTORY_16_09_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "Seek the wider world. Broaden your\\nhorizons. See all that you must until you\\nare satisfied with the answer to the \\nquestion of who, exactly, you are.",
+            "VO_CHR_MAINSTORY_16_09_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Thank you, Leonidas. Your words feel like\\nthey've lifted a weight off my spirits.",
+            "VO_CHR_MAINSTORY_16_09_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "A little travel ain't a bad idea, actually.",
+            "VO_CHR_MAINSTORY_16_09_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "c_bound_b",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "print",
+          "args": [
+            "Luca",
+            "Heck yeah! Let's hit North Grastaea!",
+            "VO_CHR_MAINSTORY_16_09_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "print",
+          "args": [
+            "Mym",
+            "This may prove fun, darling!",
+            "VO_CHR_MAINSTORY_16_09_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "c_bound2_b",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 529,
+          "command": "print",
+          "args": [
+            "Notte",
+            "Plus Zethia's waiting for you!",
+            "VO_CHR_MAINSTORY_16_09_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 533,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Whatever is to come, we are with you.",
+            "VO_CHR_MAINSTORY_16_09_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "I shall be ever at your side,\\nno matter what trials await.",
+            "VO_CHR_MAINSTORY_16_09_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01097",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "c_bound_b",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "print",
+          "args": [
+            "Zena",
+            "Let's head to the north, Brother!\\nLet's find the true you!",
+            "VO_CHR_MAINSTORY_16_09_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "14"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Thank you—all of you.",
+            "VO_CHR_MAINSTORY_16_09_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I'm still not certain this is the right path,\\nbut for the time being, I'll head to Grams.",
+            "VO_CHR_MAINSTORY_16_09_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "But I worry that my siblings are going to\\nface a mountain of trouble while I'm gone.",
+            "VO_CHR_MAINSTORY_16_09_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Leonidas? Chelle? Please look after\\nNew Alberia, her soldiers, and her people.",
+            "VO_CHR_MAINSTORY_16_09_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Tsk tsk tsk! You don't really expect me to\\nsit around with this grump and play house\\nwhile you traipse about the world, do you?",
+            "VO_CHR_MAINSTORY_16_09_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 576,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "HATENA_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I... You're... Wait, WHAT?",
+            "VO_CHR_MAINSTORY_16_09_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Why, it's more worry than I could stand,\\nthinking of my beloved little brother off\\non this big journey all alone.",
+            "VO_CHR_MAINSTORY_16_09_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "You can't really expect me to sit still\\nand wait for your return, mmm?",
+            "VO_CHR_MAINSTORY_16_09_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0115",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0095"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Furthermore, I've always found Alberia\\nto be rather stifling for a learned\\nwoman such as myself.",
+            "VO_CHR_MAINSTORY_16_09_0095"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0115",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 599,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "For me, dear brother, the only suitable\\nstage is the whole wide world!",
+            "VO_CHR_MAINSTORY_16_09_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I'm sorry, are you saying that you're\\ngoing to come with us?",
+            "VO_CHR_MAINSTORY_16_09_0097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "c_bound_b",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0098"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Exactly so.",
+            "VO_CHR_MAINSTORY_16_09_0098"
+          ],
+          "end": 1
+        },
+        {
+          "row": 616,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 618,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "7",
+            "M",
+            "M",
+            "c0106",
+            "10",
+            "M",
+            "M",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0099"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "WHAT?!",
+            "VO_CHR_MAINSTORY_16_09_0099"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0104",
+            "c0106",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Be glad in your hearts! With me as your\\ncounsel, you've naught to fear—no matter\\nhow burdensome your journey may be.",
+            "VO_CHR_MAINSTORY_16_09_0100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "This is also my request, Brother; I feel that\\nChelle can be of great assistance to you.",
+            "VO_CHR_MAINSTORY_16_09_0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I can't deny that it would be reassuring to\\nhave her along, but are you going to be\\nall right here all on your own?",
+            "VO_CHR_MAINSTORY_16_09_0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "c_swing_h",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "I am more than enough to see to Alberia's\\naffairs. When you return, I suspect all\\nthe realm's problems will be well sorted.",
+            "VO_CHR_MAINSTORY_16_09_0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01135"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0115",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Eee hee hee! Such stirring words indeed!\\nLet us see just what the eldest son of the\\nAlberian royal family can do.",
+            "VO_CHR_MAINSTORY_16_09_0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 657,
+          "command": "c_bound_b",
+          "args": [
+            "c0115"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "Now that we've come to our conclusion,\\nI will be returning briefly to Chanzelia that\\nI might prepare for our expedition.",
+            "VO_CHR_MAINSTORY_16_09_0105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "print",
+          "args": [
+            "Chelle",
+            "I will contact you when my preparations\\nare complete. Until then, farewell.",
+            "VO_CHR_MAINSTORY_16_09_0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "c0115",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01135",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "print",
+          "args": [
+            "Leonidas",
+            "And I return to Valkaheim. Get your affairs\\nin order and your preparations made soon.",
+            "VO_CHR_MAINSTORY_16_09_0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "c01135",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0108"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Thank you both for being the guiding lights\\nin my life. I won't let you down.",
+            "VO_CHR_MAINSTORY_16_09_0108"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Okay, everyone! Let's get together and\\ndiscuss what we need to do in order to\\nleave the Halidom!",
+            "VO_CHR_MAINSTORY_16_09_0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 688,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "c01097",
+            "1",
+            "M",
+            "M",
+            "c0102",
+            "1",
+            "M",
+            "M",
+            "c01055",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "c_bound_b",
+          "args": [
+            "c01097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 692,
+          "command": "c_bound_b",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 693,
+          "command": "c_bound_b",
+          "args": [
+            "c01055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 694,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_16_09_0110"
+          ],
+          "end": 1
+        },
+        {
+          "row": 695,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "Right!",
+            "VO_CHR_MAINSTORY_16_09_0110"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c01097",
+            "c0102",
+            "c01055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 702,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 703,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "SHIMOTE_OUT_VERYFAST",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "NO_EMO",
+          "args": [
+            "CID"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "true",
+            "0.2",
+            "-360",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "chara_fadeout",
+          "args": [
+            "CID",
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "RestartAll",
+          "args": [
+            "CID"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

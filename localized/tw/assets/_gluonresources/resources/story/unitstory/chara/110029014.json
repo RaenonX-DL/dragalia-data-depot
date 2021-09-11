@@ -1,0 +1,2067 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110029014",
+  "filename": "110029014",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0021_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0002_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "CHARA_ATTACK_DAG",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "GUARD_KNIFE",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "唔……！\\n居然在這裡遇到奇襲！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100002_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "是看準了我們人少嗎！\\n卑鄙小人！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "print",
+          "args": [
+            "艾露",
+            "王子，我也……！\\n咦……為什麼會發抖……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "chara_shake_h",
+          "args": [
+            "c0529",
+            "3",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "NO_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0529",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "print",
+          "args": [
+            "艾露",
+            "明明那麼努力練習了……\\n是因為只要戰鬥又會迷失自我……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0529",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "chara_shake_h",
+          "args": [
+            "c0529",
+            "1",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100002_STORY_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "艾露，右邊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "艾露",
+            "咦？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "c_face",
+          "args": [
+            "M",
+            "O",
+            "c0529",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "NO_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "chara_visible",
+          "args": [
+            "c0101",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "chara_pos",
+          "args": [
+            "c0101",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "mnu_move",
+          "args": [
+            "c0101",
+            "true",
+            "0.05",
+            "120",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "mnu_move",
+          "args": [
+            "c0101",
+            "false",
+            "0.3",
+            "-120",
+            "0",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "mnu_move",
+          "args": [
+            "c0529",
+            "true",
+            "0.2",
+            "-120",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "cmp_move",
+          "args": [
+            "c0529",
+            "0.2",
+            "-120",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "chara_fadein",
+          "args": [
+            "c0101",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "GUARD_KNIFE",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0529",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "mnu_move",
+          "args": [
+            "c0529",
+            "true",
+            "0.3",
+            "120",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "cmp_move",
+          "args": [
+            "c0529",
+            "0.3",
+            "120",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "艾露",
+            "{player_name}王子！？\\n怎麼會……又再次保護我……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "趁我擋著的空檔，妳快逃……！\\n然後拜託妳到城鎮請求支援。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "艾露",
+            "但，但是……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "沒事的妳快點逃……！\\n嗚啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "c_push_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "c_jump",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "山賊",
+            "不會讓你們找援軍的。\\n死在這吧……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "艾露",
+            "嗚……啊啊啊啊啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "c_face",
+          "args": [
+            "M",
+            "O",
+            "c0529",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_ATTACK_LAN",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "NO_EMO",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0232",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_BEAT_LAN_BEFORE_IN",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "print",
+          "args": [
+            "山賊",
+            "呀啊！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_BEAT_AFTER",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "SHAKE_BG_LOOP",
+          "args": [
+            "3",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "艾露",
+            "啊啊啊啊啊啊啊啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "CHARA_ATTACK_LAN",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "SHAKE_BG_STOP",
+          "args": [
+            "3",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0529",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "艾露",
+            "不會讓你稱心如意……！　\\n全部擊倒，一個不留……！　"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0529",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "SHAKE_BG_LOOP",
+          "args": [
+            "3",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "艾露",
+            "呀啊啊啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "CHARA_ATTACK_LAN",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "SHAKE_BG_STOP",
+          "args": [
+            "3",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "山賊",
+            "救、救命……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0232",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_BEAT_LAN_BEFORE_IN",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "CHARA_BEAT_AFTER",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100002_STORY_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "艾露！住手！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "print",
+          "args": [
+            "艾露",
+            "……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "已經沒事了。\\n戰鬥結束了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "山賊好像都逃得一乾二淨了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "艾露",
+            "我又……\\n變成另一個我了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不過因為有妳出手，我們才得救。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "明明妳是那麼的害怕，謝謝妳。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0529",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "艾露",
+            "我只是……\\n不想再看到王子在我面前受傷了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0529",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "艾露",
+            "然後身體就擅自動起來……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0529",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "艾露",
+            "結果還是跟以往一樣迷失自我了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "c_fallinto",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "艾露",
+            "我什麼也沒變……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "c_swing_h",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100002_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "這可就難說了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "print",
+          "args": [
+            "艾露",
+            "耶魯菲莉絲小姐……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100002_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "妳應該有聽見我的聲音吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "NO_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "所以在那種狀態下也能停止戰鬥……\\n不是嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "NO_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100002_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "雖然可能只是很微小的進步，\\n但我那時確實感受到\\n妳還保有自我意識。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "c_bound_b",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100002_STORY_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "沒問題，妳一定能克服。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100002_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "不論是面對戰鬥的恐懼，\\n還是對另一個自己的恐懼。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0529",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "print",
+          "args": [
+            "艾露",
+            "耶魯菲莉絲小姐……！\\n謝謝……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "NO_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0529",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110029_STORY_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "艾露",
+            "我會更努力的……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "NO_EMO",
+          "args": [
+            "c0529"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0529",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

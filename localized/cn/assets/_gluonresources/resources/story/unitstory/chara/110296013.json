@@ -1,0 +1,3952 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110296013",
+  "filename": "110296013",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "要跳过此剧情吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0119_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "SYS",
+            "料理对决当天"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "1",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "大家好。我是七叶的主厨\\n基尔巴特。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "今天请多多指教。\\n哎呀，我真是荣幸啊。\\n竟然能接管这么气派的店……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "NO_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "chara_face",
+          "args": [
+            "c0291",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0291",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "c_bound3_t",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "啊，不好意思！\\n还不确定能接管吧。哈哈哈！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "可恶！这家伙！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c24952",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "c_bound_b",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110295_STORY_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "print",
+          "args": [
+            "瓦莱里奥",
+            "比卡罗，冷静下来。\\n要用料理来一决胜负。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "print",
+          "args": [
+            "三叶",
+            "是啊。这三天，\\n我们缜密地制定了菜谱……\\n让他们见识一下我们的料理吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0279",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120011_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "侍者",
+            "那么，由我来对料理对决进行说明。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0279"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "print",
+          "args": [
+            "侍者",
+            "题目是“创意料理”。\\n评审是通过公正的方式选出的各位市民。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "侍者",
+            "胜负的规则非常简单。\\n哪一方做出的料理能让更多的客人\\n说“好吃”，就是哪一方获胜。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "chara_face",
+          "args": [
+            "c0279",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0360"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "print",
+          "args": [
+            "侍者",
+            "那么……料理对决，现在开始！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0279"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c24952",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110295_STORY_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "瓦莱里奥",
+            "三叶，比卡罗。\\n就按练习那样，赶紧动手做吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "c_bound_b",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "三叶",
+            "好。我来准备蔬菜。\\n比卡罗调底味……没问题吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "当然！\\n毕竟我要是不参与做菜，\\n也不能算是拉·曼蒂的胜利！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0208",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0299",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0174"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0026",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0084",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0291",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_147"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "0",
+            "-140"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "1.5",
+            "2.5",
+            "1.5",
+            "1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0386"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "c_bound2_b",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "（嚯……先不说比卡罗，\\n其他两个人水平不错啊……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "chara_face",
+          "args": [
+            "c0291",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "（不过，\\n创意料理是小荠主厨的专长……\\n身为弟子的我不会输的！）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0291",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "c_zoom_stay",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0435"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "0",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "做好了！好了，端去给客人们！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "mnu",
+          "args": [
+            "c0291",
+            "true",
+            "0.2",
+            "0",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "cmp",
+          "args": [
+            "c0291",
+            "0.2",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "chara_face",
+          "args": [
+            "c0291",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "那么各位，我先失陪了。\\n希望客人们不会\\n吃完我的料理就饱了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0291",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "print",
+          "args": [
+            "三叶",
+            "什么……竟然已经做好了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c24952",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110295_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "print",
+          "args": [
+            "瓦莱里奥",
+            "不愧是以上菜迅速为傲的七叶……\\n比卡罗，你那边怎么样了？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "c_bound_b",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "在、在做了！\\n底味就快调好了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "print",
+          "args": [
+            "三叶",
+            "这个就是调底味的调味料吧。\\n等一下！？\\n比卡罗，这是什么味道啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "怎么了，我有好好调成咸味……\\n呕！？好甜！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "c_swing_h",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "print",
+          "args": [
+            "三叶",
+            "为什么只是混合一下调料，\\n就能调出完全相反的味道啊！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "因为从某种意义上来说……\\n我也是天才吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "HATENA_EMO",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "三叶",
+            "哈？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "c_zoom_stay",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "在我面前菜谱什么的根本没意义！\\n就算按照菜谱上的分量来做，\\n最后还是会变得难吃无比！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "c_mnu_reset",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "MOYA_EMO",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "print",
+          "args": [
+            "三叶",
+            "唉……明明练习了还这样！\\n要怎么办！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c24952",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "c_swing_h",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110295_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "瓦莱里奥",
+            "怎么办……已经没时间重做了。\\n只能用这个味道来想想别的办法了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "c_bound_b",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "就、就是说啊！想一想嘛。\\n把腌成甜味的肉做得好吃的方法……\\n你们快想啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "c_mnu_reset",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2496",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2469"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "三叶",
+            "唉……你这个人真是。\\n我想想，甜味的肉类料理的话……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "久等了。\\n这是七叶特制的……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "chara_face",
+          "args": [
+            "c0291",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "“日出之国风味烤牛肉”。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0240",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "print",
+          "args": [
+            "客人1",
+            "嚯……烤牛肉吗。乍一看\\n不像创意料理……我尝尝。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "chara_face",
+          "args": [
+            "c0240",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "chara_face",
+          "args": [
+            "c0237",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "print",
+          "args": [
+            "客人2",
+            "好吃！这是什么啊？\\n口感松脆，\\n稍微有些苦味却很清爽……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "c_bound_b",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "这是萝卜泥，\\n用水芥菜和香醋调的味。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "c_swing_h",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "不仅如此。肉是用海带高汤腌制的。\\n是不是很符合日出之国的风格，\\n味道让人回味无穷？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0240",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120040_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "print",
+          "args": [
+            "客人1",
+            "嗯……融合了日出之国\\n和阿尔贝里亚的味道，有七叶的风格，\\n是最棒的创意料理了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "多谢夸奖……不过这可头疼了啊。\\n比卡罗的菜还没做好，\\n胜负似乎就已经定了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "？？？",
+            "休想得逞！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "1",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "我们的菜\\n也要让各位客人们尝尝！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "唔……你那是……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "print",
+          "args": [
+            "三叶",
+            "嘿嘿。把猪肉煮出甜辣味的\\n日出之国料理——“红烧猪肉”！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "哦？刚才你们好像说\\n要做煎肉排啊……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "NO_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "chara_face",
+          "args": [
+            "c0291",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "c_swing_h",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "难道……是为了掩盖失败，\\n临时换了菜单？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "print",
+          "args": [
+            "三叶",
+            "你猜呢。是不是掩盖失败……\\n尝了就知道。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "Q",
+            "150",
+            "-80",
+            "c0240",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "CHARA_SHIMOTE_POS_d",
+          "args": [
+            "M",
+            "M",
+            "-150",
+            "0",
+            "c2496",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0435"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "NO_EMO",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "三叶",
+            "来，这位客人，下一盘菜在这里！\\n敬请品尝。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c2496",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0240",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120040_STORY_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "print",
+          "args": [
+            "客人1",
+            "嗯……这是以日出之国料理\\n为原型的吗。我尝尝……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "chara_face",
+          "args": [
+            "c0240",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c2496",
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0291",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "c_bound_t",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "（哼，胜负已定。红烧肉重在炖的时间。\\n他们临时换了菜单根本不可能有时间\\n把肉煮得入味……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0240",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0240",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0007_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "HAPPY",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "c_jump",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120040_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "print",
+          "args": [
+            "客人1",
+            "这、这也……太好吃了吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0007_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "什、什么！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "HAPPY",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "print",
+          "args": [
+            "客人2",
+            "真的呢……超级好吃！\\n猪肉在嘴里融化的感觉……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0240",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120040_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "print",
+          "args": [
+            "客人1",
+            "唔……收进肉里的汤汁\\n是西红柿、芹菜、洋葱……\\n人们熟悉的阿尔贝里亚的味道……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "print",
+          "args": [
+            "客人2",
+            "感觉很亲切……但又很新颖！\\n让人吃了还想吃！\\n比起刚才的料理……我更喜欢这个！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0240",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120040_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "print",
+          "args": [
+            "客人1",
+            "嗯，我也是！主厨！\\n请再给我来一些！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "ASE_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "c_swing_h",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "怎、怎么可能。\\n为什么能在这么短的时间内\\n做出底味火候俱佳的红烧猪肉！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c24952",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "c_bound_b",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110295_STORY_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "print",
+          "args": [
+            "瓦莱里奥",
+            "这是阿尔贝里亚肉类料理的基础了。\\n把肉上的筋细致地切开，\\n这样就能让肉变得不那么硬。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "WARAI_EMO",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "print",
+          "args": [
+            "三叶",
+            "我们还用了日出之国的技术。\\n冷水下锅慢火煮，\\n可以保持肉的柔软和弹性。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "然后最厉害的就是……\\n拉·曼蒂特别定制的“锅”！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "c_mnu_reset",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "你、你说……锅？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "ONPU_EMO",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "没错！这可是本餐厅\\n代代相传的定制品！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "NO_EMO",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "chara_face",
+          "args": [
+            "c1211",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "c_bound2_b",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "它可以通过加热产生压力，\\n大幅缩短炖肉的时间，\\n堪称极品……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "chara_face",
+          "args": [
+            "c1211",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "这可是花了高价让罗卡族做的，\\n此锅名为——“高压锅”！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "c_mnu_reset",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c24952",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110295_STORY_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "瓦莱里奥",
+            "阿尔贝里亚和日出之国的技术，\\n还有拉·曼蒂的独创厨具……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c24952"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "print",
+          "args": [
+            "三叶",
+            "这三样结合，\\n就能在短时间内把肉煮软。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "不、不会的！七叶怎么可能\\n输在创意料理上……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120176_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "print",
+          "args": [
+            "？？？",
+            "别这样，基尔巴特。太难看了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1276",
+            "4",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "print",
+          "args": [
+            "小荠",
+            "做决定的是客人。是我们输了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1276"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "小、小荠主厨！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110296_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "print",
+          "args": [
+            "三叶",
+            "小荠……你来了啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1276",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c1276"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120176_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "print",
+          "args": [
+            "小荠",
+            "我刚来。本以为差不多该决出胜负，\\n可以将餐厅收入囊中了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c1276",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "c_bound_t",
+          "args": [
+            "c1276"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120176_STORY_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "print",
+          "args": [
+            "小荠",
+            "不过，算了。这回就按照约定收手。\\n不过仅限这回。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "chara_face",
+          "args": [
+            "c1276",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120176_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "print",
+          "args": [
+            "小荠",
+            "不过姐姐……\\n你在这种地方偷懒真的好吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1276"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2496",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "print",
+          "args": [
+            "三叶",
+            "什么意思？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1276",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "c_swing_h",
+          "args": [
+            "c1276"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120176_STORY_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "print",
+          "args": [
+            "小荠",
+            "呵呵呵……算了，你马上就会知道的。\\n好了。我们走，基尔巴特。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "c1276",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0291",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "c_bound_b",
+          "args": [
+            "c0291"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120091_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "print",
+          "args": [
+            "基尔巴特",
+            "是、是！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "c0291",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1211",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "WARAI_jump",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 500,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120111_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "print",
+          "args": [
+            "比卡罗",
+            "呼……真的非常感谢你们！\\n我的劲敌们！为表谢意，\\n我就直接雇用你们吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2495",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2495"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110295_STORY_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "print",
+          "args": [
+            "瓦莱里奥",
+            "噢，能守住餐厅真是太好了。\\n不过我可没打算让你雇用我。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2495"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c2496",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "print",
+          "args": [
+            "三叶",
+            "（守住了拉·曼蒂是很好……\\n但小荠的那句话，\\n到底是什么意思……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2496"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "CHARA_SHIMOTE_POS_d",
+      "args": [
+        "eye",
+        "lip",
+        "X",
+        "Y",
+        "CID",
+        "int"
+      ],
+      "defaultValues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 6,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "eye",
+            "lip",
+            "X",
+            "Y",
+            "CID",
+            "int"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "true",
+            "0.05",
+            "-120",
+            "0",
+            "1",
+            "0.05",
+            "1",
+            "1",
+            "1",
+            "0.05",
+            "0",
+            "1",
+            "0.05",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.4",
+            "120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "cmp",
+          "args": [
+            "CID",
+            "0.4",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "NO_EMO",
+          "args": [
+            "c0240"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "wait",
+          "args": [
+            "0.45"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,1323 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110019014",
+  "filename": "110019014",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0020_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "喝啊啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "c_face",
+          "args": [
+            "M",
+            "O",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "CHARA_ATTACK_SWD",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "MONSTER_BEAT_SWD",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "好，看來剛才那是最後一隻了。\\n我們成功守下這村子囉。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0419",
+            "5",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "您辛苦了，王子。\\n您在戰鬥中非常活躍呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "謝謝你，瑟那。\\n這都要歸功於有你的協助啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0419",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "王子您總是親自上陣\\n應付如此激烈的戰鬥嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "NO_EMO",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0419",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "您身為王族的王子，\\n其實應該讓我或城裡的夥伴們來戰鬥，\\n自己待在後方陣營才對。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "的確，瑟那你說的也沒錯。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "但我認為……\\n站在前線才是王家的義務。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "所以，我怎能自己躲在後方陣營呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0419",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "站在前線，才是王家的義務……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0419",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "我記得您的父親──安羅拉斯王\\n經常說這句話呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是啊。所以為了超越父王，\\n夥伴對我來說是必要的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "要是身邊沒有夥伴的話，\\n我肯定無法堅持戰到最後一刻。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "無論如何，夥伴的力量都是必要的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0419",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "…………"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那種在後方指揮或是被指揮的關係，\\n我不認為能稱之為夥伴。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "但我所需要的，只有夥伴。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我需要能一同歡笑、\\n攜手克服困難的夥伴。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "所以我會站在前線，然後和夥伴──\\n和瑟那你們一起戰鬥。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0419",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "是嗎……\\n王子您為了超越自己的父親，\\n正拚命奮鬥著呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0419",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "c_bound_b",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "……我決定了，王子！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯？怎麼了嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0419",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "我之前曾提起過我老爸的那番話，\\n「無論面對何等大風大浪，\\n都要保護君王」，您還記得嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯，是瑟那你說\\n曾被嚴厲告誡過的那句話對吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0419",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "c_bound_b",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "是的。對我而言，\\n這句話至今都像是義務一般。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0419",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "守護王族是理所當然的事。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0419",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "因為我從小就是這麼被教育的，\\n而且我又曾經是海兵。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0419",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "c_bound_t",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "不過！看到王子您奮戰的背影，\\n以及渴望超越父親的努力，\\n讓我下定了決心！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0419",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "c_swing_h",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "我不打算保護王子！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0419",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "而是和王子共同戰到最後一刻……\\n總有一天，我希望能和您一起超越父親！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "瑟那……謝謝你。\\n有你的這句話，讓我很放心。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "今後也要拜託你囉。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0419",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "c_bound_b",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110019_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "瑟那",
+            "好的！今後無論遇到什麼大風大浪，\\n我們都一起越過吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "NO_EMO",
+          "args": [
+            "c0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

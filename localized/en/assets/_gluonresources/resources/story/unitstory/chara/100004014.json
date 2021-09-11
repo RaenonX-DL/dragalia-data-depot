@@ -1,0 +1,1676 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "100004014",
+  "filename": "100004014",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "Skip this scene?"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "play_sound",
+          "args": [
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "play_sound",
+          "args": [
+            "SE_086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Come in, Cleo—and keep your eyes shut.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "play_sound",
+          "args": [
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Would you kindly explain what this is\\nabout? It's unnerving to be stumbling\\nabout blind.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Okay, you can open your eyes now!",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "...Oh. Oh my. That's quite the feast.\\nWhat is all this about?",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "You're always doing so much for us,\\nso we wanted to do something for you.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "We all pitched in to help!",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "Even me. Now take a load off and dig in\\nbefore the chow gets cold.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "This explains all the sneaking about lately.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I suppose we weren't exactly subtle.\\nBut since you're always the one doing this\\nkind of thing, we don't have much practice.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "That's why we wanted to treat you for once.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "So...do you like it?",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "c_swing_h",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "You hardly needed to go to such lengths.\\nI am but a servant.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Simply doing my job satisfactorily doesn't\\nmerit any special celebration.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "You're not my servant, Cleo—you're my\\nfriend, and a trusted teammate to us all.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "And that means we all have to pitch in.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I don't want to tell you how to do your job,\\nbut I'd personally prefer to be partners and\\nfriends, not master and servant.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "I... Thank you, {player_name}.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "You really are just like him.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "What was that, Cleo?",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "...Nothing. Now then, am I truly meant to\\neat all of this by my lonesome?",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "c_bound_b",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "Yep. It's your party, so pack it in!",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "In what world could one woman eat this\\nvolume of food?",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Have you not heard of portion control?",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Also, your hand looks to be in even worse\\nshape than the last time I saw you.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I ran into trouble peeling vegetables.\\n...Er, again.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "If you are injured, come and see me.\\nI need not know the cause.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "MAGIC_CURE_CH",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "And if you wish to make me happy,\\nit will need to be a team effort.\\nAll of us, or none at all.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "So sit down and help me eat all of this.\\nIf it isn't enough, I'm happy to make more.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "I've lived alone for so very long,\\nand cooking for others is a simple\\npleasure I have very much missed.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Are we agreed?",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "We are indeed. And you heard her,\\neveryone—dig in!",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "Hooo-eee! Let's get this party started!",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "Just don't get ahead of yourself and eat\\nthe guest of honor's portion, yes?",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "If that happens, we'll just all go cook\\nmore together.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "*chomp* Cleo, you HAVE TO try this.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "As you wish, {player_name}.",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "NO_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

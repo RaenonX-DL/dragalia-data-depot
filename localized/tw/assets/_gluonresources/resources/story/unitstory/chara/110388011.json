@@ -1,0 +1,2872 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110388011",
+  "filename": "110388011",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "print",
+          "args": [
+            "SYS",
+            "本劇情涉及活動劇情\\n「克羅諾斯之怒」\\n與角色劇情「尤里烏斯」的\\n核心內容。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "print",
+          "args": [
+            "SYS",
+            "由於克羅諾斯的策略而與\\n{player_name}相遇的\\n吸血鬼少女──班比。\\n她為了要拯救自己的夥伴們，\\n而成為聖城中的一員，但是……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "班比",
+            "僕‧從～！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_2064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦？啊……嗚哇啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "StopLip_close",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0230"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "Q",
+            "120",
+            "0",
+            "c3788",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "mnu",
+          "args": [
+            "c0101",
+            "true",
+            "0.01",
+            "120",
+            "0",
+            "1",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.16",
+            "-0",
+            "1",
+            "0.01",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "mnu",
+          "args": [
+            "c0101",
+            "false",
+            "0.2",
+            "-120",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.05",
+            "5",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "cmp",
+          "args": [
+            "c0101",
+            "0.21",
+            "0",
+            "0",
+            "1",
+            "1",
+            "5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "mnu",
+          "args": [
+            "c3788",
+            "true",
+            "0.01",
+            "120",
+            "0",
+            "1",
+            "0.01",
+            "1",
+            "1",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.01",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "mnu",
+          "args": [
+            "c3788",
+            "false",
+            "0.2",
+            "-120",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "cmp",
+          "args": [
+            "c3788",
+            "0.21",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "wait",
+          "args": [
+            "0.21"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_001",
+            "1.5",
+            "1.5",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_001",
+            "0",
+            "-80",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_001",
+            "0.6",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "mnu",
+          "args": [
+            "c0101",
+            "true",
+            "0.6",
+            "0",
+            "-150",
+            "EaseOutQuint",
+            "0.6",
+            "1",
+            "1",
+            "1",
+            "0.6",
+            "5",
+            "1",
+            "0.6",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "cmp",
+          "args": [
+            "c0101",
+            "0.6",
+            "0",
+            "-150",
+            "1",
+            "1",
+            "5",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "NO_EMO",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "play_sound",
+          "args": [
+            "SE_065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "RestartAll",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "RestartLip",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "ONPU_EMO",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "print",
+          "args": [
+            "班比",
+            "欸嘿嘿～僕從，僕從！\\n真開心，班比第一次有自己的僕從呢。\\n和班比一起玩吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "c_mnu_reset",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "好痛啊……那個，班比。\\n雖然之前也曾經說過，\\n但我真的沒有餘力回應妳的要求……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "MOYA_EMO",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "班比",
+            "咦～但是，僕從就是僕從啊。\\n班比都已經決定好了的說～"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "NO_EMO",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3788",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "班比",
+            "班比為了要幫助沉睡在森林裡的大家，\\n要是沒一下子就變得很強可不行吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "StopEye_close",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "班比",
+            "然後啊，吸血鬼的僕從和主人，\\n聽說會被很～強的羈絆連結在一起，\\n所以是最強的～喔。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "RestartEye",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "c_jump",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "print",
+          "args": [
+            "班比",
+            "所以呢，\\n班比就決定跟僕從當好朋友了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯～雖然有很多想說的，\\n但總之我也贊成維持友好關係。\\n畢竟妳也已經是聖城的一份子了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "在我有空閒的時候，\\n應該能陪妳一起玩喔。\\n請多指教了，班比。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "班比",
+            "欸嘿嘿……太好了！\\n不愧是僕從，真懂事！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "NO_EMO",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c3788",
+            "14"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "c_jump2",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "班比",
+            "約好了喔～！\\n要常常跟班比玩喔～！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0001_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_2058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "（……不對，的確，我的確是說\\n如果有空閒的時候會陪她玩，\\n但是……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "班比",
+            "哼哼哼～♪用「巫女公主」的棋子～\\n把「聖劍騎士」的棋子……碰～！\\n好，換僕從了～！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "（這孩子的玩法實在太隨心所欲，\\n說實在我不知道她到底要我\\n陪她做什麼啊……！）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "print",
+          "args": [
+            "班比",
+            "唔？等一下，僕從。\\n你不要分心啦！你不是說\\n要教班比下阿爾貝利亞象棋嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊、啊啊，抱歉啦。\\n我看看，\\n下一步我要把「森林弓兵」的棋……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0287"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c3788",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "c_swing_h",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "班比",
+            "嗯～算了。僕從這麼心不在焉的，\\n一點都不好玩。\\n班比要玩別的了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦？不是班比說想要我\\n教妳下阿爾貝利亞象棋的嗎……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "print",
+          "args": [
+            "班比",
+            "班比說不玩就是不玩了～\\n畢竟玩這個\\n根本感受不到和僕從的羈絆。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "也是啦，因為是要分出勝負的遊戲，\\n所以本來就很難感受到\\n和對手之間的羈絆吧……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "班比",
+            "不管那個了，\\n班比想要你讀書給班比聽。\\n讀那個書架上的那本！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是可以啦，\\n但之前妳好像說過那本書太難，\\n所以不想聽了？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "c_jump2",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "班比",
+            "今天搞不好就能聽懂了呀～！\\n討厭～不要扯東扯西的！\\n主人說的話是絕對的～！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦、咦咦……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CharaSetSE",
+          "args": [
+            "KAMITE",
+            "SE_WALK_IN_FL",
+            "c0103",
+            "1",
+            "M",
+            "M",
+            "-180",
+            "C",
+            "c0106",
+            "1",
+            "M",
+            "Q",
+            "180",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "喔喔，任性的吸血鬼大小姐\\n今天也是正常發揮呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "StopLip_close",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0106",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "最近隨～時都是這樣耶。\\n不論早中晚無時無刻\\n都黏著{player_name}。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0106",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "{player_name}也還真能夠\\n配合她的任性耶？我的話一定沒辦法！\\n就連西莉絲都還會知道分寸。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c0103",
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_2020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "沒有啦，只是對方都已經來\\n找我撒嬌了，直接無視也不太好。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "唉，你真的是太愛照顧人了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "班比",
+            "唔，你們幾個……\\n找僕從有什麼事嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "c_bound_b",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "我們是要來說，接到工作的委託了。\\n{player_name}，\\n現在有辦法出發嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_2011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯，如果有必要的話我也──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "c_jump",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "print",
+          "args": [
+            "班比",
+            "咦～不行、不行！\\n僕從跟班比還玩到一半而已！\\n他很忙的～！對不對，僕從！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……看來是沒辦法了。\\n抱歉，那個委託，\\n能麻煩你們兩個處理嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "不是什麼大案子，所以是無所謂……\\n倒是你，這麼聽話真的沒問題嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "就是說啊，而且班比妳也真是的！\\n為～什麼要這樣\\n纏著這傢伙不放啊？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "print",
+          "args": [
+            "班比",
+            "為什麼……那還用說嗎～！\\n因為班比是僕從的主人嘛！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3788",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "print",
+          "args": [
+            "班比",
+            "所以必須要成為好朋友，\\n讓羈絆變強才行～！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "啥～！？羈絆～！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "c_jump2",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "print",
+          "args": [
+            "班比",
+            "你那什麼口氣！真沒禮貌耶～！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "不，畢竟妳看，\\n像妳這樣單方面地耍任性，\\n還說是要讓羈絆變強……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0106",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "這傢伙因為人很好所以才會配合妳，\\n事情就只是這樣啦。\\n這樣子哪可能培養出什麼羈絆！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0343"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_159"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "print",
+          "args": [
+            "班比",
+            "咦……咦咦～！\\n真的嗎！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_159",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "雖然說法有點那個，\\n不過琉卡說的沒有錯。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0103",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "聽好了，大小姐。\\n每個人都有自己的事情要顧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "c_swing_h",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "如果沒有能體諒對方的想法，\\n那就不可能會心靈相通。\\n道理就是這樣。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "班比",
+            "怎、怎麼會。班比在做的事情，\\n其實是反效果嗎？\\n班比和僕從沒有心靈相通嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯，是啊。\\n現在還不太……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "c_jump2",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "print",
+          "args": [
+            "班比",
+            "騙人！竟然真的沒有心靈相通～！\\n無法掌握僕從的心，哪天變成\\n女王的時候可是個大問題啊～！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3788",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "print",
+          "args": [
+            "班比",
+            "怎、怎麼辦才好？\\n要怎麼樣才能和僕從心靈相通，\\n變成一個了不起的主人呢……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "我想想啊……別總是做自己想做的事，\\n偶爾也讓{player_name}\\n做他想做的事如何？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0106",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100006_STORY_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "他有困難的時候就幫他，\\n他在忙的時候就不要勉強他陪妳。\\n畢竟這傢伙也有自己該做的事情。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "print",
+          "args": [
+            "班比",
+            "……班比知道了。就是忍耐很重要嘛。\\n那麼班比從今天開始，\\n會稍微學學怎麼忍耐的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3788",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "print",
+          "args": [
+            "班比",
+            "其實還想繼續和僕從在一起……\\n但班比今天就負責看家。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "喔，比我原本以為的還要懂事。\\n妳意外地很老實耶？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3788",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "c_jump",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "print",
+          "args": [
+            "班比",
+            "你不要搞錯了喔～！班比會這麼做\\n都只是因為想變成了不起的主人而已～"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "ONPU_EMO",
+          "args": [
+            "c3788"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3788",
+            "14"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110388_STORY_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "print",
+          "args": [
+            "班比",
+            "班比要盡快增進和僕從的羈絆，\\n然後一起變成最強的一對主僕！\\n好，班比會加油的～！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

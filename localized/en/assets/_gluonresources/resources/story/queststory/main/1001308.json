@@ -1,0 +1,2663 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1001308",
+  "filename": "1001308",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "Summary"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "After Void Poseidon is defeated, more dragons\\nappear to pin the heroes down. Brilliant action\\nby Leif repels their assault, but the floor\\ncollapses when the mana kiln spins out of\\ncontrol, sending the prince and his friends\\ntumbling into the darkness below."
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0115_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0453"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "mnu_move",
+          "args": [
+            "d2201",
+            "true",
+            "0.6",
+            "0",
+            "-150",
+            "EaseOutQuint"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "chara_fadeout",
+          "args": [
+            "d2201",
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_029",
+            "EFF_029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "9",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_029",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0166"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0118"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_029",
+            "0",
+            "0.5",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "RestartAll",
+          "args": [
+            "d2201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "*pant* *pant* We did it!",
+            "VO_CHR_MAINSTORY_13_08_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01019",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "c_bound_b",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Your dragons are no more, Phares!\\nIt's time to end this!",
+            "VO_CHR_MAINSTORY_13_08_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "print",
+          "args": [
+            "Beren",
+            "You are so hopelessly naive.",
+            "VO_CHR_MAINSTORY_13_08_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c01142",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "Phares",
+            "......"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "What did you say?!",
+            "VO_CHR_MAINSTORY_13_08_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0450"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0451"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "set_camera_distortion",
+          "args": [
+            "cameraType_Chara",
+            "true",
+            "EFF_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "SHOUT_0",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.5",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "set_camera_distortion",
+          "args": [
+            "cameraType_Chara",
+            "false",
+            "EFF_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01182",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "Leif",
+            "Your Highness! Behind you!",
+            "VO_CHR_MAINSTORY_13_08_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2188",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_ATTACK_DRG",
+          "args": [
+            "d2188"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2188"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2196",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0129"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "mnu_scale",
+          "args": [
+            "d2196",
+            "true",
+            "0.2",
+            "1.35",
+            "1.35",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "cmp_scale",
+          "args": [
+            "d2196",
+            "0.2",
+            "1.35",
+            "1.35"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "wait",
+          "args": [
+            "0.15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2196"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "c_mnu_reset",
+          "args": [
+            "d2196"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_SET3",
+          "args": [
+            "Q",
+            "M",
+            "c0102",
+            "6",
+            "M",
+            "M",
+            "c0103",
+            "6",
+            "Q",
+            "M",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0296"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_040",
+            "1.5",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_040",
+            "0",
+            "-45"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "Uwaah!",
+            "VO_CHR_MAINSTORY_13_08_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0102",
+            "c0103",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_119"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "M-more of them...",
+            "VO_CHR_MAINSTORY_13_08_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "Hrk... They just keep coming...",
+            "VO_CHR_MAINSTORY_13_08_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "c_jump",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "Luca",
+            "How many of these things are we\\ngonna have to take down?!",
+            "VO_CHR_MAINSTORY_13_08_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Wh-why... WHY?!",
+            "VO_CHR_MAINSTORY_13_08_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_bound_t",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "Phares",
+            "Still getting up, are we, Brother?\\nFor my part, I am grateful, but—",
+            "VO_CHR_MAINSTORY_13_08_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "*pant* *pant* Phares...you're not the\\nkind of person...who hurts people.\\nI know you aren't.",
+            "VO_CHR_MAINSTORY_13_08_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c01142",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "print",
+          "args": [
+            "Phares",
+            "......"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "RestartLip",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "print",
+          "args": [
+            "Phares",
+            "I fear you labor under a grave\\nmisunderstanding, my brother.",
+            "VO_CHR_MAINSTORY_13_08_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "StopEye_close",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "print",
+          "args": [
+            "Phares",
+            "Ruling the kingdom? Aiding its people?\\nThe well-being of the royal family?\\nI am concerned with none of it.",
+            "VO_CHR_MAINSTORY_13_08_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "Phares",
+            "Good and evil are one and the same,\\nand I find no value in morality.",
+            "VO_CHR_MAINSTORY_13_08_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Then why are you doing this?!",
+            "VO_CHR_MAINSTORY_13_08_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "c_mnu_reset",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "print",
+          "args": [
+            "Beren",
+            "You are a miserable puppet who has been\\nallowed to wallow in your own ignorance.\\nIt is fortunate, in its own way.",
+            "VO_CHR_MAINSTORY_13_08_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "What do you mean?",
+            "VO_CHR_MAINSTORY_13_08_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0138",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "Beren",
+            "You have always believed that if you want\\nsomething, you merely need to seek it out\\nand it will be given to you. Indeed, this\\nhas borne itself out most of your life.",
+            "VO_CHR_MAINSTORY_13_08_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0138"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2196",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_ATTACK_DRG",
+          "args": [
+            "d2196"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2196"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01182",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "Leif",
+            "Hrk! Your Highness!",
+            "VO_CHR_MAINSTORY_13_08_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "SHIMOTE_OUT_DEF",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c01182",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "GUARD_KNIFE",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Leif!",
+            "VO_CHR_MAINSTORY_13_08_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "StopLip_close",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "RestartLip",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01182",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "c_swing_h",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "Leif",
+            "Your Highness...",
+            "VO_CHR_MAINSTORY_13_08_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01182",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "Leif",
+            "You are Alberia's last hope...and I will\\nnot permit that light to be extinguished!",
+            "VO_CHR_MAINSTORY_13_08_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01182",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "print",
+          "args": [
+            "Leif",
+            "Haaaaah!",
+            "VO_CHR_MAINSTORY_13_08_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_ATTACK_SWD",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c01019",
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2196",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0229"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "EFF_SCE_2D_CMN_090",
+            "EFF_SCE_2D_CMN_052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "255",
+            "255",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_052",
+            "177",
+            "255",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "0.8",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_052",
+            "1",
+            "0.55"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "200",
+            "500"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_052",
+            "256",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_052",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "set_BG_effect_rotation",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "-35"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "set_BG_effect_rotation",
+          "args": [
+            "EFF_SCE_2D_CMN_052",
+            "235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "-500",
+            "-500",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "255",
+            "255",
+            "128",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_164",
+            "0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_052",
+            "0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "c_swing_h",
+          "args": [
+            "d2196"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "MONSTER_BEAT_AFTER",
+          "args": [
+            "d2196"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01182",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "print",
+          "args": [
+            "Leif",
+            "Any who would lay a hand on you will find\\nno quarter from me, even if the blood of\\nAlberius himself runs in their veins!",
+            "VO_CHR_MAINSTORY_13_08_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01182"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "print",
+          "args": [
+            "Phares",
+            "Oh, you never fail to disappoint, Leif.\\nTruly, you are an exemplar of your order!",
+            "VO_CHR_MAINSTORY_13_08_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c01142",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "print",
+          "args": [
+            "Phares",
+            "Well then! While I would love to stay here\\nand conduct more research, I fear it is\\ntime for me to make my farewells.",
+            "VO_CHR_MAINSTORY_13_08_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0172"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0169"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0297"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "SHAKE_BG_LOOP",
+          "args": [
+            "12",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0002_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "What the—?!",
+            "VO_CHR_MAINSTORY_13_08_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "print",
+          "args": [
+            "Luca",
+            "Is this an earthquake?!",
+            "VO_CHR_MAINSTORY_13_08_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "The mana kiln is spiraling out of control!",
+            "VO_CHR_MAINSTORY_13_08_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "print",
+          "args": [
+            "Ranzal",
+            "The floor's collapsin'!",
+            "VO_CHR_MAINSTORY_13_08_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "c_jump2",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "print",
+          "args": [
+            "Notte",
+            "We're gonna fall! ...Well, okay, not WE.\\nBut you guys are definitely gonna fall!",
+            "VO_CHR_MAINSTORY_13_08_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "set_volume",
+          "args": [
+            "0",
+            "1.0",
+            "SE_STORY_COMMON_0297"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0173"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "CHARA_SET3",
+          "args": [
+            "Q",
+            "Q",
+            "c0102",
+            "6",
+            "M",
+            "M",
+            "c0103",
+            "6",
+            "Q",
+            "M",
+            "c01019",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "mnu",
+          "args": [
+            "c0102",
+            "true",
+            "0.4",
+            "0",
+            "-120",
+            "EaseInSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "cmp",
+          "args": [
+            "c0102",
+            "0.4",
+            "0",
+            "-120",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "mnu",
+          "args": [
+            "c0103",
+            "true",
+            "0.4",
+            "0",
+            "-120",
+            "EaseInSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "cmp",
+          "args": [
+            "c0103",
+            "0.4",
+            "0",
+            "-120",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "mnu",
+          "args": [
+            "c01019",
+            "true",
+            "0.4",
+            "0",
+            "-120",
+            "EaseInSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "cmp",
+          "args": [
+            "c01019",
+            "0.4",
+            "0",
+            "-120",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_13_08_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "Aaaaaagh!",
+            "VO_CHR_MAINSTORY_13_08_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "RestartAll",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "RestartAll",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "RestartAll",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "window_fadeout",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

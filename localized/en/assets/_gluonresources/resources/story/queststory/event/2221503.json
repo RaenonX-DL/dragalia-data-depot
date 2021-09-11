@@ -1,0 +1,5037 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2221503",
+  "filename": "2221503",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "Summary"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "Cleo and Lathna learn from the woman in the\\ncave that she performed a heretical ritual, and\\nare relieved to have identified the true culprit.\\nHowever, the moment Lathna touches her, the\\nwoman transforms into Nyarlathotep. Lathna\\ndespairs, believing that she has killed her."
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0103_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "That's the last of the zombies dealt with.\\nI must say, I did not expect to find a place\\nlike this in the cave depths.",
+            "VO_CHR_EVENTSTORY_22215_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "It is suspicious, to say the least.\\nPerhaps this is our suspect's hideaway.",
+            "VO_CHR_EVENTSTORY_22215_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "I dunno, but there are strange letters\\nand pictures all over the place.",
+            "VO_CHR_EVENTSTORY_22215_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "...That's a rather unsettling magic circle.\\nI feel as though I've seen this pattern\\nsomewhere before...",
+            "VO_CHR_EVENTSTORY_22215_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Ah, right! It's the same sort as what we\\nsaw with Curran and the others in that\\nheretical library they were investigating.",
+            "VO_CHR_EVENTSTORY_22215_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "The forbidden library...?\\nIt can't be—EEEK!",
+            "VO_CHR_EVENTSTORY_22215_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "true",
+            "0.08",
+            "6",
+            "-5",
+            "9",
+            "0.08",
+            "1",
+            "1",
+            "1",
+            "0.26",
+            "5",
+            "EaseOutCubic",
+            "0.08",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "false",
+            "0.1",
+            "-12",
+            "-5",
+            "9",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "false",
+            "0.08",
+            "6",
+            "-5",
+            "9",
+            "0.08",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.08",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "cmp",
+          "args": [
+            "c37493",
+            "0.26",
+            "0",
+            "-15",
+            "1",
+            "1",
+            "5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "BOTTOM_OUT_FAST",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "StopEye_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.2",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_mnu_reset",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Lathna! Are you okay?!",
+            "VO_CHR_EVENTSTORY_22215_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "I'm okay... I, um, just tripped.\\nIs this...a book?",
+            "VO_CHR_EVENTSTORY_22215_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "add_book_text",
+          "args": [
+            "Day OO, Month of the Lovely Dragon\\nIt's been a few days since I lost my husband.\\nI still can't believe it. This is a nightmare.\\nWhy can't I wake up? I've never felt so lonely."
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "add_book_text",
+          "args": [
+            "Day XX, Month of the Wardragon\\nI long to see him. My heart is broken.\\nO God, please return him to me! Please!"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "add_book_text",
+          "args": [
+            "Day ZZ, Month of the Raindragon\\nVoice. Voice. Voice. Guidance. Yes.\\nI hear it, the Revival, it whispers.\\nThe lanterns, lanterns, LANTERNS!\\nRitual will happen on day of the lanterns."
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "add_book_text",
+          "args": [
+            "Day OX, Month of the Blazewyrm\\nThe music, the flesh, the feast, sacrifice.\\nThe lanterns, they come! COME COME COME!\\nO God, O Ancient One, thy name is..."
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "touch_wait",
+          "args": [
+            "6.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "It's a diary. It looks like it belongs to the\\nwoman—poor deceased Banquo's wife.",
+            "VO_CHR_EVENTSTORY_22215_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "The entries get increasingly nonsensical\\nthe more you read. What in the world...?",
+            "VO_CHR_EVENTSTORY_22215_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "???",
+            "AAAaaaAAAH!",
+            "VO_CHR_EVENTSTORY_22215_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Was that a scream?\\nIt came from beyond that gate!",
+            "VO_CHR_EVENTSTORY_22215_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Let's go. Quickly!",
+            "VO_CHR_EVENTSTORY_22215_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c010420",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "c_swing_h",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Nnngh... It's no good. The gate won't open.\\nSomething's preventing us!",
+            "VO_CHR_EVENTSTORY_22215_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "-200",
+            "150"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "set_BG_effect_rotation",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "180"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0162"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "0",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1244",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "Ulthar",
+            "MRRRRROW!"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Ulthar? What is—oh! Cleo, there!",
+            "VO_CHR_EVENTSTORY_22215_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET_0",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "1",
+            "0.75",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "1",
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "print",
+          "args": [
+            "Ghost",
+            "......"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "0.3",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "0.3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Who is that? And...wait.\\nTheir body—it's transparent!",
+            "VO_CHR_EVENTSTORY_22215_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "0.3",
+            "0.75",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "0.3",
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "print",
+          "args": [
+            "Ghost",
+            "......\\nRescue my wife, please.",
+            "VO_CHR_EVENTSTORY_22215_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0161"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_117"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "1.5",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "1.5",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_117",
+            "0",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Oh! The gate, it's opening! C-could that\\nhave been the ghost of the man who died?",
+            "VO_CHR_EVENTSTORY_22215_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "What?! There's no way—wait, no.",
+            "VO_CHR_EVENTSTORY_22215_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "This isn't the time to be thinking about\\nthat. We have to hurry on.",
+            "VO_CHR_EVENTSTORY_22215_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c010420",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0096_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0014_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "Woman",
+            "Uuuh... Urah...",
+            "VO_CHR_EVENTSTORY_22215_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "The woman! She's still breathing. Good.\\nMy healing magic should prove effective.",
+            "VO_CHR_EVENTSTORY_22215_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "MAGIC_CURE",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "c_zigzag_h_t",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "Woman",
+            "Who...are you?",
+            "VO_CHR_EVENTSTORY_22215_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Thank goodness you're awake! Are you\\nall right? Can you remember anything?",
+            "VO_CHR_EVENTSTORY_22215_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "Woman",
+            "I... That's right, I...wanted to see my\\nhusband, so I tried the revival ritual...",
+            "VO_CHR_EVENTSTORY_22215_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "The one you mentioned in your diary?",
+            "VO_CHR_EVENTSTORY_22215_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "print",
+          "args": [
+            "Woman",
+            "Yes... A strange voice told me about it.\\nIt said that if I drew magic circles on the\\nlanterns to make them go up the river,\\nmy husband would be revived.",
+            "VO_CHR_EVENTSTORY_22215_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "So it was your work after all.\\nBut why were you incapacitated here?",
+            "VO_CHR_EVENTSTORY_22215_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "Woman",
+            "I don't know. In order to bring my husband\\nback, I called to all of the souls sleeping\\nin this land, but...",
+            "VO_CHR_EVENTSTORY_22215_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "StopEye_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "print",
+          "args": [
+            "Woman",
+            "It proved too much for me to handle.\\nI could not find my husband's soul, and\\nthe wailing of the others ate away at me.",
+            "VO_CHR_EVENTSTORY_22215_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "Woman",
+            "I become someone not myself!\\nI was transformed! Yes...and then...\\nI couldn't bear it!",
+            "VO_CHR_EVENTSTORY_22215_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "print",
+          "args": [
+            "Woman",
+            "From inside a distant consciousness, a\\nvoice spoke. It told me that I was not\\nstrong enough to be the Emissary.",
+            "VO_CHR_EVENTSTORY_22215_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "The Emissary...",
+            "VO_CHR_EVENTSTORY_22215_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "print",
+          "args": [
+            "Woman",
+            "I remember nothing after that.\\nI can't hear the voice...\\nThe voice... The voice... My guide...",
+            "VO_CHR_EVENTSTORY_22215_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Er... Are you well?",
+            "VO_CHR_EVENTSTORY_22215_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "chara_color",
+          "args": [
+            "c0237",
+            "1.5",
+            "2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0.5",
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "print",
+          "args": [
+            "Woman",
+            "*mumble* Why, God...? *mumble*",
+            "VO_CHR_EVENTSTORY_22215_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_UNCOLOR",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Ma'am? ...I don't think we'll be able to get\\nany more out of her.",
+            "VO_CHR_EVENTSTORY_22215_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "At least now we know who was responsible\\nfor the incident.",
+            "VO_CHR_EVENTSTORY_22215_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Yeah. So this lady did the ritual and\\nmade the lanterns go backwards... Right?",
+            "VO_CHR_EVENTSTORY_22215_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Yes. She is some manner of heretic, and\\nmisused the lanterns in a bid to revive\\nher husband through dark magicks.",
+            "VO_CHR_EVENTSTORY_22215_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "But this was a Hinomotoan festival. How\\nwould that work for a heretical ritual?",
+            "VO_CHR_EVENTSTORY_22215_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "It's said that sometimes, Hinomoto's\\nlanterns contain remnants of the deceased,\\nlike locks of hair, in order to guide the\\nprayers sent after them.",
+            "VO_CHR_EVENTSTORY_22215_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Likely that unwittingly made them perfect\\nbeacons to use in summoning back the\\nsouls of the dead.",
+            "VO_CHR_EVENTSTORY_22215_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "So she used the festival to do her\\nritual, but it...failed, somehow?",
+            "VO_CHR_EVENTSTORY_22215_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Yes. She did manage to reverse the\\nlanterns, but she could not control the\\nmass of souls she summoned, and ended\\nup collapsing.",
+            "VO_CHR_EVENTSTORY_22215_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "And then the souls that had broken free\\nfrom her grasp reacted to your power and\\nturned into zombies.",
+            "VO_CHR_EVENTSTORY_22215_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Why zombies? Is it because I really am\\na bad person, so the souls turned into\\nsomething bad, too?",
+            "VO_CHR_EVENTSTORY_22215_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "No, I don't think that's it. Likely the\\nremains in the lanterns and the souls\\nwere fused when they came into\\nunexpected contact with your power.",
+            "VO_CHR_EVENTSTORY_22215_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Merely an accident caused by your power\\ndistorting the original purpose of the\\nmagic circles.",
+            "VO_CHR_EVENTSTORY_22215_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "So it wasn't that something inside me\\nwas trying to summon the zombies...?",
+            "VO_CHR_EVENTSTORY_22215_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Right. Meaning you were not responsible\\nfor the incident. We know that much now.",
+            "VO_CHR_EVENTSTORY_22215_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "ONPU_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "So don't you spend another second\\nthinking about how things would be\\nbetter off if you weren't here! Okay?",
+            "VO_CHR_EVENTSTORY_22215_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Right. I'm...not a bad girl after all, huh?",
+            "VO_CHR_EVENTSTORY_22215_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Of course not. And once we sort out\\nthe zombies, we'll have this whole\\nmatter wrapped up nicely.",
+            "VO_CHR_EVENTSTORY_22215_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Yeah... Then first, maybe she can tell us\\nhow to get the souls to go back to where\\nthey came from...",
+            "VO_CHR_EVENTSTORY_22215_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c37493",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 543,
+          "command": "CHARA_KAMITE_POS",
+          "args": [
+            "M",
+            "Q",
+            "190",
+            "0",
+            "c37493",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "print",
+          "args": [
+            "Woman",
+            "...Aah.",
+            "VO_CHR_EVENTSTORY_22215_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "StopLip_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 556,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Huh?",
+            "VO_CHR_EVENTSTORY_22215_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "RestartLip",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "chara_shake_h",
+          "args": [
+            "c0237",
+            "3",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "print",
+          "args": [
+            "Woman",
+            "Ah, aaah, AAAH!",
+            "VO_CHR_EVENTSTORY_22215_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "400",
+            "-100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "96",
+            "96",
+            "96"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "StopLip_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 580,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "What?! No... Nooo!",
+            "VO_CHR_EVENTSTORY_22215_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "KAMITE_OUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "RestartLip",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "chara_shake_h",
+          "args": [
+            "c0237",
+            "3",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "print",
+          "args": [
+            "Woman?",
+            "The Emissary hath come.",
+            "VO_CHR_EVENTSTORY_22215_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1244",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "print",
+          "args": [
+            "Ulthar",
+            "Mrooow! MROWL!"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0.5",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "CHARA_SET",
+          "args": [
+            "O",
+            "M",
+            "C",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "Woman?",
+            "Thus is the chaos of glittering stars poured\\ninto the closed casket, and the unripened\\nvessel is released from its long sleep!",
+            "VO_CHR_EVENTSTORY_22215_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "1.5",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 623,
+          "command": "print",
+          "args": [
+            "Woman?",
+            "The time has come. We are Chaos. We\\nare without Beginning nor End. We are the\\nDawn and Dusk. An unwaking nightmare\\non bleakest, blackest morn comes.",
+            "VO_CHR_EVENTSTORY_22215_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_SCE_2D_REN_012",
+            "EFF_SCE_2D_CMN_235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "set_render_target",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "66",
+            "66",
+            "66"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "25",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "1",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_012",
+            "0",
+            "0",
+            "0",
+            "1",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 637,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "print",
+          "args": [
+            "Woman?",
+            "The time of Our awakening is nigh.\\nWe are...",
+            "VO_CHR_EVENTSTORY_22215_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 643,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_012",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0418"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "chara_brightness",
+          "args": [
+            "d2146",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "mnu_fade",
+          "args": [
+            "d2146",
+            "true",
+            "1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "cmp_fade",
+          "args": [
+            "d2146",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "chara_brightness",
+          "args": [
+            "d2146",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "print",
+          "args": [
+            "Nyarlathotep",
+            "N Y A R L A T H O T E P",
+            "VO_CHR_EVENTSTORY_22215_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "c010420",
+            "7",
+            "M",
+            "Q",
+            "150",
+            "C",
+            "c37493",
+            "7",
+            "M",
+            "Q",
+            "-150",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 669,
+          "command": "print",
+          "args": [
+            "Cleo & Lathna",
+            "!!!",
+            "VO_CHR_EVENTSTORY_22215_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "RestartLip",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "NO_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "It can't be. The woman—she\\nturned into Nyarlathotep...?",
+            "VO_CHR_EVENTSTORY_22215_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "StopLip_close",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Why...? This woman isn't the\\nEmissary! This shouldn't—!",
+            "VO_CHR_EVENTSTORY_22215_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c010420",
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 689,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "print",
+          "args": [
+            "Nyarlathotep",
+            "With Our brethren's aid, We have been\\nfreed from boundless slumber. She who\\nwoke Us was from the start a thrall of the\\nAncient One; one of Our faceless vessels.",
+            "VO_CHR_EVENTSTORY_22215_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 693,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 696,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "No... She's been a part of you all along?\\nThen the voice who told her about the\\nritual to bring back her husband...",
+            "VO_CHR_EVENTSTORY_22215_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 701,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 705,
+          "command": "c_bound_b_slow",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 707,
+          "command": "print",
+          "args": [
+            "Nyarlathotep",
+            "Yes. It was We who imparted to the\\nwoman vessel the means to perform\\nthe rite. And then We had her gather\\nsouls to awaken Us. Yet she was a void.",
+            "VO_CHR_EVENTSTORY_22215_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 710,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 711,
+          "command": "print",
+          "args": [
+            "Nyarlathotep",
+            "Brethren, We are grateful for your help.\\nOur vessel's collapse, Our awakening,\\nthe heretical stride of the walking flesh...\\nAll are your achievements.",
+            "VO_CHR_EVENTSTORY_22215_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 713,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 717,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 718,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "You're saying that your awakening was\\nhastened by Lathna's power?",
+            "VO_CHR_EVENTSTORY_22215_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 723,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 724,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 725,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 726,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "No...no...no...",
+            "VO_CHR_EVENTSTORY_22215_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 729,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 730,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 731,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "It's my fault that this woman...died?",
+            "VO_CHR_EVENTSTORY_22215_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 733,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 736,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 737,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 738,
+          "command": "print",
+          "args": [
+            "Nyarlathotep",
+            "Your power invited us. We are free of our\\nshackles now because of you, and now\\nWe shall fulfill our duty as Emissary\\nof the Ancient One.",
+            "VO_CHR_EVENTSTORY_22215_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 741,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 742,
+          "command": "print",
+          "args": [
+            "Nyarlathotep",
+            "We go now, to gather sacrifices unto the\\naltar of worship.",
+            "VO_CHR_EVENTSTORY_22215_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 744,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 745,
+          "command": "play_sound",
+          "args": [
+            "SE_136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 746,
+          "command": "SHIMOTE_OUT_SLOW",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 747,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 748,
+          "command": "wait",
+          "args": [
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 749,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 750,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 751,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 755,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 756,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 757,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 758,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Agh... Aaaaagh!",
+            "VO_CHR_EVENTSTORY_22215_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 760,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 761,
+          "command": "c_zigzag_h_b",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 762,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 763,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 767,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 768,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 769,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 770,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "Lathna?!",
+            "VO_CHR_EVENTSTORY_22215_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 772,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 775,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 776,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 777,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 778,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 779,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 780,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Stay back!",
+            "VO_CHR_EVENTSTORY_22215_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 782,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 783,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 786,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 787,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 788,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 789,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "?!",
+            "VO_CHR_EVENTSTORY_22215_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 791,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 794,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 795,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 796,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 797,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Stay back! You can't come near me!",
+            "VO_CHR_EVENTSTORY_22215_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 799,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 802,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 803,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 804,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "What are you talking about?",
+            "VO_CHR_EVENTSTORY_22215_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 806,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 809,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 810,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 811,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "It was me who summoned the zombies.\\nAnd it was me who killed the woman and\\nmade her into Nyarlathotep.",
+            "VO_CHR_EVENTSTORY_22215_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 814,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 815,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 816,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Everything, all of it, it's my fault.\\nThat's what Nyarlathotep said.",
+            "VO_CHR_EVENTSTORY_22215_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 819,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 820,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 821,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 822,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "I'm sorry... I'm so sorry, Cleo.\\nI'm not a good girl after all.",
+            "VO_CHR_EVENTSTORY_22215_03_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 825,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 827,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 828,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 829,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "And bad girls deserve to be alone.",
+            "VO_CHR_EVENTSTORY_22215_03_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 833,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 834,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

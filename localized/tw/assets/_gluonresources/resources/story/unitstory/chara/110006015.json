@@ -1,0 +1,2969 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110006015",
+  "filename": "110006015",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0028_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "5",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "謝謝你陪我一起來買東西，\\n{player_name}。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "沒關係啦。這麼多食材，\\n克菈兒一個人也提不動吧。\\n那麼……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_SHIMOTE3_VERYFAST_SE",
+          "args": [
+            "M",
+            "Q",
+            "c0243",
+            "1",
+            "M",
+            "Q",
+            "c0233",
+            "1",
+            "M",
+            "M",
+            "c0232",
+            "5",
+            "SE_RUN_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "c_jump",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "print",
+          "args": [
+            "？？？",
+            "{player_name}王子，覺悟吧！\\n喂，你們幾個，把他們綁起來！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "play_sound",
+          "args": [
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "mnu",
+          "args": [
+            "c0243",
+            "true",
+            "0.3",
+            "-120",
+            "0",
+            "EaseInSine",
+            "0.3",
+            "1",
+            "1",
+            "0",
+            "0.3",
+            "0",
+            "0",
+            "0.3",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "mnu",
+          "args": [
+            "c0233",
+            "true",
+            "0.3",
+            "-120",
+            "0",
+            "EaseInSine",
+            "0.3",
+            "1",
+            "1",
+            "0",
+            "0.3",
+            "0",
+            "0",
+            "0.3",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "cmp",
+          "args": [
+            "c0243",
+            "0.3",
+            "-120",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "cmp",
+          "args": [
+            "c0233",
+            "0.3",
+            "-120",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "NO_EMO",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "chara_visible",
+          "args": [
+            "c0243",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "chara_visible",
+          "args": [
+            "c0233",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "SE_RUN_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "chara_visible",
+          "args": [
+            "c0243",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0243",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "chara_pos",
+          "args": [
+            "c0243",
+            "120",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "mnu",
+          "args": [
+            "c0243",
+            "true",
+            "0.5",
+            "-60",
+            "0",
+            "EaseInSine",
+            "0.5",
+            "1",
+            "1",
+            "0",
+            "0.5",
+            "0",
+            "1",
+            "0.5",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "cmp",
+          "args": [
+            "c0243",
+            "0.5",
+            "-60",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "play_sound",
+          "args": [
+            "SE_046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_001",
+            "1.5",
+            "1.5",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_001",
+            "0.4",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "mnu_move",
+          "args": [
+            "c0101",
+            "true",
+            "0.4",
+            "-100",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "cmp_move",
+          "args": [
+            "c0101",
+            "0.4",
+            "-100",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "wait",
+          "args": [
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "哇……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "chara_visible",
+          "args": [
+            "c0243",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c0243",
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "{player_name}！？\\n喂，你們到底在做什麼。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "play_sound",
+          "args": [
+            "SE_RUN_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "chara_visible",
+          "args": [
+            "c0233",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0233",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "chara_pos",
+          "args": [
+            "c0233",
+            "140",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "mnu",
+          "args": [
+            "c0233",
+            "true",
+            "0.5",
+            "-10",
+            "0",
+            "EaseInSine",
+            "0.5",
+            "1",
+            "1",
+            "0",
+            "0.5",
+            "0",
+            "1",
+            "0.5",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "cmp",
+          "args": [
+            "c0233",
+            "0.5",
+            "-10",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120033_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0104",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "play_sound",
+          "args": [
+            "SE_046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_001",
+            "1.5",
+            "1.5",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_001",
+            "0.4",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "mnu_move",
+          "args": [
+            "c0104",
+            "true",
+            "0.4",
+            "-100",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "cmp_move",
+          "args": [
+            "c0104",
+            "0.4",
+            "-100",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "wait",
+          "args": [
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "ASE_jump",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "哇呀……！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "chara_visible",
+          "args": [
+            "c0233",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "NO_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "BLACK_OUT_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0233"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0019_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "BLACK_IN_LONG",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "唔唔……怎麼會這樣……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "print",
+          "args": [
+            "首領",
+            "{player_name}王子。\\n不惜花大錢，\\n也想抓你的人可說是多如繁星呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0232",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "WARAI_jump",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "首領",
+            "嘿嘿嘿，就讓我們賺一筆吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "看來之前在附近鬼鬼祟祟的那些流氓，\\n目標並不是歐連恩先生呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "唔，真是大意了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0306",
+            "5",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "兩位看起來好像很困擾呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "print",
+          "args": [
+            "首領",
+            "歐、歐連恩是你！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "c_bound_b",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "嘿，老大。好久不見啦。\\n他們是我的朋友。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "能不能看在我的面子上，\\n放了他們一馬呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "首領",
+            "朋友啊？……這樣啊。\\n你也把這個王子當成你的目標啦。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "NO_EMO",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0232",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "c_swing_h",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "首領",
+            "真可惜啊。\\n我可不會眼睜睜放走這個飯碗。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0232",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "首領",
+            "還是你要憑蠻力奪走？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0306",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "怎麼會！以戰鬥解決爭執之事，\\n一點都不優雅。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "NO_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0306",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "這樣如何，\\n我們來擲骰子決勝負吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "c_jump",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "print",
+          "args": [
+            "首領",
+            "哈，竟然要用骰子！真是學不乖！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0232",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "首領",
+            "話先說在前頭，\\n你的手段我已經全部看透啦！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0232",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "WARAI_jump",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "print",
+          "args": [
+            "首領",
+            "如果你還以為能和那時一樣，\\n可就大錯特錯啦。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "c_bound_b",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "這樣啊。那麼，我們就堂堂正正，\\n來場將命運交付於天的比賽吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "歐連恩……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0306",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "放心吧。\\n我一定會救出你們的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "NO_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "沒問題的。\\n我可不是個只會耍小手段的賭徒。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "就讓我招來命運女神的垂憐吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "NO_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "來，看仔細了。\\n看我華麗的擲骰子！喝！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "CHARA_ATTACK_HIT",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "SE_190"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "play_sound",
+          "args": [
+            "SE_172"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_030",
+            "EFF_029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "ASE_jump",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "哇，骰子冒煙了。\\n咳、咳。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "StopEye_close",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0232",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "ASE_jump",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "首領",
+            "可、可惡，什麼都看不見！\\n歐連恩，你這傢伙竟敢這麼做！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0232"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "ASE_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "咦、咦咦？\\n到、到底發生什麼……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0306",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "c_jump",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "喂！{player_name}、克菈兒！\\n趁現在快逃！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "SHIMOTE_OUT_FAST_SE",
+          "args": [
+            "c0306",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "CHARA_SET2",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "4",
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "play_sound",
+          "args": [
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "SHIMOTE_OUT_FAST",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "SHIMOTE_OUT_FAST",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "我還以為真的要堂堂正正的比賽……\\n真想不到你居然還有這招。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "我可不只是遊戲中的賭徒。\\n在人生中也同樣在拼勝負啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "多虧了你，我們才能平安無事回到城裡。\\n敵方我方都沒有流一滴血。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "真的是……很優雅的作法呢。\\n謝謝你，歐連恩！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "c_swing_h",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "真是沒想到你居然會救我們。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "我不是說了嘛。\\n賭徒是絕對不能輸的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "現在，我正處於一場\\n空前絕後的大賭局之中。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "我想在{player_name}身上，\\n賭賭看這個大陸的未來。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "所以，我才會不計一切\\n都要幫助你們！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "歐連恩……！\\n原來你如此看重我……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "正是如此。我第一次見到你的時候，\\n心頭震了一下。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "所以才耍了那種小手段，\\n以便加入你麾下啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "耍了小手段……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦，跟歐連恩初次見面的時候，\\n應該是我贏了啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "難道說那也是……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "呵呵呵，真相究竟是如何呢？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "RestartEye",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "有可能是真的，\\n也有可能是謊言……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "不過，想在你身上賭一把的心情是真的。\\n我一定會贏的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0306",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "c_bound_b",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110006_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "print",
+          "args": [
+            "歐連恩",
+            "……一定會的！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "NO_EMO",
+          "args": [
+            "c0306"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "BLACK_OUT_DEF_STOP_FIN",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

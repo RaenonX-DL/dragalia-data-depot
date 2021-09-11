@@ -1,0 +1,1914 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110012011",
+  "filename": "110012011",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0015_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "食材、藥草，還有木材……\\n被交代要買的東西，這些就是全部了吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "……{player_name}，\\n你看那邊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0412",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "這樣啊。\\n現在的收購價差不多就這樣嗎。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0412",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "明明之前還能賣上兩倍價錢的說。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0214",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "ASE_jump",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120014_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "print",
+          "args": [
+            "商人",
+            "是、是之前那家店有問題啦！\\n一般的收購價大概就是這樣的啦！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "NO_EMO",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0214",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "c_bound_b",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "print",
+          "args": [
+            "商人",
+            "搞不好我們這裡還算高呢！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0412",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "是嗎？哎呀，謝謝啦！\\n那真是幫了我大忙！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "NO_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "薪柴、木材，還有鞣革……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "ASE_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "這些不都是受到氣候影響\\n而價格飛漲的東西嗎。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "NO_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "那個人被騙了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "如果是賣給正派經營的店家，\\n至少能拿到那家店所出的10倍價錢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "什麼！那也太過份了！\\n我這就去提醒他一下。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "SHIMOTE_OUT_FAST_SE",
+          "args": [
+            "c0101",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "BLACK_OUT_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "BLACK_IN_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "CHARA_KAMITE_FAST",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那筆交易，先給我慢著！\\n再怎麼說這價格都太低了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0214",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "商人",
+            "嗯？幹嘛，你們誰啊。\\n門外漢給我閃邊去啦！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……那邊那位。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你去其他店家賣賣看吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "一定有店家會以更好的價錢向你收購。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0214",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "ASE_EMO",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "c_swing2_h",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "商人",
+            "不、不行！如果那種上等貨\\n被拿到其他店去賣的話……啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0214",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "ASE_jump",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "商人",
+            "啊，沒有啦～那個……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "NO_EMO",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0214",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "c_swing2_h_slow",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120014_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "print",
+          "args": [
+            "商人",
+            "看來好像是我算錯價格了，\\n啊哈哈哈哈……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "你以為那種藉口能說得通嗎──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0412",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "c_bound2_b",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "這樣啊，這樣啊。\\n原來是算錯了啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0412",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "誰都有出錯的時候嘛！\\n別在意！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "……這個人沒生氣嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0214",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "ASE_EMO",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120014_STORY_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "print",
+          "args": [
+            "商人",
+            "那～那個……該怎麼說呢，\\n謝謝你，我也有不對的地方。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "NO_EMO",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0412",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "哎呀，店家能高價收購真是太好了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "RestartEye",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "ONPU_jump",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "我還是第一次賣到這麼好的價錢呢！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我說，\\n你不介意剛才的事嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你可是差點就被騙了喔？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0412",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "嗯……畢竟我對算錢不在行啊，\\n這也沒辦法，沒辦法！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0412",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "先別管那個了！\\n謝謝你們兩位的幫忙！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0412",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "讓我回報一點什麼作為謝禮吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不，你別客氣。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我們只不過是多管閒事而已。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0412",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "c_swing_h",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "話不能這麼說。\\n這對生活在山裡的人來說可是鐵則。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0412",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "如果砍伐了樹木，就要種下幼苗；\\n如果摘下了果實，就要為其澆水。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0412",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "知恩報恩，這就是山之鐵則。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "你平常就在山上生活嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0412",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "c_bound_b",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "是啊，我在山上蓋了間小屋，\\n以變賣木材和野獸給城裡的店家維生。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0412",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "HIRAMEKI_jump",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "啊，對了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0412",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "我不只會蓋小屋，\\n還能幫忙修繕房子喔？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你說修繕啊。\\n我們那邊確實有幾處需要修繕的地方……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "但可不能那麼麻煩你。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0412",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "知恩報恩，\\n我說過這就是山之鐵則吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0412",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "c_bound_b",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110012_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "瑞克斯",
+            "好了，我們趕緊出發吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "NO_EMO",
+          "args": [
+            "c0412"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

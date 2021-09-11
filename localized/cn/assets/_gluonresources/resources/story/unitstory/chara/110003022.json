@@ -1,0 +1,1786 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110003022",
+  "filename": "110003022",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "要跳过此剧情吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0073_200"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "print",
+          "args": [
+            "乔",
+            "呼……熟悉得差不多了，\\n不过……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "感觉怎么样？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "c_bound_b",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "print",
+          "args": [
+            "乔",
+            "是{player_name}啊。\\n用起来还行吧。\\n铳的学问比我想象中更深奥。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c03032",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "print",
+          "args": [
+            "乔",
+            "你要来看看吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "看什么？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "乔",
+            "试射。\\n你指哪棵树我就射哪棵树。\\n随便选一棵吧，几棵也行。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这样啊。那……虽然有点远，\\n就射那边那棵树和那边树上\\n长出来的树枝怎么样？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "乔",
+            "两个靶子吗……\\n那棵树的树枝有点细啊。\\n唔……还真有点难度。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c03032",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "c_bound_b",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "乔",
+            "不过，我试试看吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "乔",
+            "呵！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "mnu_scale",
+          "args": [
+            "c03032",
+            "true",
+            "0.15",
+            "1.35",
+            "1.35",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "mnu_scale",
+          "args": [
+            "c03032",
+            "false",
+            "0.15",
+            "1",
+            "1",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "cmp_scale",
+          "args": [
+            "c03032",
+            "0.3",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_237",
+            "-180",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_237",
+            "80",
+            "120"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "c_swing_h",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "乔",
+            "啧……不是很理想啊。\\n不过应该射到了你指定的靶子。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "射击速度好快啊！\\n你的动作太快，\\n感觉就像只射了一发。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我指定的两个地方\\n看起来也都射穿了……\\n这结果怎么能叫不理想呢？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0006_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "print",
+          "args": [
+            "乔",
+            "这点程度只要不断训练，\\n谁都可以做到……\\n我本以为自己能射得更快更准。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我倒是不觉得只要经过训练，\\n谁都能射得像你一样快……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "print",
+          "args": [
+            "乔",
+            "不，曾是我对手的那家伙就……\\n不，如果是他的话\\n一定能射得比我更快吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你的对手？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "HATENA_EMO",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "乔",
+            "我之前没提过吗？\\n曾经有一个对手赌上向弓箭手圈老大\\n挑战的权利与我进行决斗。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "NO_EMO",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c03032",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "c_bound_t",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "print",
+          "args": [
+            "乔",
+            "呵……跑题了。\\n总之，我说谁都能做到\\n也许是夸张了一点。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "print",
+          "args": [
+            "乔",
+            "但是，铳的确比其它武器容易上手，\\n任何人都能用。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "乔",
+            "比如，射箭需要很大的力量拉弓。\\n只有经过训练的人才能够射穿\\n远处的目标。但是……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "StopEye_close",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "乔",
+            "在实战中用铳并不需要经过\\n在实战中用弓那么多的训练。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_1006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "c_bound_b",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "乔",
+            "嗯。射击时必要的动作只有\\n举铳、瞄准、射击……仅此而已。\\n这三种动作都不需要力量。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "StopEye_close",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "print",
+          "args": [
+            "乔",
+            "铳里射出来的魔力也只是将原本\\n就在子弹里的魔力发射出来而已，\\n对使用者来说没有任何负担。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c03032",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "print",
+          "args": [
+            "乔",
+            "不管是谁用铳射击，\\n都只需要扣动扳机就能\\n发挥十足的威力。不过……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "有什么……让你在意的吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "c_swing_h",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "print",
+          "args": [
+            "乔",
+            "不，我自己也还在摸索……\\n铳是很优秀的武器，我也喜欢上了。\\n只是总觉得有些不安。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "print",
+          "args": [
+            "乔",
+            "所以，{player_name}……\\n这支铳你能不能\\n再借我几天。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_1015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯，可以啊。\\n这支铳本来就是为了\\n弄清疑问才让你来试用的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "c_bound_t",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "乔",
+            "呵，谢了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c03032",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "print",
+          "args": [
+            "乔",
+            "既然如此……\\n你要不要帮我试铳？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "帮你？我要怎么做？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c03032",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "print",
+          "args": [
+            "乔",
+            "我把苹果放在头上。\\n你用铳来射落它。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我来射！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c03032",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "c_bound_t",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "print",
+          "args": [
+            "乔",
+            "呵，开玩笑的。\\n万一你射穿了我的脑门，\\n我可是想笑都笑不出来了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c03032",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c03032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110003_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "乔",
+            "第一次拿在手里时就觉得\\n或许能体验新的刺激感……\\n我一定要让它实现。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

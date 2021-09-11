@@ -1,0 +1,1828 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110394013",
+  "filename": "110394013",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "要跳过此剧情吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "我讨伐魔兽回来了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "ODOROKI_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "回来啦！诶诶！？\\n已经完事了！？\\n你不是今早刚出门吗！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "魔兽数量虽然多，\\n但不怎么厉害……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "不、不怎么厉害！？\\n那可是罗布雷尔自卫队\\n举全队之力也打不过的魔兽啊！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "WARAI_EMO",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "c_bound2_t",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "哇～\\n赛希尔你真是厉害啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "c_swing_h",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "才不是呢……\\n我只是托殿下和利弗的福\\n才能留在这里……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "StopEye_close",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "本来想正视的骑士道，\\n最后也无疾而终……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "慢慢来不就好了？\\n我觉得你现在能在圣城工作\\n就是很大的进步了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "谢谢……\\n但是，我变得越发\\n想找回过去的自己……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "我想重新变回那个能直面理想\\n和骑士道的自己。这样一来，\\n也能报答殿下和利弗的恩情了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "唔……变回过去的自己啊……\\n啊！那你要不试着\\n多回忆回忆过去？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "诶？什么意思？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "c_bound2_b",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "想要变回过去的自己，\\n就要重新认清过去的自己！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "ONPU_EMO",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "在这个过程中，\\n说不定就能渐渐地\\n找回过去的自己了哦？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "回忆过去吗……可是……\\n我会不会一想起骑士时期的事，\\n就又情绪失控呢……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "c_swing_h",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "避开当骑士的时期不就好了？\\n也许回想起过去喜欢的或美好的事，\\n就能唤起积极的情绪了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "有道理……\\n喜欢的事物吗……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0043_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7",
+            "SE_NHAA"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "哇……好气派的宅子啊！\\n这是哪里啊？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "是我祖父的别墅……\\n家人们还在帝国，\\n所以这里几乎荒废了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "HATENA_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你祖父竟然有这么气派的别墅，\\n难道你其实是贵族？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "c_bound_t_slow",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "算是吧。都说我家是……\\n近卫骑士辈出的家族。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "所以我从小就没想过\\n当骑士以外的事……\\n啊，不行，不能想这种事。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "我想回忆的不是这个，\\n而是想去露台……跟我来。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0034_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0017_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "纳姆&库菈乌",
+            "哇！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "ONPU_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "好美的景色啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "对吧？呵呵……真令人怀念。\\n虽然我总是忙于修习剑术……\\n但只有在这里的时候不一样。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "每当我来这里避暑，\\n都会在画布上描绘这片风景。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "WARAI_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "这样啊！没想到\\n你还有艺术方面的才能呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "c_swing_h",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "不敢当，只是瞎画而已。\\n不过……我写诗的水平\\n可以说还不错。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39401",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_bound_t",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "因为我在社交场合经常\\n能得到女孩子们的称赞……呵呵。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "WARAI_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "啊……终于看到你开心地笑了！\\n稍微变得积极一些了吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "真的呢！我刚才……\\n回忆过去，还挺开心的……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "呵呵，寻找身为骑士以外的回忆\\n说不定是对的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "是、是呢……好……\\n那接下来就去我的房间吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "以前写的诗应该都还留着——"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0044_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "SYS",
+            "无人可及的蓝天\\n是小鸟们的秘密花园。\\n但是我的心愿啊，\\n一定会将你实现。\\n我的理想，是让世界没有尽头。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0343"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "……\\n我以前到底为什么会把\\n这么烂的诗给别人看……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "SHAKE_CH_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "魔、魔、魔养石……魔养石……\\n咔咔咔咔咔咔……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "SHAKE_CH_STOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "ASE_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "啊、啊哈哈……别这么说。\\n我觉得这诗挺不错的哦？\\n那个……朝气蓬勃的……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m00701",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "c_bound2_b",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "嗯、嗯嗯！怎么说呢……\\n你当年真是向着梦想\\n一往无前呢！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "不、不要再说了！\\n不要再继续补刀了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "哈啊哈啊……\\n虽然要直面骑士道也很痛苦，\\n可是……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "c_zoom_wide_stay",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "赛希尔",
+            "我也没办法……\\n直面这么羞耻的过去啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,2689 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110015014",
+  "filename": "110015014",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "要跳过此剧情吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0021_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0231",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "SHOUT_MON",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "CHARA_ATTACK_MON",
+          "args": [
+            "c0231"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0231"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "play_sound",
+          "args": [
+            "SE_118"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "SHAKE_CH_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "mnu",
+          "args": [
+            "c0101",
+            "true",
+            "0.5",
+            "0",
+            "0",
+            "1",
+            "0.5",
+            "0.94",
+            "0.94",
+            "EaseInSine",
+            "0.5",
+            "0",
+            "1",
+            "0.5",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "cmp",
+          "args": [
+            "c0101",
+            "0.5",
+            "0",
+            "0",
+            "0.94",
+            "0.94",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "wait",
+          "args": [
+            "0.9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "SHAKE_CH_STOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "哼……好强。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "c_mnu_reset",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "c_bound_b",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "这家伙，\\n恐怕是魔兽们的首领。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "太好了，我已经热血沸腾啦！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "唉……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "ASE_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "喂喂。\\n怎么了，兄弟。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "为什么这么低落？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "IKARI_jump",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "所以才说你是不懂美。\\n你以为这是谁的错啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "刚才兰扎卜你躲避攻击时\\n撞到夏迪了吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那个时候，他的镜子碎了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "ASE_jump",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "是、是这样吗。\\n抱歉啊，兄弟。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "ASE_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "c_jump2",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "啊，好在意刘海！\\n好在意脸有没有脏！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "NO_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "c_zoom_stay",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "SE_104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "镜子！谁能给我镜子！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "c_mnu_reset",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "各位，\\n这个话题等下再聊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "敌人马上要攻过来了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "MOYA_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "c_swing_h",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "待在这种地方也没意义。\\n快回到城里，准备新的镜……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "夏迪，危险！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0231",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "SHOUT_MON",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "CHARA_ATTACK_MON",
+          "args": [
+            "c0231"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0231"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_BEAT_HIT_BEFORE_IN",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "呜哇！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_BEAT_AFTER",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "没、没事吧，夏迪！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "SHAKE_CH_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "CHARA_BOTTOM_SLOW",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "SHAKE_CH_STOP",
+          "args": [
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "这、这魔兽……居然！\\n居然弄伤我的脸！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0415",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "c_swing_h",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "泥土与沙尘也就算了……\\n居然敢弄伤我的脸！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0415",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "IKARI_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "chara_shake_h",
+          "args": [
+            "c0415",
+            "1",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "不可原谅！不可原谅啊！\\n竟敢……弄伤我最重要的脸！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "chara_shake_h",
+          "args": [
+            "c0415",
+            "1",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "NO_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0415",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "接招吧！呀啊啊啊啊啊啊！\\n哈啊啊啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "c_face",
+          "args": [
+            "M",
+            "O",
+            "c0415",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "mnu",
+          "args": [
+            "c0415",
+            "true",
+            "0.25",
+            "-160",
+            "0",
+            "EaseOutExpo",
+            "0.25",
+            "1",
+            "1",
+            "EaseInSine",
+            "0.25",
+            "0",
+            "EaseInSine",
+            "0.25",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "mnu",
+          "args": [
+            "c0415",
+            "false",
+            "0.25",
+            "320",
+            "0",
+            "EaseOutExpo",
+            "0.25",
+            "1",
+            "1",
+            "EaseInSine",
+            "0.25",
+            "0",
+            "EaseInSine",
+            "0.25",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "mnu",
+          "args": [
+            "c0415",
+            "false",
+            "0.15",
+            "0",
+            "-60",
+            "EaseInSine",
+            "0.1",
+            "1",
+            "1",
+            "EaseInSine",
+            "0.1",
+            "0",
+            "EaseInSine",
+            "0.1",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "mnu",
+          "args": [
+            "c0415",
+            "false",
+            "0.5",
+            "-160",
+            "140",
+            "EaseOutExpo",
+            "0.5",
+            "1.0",
+            "1.0",
+            "EaseInSine",
+            "0.5",
+            "0",
+            "EaseInSine",
+            "0.5",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "mnu",
+          "args": [
+            "c0415",
+            "false",
+            "0.25",
+            "0",
+            "-160",
+            "EaseOutExpo",
+            "0.1",
+            "1.02",
+            "1.02",
+            "EaseInSine",
+            "0.25",
+            "0",
+            "EaseInSine",
+            "0.25",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "cmp",
+          "args": [
+            "c0415",
+            "1.35",
+            "0",
+            "-80",
+            "1.02",
+            "1.02",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "play_sound",
+          "args": [
+            "SE_228"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_089",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "wait",
+          "args": [
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "play_sound",
+          "args": [
+            "SE_228"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "wait",
+          "args": [
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "play_sound",
+          "args": [
+            "SE_113"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "wait",
+          "args": [
+            "0.15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "play_sound",
+          "args": [
+            "SE_082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "SE_117"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_090",
+            "0",
+            "-100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_090",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "SHAKE_BG_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "wait",
+          "args": [
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "SHAKE_BG_STOP",
+          "args": [
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0231",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_090",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "SE_233"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "SHAKE_BG_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "wait",
+          "args": [
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "SE_233"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "wait",
+          "args": [
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "SHAKE_BG_STOP",
+          "args": [
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "play_sound",
+          "args": [
+            "SE_228"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_090",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "c_push_b",
+          "args": [
+            "c0231"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "play_sound",
+          "args": [
+            "SE_014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0231"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "夏迪一个人就把敌人打倒了！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "厉、厉害啊……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "ASE_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "那位兄弟，\\n不照镜子居然那么厉害。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "最后一击！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_ATTACK_SWD",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0231",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "SHAKE_BG_LOOP",
+          "args": [
+            "6",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "SE_233"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "c0231"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "wait",
+          "args": [
+            "0.55"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "SHAKE_BG_STOP",
+          "args": [
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "SE_205"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "MONSTER_BEAT_AFTER_0",
+          "args": [
+            "c0231"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0103",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "WARAI_jump",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "厉害啊，兄弟！\\n我对你刮目相看……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0415",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "c_swing_h",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "那些都无所谓！\\n谁能给我镜子！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0415",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "wait",
+          "args": [
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0415",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "我的脸上有伤！\\n有伤啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "没事的，你看。\\n仔细看我的手镜。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "c_zoom",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "wait",
+          "args": [
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "这种程度的伤，很快就会好。\\n而且也不会留下伤疤。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "c_mnu_reset",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "HATENA_jump",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "是、是吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "NO_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0415",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "太好了……我这张脸，\\n是唯一能接连我与母亲回忆的……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0415",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "play_sound",
+          "args": [
+            "SE_104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "c_zoom_stay",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "嗯！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "c_mnu_reset",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "怎、怎么了？\\n发生什么事了？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0415",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "这……这是怎么回事！\\n沾着汗水的头发、脸上的污渍……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0415",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "ONPU_jump",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "HAPPY",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "都……好美丽！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "NO_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0415",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "拼命战斗后的我，\\n竟然如此美丽！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0415",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "谢谢你，兰扎卜！真是一大发现！\\n多亏你打碎了镜子！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "NO_EMO",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "c_bound_b",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110015_STORY_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "夏迪",
+            "我发自内心地感谢你！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0415"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "ASE_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "啊？\\n虽然不太懂，不过你开心就好……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "NO_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,5037 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2221503",
+  "filename": "2221503",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "在洞窟中夫人講述起異端儀式之事，\\n而兩人也因找到元凶而鬆了一口氣。\\n但當菈特妮接觸到夫人的瞬間，\\n夫人竟變貌為奈亞拉托提普。菈特妮認為\\n是自己害死夫人，因而陷入絕望。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0103_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "呼……總算是擺脫殭屍了。\\n但是，真令人驚訝。\\n想不到洞窟的深處會有這樣的空間。",
+            "VO_CHR_EVENTSTORY_22215_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "看起來就是個很可疑的地方……\\n是夫人的秘密藏身處嗎？",
+            "VO_CHR_EVENTSTORY_22215_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "不知道……但到處都是、\\n奇怪的字和畫。",
+            "VO_CHR_EVENTSTORY_22215_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "……是相當駭人的魔法陣呢。\\n但是這個不可思議的圖樣，\\n總覺得有在哪裡看過……",
+            "VO_CHR_EVENTSTORY_22215_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "啊！對了。在庫豹先生他們\\n之前調查過的異端圖書館裡出現的，\\n和這是同個系統。",
+            "VO_CHR_EVENTSTORY_22215_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "異端的圖書館……\\n那該不會是……呀啊！！",
+            "VO_CHR_EVENTSTORY_22215_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "true",
+            "0.08",
+            "6",
+            "-5",
+            "9",
+            "0.08",
+            "1",
+            "1",
+            "1",
+            "0.26",
+            "5",
+            "EaseOutCubic",
+            "0.08",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "false",
+            "0.1",
+            "-12",
+            "-5",
+            "9",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "false",
+            "0.08",
+            "6",
+            "-5",
+            "9",
+            "0.08",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.08",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "cmp",
+          "args": [
+            "c37493",
+            "0.26",
+            "0",
+            "-15",
+            "1",
+            "1",
+            "5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "BOTTOM_OUT_FAST",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "StopEye_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.2",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_mnu_reset",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "沒事吧！？",
+            "VO_CHR_EVENTSTORY_22215_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "沒事……我只是、不知道絆到了什麼。\\n這是……書……？",
+            "VO_CHR_EVENTSTORY_22215_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "add_book_text",
+          "args": [
+            "麗龍之月　〇〇日\\n丈夫死去後已過了好幾天。\\n到現在我還是無法相信。\\n簡直就像是一場惡夢般。\\n獨自一人真的非常寂寞。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "add_book_text",
+          "args": [
+            "軍龍之月　××日\\n我好想見到他。\\n想見他……好想見他啊！\\n神啊，請把那個人，\\n再度喚回我的身邊！拜託！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "add_book_text",
+          "args": [
+            "雨龍之月　△△日\\n聲音。聲音。聲音。引導著。啊。\\n「返魂法」　聽到的　聲音。\\n用燈籠用燈籠用燈籠來來來來來來\\n來來在放水燈的日子執行儀式。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "add_book_text",
+          "args": [
+            "灼龍之月　〇×日\\n祭典樂曲　血肉　宴會　祭品\\n來了，燈籠來了來了來了來了來了\\n啊啊神啊　主人啊，名為──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "touch_wait",
+          "args": [
+            "6.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "日記……\\n看來是過世的班古先生\\n他的妻子所寫的……",
+            "VO_CHR_EVENTSTORY_22215_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "隨著日程的推進，\\n內容也變得越來越亂七八糟……\\n究竟是怎麼了？",
+            "VO_CHR_EVENTSTORY_22215_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "？？？",
+            "啊──啊啊啊啊啊啊啊啊！！",
+            "VO_CHR_EVENTSTORY_22215_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "叫、叫聲……！\\n從對面的、門後方……！",
+            "VO_CHR_EVENTSTORY_22215_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "我們馬上進去！",
+            "VO_CHR_EVENTSTORY_22215_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c010420",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "c_swing_h",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "……不行！門、打不開。\\n被什麼給、卡住了……！！",
+            "VO_CHR_EVENTSTORY_22215_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "-200",
+            "150"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "set_BG_effect_rotation",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "180"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0162"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "0",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1244",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "烏魯塔爾",
+            "──喵啊啊啊！！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "烏魯塔爾？\\n怎麼了……啊！\\n……克菈兒，那個……！",
+            "VO_CHR_EVENTSTORY_22215_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET_0",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "1",
+            "0.75",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "1",
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "print",
+          "args": [
+            "幽靈",
+            "…………"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "0.3",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "0.3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "人……？不，他很奇怪……\\n身體是透明的……！",
+            "VO_CHR_EVENTSTORY_22215_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "0.3",
+            "0.75",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "0.3",
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "print",
+          "args": [
+            "幽靈",
+            "…………\\n──請幫助，我的妻子。",
+            "VO_CHR_EVENTSTORY_22215_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0161"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_117"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "1.5",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "1.5",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_117",
+            "0",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "剛、剛才的是……？\\n──啊！門、打開了。\\n該不會是剛才的、幽靈先生開的？",
+            "VO_CHR_EVENTSTORY_22215_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "咦！不，確實他的身體是透明的，\\n但真的有幽靈存在嗎……不。",
+            "VO_CHR_EVENTSTORY_22215_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "……現在不是思考這種事的時候。\\n我們趕快前進吧。",
+            "VO_CHR_EVENTSTORY_22215_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c010420",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0096_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0014_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "夫人",
+            "唔唔……唔啊啊……",
+            "VO_CHR_EVENTSTORY_22215_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "夫人！……還有呼吸。\\n那我就用治癒魔法……！",
+            "VO_CHR_EVENTSTORY_22215_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "MAGIC_CURE",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "c_zigzag_h_t",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "夫人",
+            "……妳、妳是……？",
+            "VO_CHR_EVENTSTORY_22215_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "太好了，妳醒過來了呢！\\n還好嗎，知道自己是誰嗎？",
+            "VO_CHR_EVENTSTORY_22215_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "夫人",
+            "我、我……對了，我記得……\\n為了見到丈夫……進行返魂的儀式……",
+            "VO_CHR_EVENTSTORY_22215_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "返魂的儀式？\\n是那本日記裡寫的「返魂法」嗎？",
+            "VO_CHR_EVENTSTORY_22215_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "print",
+          "args": [
+            "夫人",
+            "對……是奇妙的「聲音」告訴我的。\\n它說只要讓畫了魔法陣的燈籠\\n逆流而上，就能讓丈夫復活。",
+            "VO_CHR_EVENTSTORY_22215_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "果然，是妳動了手腳……\\n但為什麼妳會倒在這裡？",
+            "VO_CHR_EVENTSTORY_22215_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "夫人",
+            "不知道……為了喚回丈夫，\\n我把沉睡在這地區的靈魂，\\n全都喚醒了……",
+            "VO_CHR_EVENTSTORY_22215_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "StopEye_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "print",
+          "args": [
+            "夫人",
+            "但那些被喚醒的靈魂我控制不住……\\n找不到丈夫靈魂的我，\\n就那樣被眾靈魂的呻吟所侵蝕……！",
+            "VO_CHR_EVENTSTORY_22215_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "夫人",
+            "漸漸地，我變得不再是我自己……！\\n我將會改變姿態！啊……沒錯……\\n我沒有承受住……！",
+            "VO_CHR_EVENTSTORY_22215_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "print",
+          "args": [
+            "夫人",
+            "在逐漸消失的意識中，\\n「聲音」說了……\\n我的「使者」之力並不足夠……",
+            "VO_CHR_EVENTSTORY_22215_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "……「使者」之力……",
+            "VO_CHR_EVENTSTORY_22215_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "print",
+          "args": [
+            "夫人",
+            "在那之後的事我都不記得了……\\n「聲音」也……聽不見……\\n聲音、聲音……引導……我、的……",
+            "VO_CHR_EVENTSTORY_22215_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "夫、夫人……？",
+            "VO_CHR_EVENTSTORY_22215_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "chara_color",
+          "args": [
+            "c0237",
+            "1.5",
+            "2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0.5",
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "print",
+          "args": [
+            "夫人",
+            "咕噥咕噥……為什麼……\\n神啊……咕噥咕噥咕噥咕噥……",
+            "VO_CHR_EVENTSTORY_22215_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_UNCOLOR",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "夫人……\\n……看樣子，沒辦法和她\\n進行更進一步的對話呢。",
+            "VO_CHR_EVENTSTORY_22215_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "但是，這樣一來\\n誰是事件的元凶就很清楚了。",
+            "VO_CHR_EVENTSTORY_22215_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "嗯、嗯……\\n這個人透過儀式，\\n讓燈籠逆流了……對吧？",
+            "VO_CHR_EVENTSTORY_22215_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "沒錯。她是異端的信奉者，\\n打算不當利用燈籠進行儀式，\\n讓自己的丈夫復活。",
+            "VO_CHR_EVENTSTORY_22215_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "但是，為什麼日初之國的燈籠，\\n會和異端的儀式、有關係呢……？",
+            "VO_CHR_EVENTSTORY_22215_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "日初之國的燈籠，似乎有時候會為了\\n作傳遞祈禱的指標，而將已故之人的\\n頭髮等物品放入其中。",
+            "VO_CHR_EVENTSTORY_22215_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "而那剛好非常適合\\n拿來作為呼喚死者的媒介吧。",
+            "VO_CHR_EVENTSTORY_22215_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "所以利用放水燈、進行儀式……\\n但是……不小心失敗了？",
+            "VO_CHR_EVENTSTORY_22215_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "對。雖然成功讓燈籠逆流了，\\n但卻無法控制被喚醒的無數靈魂，\\n因此夫人便倒下了。",
+            "VO_CHR_EVENTSTORY_22215_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "然後失去控制的那些靈魂，\\n在祭典會場與菈特妮的力量起了反應，\\n就變成殭屍了。",
+            "VO_CHR_EVENTSTORY_22215_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "……為什麼、是殭屍？\\n果然、因為我是壞孩子，\\n所以靈魂才會變成壞東西嗎？",
+            "VO_CHR_EVENTSTORY_22215_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "不，我覺得不是那樣的。\\n應該是燈籠中的遺物與靈魂\\n被意外的力量所融合，或者說……",
+            "VO_CHR_EVENTSTORY_22215_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "菈特妮的力量，不小心使魔法陣\\n原本的目的產生偏差了……\\n我想這只是一場意外。",
+            "VO_CHR_EVENTSTORY_22215_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "……不是我體內的什麼東西，\\n把殭屍、召喚出來的？",
+            "VO_CHR_EVENTSTORY_22215_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "嗯，所以這事件的元凶不是妳。\\n終於釐清真相了呢。",
+            "VO_CHR_EVENTSTORY_22215_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "ONPU_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "這樣一來，妳也不用再覺得\\n自己不該在這裡了唷。\\n太好了呢！",
+            "VO_CHR_EVENTSTORY_22215_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "……嗯、嗯，真的耶……\\n我……不是、壞孩子囉？",
+            "VO_CHR_EVENTSTORY_22215_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "當然不是。那麼，菈特妮，\\n接下來只要把殭屍的問題解決，\\n就能讓事件圓滿結束了唷。",
+            "VO_CHR_EVENTSTORY_22215_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "嗯，對啊。那麼……首先，\\n讓她告訴我們\\n要怎樣使靈魂回去……",
+            "VO_CHR_EVENTSTORY_22215_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c37493",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 543,
+          "command": "CHARA_KAMITE_POS",
+          "args": [
+            "M",
+            "Q",
+            "190",
+            "0",
+            "c37493",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "print",
+          "args": [
+            "夫人",
+            "──啊。",
+            "VO_CHR_EVENTSTORY_22215_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "StopLip_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 556,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "……咦？",
+            "VO_CHR_EVENTSTORY_22215_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "RestartLip",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "chara_shake_h",
+          "args": [
+            "c0237",
+            "3",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "print",
+          "args": [
+            "夫人",
+            "啊、啊、啊──！",
+            "VO_CHR_EVENTSTORY_22215_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "400",
+            "-100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "96",
+            "96",
+            "96"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "StopLip_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 580,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "什、什麼……呀啊！！",
+            "VO_CHR_EVENTSTORY_22215_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "KAMITE_OUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "RestartLip",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "chara_shake_h",
+          "args": [
+            "c0237",
+            "3",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "print",
+          "args": [
+            "夫人？",
+            "──使者、已至。",
+            "VO_CHR_EVENTSTORY_22215_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1244",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "print",
+          "args": [
+            "烏魯塔爾",
+            "喵啊！喵啊啊！！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0.5",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "CHARA_SET",
+          "args": [
+            "O",
+            "M",
+            "C",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "夫人？",
+            "塵封之棺注入繁星混沌，\\n未熟之器離脫永久沉眠。",
+            "VO_CHR_EVENTSTORY_22215_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "1.5",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 623,
+          "command": "print",
+          "args": [
+            "夫人？",
+            "時機成熟。使者已至。吾乃混沌。\\n吾之終末即創生，乃日暮亦為破曉。\\n為造訪暗黑晨曦之不醒夢魘。",
+            "VO_CHR_EVENTSTORY_22215_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_SCE_2D_REN_012",
+            "EFF_SCE_2D_CMN_235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "set_render_target",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "66",
+            "66",
+            "66"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "25",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "1",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_012",
+            "0",
+            "0",
+            "0",
+            "1",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 637,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "print",
+          "args": [
+            "夫人？",
+            "此刻即是覺醒之時。\\n吾之名乃──",
+            "VO_CHR_EVENTSTORY_22215_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 643,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_012",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0418"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "chara_brightness",
+          "args": [
+            "d2146",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "mnu_fade",
+          "args": [
+            "d2146",
+            "true",
+            "1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "cmp_fade",
+          "args": [
+            "d2146",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "chara_brightness",
+          "args": [
+            "d2146",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "print",
+          "args": [
+            "奈亞拉托提普",
+            "奈　亞　拉　托　提　普。",
+            "VO_CHR_EVENTSTORY_22215_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "c010420",
+            "7",
+            "M",
+            "Q",
+            "150",
+            "C",
+            "c37493",
+            "7",
+            "M",
+            "Q",
+            "-150",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 669,
+          "command": "print",
+          "args": [
+            "克菈兒＆菈特妮",
+            "……！！",
+            "VO_CHR_EVENTSTORY_22215_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "RestartLip",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "NO_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "怎、怎麼會……夫人她、\\n變成了奈亞拉托提普……？",
+            "VO_CHR_EVENTSTORY_22215_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "StopLip_close",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "為什麼……？\\n沒有力量的這個人，\\n不是應該、不是「使者」嗎……！",
+            "VO_CHR_EVENTSTORY_22215_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c010420",
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 689,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "print",
+          "args": [
+            "奈亞拉托提普",
+            "瞭然之理。黃昏同胞破除吾繭。\\n該女，自始即崇拜\\n「主」之無貌顯形軀身。",
+            "VO_CHR_EVENTSTORY_22215_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 693,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 696,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "……！！從一開始，那個人……\\n就是你的一部分？那麼，\\n教夫人執行儀式的「聲音」，就是……",
+            "VO_CHR_EVENTSTORY_22215_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 701,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 705,
+          "command": "c_bound_b_slow",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 707,
+          "command": "print",
+          "args": [
+            "奈亞拉托提普",
+            "言然。該女午睡所聞旨意\\n乃吾為集魂覺醒而予之導引。\\n然該女，力不及虛無。",
+            "VO_CHR_EVENTSTORY_22215_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 710,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 711,
+          "command": "print",
+          "args": [
+            "奈亞拉托提普",
+            "為同胞福音般佑助表以謝意。\\n器之崩壞、吾之覺醒、\\n異端朽者之闊步，皆為汝之功績。",
+            "VO_CHR_EVENTSTORY_22215_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 713,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 717,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 718,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "多虧了有菈特妮的力量……\\n讓覺醒提早了，你是想這麼說嗎？",
+            "VO_CHR_EVENTSTORY_22215_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 723,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 724,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 725,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 726,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "騙人……\\n騙人、騙人……",
+            "VO_CHR_EVENTSTORY_22215_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 729,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 730,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 731,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "都是我害的……\\n那個人……死掉、了……？",
+            "VO_CHR_EVENTSTORY_22215_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 733,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 736,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 737,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 738,
+          "command": "print",
+          "args": [
+            "奈亞拉托提普",
+            "汝之功績。\\n故吾離脫枷鎖成斑，\\n盡使者職責，化不潔之器皿。",
+            "VO_CHR_EVENTSTORY_22215_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 741,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 742,
+          "command": "print",
+          "args": [
+            "奈亞拉托提普",
+            "吾將集活祭獻予「悠久之主」。",
+            "VO_CHR_EVENTSTORY_22215_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 744,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 745,
+          "command": "play_sound",
+          "args": [
+            "SE_136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 746,
+          "command": "SHIMOTE_OUT_SLOW",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 747,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 748,
+          "command": "wait",
+          "args": [
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 749,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 750,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 751,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 755,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 756,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 757,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 758,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "啊……啊……啊啊……！",
+            "VO_CHR_EVENTSTORY_22215_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 760,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 761,
+          "command": "c_zigzag_h_b",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 762,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 763,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 767,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 768,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 769,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 770,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "菈特妮！？",
+            "VO_CHR_EVENTSTORY_22215_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 772,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 775,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 776,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 777,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 778,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 779,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 780,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "不要過來！",
+            "VO_CHR_EVENTSTORY_22215_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 782,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 783,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 786,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 787,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 788,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 789,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "呃！？",
+            "VO_CHR_EVENTSTORY_22215_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 791,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 794,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 795,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 796,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 797,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "不要過來……不可以、過來……！",
+            "VO_CHR_EVENTSTORY_22215_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 799,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 802,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 803,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 804,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "妳在說什麼……",
+            "VO_CHR_EVENTSTORY_22215_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 806,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 809,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 810,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 811,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "召喚出殭屍的，是我。\\n殺了夫人，讓她變成奈亞拉托提普的，\\n也是我。",
+            "VO_CHR_EVENTSTORY_22215_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 814,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 815,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 816,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "所有的一切，都是我害的。\\n那個奈亞拉托提普，\\n就是這麼說的。",
+            "VO_CHR_EVENTSTORY_22215_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 819,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 820,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 821,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 822,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "對不起，對不起克菈兒……\\n我，果然不是、好孩子。\\n所以……",
+            "VO_CHR_EVENTSTORY_22215_03_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 825,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 827,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 828,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 829,
+          "command": "print",
+          "args": [
+            "菈特妮",
+            "像我這樣的壞孩子，\\n是不能和大家在一起的。",
+            "VO_CHR_EVENTSTORY_22215_03_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 833,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 834,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

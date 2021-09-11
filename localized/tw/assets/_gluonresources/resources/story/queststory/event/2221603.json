@@ -1,0 +1,4955 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2221603",
+  "filename": "2221603",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 6,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "outline",
+          "args": [
+            "法爾杰托與葛雷絲再度嘗試潛入\\n「結社」的基地。得知途中經過的\\n村子已遭「結社」高壓支配後，\\n法爾杰托相當憤怒，並向與自己擁有\\n相同力量的龍鎖兵挑戰！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "大家，辛苦了。這裡就是聖城。\\n我馬上請人準備能休息的地方。",
+            "VO_CHR_EVENTSTORY_22216_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "n01901",
+            "1",
+            "M",
+            "Q",
+            "n19801",
+            "1",
+            "M",
+            "M",
+            "n01401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "n01901",
+            "1",
+            "M",
+            "M",
+            "n19801",
+            "1",
+            "M",
+            "M",
+            "n01401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "print",
+          "args": [
+            "被解救的人們",
+            "這裡就是聖城──",
+            "VO_CHR_EVENTSTORY_22216_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n01901",
+            "n19801",
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "…………",
+            "VO_CHR_EVENTSTORY_22216_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "法爾杰托，\\n你也非常努力了呢。",
+            "VO_CHR_EVENTSTORY_22216_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "c_bound_b",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "那、那個，葛雷絲小姐。\\n我果然還是去找阿戴爾潘因先生……",
+            "VO_CHR_EVENTSTORY_22216_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "c_swing_h",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "沒用的。\\n既然他當時無法使用「龍鎖」，\\n那麼從那種高度墜落是不可能獲救的。",
+            "VO_CHR_EVENTSTORY_22216_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "但、但是萬一他很幸運……",
+            "VO_CHR_EVENTSTORY_22216_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "如果他沒有大礙，\\n想必也早已採取行動。\\n所以並沒有我們出場的必要。",
+            "VO_CHR_EVENTSTORY_22216_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "可是……",
+            "VO_CHR_EVENTSTORY_22216_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "c_swing_h",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "……阿戴爾潘因他期望你做的\\n並不是這種事情喔，法爾杰托。",
+            "VO_CHR_EVENTSTORY_22216_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "c_bound_b",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "…………我知道了。",
+            "VO_CHR_EVENTSTORY_22216_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "SYS",
+            "幾個月後──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "p05902",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "葛雷絲小姐！",
+            "VO_CHR_EVENTSTORY_22216_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "4",
+            "SE_RUN_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "等一下，葛雷絲小姐。\\n請妳也帶我一起去！",
+            "VO_CHR_EVENTSTORY_22216_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "要我帶你去……\\n你知道我現在要去哪裡嗎？",
+            "VO_CHR_EVENTSTORY_22216_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "c_bound_b",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "當然，是去「結社」的基地吧？\\n我知道這幾個月來，\\n妳一直都在打探基地的位置。",
+            "VO_CHR_EVENTSTORY_22216_03_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "c_swing_h_slow",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "……吶，法爾杰托。\\n你不必勉強自己與「結社」作戰喔。\\n畢竟你也只是被捲進這件事的人……",
+            "VO_CHR_EVENTSTORY_22216_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "c_bound_b",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "不，請讓我一起作戰。\\n我不這麼做不行。\\n要連阿戴爾潘因先生的份一起……",
+            "VO_CHR_EVENTSTORY_22216_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "p05902",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "c_bound_b",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "……………………\\n……我明白了，那就一起走吧。\\n但是，你得要遵從我的指示喔。",
+            "VO_CHR_EVENTSTORY_22216_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0015_200"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "c_swing_h",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "……失敗了。\\n今天原本應該能再向前推進一些才對。",
+            "VO_CHR_EVENTSTORY_22216_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "這也沒辦法，\\n畢竟山崩導致道路不通……\\n但好在這裡正好有個村子。",
+            "VO_CHR_EVENTSTORY_22216_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n22301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "print",
+          "args": [
+            "巴爾比",
+            "因為一直露宿野外，\\n偶爾真的會很想吃頓好吃的飯啊。\\n話說回來這村子可真窮酸呢。",
+            "VO_CHR_EVENTSTORY_22216_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "巴爾比……\\n在村民面前可別這麼說喔？",
+            "VO_CHR_EVENTSTORY_22216_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n22301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "c_bound2_b",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "print",
+          "args": [
+            "巴爾比",
+            "好啦好啦。",
+            "VO_CHR_EVENTSTORY_22216_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "HATENA_EMO",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "print",
+          "args": [
+            "村民",
+            "……？喔？是旅人嗎？\\n真稀奇啊，會到這種小村子來。",
+            "VO_CHR_EVENTSTORY_22216_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "c_bound_b",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "嗯……我們不小心迷路了。\\n如果會造成困擾的話，\\n我們就立刻離開……",
+            "VO_CHR_EVENTSTORY_22216_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "c_swing_h",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "print",
+          "args": [
+            "村民",
+            "不、不，我們很歡迎喔。\\n這裡的生活總是一成不變很無趣，\\n還想請你們分享旅途中的趣事呢。",
+            "VO_CHR_EVENTSTORY_22216_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n22301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "WARAI_EMO",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "c_bound2_t",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "print",
+          "args": [
+            "巴爾比",
+            "好耶！吃飯～吃飯～！",
+            "VO_CHR_EVENTSTORY_22216_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "print",
+          "args": [
+            "村民",
+            "──！？那、那龍族是……！",
+            "VO_CHR_EVENTSTORY_22216_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "咦？巴爾比怎麼了嗎？",
+            "VO_CHR_EVENTSTORY_22216_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "村民",
+            "啊、不……那個……\\n因為在我們這種小村子裡，\\n龍族非常罕見。",
+            "VO_CHR_EVENTSTORY_22216_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n02101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_bound_b",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "村民",
+            "來，我帶你們去住的地方。",
+            "VO_CHR_EVENTSTORY_22216_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "n02101",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "p05902",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "…………",
+            "VO_CHR_EVENTSTORY_22216_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0084_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "c_swing_h",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "……真可疑。",
+            "VO_CHR_EVENTSTORY_22216_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "咦？什麼東西很可疑？",
+            "VO_CHR_EVENTSTORY_22216_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "我是說這個村子。\\n剛才的村民，好像知道巴爾比的事。",
+            "VO_CHR_EVENTSTORY_22216_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n22301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "HATENA_EMO",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "巴爾比",
+            "知道我？\\n但是，我沒來過這種村子啊？",
+            "VO_CHR_EVENTSTORY_22216_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "c_bound_b",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "當然，他們認識的應該不是你，\\n但很有可能知道\\n「巴爾巴托斯B個體」的存在。",
+            "VO_CHR_EVENTSTORY_22216_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "原本「龍鎖兵計畫」就是以量產\\n為前提進行，所以當然會有複數個\\n「巴爾巴托斯B個體」存在。",
+            "VO_CHR_EVENTSTORY_22216_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "那麼，這個村子裡的人認識\\n和巴爾比長得很像的龍族\\n就表示……",
+            "VO_CHR_EVENTSTORY_22216_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "這個村子裡的人\\n知道「結社」的意思嗎！？",
+            "VO_CHR_EVENTSTORY_22216_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "c_swing_h_slow",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "不只是知道而已……\\n這個村子已經被「結社」入侵，\\n並成為了他們的棋子也說不定。",
+            "VO_CHR_EVENTSTORY_22216_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "c_swing_h",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "怎、怎麼會……\\n那個人看起來明明就是個好人啊……",
+            "VO_CHR_EVENTSTORY_22216_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "c_bound_b",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "是啊，一定是個好人吧。\\n但有時候好人也會是我們的敵人。\\n要與「結社」戰鬥最好記住這點。",
+            "VO_CHR_EVENTSTORY_22216_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "唔……",
+            "VO_CHR_EVENTSTORY_22216_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "總之，\\n我想是有調查的必要……",
+            "VO_CHR_EVENTSTORY_22216_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0026_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n06001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "HATENA_EMO",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "print",
+          "args": [
+            "「結社」兵",
+            "確定沒有搞錯吧？",
+            "VO_CHR_EVENTSTORY_22216_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "print",
+          "args": [
+            "村民",
+            "是、是的。\\n確實和各位的龍族……\\n和巴爾巴托斯B個體相同……",
+            "VO_CHR_EVENTSTORY_22216_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n06001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "c_bound_b",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "print",
+          "args": [
+            "「結社」兵",
+            "那就不會錯了。是背叛「結社」的\\n那個蠢貨，試驗型的失敗作。\\n好，你們去把那些傢伙抓過來。",
+            "VO_CHR_EVENTSTORY_22216_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "print",
+          "args": [
+            "村民",
+            "咦！？但、但是那個……\\n對方不是擁有很可怕的力量嗎……？",
+            "VO_CHR_EVENTSTORY_22216_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n06001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "c_swing_h",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "print",
+          "args": [
+            "「結社」兵",
+            "別擔心，他們還沒我們強大。\\n就算是你們，只要犧牲十個人左右\\n應該就能逮住他們了啦。",
+            "VO_CHR_EVENTSTORY_22216_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "print",
+          "args": [
+            "村民",
+            "十、十個人……",
+            "VO_CHR_EVENTSTORY_22216_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0015_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "……和預想的一樣。\\n在被發現之前離開這個村子吧。",
+            "VO_CHR_EVENTSTORY_22216_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "p05902",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "…………",
+            "VO_CHR_EVENTSTORY_22216_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "p39302",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0021_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 458,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "那個……葛雷絲小姐。\\n在我看來那個村子裡的人們\\n好像是被要脅的……",
+            "VO_CHR_EVENTSTORY_22216_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "c_bound_b",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "是啊，我也是這麼認為。",
+            "VO_CHR_EVENTSTORY_22216_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "那麼，他們不就很有可能會因為\\n沒抓到我們而受到「結社」\\n殘酷對待……？",
+            "VO_CHR_EVENTSTORY_22216_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "c_swing_h",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "……如果你想幫助村裡的人，\\n我認為現在應該避免引起爭端，\\n優先趕往「結社」的基地。",
+            "VO_CHR_EVENTSTORY_22216_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "或許是那樣沒錯……但是……",
+            "VO_CHR_EVENTSTORY_22216_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "唉……看來你無法接受呢。\\n沒辦法，我們回村裡去吧。",
+            "VO_CHR_EVENTSTORY_22216_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "可、可以嗎！？\\n我還以為妳會說為了救助更多人，\\n就須要更顧全大局之類的話……",
+            "VO_CHR_EVENTSTORY_22216_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 500,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "c_swing_h",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "……聽我說，\\n我並不打算成為正義使者。\\n和「結社」戰鬥是為了我自己。",
+            "VO_CHR_EVENTSTORY_22216_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "我是為了無愧於自己才戰鬥的。\\n所以，我也不打算強迫你妥協\\n接受無法接受的事。",
+            "VO_CHR_EVENTSTORY_22216_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "但是，還是先看看情況吧。\\n如果村民們沒有直接受到迫害，\\n我們就直接離開村子，這樣行嗎？",
+            "VO_CHR_EVENTSTORY_22216_03_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "c_bound_b",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "好的！謝謝妳！",
+            "VO_CHR_EVENTSTORY_22216_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0015_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "n06001b",
+            "1",
+            "M",
+            "Q",
+            "n06001c",
+            "1",
+            "M",
+            "M",
+            "n06001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "IKARI_EMO",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 533,
+          "command": "print",
+          "args": [
+            "「結社」兵",
+            "這沒用的東西！",
+            "VO_CHR_EVENTSTORY_22216_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "NO_EMO",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "CHARA_ATTACK_HIT",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 537,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n06001b",
+            "n06001c",
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03501",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 543,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "play_sound",
+          "args": [
+            "SE_233"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "n03501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "wait",
+          "args": [
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 550,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "print",
+          "args": [
+            "村民",
+            "咕啊啊！",
+            "VO_CHR_EVENTSTORY_22216_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 556,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "print",
+          "args": [
+            "村民",
+            "請、請高抬貴手……\\n再怎麼說，也不需要這麼粗暴……",
+            "VO_CHR_EVENTSTORY_22216_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 560,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "n06001b",
+            "1",
+            "M",
+            "Q",
+            "n06001c",
+            "1",
+            "M",
+            "M",
+            "n06001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "print",
+          "args": [
+            "「結社」兵",
+            "閉嘴！都發現背叛者了，\\n還眼睜睜地讓他們逃掉，\\n你知不知恥啊！",
+            "VO_CHR_EVENTSTORY_22216_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "CHARA_ATTACK_HIT",
+          "args": [
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n06001b",
+            "n06001c",
+            "n06001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0073_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "……！\\n果然「結社」對村民們……！",
+            "VO_CHR_EVENTSTORY_22216_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 588,
+          "command": "c_swing_h",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "冷靜點，法爾杰托。敵方的兵力\\n比預想的還多，如果胡亂衝出去，\\n也只會讓村民遭遇危險而已。",
+            "VO_CHR_EVENTSTORY_22216_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "……葛雷絲小姐，\\n「結社」到底有什麼好呢……",
+            "VO_CHR_EVENTSTORY_22216_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "HATENA_EMO",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "咦？怎麼突然問這個……？",
+            "VO_CHR_EVENTSTORY_22216_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "c_swing_h_slow",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "為什麼大家要服從做出這種事的組織？\\n為什麼，能做出這麼過分的事……！？",
+            "VO_CHR_EVENTSTORY_22216_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 616,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "是啊……「這個世界是錯誤的」，\\n這句話可以概括「結社」的中心思想。",
+            "VO_CHR_EVENTSTORY_22216_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 618,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "在這裡以外的地方\\n存在著一個「正確的世界」，\\n在那裡所有人都過著幸福的生活。",
+            "VO_CHR_EVENTSTORY_22216_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "c_bound_b",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 623,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "「結社」的首領，知道那個\\n「正確的世界」。所以他們認為只要\\n照那個人說的去做，就能矯正世界。",
+            "VO_CHR_EVENTSTORY_22216_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n22301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "print",
+          "args": [
+            "巴爾比",
+            "……怎麼聽都覺得很荒唐啊。\\n大家都相信那種事嗎？",
+            "VO_CHR_EVENTSTORY_22216_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "c_swing_h",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "並不是真的相信，而是想去相信。\\n任誰都有遭遇過艱辛或痛苦，\\n甚至不合理的事情吧？",
+            "VO_CHR_EVENTSTORY_22216_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "而「結社」會去否定那些事，\\n並告訴大家有錯的並不是自己，\\n而是這個世界。",
+            "VO_CHR_EVENTSTORY_22216_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "那樣真的很自在，也很輕鬆喔。\\n因為只要照著某人說的去做，\\n總有一天就能到達理想的世界。",
+            "VO_CHR_EVENTSTORY_22216_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "c_swing_h_slow",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "我怎麼好像……不是很能理解。\\n那不就是在逃避，\\n或者說是有種放棄了的感覺……",
+            "VO_CHR_EVENTSTORY_22216_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39302"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "c_bound_b",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 656,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "是啊，你說的沒有錯。\\n但是，有許多人並不像你那麼堅強。",
+            "VO_CHR_EVENTSTORY_22216_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "他們認為知道「正確的世界」的\\n「結社」永遠是正確的。不服從的人們\\n才是錯誤的。於是就能變得如此殘酷。",
+            "VO_CHR_EVENTSTORY_22216_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 663,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39302",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 669,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "怎麼這樣……這種事情……！\\n……對不起，葛雷絲小姐。\\n我果然，沒辦法坐視不管！",
+            "VO_CHR_EVENTSTORY_22216_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 671,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39302",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "SHIMOTE_OUT_FAST_SE",
+          "args": [
+            "p39302",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 679,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 680,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "啊，法爾杰托！",
+            "VO_CHR_EVENTSTORY_22216_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n22301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "c_swing_h",
+          "args": [
+            "n22301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 687,
+          "command": "print",
+          "args": [
+            "巴爾比",
+            "真是的，真拿那傢伙沒輒耶。\\n不過，如果是要把「結社」轟走，\\n就算我一份吧。",
+            "VO_CHR_EVENTSTORY_22216_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 689,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "n22301",
+            "SE_STORY_COMMON_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 696,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0015_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "n06001",
+            "1",
+            "M",
+            "Q",
+            "n06001b",
+            "1",
+            "M",
+            "M",
+            "n06001c",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 701,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 702,
+          "command": "print",
+          "args": [
+            "「結社」兵",
+            "你們對於實現「結社」理想的覺悟\\n似乎還不夠呢。\\n看來有必要給你們一點警告。",
+            "VO_CHR_EVENTSTORY_22216_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n06001",
+            "n06001b",
+            "n06001c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02101",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 707,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 708,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 709,
+          "command": "print",
+          "args": [
+            "村民",
+            "噫、噫噫噫噫……",
+            "VO_CHR_EVENTSTORY_22216_03_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 711,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 715,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 717,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 718,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 719,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "快住手！",
+            "VO_CHR_EVENTSTORY_22216_03_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 722,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 723,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 725,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "n06001",
+            "1",
+            "M",
+            "Q",
+            "n06001b",
+            "1",
+            "M",
+            "M",
+            "n06001c",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 726,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "n06001c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 727,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 728,
+          "command": "print",
+          "args": [
+            "「結社」兵",
+            "──！你是……！",
+            "VO_CHR_EVENTSTORY_22216_03_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 730,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n06001",
+            "n06001b",
+            "n06001c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 731,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 735,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 736,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39301",
+            "4",
+            "SE_RUN_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 737,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 738,
+          "command": "print",
+          "args": [
+            "法爾杰托",
+            "如果還要繼續\\n對村裡的人做出殘酷的行為，\\n那我就算用蠻力也要阻止你們！",
+            "VO_CHR_EVENTSTORY_22216_03_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 740,
+          "command": "StopLip_close",
+          "args": [
+            "p39301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 742,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 743,
+          "command": "print",
+          "args": [
+            "巴爾比",
+            "沒錯。\\n你們造出的「龍鎖」之力，\\n就讓你們自己來體驗看看吧！",
+            "VO_CHR_EVENTSTORY_22216_03_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 745,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 747,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "Q",
+            "n06001",
+            "1",
+            "M",
+            "Q",
+            "n06001b",
+            "1",
+            "M",
+            "M",
+            "n06001c",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 748,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 749,
+          "command": "print",
+          "args": [
+            "「結社」兵",
+            "出現了啊，失敗作。我會讓你回想起\\n「龍鎖」是屬於「結社」的力量！\\n──來吧，巴爾巴托斯B個體！",
+            "VO_CHR_EVENTSTORY_22216_03_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 751,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n06001",
+            "n06001b",
+            "n06001c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 752,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 754,
+          "command": "CHARA_SHIMOTE3_SE",
+          "args": [
+            "M",
+            "M",
+            "n23601",
+            "1",
+            "M",
+            "M",
+            "n23601b",
+            "1",
+            "M",
+            "M",
+            "n23601c",
+            "1",
+            "SE_STORY_COMMON_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 755,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 756,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n23601",
+            "n23601b",
+            "n23601c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 760,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "p39301",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 761,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 762,
+          "command": "print",
+          "args": [
+            "巴爾比",
+            "嘖，我的冒牌貨嗎。\\n也就是說……！",
+            "VO_CHR_EVENTSTORY_22216_03_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 764,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 766,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "n06001",
+            "1",
+            "M",
+            "M",
+            "n06001b",
+            "1",
+            "M",
+            "M",
+            "n06001c",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 767,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0095"
+          ],
+          "end": 1
+        },
+        {
+          "row": 768,
+          "command": "print",
+          "args": [
+            "「結社」兵們",
+            "「龍鎖裝填」！",
+            "VO_CHR_EVENTSTORY_22216_03_0095"
+          ],
+          "end": 1
+        },
+        {
+          "row": 770,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 772,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0282"
+          ],
+          "end": 1
+        },
+        {
+          "row": 773,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 774,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_114",
+            "0",
+            "-50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 775,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 776,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 777,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n06001",
+            "n06001b",
+            "n06001c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 778,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "n23801",
+            "1",
+            "M",
+            "M",
+            "n23801b",
+            "1",
+            "M",
+            "M",
+            "n23801c",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 779,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_210"
+          ],
+          "end": 1
+        },
+        {
+          "row": 780,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 781,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_210",
+            "1.5",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 782,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_210",
+            "0.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 783,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_114",
+            "0.0",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 784,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 785,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_210",
+            "1.0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 786,
+          "command": "wait",
+          "args": [
+            "1.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 787,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_210",
+            "0.0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 788,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 789,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 790,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n23801",
+            "n23801b",
+            "n23801c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 794,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p05902",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 795,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 796,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 797,
+          "command": "print",
+          "args": [
+            "葛雷絲",
+            "龍鎖兵！\\n居然已經製造出那麼多完成體了……！",
+            "VO_CHR_EVENTSTORY_22216_03_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 799,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p05902"
+          ],
+          "end": 1
+        },
+        {
+          "row": 801,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "n23801",
+            "1",
+            "M",
+            "M",
+            "n23801b",
+            "1",
+            "M",
+            "M",
+            "n23801c",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 802,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22216_03_0097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 803,
+          "command": "print",
+          "args": [
+            "龍鎖兵",
+            "好了……我這就來教教你，失敗作。\\n讓你知道怎樣才叫真正的龍鎖兵！",
+            "VO_CHR_EVENTSTORY_22216_03_0097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 805,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n23801",
+            "n23801b",
+            "n23801c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 807,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 808,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

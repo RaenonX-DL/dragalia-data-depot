@@ -1,0 +1,4381 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2080603",
+  "filename": "2080603",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "Summary"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "The party arrives in Hethiwood—the village\\nfrom which all the citizens disappeared—and\\nfind evidence of a suspicious ritual led by\\nnone other than Nyarlathotep. With this new\\ninformation in hand, they rush back to the\\nlibrary to confirm their suspicions."
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2781",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Phew...",
+            "VO_CHR_EVENTSTORY_20806_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Back from the library, Curran?\\nWhat about Heinwald?",
+            "VO_CHR_EVENTSTORY_20806_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "c_swing_h",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Still surrounded by mountains of books.\\nI just came here to let off a little steam.",
+            "VO_CHR_EVENTSTORY_20806_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Maybe we should have helped him\\nout a little more...",
+            "VO_CHR_EVENTSTORY_20806_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_bound_t",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Your giving us rooms in the castle is\\nhelp enough. Plus, you're all lending\\na hand with Lathna.",
+            "VO_CHR_EVENTSTORY_20806_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "It seems like she's slowly getting better,\\nwhich is a huge relief.",
+            "VO_CHR_EVENTSTORY_20806_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "Curran",
+            "All thanks to you letting her stay here,\\nwhere she's surrounded by friendly people.\\nFrankly, I don't think I could have helped\\nher on my own.",
+            "VO_CHR_EVENTSTORY_20806_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "NOOOOO!",
+            "VO_CHR_EVENTSTORY_20806_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "Curran",
+            "That was Lathna!",
+            "VO_CHR_EVENTSTORY_20806_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "c0267",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "mnu",
+          "args": [
+            "c0267",
+            "true",
+            "0.05",
+            "120",
+            "0",
+            "1",
+            "0.05",
+            "1",
+            "1",
+            "1",
+            "0.05",
+            "0",
+            "1",
+            "0.05",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "mnu",
+          "args": [
+            "c0267",
+            "false",
+            "0.4",
+            "-120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "1",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "cmp",
+          "args": [
+            "c0267",
+            "0.45",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "{player_name}!",
+            "VO_CHR_EVENTSTORY_20806_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c0101",
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "Curran",
+            "What's wrong, Lathna?!",
+            "VO_CHR_EVENTSTORY_20806_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "c0267",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "mnu_fade",
+          "args": [
+            "c0267",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "mnu_fade",
+          "args": [
+            "c0101",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "cmp_fade",
+          "args": [
+            "c0267",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "cmp_fade",
+          "args": [
+            "c0101",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "chara_visible",
+          "args": [
+            "c0267",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "chara_visible",
+          "args": [
+            "c0101",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "D...dream...",
+            "VO_CHR_EVENTSTORY_20806_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c0101",
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "HATENA_EMO",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Dream?",
+            "VO_CHR_EVENTSTORY_20806_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "From what I gather, she's been having the\\nsame exact dream every night. In it,\\nshe's chased by the villagers until...",
+            "VO_CHR_EVENTSTORY_20806_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0267",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "...Shadow. Killed by...black shadow.",
+            "VO_CHR_EVENTSTORY_20806_03_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Dream or not, that just isn't right.",
+            "VO_CHR_EVENTSTORY_20806_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "I don't think this is an ordinary nightmare.",
+            "VO_CHR_EVENTSTORY_20806_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "HIRAMEKI_EMO",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Hmm... Actually, I remember Heinwald \\nsaying something about disturbances in\\nmana having an effect on dreams.\\nWe should go ask him about this.",
+            "VO_CHR_EVENTSTORY_20806_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0267",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "...No! Don't like...that man!",
+            "VO_CHR_EVENTSTORY_20806_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Look, I get that he's a bit creepy,\\nbut he's not THAT bad of a guy.\\nPlus, his talents are legit.",
+            "VO_CHR_EVENTSTORY_20806_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0267",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "But...I can't! I'm...scared!",
+            "VO_CHR_EVENTSTORY_20806_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "ASE_EMO",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Okay, okay. We'll come up with some\\nother plan. Black shadows... It can't be...",
+            "VO_CHR_EVENTSTORY_20806_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0267",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "I have...to go back...to the village.",
+            "VO_CHR_EVENTSTORY_20806_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "You mean Hethiwood? Why?",
+            "VO_CHR_EVENTSTORY_20806_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0267",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "Lathna",
+            "Don't...know. But something...\\nimportant there.",
+            "VO_CHR_EVENTSTORY_20806_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0267"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Hey, if you think it'll help, I'll take you\\nback to the village.",
+            "VO_CHR_EVENTSTORY_20806_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2781",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Kids have to fellow their dreams, after all!",
+            "VO_CHR_EVENTSTORY_20806_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "(...There he goes again.)",
+            "VO_CHR_EVENTSTORY_20806_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0015_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "So this is Hethiwood, the village where\\neveryone vanished in a single night...",
+            "VO_CHR_EVENTSTORY_20806_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "It sounds scary when you put it like that,\\nand yet it looks so...ordinary.",
+            "VO_CHR_EVENTSTORY_20806_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2780",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "c_swing_h",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "Yes, yes, quite fascinating. Now then, what\\nexactly is the purpose of our coming here?\\nSurely it would be more beneficial to\\ncontinue our investigation in the library?",
+            "VO_CHR_EVENTSTORY_20806_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "Curran",
+            "It's the first rule of an investigation:\\nWhen you're stuck, go back to the \\nscene of the original crime!",
+            "VO_CHR_EVENTSTORY_20806_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2780",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "c_swing_h",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "Bah. You should have just come here\\non your own and left me be.",
+            "VO_CHR_EVENTSTORY_20806_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "print",
+          "args": [
+            "Curran",
+            "You think I could leave you on your own?\\nI know you're up to something in that\\nlibrary that you're not telling us about.",
+            "VO_CHR_EVENTSTORY_20806_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2780",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "HATENA_EMO",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "You speak as if I am plotting mischief.\\nI am interested where this conclusion\\nof yours is coming from.",
+            "VO_CHR_EVENTSTORY_20806_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "c_mnu_reset",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Quit bellyaching and let's look for clues.",
+            "VO_CHR_EVENTSTORY_20806_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "Pull_in",
+          "args": [
+            "Q",
+            "M",
+            "c2781",
+            "11",
+            "M",
+            "M",
+            "c2780",
+            "6",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c2781",
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0013_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "Curran",
+            "For a long time, this village didn't have\\na place of worship, but eventually the\\nChurch dispatched a priest here.",
+            "VO_CHR_EVENTSTORY_20806_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "print",
+          "args": [
+            "Curran",
+            "If the villagers were worshiping something\\nother than the goddess, it means that\\npriest would have been seen as the\\nheretic, and not the other way around.",
+            "VO_CHR_EVENTSTORY_20806_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2780",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "c_bound_b",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "In other words, there could be information\\nhere that cannot be found elsewhere.\\nOh, I do love it when you finally bring\\nsomething to the table, Curran.",
+            "VO_CHR_EVENTSTORY_20806_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Quit running your mouth and let's\\nstart looking around already!",
+            "VO_CHR_EVENTSTORY_20806_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "c_swing_h",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "You say that as if it is an easy thing,\\nyet we know not what we are even\\nlooking FOR.",
+            "VO_CHR_EVENTSTORY_20806_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "c_bound_b",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "print",
+          "args": [
+            "Curran",
+            "At times like this, you have to think from\\nthe perspective of whoever might be\\ntrying to hide something.",
+            "VO_CHR_EVENTSTORY_20806_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "print",
+          "args": [
+            "Notte",
+            "Who's hiding what now?",
+            "VO_CHR_EVENTSTORY_20806_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2780",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "The priest was trying to suss out what the\\npeople here believed in—and he didn't\\nwant them to know about it.",
+            "VO_CHR_EVENTSTORY_20806_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2780",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "For if he was discovered, there would be\\nno one here to protect him.",
+            "VO_CHR_EVENTSTORY_20806_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "c_bound_b",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "print",
+          "args": [
+            "Curran",
+            "So even if he DID know something,\\nhe would have kept it hidden.",
+            "VO_CHR_EVENTSTORY_20806_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Well, if I was that priest, I'd hide my\\nevidence in a place the villagers\\nwould be likely to avoid.",
+            "VO_CHR_EVENTSTORY_20806_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "So maybe if we just... Ah ha!",
+            "VO_CHR_EVENTSTORY_20806_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0324"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "effect_shake_bg",
+          "args": [
+            "1",
+            "0.5",
+            "0.5",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "A hidden door! How clever.",
+            "VO_CHR_EVENTSTORY_20806_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2780",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "c_bound2_t",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "What lies beyond must be important\\nindeed if he went to so much trouble\\nto disguise it.",
+            "VO_CHR_EVENTSTORY_20806_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "In any case, let's head inside.",
+            "VO_CHR_EVENTSTORY_20806_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0059_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "c2780",
+            "1",
+            "M",
+            "M",
+            "c2781",
+            "1",
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2780",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2781",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 458,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "Ah!",
+            "VO_CHR_EVENTSTORY_20806_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c2780",
+            "c2781",
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "c_jump2",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "print",
+          "args": [
+            "Notte",
+            "EEEEEK! A COOOORPSE!",
+            "VO_CHR_EVENTSTORY_20806_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "print",
+          "args": [
+            "Curran",
+            "By the Goddess, look at it...\\nWhat a horrible way to die.",
+            "VO_CHR_EVENTSTORY_20806_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "It's like he was torn apart...\\nWhat could have done this?",
+            "VO_CHR_EVENTSTORY_20806_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "print",
+          "args": [
+            "Curran",
+            "For now, let us bury this poor man.\\nThen we can search the house.",
+            "VO_CHR_EVENTSTORY_20806_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "print",
+          "args": [
+            "Curran",
+            "We will go room by room and see if we\\ncan't figure out what happened here.",
+            "VO_CHR_EVENTSTORY_20806_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "BLACK_OUT_LONG",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0006_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "BLACK_IN_LONG",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "c_bound_b",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "...Now we'll hopefully be able\\nto find something.",
+            "VO_CHR_EVENTSTORY_20806_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "This place isn't that big.\\nIf we all split up, we—",
+            "VO_CHR_EVENTSTORY_20806_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "c_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "print",
+          "args": [
+            "Notte",
+            "Hey, guys! Look!",
+            "VO_CHR_EVENTSTORY_20806_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 533,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "It's the priest's diary!",
+            "VO_CHR_EVENTSTORY_20806_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 537,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "print",
+          "args": [
+            "Curran",
+            "I'd normally frown on rummaging through\\na man's private thoughts, but I don't think\\nwe have a choice in this case.",
+            "VO_CHR_EVENTSTORY_20806_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 550,
+          "command": "add_book_text",
+          "args": [
+            "Day 13, First Month of the Dragon:\\nSome time has passed since my\\nappointment here to spread the\\nteachings of the Goddess Ilia.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "add_book_text",
+          "args": [
+            "The fruits of my labor are not sweet,\\nfor these people seem to worship\\nsomething that is not our Goddess.\\nI can only pray it is not some\\nnefarious evil.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 560,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "touch_wait",
+          "args": [
+            "3.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "stop_voice",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "add_book_text",
+          "args": [
+            "Day 25, Month of the Lovely Dragon:\\nThe villagers and I recently learned\\nthat an inquisitor has been sent here.\\nThey are most displeased by this.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "add_book_text",
+          "args": [
+            "It is no wonder those who do not\\ncarry the teachings of Ilia in their\\nhearts would be frightened by this,\\nfor an inquisitor's questioning can at\\ntimes be quite severe.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "add_book_text",
+          "args": [
+            "The villagers tell me they are praying\\nfor salvation. And yet, I know not to\\nwho—or what—these prayers are\\nbeing offered.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 576,
+          "command": "touch_wait",
+          "args": [
+            "3.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "stop_voice",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 580,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "add_book_text",
+          "args": [
+            "Day 28, Month of the Lovely Dragon:\\nI hear the villagers outside my home.\\nThey are chanting mad gibberish\\nto the night sky.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "add_book_text",
+          "args": [
+            "＂Tsthyuku!＂ they chant. ＂Tsthyuk!\\nTeb'zah Ay'rah Teb'zah!＂",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "add_book_text",
+          "args": [
+            "I know not if it is merely a strange\\nlanguage, or some fell magic, but\\nit is most deeply disquieting. Indeed,\\nthere can be little doubt that I am\\nthe heretic here—not they.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 588,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "touch_wait",
+          "args": [
+            "3.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "stop_voice",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "add_book_text",
+          "args": [
+            "Day 5, Month of the Wardragon\\nThe villagers say something called\\nthe Emissary has appeared, and that\\nthe ritual will begin and salvation\\nwill come.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "add_book_text",
+          "args": [
+            "But there was no way I could believe\\nthat dark, disturbing being was an\\nEmissary of salvation.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 599,
+          "command": "add_book_text",
+          "args": [
+            "Yet if I give voice to this, I will\\nbe driven hence by the villagers\\nand slain!\\nO, Goddess! Pray deliver me!",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "touch_wait",
+          "args": [
+            "3.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "stop_voice",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "add_book_text",
+          "args": [
+            "...Goddess help me, I saw it.\\nTheir ＂ritual.＂ Their ＂salvation.＂",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "add_book_text",
+          "args": [
+            "Lies! Such a thing could never be\\nsalvation. Caught by a great power\\nand locked away, they transform\\nfrom human to something...not.",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 616,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 617,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 618,
+          "command": "touch_wait",
+          "args": [
+            "3.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "stop_voice",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 623,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "add_book_text",
+          "args": [
+            "Lies. Humans. Warped. Twisting.\\nBlack. Nightmare. Chaos.\\nIt comes. It comes. IT COMES!",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "add_book_text",
+          "args": [
+            "IT COMES IT COMES IT COMES\\nTHE EMISSARY COMES FOR THEE",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 626,
+          "command": "add_book_text",
+          "args": [
+            "N Y A R L A T H O T E P COMES!",
+            "sty_3d_0001_00",
+            "*",
+            "VO_CHR_EVENTSTORY_20806_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "touch_wait",
+          "args": [
+            "3.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "stop_voice",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "screen_fadeout",
+          "args": [
+            "2.2",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 643,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0059_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "CHARA_SET3",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "7",
+            "M",
+            "M",
+            "c0102",
+            "7",
+            "M",
+            "M",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "print",
+          "args": [
+            "Everyone",
+            "Nyarlathotep?!",
+            "VO_CHR_EVENTSTORY_20806_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c2780",
+            "c2781",
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 657,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2781",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 660,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "print",
+          "args": [
+            "Curran",
+            "I KNEW he was plotting something!",
+            "VO_CHR_EVENTSTORY_20806_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 669,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "print",
+          "args": [
+            "Cleo",
+            "But he has been trapped within the library\\nfor as long as it has been sealed, yes?",
+            "VO_CHR_EVENTSTORY_20806_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "print",
+          "args": [
+            "Elisanne",
+            "Then who could the Nyarlathotep in the\\ndiary be? I can't imagine there are TWO\\nbeings with that name.",
+            "VO_CHR_EVENTSTORY_20806_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 680,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c2780",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "......",
+            "VO_CHR_EVENTSTORY_20806_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 687,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 692,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 693,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "We might be able to figure something\\nout if we go ask the Nyarlathotep who\\nlives in the Library Obscura.",
+            "VO_CHR_EVENTSTORY_20806_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 695,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c2781",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "c_bound_t",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 700,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 701,
+          "command": "print",
+          "args": [
+            "Curran",
+            "Then let's hurry back and put\\nthe question to him.",
+            "VO_CHR_EVENTSTORY_20806_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 703,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2781"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2780",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 707,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 708,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 709,
+          "command": "print",
+          "args": [
+            "Heinwald",
+            "If we're going that far, I'd like to also try\\ngathering some more information.",
+            "VO_CHR_EVENTSTORY_20806_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 711,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2780"
+          ],
+          "end": 1
+        },
+        {
+          "row": 714,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 715,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20806_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Whatever you need to do.\\nLet's just hurry!",
+            "VO_CHR_EVENTSTORY_20806_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 721,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

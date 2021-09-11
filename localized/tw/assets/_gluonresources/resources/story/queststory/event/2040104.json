@@ -1,0 +1,2408 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2040104",
+  "filename": "2040104",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 2,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 2,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 2,
+          "command": "outline",
+          "args": [
+            "企圖使費克洛斯復活的是，\\n佩勒過去侍奉的主人「阿克歐王」。\\n打倒阿克歐王後不久，欲侵略世界的\\n費克洛斯現身在空間裂縫之中，\\n於是王子一行人決定發起決戰！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0023_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "CHARA_BEAT_SWD_BEFORE",
+          "args": [
+            "M",
+            "M",
+            "c0265",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "print",
+          "args": [
+            "魔獸",
+            "嘎呀啊啊啊啊啊……！",
+            "VO_CHR_EVENTSTORY_20401_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "mnu_move",
+          "args": [
+            "c0265",
+            "true",
+            "0.6",
+            "0",
+            "-125",
+            "EaseOutQuint"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "chara_fadeout",
+          "args": [
+            "c0265",
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "play_sound",
+          "args": [
+            "SE_133"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "真是頑強的對手。",
+            "VO_CHR_EVENTSTORY_20401_04_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "嗯？\\n有東西掉在地上。",
+            "VO_CHR_EVENTSTORY_20401_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "SE_125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "WHITE_OUT_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "play_sound",
+          "args": [
+            "SE_049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_023",
+            "224",
+            "102",
+            "255",
+            "1",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "touch_wait",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "這該不會是……異界的碎片。",
+            "VO_CHR_EVENTSTORY_20401_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "那姆",
+            "妳知道那是什麼嗎？",
+            "VO_CHR_EVENTSTORY_20401_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "我在書上看過。\\n蘊含力量的碎片，\\n打倒強力的魔獸時會掉落。",
+            "VO_CHR_EVENTSTORY_20401_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "因為寄宿著強力的瑪納，\\n那力量似乎還能導致空間歪曲。",
+            "VO_CHR_EVENTSTORY_20401_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "這玩意聽起來不太妙啊。",
+            "VO_CHR_EVENTSTORY_20401_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "佩勒，怎麼了嗎？\\n看妳愣在那裡。",
+            "VO_CHR_EVENTSTORY_20401_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "SE_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "……我想起了過去的往事。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "play_sound",
+          "args": [
+            "SE_276"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "回想起那獨眼魔獸還是國王時，\\n我與他一同度過的日子。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2455",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "榭葉拉",
+            "妳說國王……咦咦咦咦咦咦！？",
+            "VO_CHR_EVENTSTORY_20401_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "NO_EMO",
+          "args": [
+            "c2455"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "chara_face",
+          "args": [
+            "c2455",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "榭葉拉",
+            "難道說，那個魔獸其實\\n就是阿克歐王嗎！？",
+            "VO_CHR_EVENTSTORY_20401_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2455"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "c_bound_b_slow",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "SE_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "是的……作為封印費克洛斯的代價，\\n國王也被封鎖在異界的夾縫之中。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "SE_278"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "而在充滿夾縫間的黑色瑪納影響下，\\n國王變成了魔獸。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "原來如此。因為失去了理性\\n才做出了想解放費克洛斯的愚舉嗎……",
+            "VO_CHR_EVENTSTORY_20401_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "SE_277"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "不。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "SE_275"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "即便成為了魔獸，\\n國王依然留有作為人類的意識。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "什麼！？那幹嘛要讓\\n可恨的仇敵回歸自由啊！？",
+            "VO_CHR_EVENTSTORY_20401_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "SE_278"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "……我也不知道。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "SE_277"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "但是，國王在化為魔獸之後\\n口中不停念著詛咒的話語。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "play_sound",
+          "args": [
+            "SE_275"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "不是對費克洛斯，\\n而是詛咒著我們看不見的某人。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "那姆",
+            "榭葉拉說的怪談中所出現的\\n「怨靈的聲音」，該不會就是……",
+            "VO_CHR_EVENTSTORY_20401_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "mnu_move",
+          "args": [
+            "d2157",
+            "true",
+            "0.5",
+            "0",
+            "-50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "cmp_move",
+          "args": [
+            "d2157",
+            "0.5",
+            "0",
+            "-50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "play_sound",
+          "args": [
+            "SE_277"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "無論如何，沒能阻止國王的我\\n是個不合格的侍從。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "c_push_t",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "play_sound",
+          "args": [
+            "SE_278"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "不對……若要貫徹我的忠誠，\\n也許應該實現國王的願望才對呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "SE_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "即使，那會令世界毀滅。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "佩勒，妳──！？",
+            "VO_CHR_EVENTSTORY_20401_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "SE_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "……請忘記我剛剛所說的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "SE_261"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "？？？",
+            "吼喔喔喔喔喔喔喔喔喔……！！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "這個聲音是！！",
+            "VO_CHR_EVENTSTORY_20401_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "play_sound",
+          "args": [
+            "SE_057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_004",
+            "0",
+            "100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "wait",
+          "args": [
+            "2.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "touch_wait",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "SE_277"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "這就是空間的裂縫……\\n不、已經變成「出口」了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2455",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2455"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "榭葉拉",
+            "什麼！？\\n已經太遲了嗎！？",
+            "VO_CHR_EVENTSTORY_20401_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2455"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "play_sound",
+          "args": [
+            "SE_136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "wait",
+          "args": [
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "wait",
+          "args": [
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "朝著這邊過來了呢……",
+            "VO_CHR_EVENTSTORY_20401_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "EARTHSHAKE",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "SE_172"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_033",
+            "EFF_034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "c_bound2_b",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "print",
+          "args": [
+            "那姆",
+            "咳！咳！\\n嗚嗚～這味道好臭哦～！",
+            "VO_CHR_EVENTSTORY_20401_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "是受到費克洛斯接近所影響了呢，\\n火山中的瑪納現在非常混亂。",
+            "VO_CHR_EVENTSTORY_20401_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "牠只是靠近而已就這樣！？\\n那如果牠從裂縫中出來的話……！！",
+            "VO_CHR_EVENTSTORY_20401_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那我們只好跳進裂縫中，\\n在異界的夾縫間就擋下牠！",
+            "VO_CHR_EVENTSTORY_20401_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "play_sound",
+          "args": [
+            "SE_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "千萬不行！　"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "NO_EMO",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "SE_277"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "若以血肉之軀前往異界，\\n會撞上時空之壁而粉身碎骨的！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "那我們只能在這裡\\n無能為力地看著牠出來嗎！？",
+            "VO_CHR_EVENTSTORY_20401_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "play_sound",
+          "args": [
+            "SE_275"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "人類若要跨越時空之壁，\\n必須要擁有超越這個世界常理的力量。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "超越常理的力量？\\n……啊！！",
+            "VO_CHR_EVENTSTORY_20401_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "NO_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "那個，可以用我們剛剛得到的\\n異界的碎片嗎！？",
+            "VO_CHR_EVENTSTORY_20401_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2157",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "c_bound_b_slow",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "SE_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "……確實，如果有碎片的力量\\n或許可以突破時空之壁。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "play_sound",
+          "args": [
+            "SE_278"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "print",
+          "args": [
+            "佩勒",
+            "但那傢伙非常強大。\\n即使如此你們還是不選擇逃避，\\n要與牠一戰嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2157"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "眼前都面臨世界的危機了，\\n這時還臨陣退縮也太遜了吧。",
+            "VO_CHR_EVENTSTORY_20401_04_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "無論對手多強，\\n我們都會選擇戰鬥的。",
+            "VO_CHR_EVENTSTORY_20401_04_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "即使那會是\\n賭上我們性命的戰鬥！",
+            "VO_CHR_EVENTSTORY_20401_04_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "而且除了我們以外，\\n還有別人會來與我們一同作戰也說不定。",
+            "VO_CHR_EVENTSTORY_20401_04_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "感受到世界滅亡的危機，\\n而從別的裂縫中前來相助的人……",
+            "VO_CHR_EVENTSTORY_20401_04_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "play_sound",
+          "args": [
+            "SE_261"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "print",
+          "args": [
+            "費克洛斯",
+            "吼喔喔喔喔喔喔喔喔喔喔！！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20401_04_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "──走吧！！",
+            "VO_CHR_EVENTSTORY_20401_04_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

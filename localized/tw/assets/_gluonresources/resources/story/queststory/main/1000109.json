@@ -1,0 +1,1441 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1000109",
+  "filename": "1000109",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "王子戰勝碧龍，得以締結真正的契約。\\n為了取得聖片，在迷霧森林的守護者\\n佛萊斯提亞的少女克菈兒引領之下，\\n前往迷霧森林的最深處。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0006_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0021_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "bg_enable_shader",
+          "args": [
+            "sty_bg_0021_100",
+            "false",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_030",
+            "EFF_029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "print",
+          "args": [
+            "碧龍",
+            "真不愧為「龍之血」繼承者。",
+            "VO_CHR_MAINSTORY_01_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……不是的。\\n這不僅僅是我的力量。",
+            "VO_CHR_MAINSTORY_01_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "還集結了與我一同戰鬥的夥伴之力！",
+            "VO_CHR_MAINSTORY_01_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "print",
+          "args": [
+            "碧龍",
+            "哈哈！……原來如此。\\n仰慕君王之臣，其力亦屬王之力……",
+            "VO_CHR_MAINSTORY_01_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "RestartAll",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "碧龍",
+            "足矣，\\n吾便認同汝具王者之器量！",
+            "VO_CHR_MAINSTORY_01_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "chara_face",
+          "args": [
+            "d2101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "SHOUT_MID_EFF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "chara_face",
+          "args": [
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "print",
+          "args": [
+            "耶夢加得",
+            "吾名為碧龍耶夢加得！\\n乃以暴風霸主之名，統治大地者！\\n此刻起即是守護汝之狂嵐！",
+            "VO_CHR_MAINSTORY_01_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "耶夢加得",
+            "{player_name}啊！\\n吾在此認可汝為吾王，僅授予汝\\n及汝所應許者龍族之力！",
+            "VO_CHR_MAINSTORY_01_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "汝所應許者……\\n換句話說，要是殿下允許的話，\\n我們也能龍化的意思嗎。",
+            "VO_CHR_MAINSTORY_01_05_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0107",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "WARAI_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_1002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "那姆",
+            "太好了呢，{player_name}！\\n終於和「傳說六龍」之一的龍族\\n締結契約了！",
+            "VO_CHR_MAINSTORY_01_05_1002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "耶夢加得",
+            "汝等所求之物位於森林深處，\\n其所在便由森林之子說明吧。",
+            "VO_CHR_MAINSTORY_01_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "耶夢加得",
+            "克菈兒啊！前來此處！",
+            "VO_CHR_MAINSTORY_01_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "print",
+          "args": [
+            "？？？",
+            "……好的，碧龍。",
+            "VO_CHR_MAINSTORY_01_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "那姆",
+            "呀啊！是、是誰！？",
+            "VO_CHR_MAINSTORY_01_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "VIS",
+          "args": [
+            "c0104",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "chara_fadein",
+          "args": [
+            "c0104",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "？？？",
+            "歡迎，阿爾貝利亞的王子──\\n「龍之血」的繼承者。",
+            "VO_CHR_MAINSTORY_01_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "？？？",
+            "我等你很久了。",
+            "VO_CHR_MAINSTORY_01_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_INTRO_SET_EFF",
+          "args": [
+            "c0104",
+            "克菈兒",
+            "鈴音治療師",
+            " ",
+            "迷霧森林　守護者",
+            " ",
+            "Icon_Emblem_Story_01",
+            "EFF_030",
+            "EFF_029",
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "我名為克菈兒……",
+            "VO_CHR_MAINSTORY_01_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "長期守護著這片\\n受濃霧保護的土地。",
+            "VO_CHR_MAINSTORY_01_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_1003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "森林之子，克菈兒……這樣啊，\\n妳是「森林子民」佛萊斯提亞……",
+            "VO_CHR_MAINSTORY_01_05_1003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "chara_face",
+          "args": [
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "妳說等我很久了\\n是什麼意思？",
+            "VO_CHR_MAINSTORY_01_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "就是字面上的意思。\\n守護這片土地，等待新的主人──",
+            "VO_CHR_MAINSTORY_01_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "RestartEye",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "這就是我的使命。",
+            "VO_CHR_MAINSTORY_01_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "我一直都在等著你。\\n唯一可以實現我願望的人，\\n也就是「你」。",
+            "VO_CHR_MAINSTORY_01_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "願望？\\n妳的願望是……？",
+            "VO_CHR_MAINSTORY_01_05_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "我的願望──\\n我想再次看到這片土地濃霧散去，\\n僅僅如此而已。",
+            "VO_CHR_MAINSTORY_01_05_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "自濃霧瀰漫以來，\\n昔日在此處生活的回憶也好、\\n景色也好，一切都變得模糊了。",
+            "VO_CHR_MAINSTORY_01_05_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "為了不讓自己忘記，\\n描繪成畫、書寫成字，\\n但還是敵不過時光的流逝。",
+            "VO_CHR_MAINSTORY_01_05_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "甚至連過去侍奉過的主人身影，\\n如今也隱沒在記憶的迷霧裡。",
+            "VO_CHR_MAINSTORY_01_05_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "妳在這裡度過了\\n那麼漫長的時間嗎……",
+            "VO_CHR_MAINSTORY_01_05_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "是的……所以我想看看。",
+            "VO_CHR_MAINSTORY_01_05_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "我想親眼確認，\\n這片土地和記憶之中相差了多少。",
+            "VO_CHR_MAINSTORY_01_05_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "這便是我一直等著你的理由。",
+            "VO_CHR_MAINSTORY_01_05_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "直到抵達被濃霧隱藏之地，\\n請讓我與你們同行……",
+            "VO_CHR_MAINSTORY_01_05_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……我明白了，克菈兒。\\n我們一起去看妳守護至今的土地吧。",
+            "VO_CHR_MAINSTORY_01_05_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "……真是奇妙啊。\\n明明連容貌和聲音都想不起來了，\\n那身影卻讓人感到熟悉。",
+            "VO_CHR_MAINSTORY_01_05_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯？什麼意思？",
+            "VO_CHR_MAINSTORY_01_05_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "那是陳年舊事了……",
+            "VO_CHR_MAINSTORY_01_05_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "chara_face",
+          "args": [
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_01_05_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "比起那些，我們出發吧。\\n我來為你們帶路。",
+            "VO_CHR_MAINSTORY_01_05_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c0104",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

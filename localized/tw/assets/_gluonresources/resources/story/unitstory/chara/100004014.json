@@ -1,0 +1,1676 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "100004014",
+  "filename": "100004014",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "play_sound",
+          "args": [
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "play_sound",
+          "args": [
+            "SE_086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "好了，進房間去吧，克菈兒。\\n眼睛先不要張開，再一下就好。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "play_sound",
+          "args": [
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "到底要做什麼？\\n還要我閉著眼睛過來……",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "可以了，睜開眼睛吧。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "嗯……啊、這是……！\\n這麼豐盛的料理是怎麼了。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我們一直受到克菈兒很多的照顧，\\n這是謝禮。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "是大家分頭準備的。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "好啦，趕快坐下吧！\\n難得的料理都要冷掉了。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "原來如此，\\n所以最近才鬼鬼祟祟的啊。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊哈哈……\\n我們把這座城的事都交給克菈兒了。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "所以想要好好慰勞妳。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "怎麼樣，還喜歡嗎？",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0104",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "c_swing_h",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "為了這樣的理由……\\n我只是個僕從，根本可以不用在意我。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "我不過是做好分內工作而已。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我並不把克菈兒妳當成是僕從，\\n妳是我的夥伴喔。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "所以我希望可以互相幫助。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不是主人與僕從的關係，\\n我希望是關係對等的夥伴。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "{player_name}……\\n謝謝你。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "……真是的，\\n你到底有多像阿爾博流斯王啊。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦？克菈兒？",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "不，沒事。\\n對了，這些餐點都是要給我吃的？",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "c_bound_b",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "嗯，妳儘管吃吧！",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "真是的……\\n這不是一個女生能吃完的量吧。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "怎麼都沒有好好考量。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "而且，你的手。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊，克菈兒……\\n這是、那個，用菜刀時又不小心……",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "就算不能跟我說理由，\\n受傷的話還是要告訴我。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "MAGIC_CURE_CH",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "真的希望我開心的話，\\n就要大家一起才有意義。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "所以我們一起吃吧，\\n料理不夠的話我再來做。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "對曾經孤身一人的我來說，\\n這樣做我會最開心。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "好嗎？",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯，妳說的對。\\n大家一起享用吧！",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "蘭薩弗",
+            "難得的宴會，\\n今天就好好享受吧！",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "就算如此，\\n可不能把主角克菈兒的份都吃掉喔。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "哈哈，沒問題。\\n大家再一起做就行了。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "好了，克菈兒，也嚐嚐這個吧。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "ONPU_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "呵呵，好的。\\n我開動了，{player_name}。",
+            "VO_CHR_KNIGHTSSTORY_100004_01_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "NO_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

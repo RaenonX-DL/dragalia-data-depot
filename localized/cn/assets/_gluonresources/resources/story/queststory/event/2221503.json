@@ -1,0 +1,5037 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2221503",
+  "filename": "2221503",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "二人在洞窟听夫人道出异端仪式一事，\\n以为找到了真凶便松了一口气。\\n然而，拉托妮一触碰夫人，\\n夫人却变成了奈亚拉托提普。\\n拉托妮认为是自己害死了夫人而绝望。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0103_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "呼……总算甩掉僵尸了。\\n不过真没想到洞窟深处\\n竟然还有这样一个地方。",
+            "VO_CHR_EVENTSTORY_22215_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "这里一看就很可疑……\\n会是夫人的藏身之处吗？",
+            "VO_CHR_EVENTSTORY_22215_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "不知道……但这里到处\\n都是奇怪的字和画呢。",
+            "VO_CHR_EVENTSTORY_22215_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "这个魔法阵看起来阴森森的……\\n不过这个奇怪的图案，\\n我好像在哪里见过……",
+            "VO_CHR_EVENTSTORY_22215_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "啊！我想记得这和库格尔他们\\n调查异端图书馆里面的时候\\n看到的魔法阵是同一体系。",
+            "VO_CHR_EVENTSTORY_22215_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "异端图书馆……那难道是……\\n呀啊！",
+            "VO_CHR_EVENTSTORY_22215_03_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "true",
+            "0.08",
+            "6",
+            "-5",
+            "9",
+            "0.08",
+            "1",
+            "1",
+            "1",
+            "0.26",
+            "5",
+            "EaseOutCubic",
+            "0.08",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "false",
+            "0.1",
+            "-12",
+            "-5",
+            "9",
+            "0.1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "mnu",
+          "args": [
+            "c37493",
+            "false",
+            "0.08",
+            "6",
+            "-5",
+            "9",
+            "0.08",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.08",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "cmp",
+          "args": [
+            "c37493",
+            "0.26",
+            "0",
+            "-15",
+            "1",
+            "1",
+            "5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "BOTTOM_OUT_FAST",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "StopEye_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.2",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_mnu_reset",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你没事吧！？",
+            "VO_CHR_EVENTSTORY_22215_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "没事……只是绊到了。\\n这是……书？",
+            "VO_CHR_EVENTSTORY_22215_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "add_book_text",
+          "args": [
+            "丽龙之月 〇〇日\\n丈夫去世后过了几天。\\n我至今都无法相信。\\n就做是了一场噩梦一样。\\n一个人太孤独了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "add_book_text",
+          "args": [
+            "军龙之月 ××日\\n我好想他。\\n想他……非常想他！\\n神啊，请让他再次\\n回到我身边吧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "add_book_text",
+          "args": [
+            "雨龙之月 △△日\\n有声音。声音，声音。指引的声音。\\n啊啊。听到了，“还魂法”，的声音。\\n灯笼灯笼灯笼……\\n仪式将在放灯笼那天举行。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "add_book_text",
+          "args": [
+            "灼龙之月 〇×日\\n祭典音乐 血肉 宴会\\n祭品来了，灯笼来了来了来了来了\\n啊啊神啊 吾主啊，其名为——"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "next_page",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "touch_wait",
+          "args": [
+            "6.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "日记……看来是已故的班戈\\n他夫人写的呢……",
+            "VO_CHR_EVENTSTORY_22215_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "越往后看，内容越支离破碎……\\n这到底是怎么回事？",
+            "VO_CHR_EVENTSTORY_22215_03_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "？？？",
+            "啊——啊啊啊啊啊啊啊！",
+            "VO_CHR_EVENTSTORY_22215_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "有、有叫声！\\n从门里面传来的！",
+            "VO_CHR_EVENTSTORY_22215_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "我们这就去里面看看吧！",
+            "VO_CHR_EVENTSTORY_22215_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c010420",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.25",
+            "0.25",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "c_swing_h",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "不行！门打不开。\\n有什么东西……在阻碍我们！",
+            "VO_CHR_EVENTSTORY_22215_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_268"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "-200",
+            "150"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "set_BG_effect_rotation",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "180"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0162"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_268",
+            "0",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1244",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "乌尔塔",
+            "喵嗷嗷嗷！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "乌尔塔？你怎么了……啊！\\n库菈乌，你看！",
+            "VO_CHR_EVENTSTORY_22215_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET_0",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "1",
+            "0.75",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "1",
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "print",
+          "args": [
+            "亡灵",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "0.3",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "0.3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "是人？不，不太对劲……\\n他的身体是透明的！",
+            "VO_CHR_EVENTSTORY_22215_03_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0240",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "0.3",
+            "0.75",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "0.3",
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "print",
+          "args": [
+            "亡灵",
+            "……\\n请救救我妻子。",
+            "VO_CHR_EVENTSTORY_22215_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0161"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_117"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "mnu_fade",
+          "args": [
+            "c0240",
+            "true",
+            "1.5",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "cmp_fade",
+          "args": [
+            "c0240",
+            "1.5",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_117",
+            "0",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "刚、刚才那人是……\\n啊！门开了。\\n难道是刚才的亡灵打开的？",
+            "VO_CHR_EVENTSTORY_22215_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "诶？不，虽然那个人的身体\\n是透明的，但是亡灵\\n真的存在吗……不对。",
+            "VO_CHR_EVENTSTORY_22215_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "现在没空考虑这些了……\\n我们快去一探究竟吧。",
+            "VO_CHR_EVENTSTORY_22215_03_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c010420",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0096_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0014_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "夫人",
+            "呜……呜啊啊……",
+            "VO_CHR_EVENTSTORY_22215_03_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "这位夫人！她还有气。\\n那就可以用治愈魔法……",
+            "VO_CHR_EVENTSTORY_22215_03_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "MAGIC_CURE",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "c_zigzag_h_t",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "夫人",
+            "你、你是……",
+            "VO_CHR_EVENTSTORY_22215_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "太好了，你醒了啊！\\n你没事吧？\\n知道发生了什么事吗？",
+            "VO_CHR_EVENTSTORY_22215_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "夫人",
+            "我、我……记得……\\n我为了见到丈夫……\\n举行了还魂仪式……",
+            "VO_CHR_EVENTSTORY_22215_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "还魂仪式？你是指\\n日记里写的“还魂法”吗？",
+            "VO_CHR_EVENTSTORY_22215_03_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "print",
+          "args": [
+            "夫人",
+            "对……是一个神奇的“声音”\\n告诉我的。只要让画着魔法阵的\\n灯笼逆流而行，我丈夫就能复活。",
+            "VO_CHR_EVENTSTORY_22215_03_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "果然是你做的手脚……\\n可是你为什么会倒在这里？",
+            "VO_CHR_EVENTSTORY_22215_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "夫人",
+            "不知道……我只是为了\\n唤回我丈夫，把这一带沉睡的\\n所有魂魄都一起唤醒了……",
+            "VO_CHR_EVENTSTORY_22215_03_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "StopEye_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "print",
+          "args": [
+            "夫人",
+            "那些复苏的魂魄超出了我的控制……\\n我没能找到丈夫的魂魄，\\n还被那些魂魄的呻吟所侵蚀……",
+            "VO_CHR_EVENTSTORY_22215_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "夫人",
+            "我正逐渐失去自我……\\n变得面目全非！啊啊……\\n是的……这让我无法忍受……",
+            "VO_CHR_EVENTSTORY_22215_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "print",
+          "args": [
+            "夫人",
+            "逐渐模糊的意识中，\\n听到那个“声音”说……\\n我的“使者”之力还不够强大……",
+            "VO_CHR_EVENTSTORY_22215_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "“使者”之力……",
+            "VO_CHR_EVENTSTORY_22215_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "print",
+          "args": [
+            "夫人",
+            "之后我就不记得了……\\n“声音”也……听不见了……\\n声音、声音……指引……我的……",
+            "VO_CHR_EVENTSTORY_22215_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "夫、夫人？",
+            "VO_CHR_EVENTSTORY_22215_03_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "chara_color",
+          "args": [
+            "c0237",
+            "1.5",
+            "2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0.5",
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "print",
+          "args": [
+            "夫人",
+            "嘀嘀咕咕……为什么……神啊……\\n咿咿呀呀呜呜啊啊……",
+            "VO_CHR_EVENTSTORY_22215_03_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_UNCOLOR",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "夫人……\\n看来不能指望\\n和她继续对话了。",
+            "VO_CHR_EVENTSTORY_22215_03_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "不过，这下事件的元凶\\n也水落石出了。",
+            "VO_CHR_EVENTSTORY_22215_03_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "唔、嗯……\\n是这个人举行了仪式，\\n让灯笼逆水漂流……没错吧？",
+            "VO_CHR_EVENTSTORY_22215_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "嗯。她是异端信奉者，\\n恶意利用灯笼举行仪式，\\n企图复活已逝的丈夫。",
+            "VO_CHR_EVENTSTORY_22215_03_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "可是，她为什么\\n要用日出之国的灯笼\\n举行异端仪式呢？",
+            "VO_CHR_EVENTSTORY_22215_03_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "据说有人会为了更准确地\\n传达祷告而把故人的发丝等遗物\\n放进日出之国的灯笼里。",
+            "VO_CHR_EVENTSTORY_22215_03_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "也许这刚好可以作为\\n被招来的亡魂的容器吧。",
+            "VO_CHR_EVENTSTORY_22215_03_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "所以她才利用放灯笼\\n举行仪式……\\n但是……失败了？",
+            "VO_CHR_EVENTSTORY_22215_03_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "是的。虽然她让灯笼逆流而行，\\n但没办法控制那么多魂魄，\\n所以才晕倒了。",
+            "VO_CHR_EVENTSTORY_22215_03_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "然后失去控制的那些魂魄\\n和在祭典会场的你的力量\\n互相作用，变成了僵尸。",
+            "VO_CHR_EVENTSTORY_22215_03_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "为什么……是僵尸？\\n因为我是个坏孩子，\\n所以魂魄也变成了邪恶的吗？",
+            "VO_CHR_EVENTSTORY_22215_03_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "不，并不是这样的。\\n应该是灯笼里的遗物和魂魄因为\\n偶然的力量融合，倒不如说……",
+            "VO_CHR_EVENTSTORY_22215_03_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你的力量改变了\\n魔法阵本来的目的……\\n这应该是一场意外。",
+            "VO_CHR_EVENTSTORY_22215_03_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "不是我体内的某种存在\\n试图召唤……僵尸的？",
+            "VO_CHR_EVENTSTORY_22215_03_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "不是。所以这次事件的\\n元凶并不是你。\\n这下终于真相大白了。",
+            "VO_CHR_EVENTSTORY_22215_03_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "ONPU_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "这样一来你也不用\\n再去想自己不存在才好。\\n太好了！",
+            "VO_CHR_EVENTSTORY_22215_03_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "唔、嗯……是呢……\\n原来我……不是坏孩子？",
+            "VO_CHR_EVENTSTORY_22215_03_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "那是当然的。好了，拉托妮，\\n接下来只要处理掉僵尸，\\n这次的事件就圆满解决了。",
+            "VO_CHR_EVENTSTORY_22215_03_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "是啊。那么……\\n先让她教我们怎么让\\n这些魂魄回到原来的地方……",
+            "VO_CHR_EVENTSTORY_22215_03_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c37493",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0237",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 543,
+          "command": "CHARA_KAMITE_POS",
+          "args": [
+            "M",
+            "Q",
+            "190",
+            "0",
+            "c37493",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "print",
+          "args": [
+            "夫人",
+            "啊——",
+            "VO_CHR_EVENTSTORY_22215_03_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "StopLip_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 556,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "诶？",
+            "VO_CHR_EVENTSTORY_22215_03_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "RestartLip",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "chara_shake_h",
+          "args": [
+            "c0237",
+            "3",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "print",
+          "args": [
+            "夫人",
+            "啊、啊、啊——",
+            "VO_CHR_EVENTSTORY_22215_03_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "400",
+            "-100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "96",
+            "96",
+            "96"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "StopLip_close",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 580,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "怎、怎么了……不要！",
+            "VO_CHR_EVENTSTORY_22215_03_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 584,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "KAMITE_OUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "RestartLip",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "chara_shake_h",
+          "args": [
+            "c0237",
+            "3",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "print",
+          "args": [
+            "夫人？",
+            "使者，就位——",
+            "VO_CHR_EVENTSTORY_22215_03_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 605,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1244",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0419"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "print",
+          "args": [
+            "乌尔塔",
+            "喵！喵嗷嗷嗷！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1244"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0.5",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "CHARA_SET",
+          "args": [
+            "O",
+            "M",
+            "C",
+            "c0237",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "夫人？",
+            "尘封之棺，斗转星移，\\n沉睡之躯，觉醒终有时。",
+            "VO_CHR_EVENTSTORY_22215_03_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "1.5",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 623,
+          "command": "print",
+          "args": [
+            "夫人？",
+            "时机已至，使者就位。\\n吾乃混沌。吾之终焉乃创生。既为黄昏\\n亦为黎明。暗黑之晨所见永恒噩梦。",
+            "VO_CHR_EVENTSTORY_22215_03_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0123"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_SCE_2D_REN_012",
+            "EFF_SCE_2D_CMN_235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "set_render_target",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "66",
+            "66",
+            "66"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "25",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "1",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_012",
+            "0",
+            "0",
+            "0",
+            "1",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 637,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "print",
+          "args": [
+            "夫人？",
+            "觉醒时刻到。\\n吾名为——",
+            "VO_CHR_EVENTSTORY_22215_03_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 643,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_012",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0418"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "chara_brightness",
+          "args": [
+            "d2146",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "mnu_fade",
+          "args": [
+            "d2146",
+            "true",
+            "1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "cmp_fade",
+          "args": [
+            "d2146",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_201",
+            "0",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "chara_brightness",
+          "args": [
+            "d2146",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "print",
+          "args": [
+            "奈亚拉托提普",
+            "奈 亚 拉 托 提 普。",
+            "VO_CHR_EVENTSTORY_22215_03_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "c010420",
+            "7",
+            "M",
+            "Q",
+            "150",
+            "C",
+            "c37493",
+            "7",
+            "M",
+            "Q",
+            "-150",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 669,
+          "command": "print",
+          "args": [
+            "库菈乌&拉托妮",
+            "！",
+            "VO_CHR_EVENTSTORY_22215_03_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "RestartLip",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "StopLip_close",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "NO_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "NO_EMO",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "怎、怎么会……\\n夫人变成了\\n奈亚拉托提普？",
+            "VO_CHR_EVENTSTORY_22215_03_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "StopLip_close",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "为什么？\\n没有力量的这个人，\\n应该不是“使者”才对……",
+            "VO_CHR_EVENTSTORY_22215_03_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c010420",
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 689,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "print",
+          "args": [
+            "奈亚拉托提普",
+            "了然之理。\\n同胞黄昏为吾解开束缚。\\n此女自始便为崇拜“主”之容器。",
+            "VO_CHR_EVENTSTORY_22215_03_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 693,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 696,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "那个人……一开始就是\\n你的一部分？那教会夫人\\n仪式的“声音”就是……",
+            "VO_CHR_EVENTSTORY_22215_03_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 701,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 705,
+          "command": "c_bound_b_slow",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 707,
+          "command": "print",
+          "args": [
+            "奈亚拉托提普",
+            "然。吾乃指引此女举行仪式者。\\n收集魂魄为吾所用。\\n而此女之力不足以觉醒。",
+            "VO_CHR_EVENTSTORY_22215_03_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 710,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 711,
+          "command": "print",
+          "args": [
+            "奈亚拉托提普",
+            "得同胞相助实乃吾之所幸。\\n破茧而出，吾之觉醒，异端行尸，\\n皆为汝之功劳。",
+            "VO_CHR_EVENTSTORY_22215_03_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 713,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 717,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 718,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你是想说\\n多亏了拉托妮的力量……\\n让你提前觉醒了？",
+            "VO_CHR_EVENTSTORY_22215_03_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 723,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 724,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 725,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 726,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "不可能……\\n不可能，这不可能……",
+            "VO_CHR_EVENTSTORY_22215_03_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 729,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 730,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 731,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "因为我……\\n她才……死了？",
+            "VO_CHR_EVENTSTORY_22215_03_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 733,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 736,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2146",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 737,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 738,
+          "command": "print",
+          "args": [
+            "奈亚拉托提普",
+            "汝可谓功不可没。\\n吾已挣脱枷锁，于俗世\\n履行身为吾主使者之命。",
+            "VO_CHR_EVENTSTORY_22215_03_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 741,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 742,
+          "command": "print",
+          "args": [
+            "奈亚拉托提普",
+            "集祭品献予“遥远之主”。",
+            "VO_CHR_EVENTSTORY_22215_03_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 744,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 745,
+          "command": "play_sound",
+          "args": [
+            "SE_136"
+          ],
+          "end": 1
+        },
+        {
+          "row": 746,
+          "command": "SHIMOTE_OUT_SLOW",
+          "args": [
+            "d2146"
+          ],
+          "end": 1
+        },
+        {
+          "row": 747,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 748,
+          "command": "wait",
+          "args": [
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 749,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 750,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 751,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 755,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 756,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 757,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 758,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "啊……啊……啊啊啊……",
+            "VO_CHR_EVENTSTORY_22215_03_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 760,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 761,
+          "command": "c_zigzag_h_b",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 762,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 763,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 767,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 768,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 769,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 770,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "拉托妮！？",
+            "VO_CHR_EVENTSTORY_22215_03_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 772,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 775,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "Q",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 776,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 777,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 778,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 779,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 780,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "别过来！",
+            "VO_CHR_EVENTSTORY_22215_03_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 782,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 783,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 786,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 787,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 788,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 789,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "唔！？",
+            "VO_CHR_EVENTSTORY_22215_03_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 791,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 794,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 795,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 796,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 797,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "别过来……不可以……过来！",
+            "VO_CHR_EVENTSTORY_22215_03_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 799,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 802,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c010420",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 803,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 804,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你在说什么……",
+            "VO_CHR_EVENTSTORY_22215_03_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 806,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c010420"
+          ],
+          "end": 1
+        },
+        {
+          "row": 809,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "c37493",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 810,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 811,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "变出僵尸的……是我。\\n害死夫人让奈亚拉托提普\\n出现的也是我。",
+            "VO_CHR_EVENTSTORY_22215_03_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 814,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 815,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 816,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "一切都是因我而起——\\n奈亚拉托提普就是这么说的。",
+            "VO_CHR_EVENTSTORY_22215_03_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 819,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c37493",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 820,
+          "command": "c_swing_h_mid",
+          "args": [
+            "c37493"
+          ],
+          "end": 1
+        },
+        {
+          "row": 821,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 822,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "对不起……对不起，库菈乌。\\n我果然不是一个好孩子。\\n所以……",
+            "VO_CHR_EVENTSTORY_22215_03_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 825,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 827,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37493",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 828,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22215_03_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 829,
+          "command": "print",
+          "args": [
+            "拉托妮",
+            "像我这样的坏孩子，\\n不能和大家在一起。",
+            "VO_CHR_EVENTSTORY_22215_03_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 833,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 834,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

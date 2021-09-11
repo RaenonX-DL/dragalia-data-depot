@@ -1,0 +1,1848 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "100002014",
+  "filename": "100002014",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "耶魯菲莉絲？\\n耶魯菲莉絲～妳在哪裡？",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "你找耶魯菲莉絲的話，\\n我請她去幫忙買東西了。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊，這樣啊。\\n是這樣的話就好了……",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我總有股不好的預感……",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0021_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "哈啊……哈啊……嗚！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "c_push_b",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "play_sound",
+          "args": [
+            "SE_053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0207",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "play_sound",
+          "args": [
+            "SE_014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "print",
+          "args": [
+            "魔獸",
+            "咕嚕啊啊啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "CHARA_ATTACK_MON",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "GUARD_KNIFE",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "怎麼能讓你得逞！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_ATTACK_LAN",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "MONSTER_BEAT_LAN",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "呼……\\n再這樣下去，可沒完沒了……",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "果然一邊保護小兔子\\n一邊被魔獸圍攻實在棘手……！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "而且牠的腿好像受傷了，\\n不快點處理的話……！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0207",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "SE_014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "魔獸",
+            "嘎啊啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11",
+            "SE_RUN_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "耶魯菲莉絲！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_ATTACK_SWD",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "MONSTER_BEAT_SWD",
+          "args": [
+            "c0207"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "{player_name}！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "妳怎麼會陷入苦戰！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "這對耶魯菲莉絲來說，\\n是能輕易打倒的對手吧！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "ASE_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "平時的確是這樣沒錯……！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "耶魯菲莉絲身後有隻小兔子？\\n原來如此！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "耶魯菲莉絲！妳背後有我守護，\\n妳只要專心應付前方魔獸就好！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "c_bound_b",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "嗯！\\n這樣我就可以盡全力戰鬥了！喝啊！！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_ATTACK_LAN",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_RESET",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "呼……這樣就解決掉所有魔獸了吧。\\n小兔子也平安無事真是太好了。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "{player_name}，\\n可是……你為什麼會在這裡？",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "因為妳這麼晚都還沒回來，讓我很擔心。\\n有來看看果然是對的。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "這樣啊……真是幫了大忙。\\n還有，對不起。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "居然反被應該要守護的人保護了……\\n我真是沒有當騎士的資格，\\n之前也是這樣。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "當時明明我也在場，\\n卻讓{player_name}你受傷了。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "說真的，\\n我到底是為了什麼才當騎士……",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "妳不要在意啦。\\n即使是騎士，也不可能完美無缺。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我們只要互相守護就行了啊。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "那、那可不行！",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "NO_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "這就像國王不能被人民守護一樣，\\n騎士被國王守護簡直是──",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "國王是被守護著的喔，\\n是被人民守護著的。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "那是什麼意思……？",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "即使是國王，也有離開國家的時候吧？",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那個時候，\\n國王就會將整個國家託付給人民。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "因為國王相信人民，\\n所以才能將國本託付於民放心外出。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "所以同樣道理，\\n我覺得騎士可以被守護，\\n也可以依靠別人啊。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "即使對象是\\n妳必須守護的國王也一樣。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "……！\\n確、確實……",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "NO_EMO",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "呵呵……還真奇妙呢。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0102",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "每次和殿下聊天之後，\\n總是會有新發現。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0102",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "耶魯菲莉絲",
+            "的確，說不定就像\\n{player_name}說的那樣呢。",
+            "VO_CHR_KNIGHTSSTORY_100002_01_03_1012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

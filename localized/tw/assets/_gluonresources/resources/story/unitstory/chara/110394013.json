@@ -1,0 +1,1828 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110394013",
+  "filename": "110394013",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "……我回來了。魔獸討伐完畢了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "ODOROKI_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "print",
+          "args": [
+            "那姆",
+            "歡迎回來～！呃、咦～！？\\n已經結束了嗎！？\\n妳今天早上才剛出發的說……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "雖然數量很多，但沒什麼大不了的……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "沒、沒什麼、大不了……！？\\n那些可是連羅布雷路的自警團聯手\\n都無計可施的魔獸群喔！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "WARAI_EMO",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "c_bound2_t",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "那姆",
+            "唔哇～……！\\n賽席爾，原來妳這麼厲害啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "c_swing_h",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "我並不、厲害……\\n雖然多虧有殿下和李弗在，\\n我才能待在這裡……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "StopEye_close",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "但現在我還是沒辦法面對\\n原本打算面對的騎士道……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "慢慢來就好了不是嗎？\\n我覺得光是妳開始在城裡工作，\\n就已經算是很大的進步了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "……謝謝妳。\\n但是，我想變回過去自己的想法，\\n變得越來越強烈……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "我想重新變回能直率地面對理想\\n和騎士道的自己。這樣一來，\\n也能報答殿下和李弗的恩情……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "那姆",
+            "唔～嗯……變回過去的自己、嗎……\\n啊！那要不要試著\\n多想起一些過去的事？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "咦……？什麼意思？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "c_bound2_b",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "那姆",
+            "為了變回過去的自己，\\n所以要試著重新好～好地\\n了解過去的自己啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "ONPU_EMO",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "那姆",
+            "只要越來越了解，說不定就能\\n慢～慢取回過去的自己喔？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "想起、過去……嗎。可是……\\n我、如果想起騎士時代的事，\\n又會變得情緒不穩定……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "c_swing_h",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "那姆",
+            "不是騎士時代也沒關係啊？\\n只要回想以前喜歡的事或開心的記憶，\\n說不定能想起積極向前的感覺喔！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "的確……\\n以前喜歡的事、嗎……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0043_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7",
+            "SE_NHAA"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "那姆",
+            "哇……好豪華的房子喔～！\\n這裡是哪裡啊？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "是我祖父的別墅……\\n但因為家人都還在帝國，\\n現在幾乎荒廢就是了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "HATENA_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "竟然有這麼豪華的別墅，\\n莫非賽席爾小姐是貴族嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "c_bound_t_slow",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "可以這麼說。\\n代代都出近衛騎士的名門──\\n也曾被這麼稱呼過。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "所以我從小，\\n一心只想著要成為騎士……\\n啊啊，不能想著這種事呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "我想回憶的不是這些事。\\n到陽台去吧……跟我來。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0034_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0017_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "那姆＆克菈兒",
+            "哇啊……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "ONPU_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "那姆",
+            "風景超～級漂亮的！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "對吧？呵呵……真讓人懷念。\\n雖然過去整天都顧著埋頭修練劍術……\\n但只有在這裡的時候不同。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "每當來這裡避暑時，\\n我都會將這片風景描繪在畫布上。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "WARAI_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "喔……！\\n賽席爾小姐也有藝術方面的才能呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "p39401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "c_swing_h",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "沒有，只是有點興趣而已。\\n不過……\\n寫詩這件事或許還滿擅長的吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39401",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "c_bound_t",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "以前在社交場合時，\\n常常得到女孩們的稱讚呢……呵呵。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "WARAI_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "那姆",
+            "啊……賽席爾，妳終於笑了～！\\n有變得比較積極了嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "唔！真的耶。\\n我……剛才、想起過去的事，\\n覺得很開心……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "呵呵。試著回憶騎士以外的事情，\\n或許是正確的呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "c_bound_b",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "說、說得也是……\\n好……那接下來，到我的房間去吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "那裡應該留著許多以前寫的詩──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0044_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "SYS",
+            "藍天存在著無人可及的地方，\\n屬於鳥兒們的秘密花園。\\n但是請傳達my wish，\\n絕對會實現my heart，\\n我的理想是為世界帶來infinity。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0343"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "…………\\n為什麼這麼爛的詩……\\n我會拿給別人看呢……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "SHAKE_CH_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "魔、魔、魔養石……把魔養石……\\n喀滋喀滋喀滋喀滋喀滋喀滋……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "SHAKE_CH_STOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "ASE_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "啊、啊哈哈……不會啦。\\n我覺得這首詩很好啊？\\n那個……充滿了、年輕的氣息……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m00701",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "c_bound2_b",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100007_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "那姆",
+            "嗯、嗯嗯！該怎麼說……\\n妳以前真的對夢想很積極向前呢！\\n賽席爾！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39401",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "別、別再說了！\\n不要繼續補刀了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110394_STORY_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "呼呼……雖然要面對騎士道、\\n也很難過……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "chara_face",
+          "args": [
+            "p39401",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "c_zoom_wide_stay",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "賽席爾",
+            "但要面對這麼丟臉的過去……\\n我絕對辦不到────！！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

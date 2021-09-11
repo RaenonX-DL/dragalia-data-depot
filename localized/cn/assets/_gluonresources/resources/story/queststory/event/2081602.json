@@ -1,0 +1,2473 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2081602",
+  "filename": "2081602",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 6,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "outline",
+          "args": [
+            "将工坊搬至圣城的三姐妹\\n仍有一桩心事未了——\\n她们尚未与罗卡族铁匠拉兹莉决出高下。\\n三姐妹决定参加铁匠大赛“最佳铁匠杯”，\\n并开始打造参赛用的剑。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0063_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "print",
+          "args": [
+            "SYS",
+            "三姐妹将工坊搬到圣城后\\n不久……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0143"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "c_bound_b",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "你要的100支箭已经做好了。\\n应该没有问题，但姑且还是检查一下吧。",
+            "VO_CHR_EVENTSTORY_20808_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "噢噢，已经做好了！？\\n真是一如既往地快啊！",
+            "VO_CHR_EVENTSTORY_20808_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "14"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是啊，罗吉娜三姐妹能来到这座城，\\n真是太好了。",
+            "VO_CHR_EVENTSTORY_20808_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "在这里的生活还习惯吗？\\n如果有什么困扰就告诉我。",
+            "VO_CHR_EVENTSTORY_20808_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2465",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "WARAI_EMO",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "print",
+          "args": [
+            "卢吉娜",
+            "完全没有！\\n罗吉姐和雷吉姐也这么认为吧！？",
+            "VO_CHR_EVENTSTORY_20808_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "是啊，{player_name}\\n不仅像刚才那样关心我们……\\n还交给我们许多有意义的工作……",
+            "VO_CHR_EVENTSTORY_20808_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2363",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "c_swing_h",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "真的……没有任何不满呢。",
+            "VO_CHR_EVENTSTORY_20808_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c23642",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "雷吉娜",
+            "嗯？罗吉娜？\\n说谎可不好哦？",
+            "VO_CHR_EVENTSTORY_20808_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "咦！？姐、姐姐？\\n我没有说谎啊……",
+            "VO_CHR_EVENTSTORY_20808_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c23642",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "雷吉娜",
+            "下一届最佳铁匠杯……\\n听说拉兹莉也会参加哦？",
+            "VO_CHR_EVENTSTORY_20808_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "她会参加！？",
+            "VO_CHR_EVENTSTORY_20808_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦？拉兹莉是……",
+            "VO_CHR_EVENTSTORY_20808_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "罗卡族的铁匠，\\n是我们的老对手了……",
+            "VO_CHR_EVENTSTORY_20808_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "罗卡族！？\\n那群人都很擅长锻造，\\n跟他们竞争想必很不容易吧？",
+            "VO_CHR_EVENTSTORY_20808_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2465",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "c_jump",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "print",
+          "args": [
+            "卢吉娜",
+            "没错！好多客人都被\\n拉兹莉的工坊抢走……\\n真是太不甘心了！",
+            "VO_CHR_EVENTSTORY_20808_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "我们从父亲手上继承的技术，\\n不会输给任何人！",
+            "VO_CHR_EVENTSTORY_20808_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2363",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "不过……正如姐姐所说，\\n我刚才说谎了。",
+            "VO_CHR_EVENTSTORY_20808_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2363",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "虽然并不后悔把工坊搬来这里……\\n可也因此没能跟拉兹莉做个了断，\\n总觉得有些遗憾。",
+            "VO_CHR_EVENTSTORY_20808_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2363",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "但如果在最佳铁匠杯上……\\n我一定能在比拼锻造技术的大赛上\\n跟拉兹莉一决胜负！",
+            "VO_CHR_EVENTSTORY_20808_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2363",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "谢谢你，姐姐……\\n谢谢你告诉我关于拉兹莉的事。",
+            "VO_CHR_EVENTSTORY_20808_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c23642",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "ONPU_EMO",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "c_bound2_t",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "print",
+          "args": [
+            "雷吉娜",
+            "呵呵，不客气～\\n这都是为了我可爱的妹妹。",
+            "VO_CHR_EVENTSTORY_20808_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2465",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "卢吉娜",
+            "在大赛中一举夺冠……听起来真棒！\\n既然决定要参赛，\\n就得抓紧打造参赛的武器了！",
+            "VO_CHR_EVENTSTORY_20808_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "c_bound_b",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "我觉得斧子比较好，\\n看起来又大又醒目……",
+            "VO_CHR_EVENTSTORY_20808_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2363",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "这种大型武器，没有强大的火力\\n和精湛的锻打技术就无法打造出\\n上乘的斧子，是对基本功的考验。",
+            "VO_CHR_EVENTSTORY_20808_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c23642",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "雷吉娜",
+            "我觉得刀比较好呢～\\n打造出锋利而漂亮的利刃，\\n不也是锻造的基础吗？",
+            "VO_CHR_EVENTSTORY_20808_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2465",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "c_jump2",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "print",
+          "args": [
+            "卢吉娜",
+            "听我说听我说～\\n要说锻造的基础，果然还是短剑吧！",
+            "VO_CHR_EVENTSTORY_20808_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2465",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "c_swing2_h",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "卢吉娜",
+            "短剑都做不出的铁匠\\n哪做得出别的武器！\\n俗话不是说“嘲短剑者，必尝其利”吗！？",
+            "VO_CHR_EVENTSTORY_20808_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "有、有这种说法吗……",
+            "VO_CHR_EVENTSTORY_20808_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "唔……总之你们都想在\\n锻造的基本功上一决高下吧？",
+            "VO_CHR_EVENTSTORY_20808_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2465",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "c_jump",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "print",
+          "args": [
+            "卢吉娜",
+            "对！以华丽的装饰或奇特的造型\\n来哗众取宠什么的，根本就是歪门邪道！",
+            "VO_CHR_EVENTSTORY_20808_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "c_bound_b",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "没错，卢吉娜说得对。\\n忠于基础，将品质做到最好……",
+            "VO_CHR_EVENTSTORY_20808_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2363",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "ONPU_EMO",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "这就是我们从父亲那里\\n继承下来的锻造理念。",
+            "VO_CHR_EVENTSTORY_20808_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "继承自父亲的锻造理念吗……\\n那利吉最擅长的武器是？",
+            "VO_CHR_EVENTSTORY_20808_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "最擅长……虽然父亲什么武器都能做，\\n但最擅长的应该还是剑吧。",
+            "VO_CHR_EVENTSTORY_20808_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c23642",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "print",
+          "args": [
+            "雷吉娜",
+            "是啊～父亲的剑\\n坚韧而美丽，是最棒的剑♪",
+            "VO_CHR_EVENTSTORY_20808_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "14"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那么，用剑参赛如何？\\n打造一把不逊于利吉的剑。",
+            "VO_CHR_EVENTSTORY_20808_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "14"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这样一来也能证明\\n你们继承了父亲的本领。",
+            "VO_CHR_EVENTSTORY_20808_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "chara_visible",
+          "args": [
+            "c23642",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "chara_visible",
+          "args": [
+            "c2465",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "chara_visible",
+          "args": [
+            "c2363",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "chara_pos",
+          "args": [
+            "c23642",
+            "40",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "chara_pos",
+          "args": [
+            "c2465",
+            "-190",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "chara_pos",
+          "args": [
+            "c2363",
+            "200",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "chara_face",
+          "args": [
+            "c23642",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "chara_face",
+          "args": [
+            "c2465",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "chara_face",
+          "args": [
+            "c2363",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "eye1",
+          "args": [
+            "c23642",
+            "M"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "eye1",
+          "args": [
+            "c2465",
+            "M"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "eye1",
+          "args": [
+            "c2363",
+            "M"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "lip1",
+          "args": [
+            "c23642",
+            "M"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "lip1",
+          "args": [
+            "c2465",
+            "M"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "lip1",
+          "args": [
+            "c2363",
+            "M"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "mnu_fade",
+          "args": [
+            "c2363",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "mnu_fade",
+          "args": [
+            "c2465",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "mnu_fade",
+          "args": [
+            "c23642",
+            "true",
+            "0.3",
+            "1.0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "cmp_fade",
+          "args": [
+            "c2363",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "cmp_fade",
+          "args": [
+            "c2465",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "cmp_fade",
+          "args": [
+            "c23642",
+            "0.3",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "chara_visible",
+          "args": [
+            "c2363",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "chara_visible",
+          "args": [
+            "c2465",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "chara_visible",
+          "args": [
+            "c23642",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "print",
+          "args": [
+            "三姐妹",
+            "……",
+            "VO_CHR_EVENTSTORY_20808_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c2363",
+            "c2465",
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "诶、咦？难道我说了\\n什么不该说的话……",
+            "VO_CHR_EVENTSTORY_20808_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "啊……不是！那个……\\n正如你所言……",
+            "VO_CHR_EVENTSTORY_20808_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "NO_EMO",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c2363",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "做出不逊于父亲的剑吗……\\n是啊，这或许是个不错的目标。",
+            "VO_CHR_EVENTSTORY_20808_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2465",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "c_bound2_t",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "print",
+          "args": [
+            "卢吉娜",
+            "呵呵呵……我热血沸腾起来了！\\n要成为最棒的铁匠，\\n就得超越父亲才行！",
+            "VO_CHR_EVENTSTORY_20808_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "等等，卢吉娜！超越父亲什么的，\\n你说得倒轻巧……",
+            "VO_CHR_EVENTSTORY_20808_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c23642",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "print",
+          "args": [
+            "雷吉娜",
+            "不是挺好的吗～\\n想做出最棒的剑，\\n这种程度的决心是必需的♪",
+            "VO_CHR_EVENTSTORY_20808_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2465",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "c_jump",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "print",
+          "args": [
+            "卢吉娜",
+            "对吧！？那你们听我说，\\n我刚才灵光一现！剑的形状要这样……",
+            "VO_CHR_EVENTSTORY_20808_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2465"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c2363",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "c_swing_h",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "print",
+          "args": [
+            "罗吉娜",
+            "不行，那样的话强度会出问题。\\n剑的话，要更加……",
+            "VO_CHR_EVENTSTORY_20808_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c2363"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c23642",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "c_bound2_t",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20808_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "雷吉娜",
+            "呵呵♪看来能做出一把好剑呢，\\n真令人期待～",
+            "VO_CHR_EVENTSTORY_20808_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c23642"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

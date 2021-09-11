@@ -1,0 +1,1587 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110021011",
+  "filename": "110021011",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "要跳过此剧情吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0017_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "print",
+          "args": [
+            "男子",
+            "“和龙缔结契约的王子”\\n就是你吗？",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是的……你是？",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "我名叫扎因弗拉德。\\n然后……",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "play_sound",
+          "args": [
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_KAMITE",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "c0234",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "mnu_move",
+          "args": [
+            "c0234",
+            "true",
+            "0.3",
+            "0",
+            "0",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "mnu_move",
+          "args": [
+            "c0234",
+            "false",
+            "0.9",
+            "-200",
+            "0",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "cmp_move",
+          "args": [
+            "c0234",
+            "1.2",
+            "-200",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "wait",
+          "args": [
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "print",
+          "args": [
+            "幼龙",
+            "咪呜。咪呜。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "幼龙！？\\n还是两头！",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "他们是我照顾的\\n龙的幼崽。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c04212",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "名叫……佩罗和奇罗。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你能抚育龙，\\n绝非等闲之辈。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "你是何方神圣？",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "我是与龙共生、保护龙的\\n“龙之守护者”……的后裔。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "我听说过这个名字。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "NO_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "好像是住在深山之中，\\n崇拜龙的族群。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "c_bound_b",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "是啊。\\n我们照顾龙的生活，\\n相应的，也受到龙的加护生活着。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c04212",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "然而，我们一族\\n在与敌对部族的斗争中败下阵来。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c04212",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "龙也遭到他们的戕害。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c04212",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "活下来的只有我，\\n还有两头幼龙。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "在那之后，\\n我们一直漂泊流浪。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "太可怜了……\\n那为什么来见我？",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "虽然我们辗转各地，\\n但一直没找到\\n能让幼龙安心生活的地方。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "就在这时我听到一个传闻：\\n有位和龙缔结了契约，\\n与龙共同生活的王子。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "原来如此。你觉得\\n如果和{player_name}一起，\\n幼龙就有栖身之所了。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "c_bound_b",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "拜托了。我和他们……\\n不，哪怕只有他们也好，\\n可以待在这里吗？",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "小事一桩。\\n当然，扎因弗拉德也可以一起。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "这样啊。承蒙恩情！",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那么库菈乌，\\n把佩罗和奇罗\\n带到有龙的地方去吧。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "那个……\\n抱歉提这么任性的要求，\\n但可以让我和他们住在一起吗？",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦？",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "夜里如果不在我身旁，\\n他们就会觉得孤单。所以……",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0234",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "c_swing2_h",
+          "args": [
+            "c0234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "print",
+          "args": [
+            "佩罗&奇罗",
+            "咪呜～咪呜～",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊哈哈。\\n既然这样……呐，库菈乌？",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "c_bound_b",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "好的。我把佩罗和奇罗\\n带去城里的房间，和扎因弗拉德一起。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "可以吗！？\\n抱歉了！",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不用道歉啊。\\n今后也请多多关照，扎因弗拉德。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c04212",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "彼此彼此，请多多关照。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c04212",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "print",
+          "args": [
+            "扎因弗拉德",
+            "今晚开始就能安心睡觉了。\\n佩罗、奇罗。",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c04212"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0234",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "WARAI_jump",
+          "args": [
+            "c0234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "print",
+          "args": [
+            "佩罗&奇罗",
+            "咪呜！咪呜！",
+            "VO_CHR_KNIGHTSSTORY_110021_01_00_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "NO_EMO",
+          "args": [
+            "c0234"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

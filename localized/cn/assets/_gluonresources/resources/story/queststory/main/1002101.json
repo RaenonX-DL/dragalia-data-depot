@@ -1,0 +1,2388 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1002101",
+  "filename": "1002101",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 2,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 2,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 2,
+          "command": "outline",
+          "args": [
+            "王子一行人向着圣树顶端行进，\\n却遭芩罗达阻拦。事态一触即发之际，\\n王子请求芩罗达说出奈迪犹的想法。\\n然而芩罗达表示要想知道\\n除非打倒自己，说完便向王子袭来。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0029_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0140_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0013_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_086",
+            "EFF_SCE_2D_CMN_087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_086",
+            "46",
+            "255",
+            "202"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_087",
+            "46",
+            "255",
+            "202"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_086",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_087",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "print",
+          "args": [
+            "SYS",
+            "圣树 树冠"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "这里就是圣树的顶端了吗？\\n“晓之圣片”就在这个地方……",
+            "VO_CHR_MAINSTORY_21_01_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0139",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "传言它的力量足以改变因果，\\n就让我来为这个世界\\n驾驭这份力量吧。",
+            "VO_CHR_MAINSTORY_21_01_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "你没有异议吧？\\n圣片的管理者——",
+            "VO_CHR_MAINSTORY_21_01_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_086",
+            "1.0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_087",
+            "1.0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "wait",
+          "args": [
+            "3.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "set_BG",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "post_film",
+          "args": [
+            "0",
+            "1.0",
+            "filmMode_Mul",
+            "1",
+            "2",
+            "0",
+            "0",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "telop",
+          "args": [
+            "两位造物主",
+            "Dragalia Lost ～失落的龙约～ 第21章",
+            " ",
+            " "
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "touch_wait",
+          "args": [
+            "0.5",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHAPTER_INTRO_START",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHAPTER_INTRO_BAND",
+          "args": [
+            "ChapterIntroduction_2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我们答应了芬罗达的请求，\\n紧追奈迪犹、芩罗达和塞西娅,\\n终于来到了圣树面前。",
+            "VO_CHR_MAINSTORY_21_01_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHAPTER_INTRO_NEXT",
+          "args": [
+            "serif_2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "据说要是奈迪犹得到了晓之圣片\\n并与巴哈姆特缔结契约，\\n后果将不堪设想。",
+            "VO_CHR_MAINSTORY_21_01_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHAPTER_INTRO_NEXT",
+          "args": [
+            "serif_3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不光是为了保护晓之圣片，\\n也是为了知晓奈迪犹的真意，\\n我们都必须追上他们！",
+            "VO_CHR_MAINSTORY_21_01_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHAPTER_INTRO_END",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0139_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "SYS",
+            "圣树·上层\\n云上巨枝"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4",
+            "SE_WALK_IN_GR_ARM"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我们也攀登了好一段距离了，\\n可是离顶端似乎还很远呢。",
+            "VO_CHR_MAINSTORY_21_01_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0107",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "ASE_EMO",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "c_zigzag_h_b",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "print",
+          "args": [
+            "纳姆",
+            "呼……我已经累死啦～",
+            "VO_CHR_MAINSTORY_21_01_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "不过现在还不能松懈。\\n奈迪犹他们很可能\\n已经到达顶端了。",
+            "VO_CHR_MAINSTORY_21_01_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "“晓之圣片”应该就在顶端。",
+            "VO_CHR_MAINSTORY_21_01_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "现在还看不透奈迪犹的真正目的，\\n能在他得到晓之圣片之前\\n追上他是最好不过的。",
+            "VO_CHR_MAINSTORY_21_01_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "据芬罗达所说……\\n他想得到晓之圣片，\\n与巴哈姆特重新缔结契约……",
+            "VO_CHR_MAINSTORY_21_01_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "但得到巴哈姆特的力量一定\\n只是他的一种手段。重要的是\\n他采取这种手段的目的是什么……",
+            "VO_CHR_MAINSTORY_21_01_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "奈迪犹的目的吗……",
+            "VO_CHR_MAINSTORY_21_01_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "还不知道。\\n但正因为如此，\\n我们才更要追上他。",
+            "VO_CHR_MAINSTORY_21_01_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01156",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "c_bound_b",
+          "args": [
+            "c01156"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "是啊。要想知道真相\\n还是直接问他本人最快。\\n就是不知道他会不会说实话。",
+            "VO_CHR_MAINSTORY_21_01_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01156"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01105",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "c_swing_h",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "穆穆",
+            "哼，绝对不是什么正经的动机，\\n他满脑子想的都是支配\\n这个世界之类的事吧！",
+            "VO_CHR_MAINSTORY_21_01_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01105"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "？？？",
+            "如果你们真以为\\n他的计谋只有这点程度，\\n那还真是小看他了……",
+            "VO_CHR_MAINSTORY_21_01_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你、你是……",
+            "VO_CHR_MAINSTORY_21_01_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0014_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "芬罗达的儿子吗……不对，\\n应该叫你精灵王芩罗达吧。",
+            "VO_CHR_MAINSTORY_21_01_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "c_bound_b",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "嗯，这样叫最好。\\n毕竟我不想被叫做置精灵未来\\n于不顾的男人的儿子。",
+            "VO_CHR_MAINSTORY_21_01_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "奈迪犹他……\\n似乎没和你在一起啊。",
+            "VO_CHR_MAINSTORY_21_01_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "他现在应该已经到达顶端了吧。\\n我留在这里是为了\\n阻挡你们的去路。",
+            "VO_CHR_MAINSTORY_21_01_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0148",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "c_bound_b",
+          "args": [
+            "c00148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "好了，准备接招吧。",
+            "VO_CHR_MAINSTORY_21_01_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "c_swing_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "等一下，芩罗达！\\n我不打算和精灵发生争执。\\n你能不能让我们过去？",
+            "VO_CHR_MAINSTORY_21_01_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "我不管你们有没有这个打算，\\n但是我有自己的理由。",
+            "VO_CHR_MAINSTORY_21_01_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "是芬罗达让你们\\n来阻止奈迪犹的吧？",
+            "VO_CHR_MAINSTORY_21_01_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "c_bound_b",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯……我们答应了芬罗达\\n要保护好晓之圣片。",
+            "VO_CHR_MAINSTORY_21_01_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0148",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "真是悲哀。",
+            "VO_CHR_MAINSTORY_21_01_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "诶？",
+            "VO_CHR_MAINSTORY_21_01_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "虽然我早就知道你是芬罗达\\n做出来的人偶，但没想到\\n你连思想都任由他摆布。",
+            "VO_CHR_MAINSTORY_21_01_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "一味听信芬罗达的话，\\n不辨是非对错便行动……\\n这不叫人偶叫什么啊？",
+            "VO_CHR_MAINSTORY_21_01_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01156",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "恕我直言，精灵王。\\n要是等我们辨明了是非，\\n局势已覆水难收又有什么意义？",
+            "VO_CHR_MAINSTORY_21_01_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "我觉得要想知道你们\\n到底有何企图，等把你们\\n都抓起来再问也不迟。",
+            "VO_CHR_MAINSTORY_21_01_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01156"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "c_bound_b",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "对……没错。\\n所以，我们就只有\\n对立这一个选择了。",
+            "VO_CHR_MAINSTORY_21_01_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我的确有很多事还不懂，\\n也不理解……\\n所以我才想弄懂它。",
+            "VO_CHR_MAINSTORY_21_01_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "奈迪犹他到底想做什么，\\n他与巴哈姆特缔结契约之后\\n想达成什么目的。",
+            "VO_CHR_MAINSTORY_21_01_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "c_swing_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "如果我不知道这些，\\n就没有办法判断\\n你所说的是与非。",
+            "VO_CHR_MAINSTORY_21_01_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "c_swing_h",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "没用的。",
+            "VO_CHR_MAINSTORY_21_01_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "HATENA_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "没用？为什么……",
+            "VO_CHR_MAINSTORY_21_01_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "你看待奈迪犹的态度\\n很复杂吧？",
+            "VO_CHR_MAINSTORY_21_01_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "你真的能摒弃个人感情\\n去帮助奈迪犹吗？",
+            "VO_CHR_MAINSTORY_21_01_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "说实话……我不知道能不能做到。\\n但如果奈迪犹能够说服我他的行动\\n是正确的，我愿意试着去帮助他。",
+            "VO_CHR_MAINSTORY_21_01_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "c_bound_t",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "哎呀，真是模范回答。\\n反正你想怎么说\\n全凭一张嘴而已。",
+            "VO_CHR_MAINSTORY_21_01_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "那么……你到底要怎么做？",
+            "VO_CHR_MAINSTORY_21_01_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0148",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "c_swing_h",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "弱者没有选择的余地。\\n这个世界的规矩就是这样。",
+            "VO_CHR_MAINSTORY_21_01_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "不管是我还是奈迪犹，\\n都在这样的世界里\\n尝遍了辛酸。",
+            "VO_CHR_MAINSTORY_21_01_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "如果这就是当下的规矩，\\n我们遵守便是……\\n不过这只是暂时的。",
+            "VO_CHR_MAINSTORY_21_01_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "所以，你们也用真本事\\n来回应我吧。",
+            "VO_CHR_MAINSTORY_21_01_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "print",
+          "args": [
+            "芩罗达",
+            "如果你们能打败我，\\n我可以告诉你们\\n一件你们想知道的事。",
+            "VO_CHR_MAINSTORY_21_01_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0148"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "MONSTER_SHIMOTE3",
+          "args": [
+            "c0207",
+            "c0207b",
+            "c0207c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "SHOUT_COM",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "SHOUT_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "c0207",
+            "c0207b",
+            "c0207c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "c_swing_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_01_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "唔……只能战斗了吗！",
+            "VO_CHR_MAINSTORY_21_01_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

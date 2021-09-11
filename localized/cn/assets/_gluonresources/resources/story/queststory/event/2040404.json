@@ -1,0 +1,1777 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2040404",
+  "filename": "2040404",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "采购完食材，众人稍作休息。\\n王子接受了家康的提议，\\n决定把圣城布置成新年的样子。\\n途中王子得知了家康和牡丹的关系。\\n他们曾是幼时玩伴，如今却断绝了往来……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_200"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "14",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我们回来了！\\n好在顺利买到了食材。",
+            "VO_CHR_EVENTSTORY_20404_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3712",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "谢谢你，{player_name}！\\n有了这些，\\n我就能做出豪华大餐了！",
+            "VO_CHR_EVENTSTORY_20404_04_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3712",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "牡丹",
+            "我这就借用一下厨房。\\n你们就等着吃大餐吧！",
+            "VO_CHR_EVENTSTORY_20404_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "SHIMOTE_OUT_FAST_SE",
+          "args": [
+            "c3712",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "NO_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "print",
+          "args": [
+            "家康",
+            "真是的……\\n她那鲁莽的性格一点都没变。",
+            "VO_CHR_EVENTSTORY_20404_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3711",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "print",
+          "args": [
+            "山茶花",
+            "家康大人，我也去厨房了。\\n准备饭菜就放心交给我吧。",
+            "VO_CHR_EVENTSTORY_20404_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3711"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "print",
+          "args": [
+            "家康",
+            "好的。\\n拜托你了，山茶花。",
+            "VO_CHR_EVENTSTORY_20404_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3711",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c3711"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "c3711",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "家康",
+            "{player_name}殿下，\\n我们能用新年的装饰布置大厅吗？",
+            "VO_CHR_EVENTSTORY_20404_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "HATENA_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "家康",
+            "这样各位也能感受\\n日出之国的新年氛围，您意下如何？",
+            "VO_CHR_EVENTSTORY_20404_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "好主意！\\n我们也来帮忙布置。",
+            "VO_CHR_EVENTSTORY_20404_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "print",
+          "args": [
+            "家康",
+            "您不介意吗？\\n虽然十分感激……",
+            "VO_CHR_EVENTSTORY_20404_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "当然。要是都推给你们做，\\n我会过意不去的。",
+            "VO_CHR_EVENTSTORY_20404_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "ONPU_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "家康",
+            "呵呵，那就恭敬不如从命了。\\n另外，我还要向您道歉。",
+            "VO_CHR_EVENTSTORY_20404_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "NO_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "print",
+          "args": [
+            "家康",
+            "牡丹她闹得厉害……\\n给您添了不少麻烦吧？",
+            "VO_CHR_EVENTSTORY_20404_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不，我完全不介意……\\n你们两位认识吧？",
+            "VO_CHR_EVENTSTORY_20404_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0006_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "家康",
+            "是的。我们小时候\\n是同一家道场门下的弟子。",
+            "VO_CHR_EVENTSTORY_20404_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "家康",
+            "其他弟子都因为我是将军家的人\\n而对我敬而远之，\\n只有她毫无顾忌地向我搭话。",
+            "VO_CHR_EVENTSTORY_20404_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "确实，她看起来不像是\\n会在意身份或家世的人。",
+            "VO_CHR_EVENTSTORY_20404_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "家康",
+            "也可以说\\n她不够深思熟虑吧。",
+            "VO_CHR_EVENTSTORY_20404_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "ASE_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你对牡丹\\n还真是不留情面……",
+            "VO_CHR_EVENTSTORY_20404_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "ONPU_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "print",
+          "args": [
+            "家康",
+            "呵呵，也许是这样吧。\\n她是我唯一能开玩笑的朋友。",
+            "VO_CHR_EVENTSTORY_20404_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "家康",
+            "不过，这都是过去式了……",
+            "VO_CHR_EVENTSTORY_20404_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "“过去式”？\\n发生了什么事吗？",
+            "VO_CHR_EVENTSTORY_20404_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "print",
+          "args": [
+            "家康",
+            "嗯……要说的话，\\n就是我成了十二龙氏这件事吧。",
+            "VO_CHR_EVENTSTORY_20404_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c37132",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "家康",
+            "自从我以将军候补的身份\\n继承家业那天起，我们就绝交了。",
+            "VO_CHR_EVENTSTORY_20404_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "为什么……",
+            "VO_CHR_EVENTSTORY_20404_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "家康",
+            "成为将军候补，\\n就意味着要为国效力。",
+            "VO_CHR_EVENTSTORY_20404_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "print",
+          "args": [
+            "家康",
+            "一个凡事都要以国家为先的人，\\n不可以把心思放在个人身上。",
+            "VO_CHR_EVENTSTORY_20404_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "道理我都懂，\\n可是也没必要断绝来往吧……",
+            "VO_CHR_EVENTSTORY_20404_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "牡丹看起来\\n也不太能接受吧？",
+            "VO_CHR_EVENTSTORY_20404_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "print",
+          "args": [
+            "家康",
+            "可能吧。\\n但我别无选择。",
+            "VO_CHR_EVENTSTORY_20404_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "print",
+          "args": [
+            "家康",
+            "因为……\\n悲伤的样子并不适合她。",
+            "VO_CHR_EVENTSTORY_20404_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯？\\n那是什么意思……",
+            "VO_CHR_EVENTSTORY_20404_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c37132",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "print",
+          "args": [
+            "家康",
+            "啊，抱歉。\\n一不小心说太多了。",
+            "VO_CHR_EVENTSTORY_20404_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "家康",
+            "您不必在意这些琐事。",
+            "VO_CHR_EVENTSTORY_20404_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c37132",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "WARAI_EMO",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "家康",
+            "我们还是先布置大厅吧。\\n得赶在荞麦面做好之前完工。",
+            "VO_CHR_EVENTSTORY_20404_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c37132"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯，是啊。",
+            "VO_CHR_EVENTSTORY_20404_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "（成为将军候补，\\n为什么会让人悲伤呢……）",
+            "VO_CHR_EVENTSTORY_20404_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20404_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "（而且，刚才家康的笑容\\n为什么看起来也有些落寞……）",
+            "VO_CHR_EVENTSTORY_20404_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

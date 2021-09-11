@@ -1,0 +1,1407 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110017015",
+  "filename": "110017015",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "要跳过此剧情吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "哟，里卡多。\\n状态如何？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0417",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "哇哇，{player_name}大人，\\n受、受受受伤了吗！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "ASE_EMO",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "没、没关系，我能治好！\\n如果是轻、轻微的擦伤，\\n即使看了我也没问题了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊哈哈，你放心吧。\\n我不是来治疗的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我是来看你的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0417",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "c_bound_t",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "咦，啊，太、太好了……\\n因为我还是怕见人、怕见血……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "但是，\\n我是真的\\n想一点点……去克服。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯。我听大家说了，\\n你很努力呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0417",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "{player_name}、大人。\\n以、以前您对我说过吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "您说，有不擅长的事也没办法。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "我是……被您那句话，\\n所拯救的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "回想起来，迄今为止我……\\n一直觉得不该有不擅长的事，\\n为此钻了牛角尖……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "因为这样……\\n感觉不擅长的事\\n变得更不擅长了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0417",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "但是……\\n您说可以有不擅长的事，\\n我内心轻松了许多。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0417",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "如果没有您那句话，\\n我应该还不能\\n正视自己不擅长的事。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "ASE_EMO",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "话是这么说……\\n但我还没有克服任何事呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "c_swing_h",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不，没这回事。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "现在的你，\\n至少能看着我的眼睛，\\n毫不紧张地说话呢。对吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0417",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "ASE_EMO",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "c_bound_t",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "咦，啊，不，\\n那个，是……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "哈哈。提起来就不行吗。\\n不过，没关系。慢慢克服吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0417",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "那个……{player_name}大人。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "真的非常感谢\\n您雇佣了我。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "今后……\\n我，能留在这座城堡吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0001_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0101",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "WARAI_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "c_bound_b",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "当然。\\n永远留在这里吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "NO_EMO",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "因为这座城堡需要你。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0417",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "太好了……\\n我，会努力的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0417",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "一点一点地\\n克服不擅长的事……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_KAMITE_FAST_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1",
+            "SE_RUN_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "里卡多！\\n能过来帮我看一下伤吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0417",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "ODOROKI_jump",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "呀！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "兰扎卜。又受伤了……\\n发生什么事了？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "c_bound_b",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100003_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "和魔兽大战了一场。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "我先声明，这些血迹\\n几乎都是魔兽溅出来的血啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0103",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "然后，里卡多，\\n快用治愈魔法……喂！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0103",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "你在听吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c0417",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "chara_shake_h",
+          "args": [
+            "c0417",
+            "1",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110017_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "print",
+          "args": [
+            "里卡多",
+            "呜……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "chara_shake_h",
+          "args": [
+            "c0417",
+            "1",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "StopEye_close",
+          "args": [
+            "c0417"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "mnu_move",
+          "args": [
+            "c0417",
+            "true",
+            "1.5",
+            "0",
+            "-150",
+            "EaseOutQuint"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "chara_fadeout",
+          "args": [
+            "c0417",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "SHAKE_BG_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "SE_065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "wait",
+          "args": [
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "SHAKE_BG_STOP",
+          "args": [
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "哈哈……看来克服弱点，\\n好像还需要时间呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "BLACK_OUT_DEF_STOP_FIN",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,2233 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1002104",
+  "filename": "1002104",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 2,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 2,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 2,
+          "command": "outline",
+          "args": [
+            "圣域龙见证过无数世界的灭亡，\\n认为人类追求可能性的心理将导致\\n灭顶之灾，因此与“起始之人”同样\\n对可能性持否定态度。面对为了避免\\n人类灭亡而袭来的圣域龙，决战一触即发。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0140_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0013_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0341"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0452"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0453"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "print",
+          "args": [
+            "龙们",
+            "咕啊啊啊啊啊啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2116",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "mnu_move",
+          "args": [
+            "d2116",
+            "true",
+            "0.6",
+            "0",
+            "-150",
+            "EaseOutQuint"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "chara_fadeout",
+          "args": [
+            "d2116",
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_029",
+            "EFF_029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_029",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0118"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_029",
+            "0",
+            "0.5",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "RestartAll",
+          "args": [
+            "d2116"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2125",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "mnu_move",
+          "args": [
+            "d2125",
+            "true",
+            "0.6",
+            "0",
+            "-150",
+            "EaseOutQuint"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "chara_fadeout",
+          "args": [
+            "d2125",
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_029",
+            "EFF_029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_029",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0118"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_029",
+            "0",
+            "0.5",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "RestartAll",
+          "args": [
+            "d2125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2118",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "mnu_move",
+          "args": [
+            "d2118",
+            "true",
+            "0.6",
+            "0",
+            "-150",
+            "EaseOutQuint"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "chara_fadeout",
+          "args": [
+            "d2118",
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_029",
+            "EFF_029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_029",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0118"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_029",
+            "0",
+            "0.5",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "RestartAll",
+          "args": [
+            "d2118"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "你到底是什么意思，圣域龙？\\n为什么要阻止巴哈姆特复活？",
+            "VO_CHR_MAINSTORY_21_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "这是为了保护世界——以及人类。",
+            "VO_CHR_MAINSTORY_21_04_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "什么？",
+            "VO_CHR_MAINSTORY_21_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "自“起始之人”和“起始之龙”\\n离去、由我接手管理，\\n不知已过了几度春秋。",
+            "VO_CHR_MAINSTORY_21_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "在此期间，\\n世界因为各种可能性\\n而分裂成了无数世界。",
+            "VO_CHR_MAINSTORY_21_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "我所见过的数百、数千、数亿的\\n世界都是人类追求可能性\\n而诞生的世界——",
+            "VO_CHR_MAINSTORY_21_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0019_200"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "曾经有一个世界，那里的人把龙\\n尽数消灭。于是那里的水干涸了，\\n风停止了，大地也不再萌生新芽。",
+            "VO_CHR_MAINSTORY_21_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "无依无靠的人类只能\\n懊悔着自己的所作所为\\n走向死亡。",
+            "VO_CHR_MAINSTORY_21_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0127_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "也曾有过人类掌控魔力的世界。\\n人类有了能随心所欲地\\n呼风唤雨的力量。",
+            "VO_CHR_MAINSTORY_21_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "然而，那个世界因为\\n微小的失误而无法停止降雨，\\n导致整个世界都沉入了大海。",
+            "VO_CHR_MAINSTORY_21_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0129_400"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "也曾有过人类与龙携手\\n共进的世界。在那个世界里，\\n人龙之间化解了矛盾。",
+            "VO_CHR_MAINSTORY_21_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "但结果还是形成了很多阵营，\\n彼此之间互相争斗。最终因人与人、\\n龙与龙之间的自相残杀而灭亡。",
+            "VO_CHR_MAINSTORY_21_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "set_BG",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_235"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_235",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "甚至也有过没有纷争的世界。\\n即使在那样的世界里，\\n人类也仍在追求新的可能性。",
+            "VO_CHR_MAINSTORY_21_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "人类为了追求更加充实的生活\\n而染指黑暗魔力，导致整个世界\\n被黑暗魔力所吞噬并消逝。",
+            "VO_CHR_MAINSTORY_21_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0140_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "我采取过各种各样的手段。\\n既保护甚至庇护过人类，\\n也曾强迫他们艰苦修行。",
+            "VO_CHR_MAINSTORY_21_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "甚至也曾经认为我管理人类的\\n一举一动反而不利于他们，\\n从而选择离开他们的视线。",
+            "VO_CHR_MAINSTORY_21_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "然而，任何可能性的结局\\n都是相同的，世界在人类手上\\n遭到毁灭，人类也从世界上消亡。",
+            "VO_CHR_MAINSTORY_21_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "我已经无数次见证\\n世界走向这样的结局……",
+            "VO_CHR_MAINSTORY_21_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "看着无数次上演的光景，\\n我被迫意识到——",
+            "VO_CHR_MAINSTORY_21_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "靠可能性\\n是无法保护人类的。",
+            "VO_CHR_MAINSTORY_21_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "！",
+            "VO_CHR_MAINSTORY_21_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "可能性才是那味\\n毁灭人类的毒药。",
+            "VO_CHR_MAINSTORY_21_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "c_swing_h",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "可能性……怎么会是毒药……",
+            "VO_CHR_MAINSTORY_21_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "你身为世界的管理者，\\n是想放任因“起始之人”\\n而被封闭的世界吗？",
+            "VO_CHR_MAINSTORY_21_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "c_bound_b_dr",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "没错……我身为世界的管理者，\\n必须守护人类、龙……\\n以及世界上的一切。",
+            "VO_CHR_MAINSTORY_21_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "只要有可能性存在，\\n人类就不会停止探索的脚步。但是\\n“可能性的世界”的未来是一场空。",
+            "VO_CHR_MAINSTORY_21_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "也就是说……你虽然身为龙，\\n却要否定巴哈姆特的思想吗？",
+            "VO_CHR_MAINSTORY_21_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "“起始之龙”错了。\\n若对人类怀有慈爱之心，\\n就不该给予他们选择的余地。",
+            "VO_CHR_MAINSTORY_21_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "c_swing_h",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "愚蠢……要是否定了可能性，\\n这个世界上还剩下什么？",
+            "VO_CHR_MAINSTORY_21_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "会剩下生命——\\n无论是人、龙，\\n还是不会毁灭的世界。",
+            "VO_CHR_MAINSTORY_21_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "只要活着就算是生命吗？\\n禁锢一切的牢房就叫世界吗？",
+            "VO_CHR_MAINSTORY_21_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "和没经历过毁灭的人\\n说什么都是对牛弹琴。",
+            "VO_CHR_MAINSTORY_21_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "我对放弃了世界的你\\n也不想浪费口舌。",
+            "VO_CHR_MAINSTORY_21_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0139",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "为了这个世界，你必须消失，\\n圣域龙。",
+            "VO_CHR_MAINSTORY_21_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "为了这个世界，你还是消失吧，\\n巴哈姆特的契约者。",
+            "VO_CHR_MAINSTORY_21_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "Q",
+            "-150",
+            "0",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "SHIMOTE_IN_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0139",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "NO_EMO",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "这是演哪一出……\\n你还想袒护我不成？",
+            "VO_CHR_MAINSTORY_21_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c0139",
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我还有很多事都不懂……\\n不管是关于这个世界，\\n还是关于你的理想。",
+            "VO_CHR_MAINSTORY_21_04_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "连帮助你是否正确，\\n我也还没有答案。",
+            "VO_CHR_MAINSTORY_21_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "那你就不要多管闲事。",
+            "VO_CHR_MAINSTORY_21_04_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c01019",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "c_bound_b",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "但是，唯有一点我很清楚——\\n我也不希望可能性\\n从这个世界上消失。",
+            "VO_CHR_MAINSTORY_21_04_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我不是为了帮你，\\n而是为了保卫我的\\n可能性而战，仅此而已。",
+            "VO_CHR_MAINSTORY_21_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c01019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0139",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "print",
+          "args": [
+            "奈迪犹",
+            "随你的便……",
+            "VO_CHR_MAINSTORY_21_04_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0139"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "不管谁出手阻拦，\\n我的责任与义务都不会变。",
+            "VO_CHR_MAINSTORY_21_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_21_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "print",
+          "args": [
+            "圣域龙",
+            "我的话就是规矩，\\n我的存在即为世界。\\n尔等——接受我的制裁吧！",
+            "VO_CHR_MAINSTORY_21_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0211"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "SHOUT_COM",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "SHOUT_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
