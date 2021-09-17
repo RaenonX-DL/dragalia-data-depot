@@ -49,36 +49,50 @@ jobs:
     runs-on: windows-latest
     
     steps:
-      - uses: actions/checkout@v2
-      
-      - uses: actions/setup-dotnet@v1
+      - name: Checkout dragalia-data-depot (this repo)
+        uses: actions/checkout@v2
         with:
-          dotnet-version: '3.1.x' # SDK Version to use; x will use the latest version of the 3.1 channel
+          submodules: "recursive"
+
+      - name: Checkout dragalia-asset-downloader-2
+        uses: actions/checkout@v2
+        with:
+          repository: RaenonX-DL/dragalia-asset-downloader-2
+          path: .downloader
+          submodules: "recursive"
       
-      - name: "[Git] Prepare Commit Message"
+      - uses: actions/setup-python@v2
+
+      - name: "Install Dependencies"
+        run: |
+          pip install -r requirements.txt
+      
+      - name: "[Git] Prepare Commit Message & Tag Name"
         id: git-commit-msg
         run: |
-          $commit = "${{ github.event.inputs.date }} ${{ github.event.inputs.time }} - ${{ github.event.inputs.version-code }}"
+          $commit = "${{ github.event.client_payload.date }} ${{ github.event.client_payload.time }} - ${{ github.event.client_payload.version }}"
           echo $commit
           echo "::set-output name=out::$commit"
-          
-      - name: "[Git] Prepare Tag Name"
-        id: git-tag-name
-        run: |
-          $tag = "$("${{ github.event.inputs.date }}" -replace "/", ".")-${{ github.event.inputs.version-code }}"
+          $tag = "$("${{ github.event.client_payload.date }}" -replace "/", ".")-${{ github.event.client_payload.version }}"
           echo $tag
           echo "::set-output name=out::$tag"
           
       - name: "Dump Resources"
+        env:
+          CRYPTO_KEY: ${{ secrets.CRYPTO_KEY }}
+          CRYPTO_IV: ${{ secrets.CRYPTO_IV }}
         run: |
           $event = Get-Content $Env:GITHUB_EVENT_PATH | ConvertFrom-Json
-          $iv = $event.inputs.iv
-          $key = $event.inputs.key
-          cd .dumper
-          ./dldump.exe ${{ github.event.inputs.version-code }} `
-            --config-path config.json `
-            --iv $iv `
-            --key $key
+          cd .downloader
+          python main.py `
+            ${{ github.event.inputs.version-code }} `
+            --config ../config.yaml
+
+      - name: "Upload logs"
+        uses: actions/upload-artifact@v2
+        with:
+          name: logs
+          path: .downloader/.exclude/logs
       
       - name: "[Git] Configure"
         run: |

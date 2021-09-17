@@ -1,0 +1,86 @@
+paths:
+  downloaded: ../.exclude/downloaded/
+  lib: lib/
+  export: ../
+  index: ../.index
+  log: ../.exclude/logs
+
+assets:
+  - name: Master Assets (all)
+    asset: master
+    tasks:
+      - container: /resources/master/
+        type: MonoBehaviour
+
+  - name: Master Assets (text label)
+    asset: master
+    tasks:
+      - container: /resources/master/textlabel
+        type: MonoBehaviour
+        isMultiLocale: true
+
+  - name: Action Scripts
+    asset: actions
+    tasks:
+      - name: Action Parts
+        container: /resources/actions/
+        type: GameObject
+
+      - name: Action Parts List
+        container: /resources/actions/actionpartslist
+        type: MonoBehaviour
+
+  - name: Animation Data
+    asset: ((characters|dragon)/motion/|meshes/dragon)
+    tasks:
+      - name: Base controller
+        container: /resources/(characters|dragon)/motion/(.*)\.controller
+        type: AnimatorController
+
+      - name: Override controller
+        container: /resources/(characters|dragon)/motion/(.*)\.overridecontroller
+        type: AnimatorOverrideController
+    suppressWarnings:
+      - nothingToExport
+
+  - name: UI Sprites
+    asset: images/ingame/ui
+    tasks:
+      - container: /resources/images/ingame/ui/atlas
+        type: Sprite-UI
+        isMultiLocale: true
+
+  - name: Icons
+    asset: images/icon/
+    tasks:
+      - container: /resources/images/icon/
+        type: Texture2D-Alpha
+        isMultiLocale: true
+
+  - name: Unit Image
+    asset: images/outgame/unitdetail/(amulet|chara|dragon)
+    tasks:
+      - container: /resources/images/outgame/unitdetail
+        type: Texture2D-Alpha
+
+  - name: Story Image
+    asset: emotion/story
+    tasks:
+      - container: /resources/emotion/story
+        type: Texture2D-Story
+
+  - name: Story Content
+    asset: story/(unit|castle|quest)story/
+    tasks:
+      - container: /resources/story
+        type: MonoBehaviour
+        isMultiLocale: true
+
+  - name: Story Functions
+    asset: story/function
+    tasks:
+      - container: /resources/story
+        type: MonoBehaviour
+        isMultiLocale: true
+
+raw: [ ]
