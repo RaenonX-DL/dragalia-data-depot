@@ -9,14 +9,19 @@ jobs:
     name: Deployment info
 
     runs-on: windows-latest
+    
+    steps:
+      - name: "[INFO] Version code"
+        run: echo "${{ github.event.client_payload.version-code }}"
+        
       - name: "[INFO] Patch releasing date"
         run: |
-          if ([string]::IsNullOrWhiteSpace(${{ github.event.client_payload.date }}) {exit 1}
+          if ([string]::IsNullOrWhiteSpace("${{ github.event.client_payload.date }}")) {exit 1}
           echo "${{ github.event.client_payload.date }}"
         
       - name: "[INFO] Patch releasing time"
         run: |
-          if ([string]::IsNullOrWhiteSpace(${{ github.event.client_payload.time }}) {exit 1}
+          if ([string]::IsNullOrWhiteSpace("${{ github.event.client_payload.time }}")) {exit 1}
           echo "${{ github.event.client_payload.time }}"
 
   deploy-resource:
@@ -27,23 +32,19 @@ jobs:
     runs-on: windows-latest
     
     steps:
-      - name: Checkout dragalia-data-depot (this repo)
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
           submodules: "recursive"
-
-      - name: Checkout dragalia-asset-downloader-2
-        uses: actions/checkout@v2
+      
+      - uses: actions/setup-dotnet@v1
         with:
-          repository: RaenonX-DL/dragalia-asset-downloader-2
-          path: .downloader
-          submodules: "recursive"
+          dotnet-version: '3.1.x'
       
       - uses: actions/setup-python@v2
 
       - name: "Install Dependencies"
         run: |
-          pip install -r requirements.txt
+          pip install -r .downloader/requirements.txt
       
       - name: "[Git] Prepare Commit Message & Tag Name"
         id: git-commit-msg
@@ -63,7 +64,7 @@ jobs:
           $event = Get-Content $Env:GITHUB_EVENT_PATH | ConvertFrom-Json
           cd .downloader
           python main.py `
-            ${{ github.event.inputs.version-code }} `
+            ${{ github.event.client_payload.version-code }} `
             --config ../config.yaml
 
       - name: "Upload logs"

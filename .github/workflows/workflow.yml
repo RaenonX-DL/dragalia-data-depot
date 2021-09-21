@@ -3,12 +3,6 @@ name: Resource Deployment (Workflow Dispatch)
 on:
   workflow_dispatch:
     inputs:
-      iv:
-        description: 'Manifest IV'
-        required: true
-      key:
-        description: 'Manifest key'
-        required: true
       version-code:
         description: 'Patch version code'
         required: true
@@ -16,7 +10,7 @@ on:
         description: 'Patch releasing date in the format of YYYY/MM/DD.'
         required: true
       time:
-        description: 'Patch releasing time in UTC+8 and the format of HH:MM AA.'
+        description: 'Patch releasing time in UTC +8 and the format of HH:MM AA.'
         required: true
 
 jobs:
@@ -26,20 +20,18 @@ jobs:
     runs-on: windows-latest
     
     steps:
-      - name: "[INFO] Manifest IV available"
-        run: echo "Manifest IV available"
-        
-      - name: "[INFO] Manifest key available"
-        run: echo "Manifest key available"
-        
       - name: "[INFO] Version code"
         run: echo "${{ github.event.inputs.version-code }}"
         
       - name: "[INFO] Patch releasing date"
-        run: echo "${{ github.event.inputs.date }}"
+        run: |
+          if ([string]::IsNullOrWhiteSpace("${{ github.event.inputs.date }}")) {exit 1}
+          echo "${{ github.event.inputs.date }}"
         
       - name: "[INFO] Patch releasing time"
-        run: echo "${{ github.event.inputs.time }}"
+        run: |
+          if ([string]::IsNullOrWhiteSpace("${{ github.event.inputs.time }}")) {exit 1}
+          echo "${{ github.event.inputs.time }}"
      
   deploy-resource:
     name: Deploy resources
@@ -49,31 +41,27 @@ jobs:
     runs-on: windows-latest
     
     steps:
-      - name: Checkout dragalia-data-depot (this repo)
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
           submodules: "recursive"
-
-      - name: Checkout dragalia-asset-downloader-2
-        uses: actions/checkout@v2
+      
+      - uses: actions/setup-dotnet@v1
         with:
-          repository: RaenonX-DL/dragalia-asset-downloader-2
-          path: .downloader
-          submodules: "recursive"
+          dotnet-version: '3.1.x'
       
       - uses: actions/setup-python@v2
 
       - name: "Install Dependencies"
         run: |
-          pip install -r requirements.txt
+          pip install -r .downloader/requirements.txt
       
       - name: "[Git] Prepare Commit Message & Tag Name"
         id: git-commit-msg
         run: |
-          $commit = "${{ github.event.client_payload.date }} ${{ github.event.client_payload.time }} - ${{ github.event.client_payload.version }}"
+          $commit = "${{ github.event.inputs.date }} ${{ github.event.inputs.time }} - ${{ github.event.inputs.version }}"
           echo $commit
           echo "::set-output name=out::$commit"
-          $tag = "$("${{ github.event.client_payload.date }}" -replace "/", ".")-${{ github.event.client_payload.version }}"
+          $tag = "$("${{ github.event.inputs.date }}" -replace "/", ".")-${{ github.event.inputs.version }}"
           echo $tag
           echo "::set-output name=out::$tag"
           
