@@ -3,7 +3,7 @@ name: Resource Deployment (Workflow Dispatch)
 on:
   workflow_dispatch:
     inputs:
-      version-code:
+      version:
         description: 'Patch version code'
         required: true
       date:
@@ -21,7 +21,7 @@ jobs:
     
     steps:
       - name: "[INFO] Version code"
-        run: echo "${{ github.event.inputs.version-code }}"
+        run: echo "${{ github.event.inputs.version }}"
         
       - name: "[INFO] Patch releasing date"
         run: |
@@ -55,12 +55,16 @@ jobs:
         run: |
           pip install -r .downloader/requirements.txt
       
-      - name: "[Git] Prepare Commit Message & Tag Name"
+      - name: "[Git] Prepare Commit Message"
         id: git-commit-msg
         run: |
           $commit = "${{ github.event.inputs.date }} ${{ github.event.inputs.time }} - ${{ github.event.inputs.version }}"
           echo $commit
           echo "::set-output name=out::$commit"
+          
+      - name: "[Git] Prepare Tag Name"
+        id: git-tag-name
+        run: |
           $tag = "$("${{ github.event.inputs.date }}" -replace "/", ".")-${{ github.event.inputs.version }}"
           echo $tag
           echo "::set-output name=out::$tag"
@@ -73,7 +77,7 @@ jobs:
           $event = Get-Content $Env:GITHUB_EVENT_PATH | ConvertFrom-Json
           cd .downloader
           python main.py `
-            ${{ github.event.inputs.version-code }} `
+            ${{ github.event.inputs.version }} `
             --config ../config.yaml
 
       - name: "Upload logs"
