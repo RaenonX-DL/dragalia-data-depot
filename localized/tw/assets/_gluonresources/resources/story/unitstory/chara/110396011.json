@@ -1,0 +1,1956 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110396011",
+  "filename": "110396011",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "set_BG",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "print",
+          "args": [
+            "SYS",
+            "本劇情涉及活動劇情\\n「失落的信仰～前篇～」\\n與「失落的信仰～後篇～」的\\n核心內容。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0070_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "簽好了。也麻煩你簽名。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_1014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我知道了。簽這裡就好嗎？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "c_bound2_b",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "wait",
+          "args": [
+            "1.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "嗯。抱歉給你添麻煩了。\\n但站在我們的立場，\\n這是為了與各位合作所必要的手續。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "這點小事不會麻煩。\\n不如說，能借用你們的力量\\n讓我們很安心呢，聖德芬。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "在撒旦那起事件中受到你們幫助了。\\n返還人情是當然的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "c_bound_b",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "我們天使與使徒全員保證，\\n有必要時一定會\\n盡力協助{player_name}。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "c_bound_b",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100001_STORY_2080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "謝謝妳。那麼再次，\\n今後也請妳多多指教了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "接下來，為了答謝妳特地遠道而來，\\n請接受我們的款待吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "c_swing_h",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "請別介意。輔佐組織運作是我的職責。\\n與各地聯繫也是常有的事，\\n不必特地慰勞。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "比起這個，\\n希望能讓我視察這座聖城。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "經由使徒們的報告獲得的片斷情報，\\n我認為這是個親眼確認的好機會。\\n是否能請你允准？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "c_bound_b",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯，當然。\\n那麼克菈兒，拜託妳為她帶路了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "原來如此。確實和報告中相同，\\n這座城裡住著不同種族、出身的人。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "是啊。城裡有許多人\\n因欣賞{player_name}的為人，\\n而聚集到這裡。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m00401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "……只是，當中也有些人\\n讓人頗傷腦筋──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "effect_shake_bg",
+          "args": [
+            "20",
+            "0.1",
+            "1.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110009_STORY_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "print",
+          "args": [
+            "筱婭",
+            "呀啊啊──！？\\n我、我又失敗了！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "啊啊！？\\n我才剛說完，筱婭就……！！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "NO_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "聖德芬小姐，抱歉嚇到妳了……！\\n剛才的爆炸在聖城是常有的事，\\n並不是什麼敵襲……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "c_swing_h",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "不必擔心。我已從使徒的報告得知，\\n這座城裡會發生因時空物理魔法\\n實驗失敗而引發的爆炸。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "原、原來如此……\\n那就好。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m00401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "（……不過，儘管早就預料到，\\n卻能完全不為所動。）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m00401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "（多麼冷靜啊……\\n該說不愧能負責統率眾天使嗎……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "RestartLip",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "……好，我們剛才大致走過了聖城\\n比較有名的地方，妳覺得如何呢？\\n希望能讓妳滿意。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "c_swing_h",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "不，還不夠。\\n我希望能對機密技術進行視察。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "ASE_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "機、機密技術……！？\\n那究竟、是指什麼呢……！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "使徒們曾向我報告說，\\n這裡的某個人持有稀有道具。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "想請妳為我介紹那個道具的持有人。\\n那人名叫──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0049_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p31601",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110316_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "小蕾",
+            "預備──\\n八千五百一十二，四千零三十……\\n逢一進一逢二進二！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "c_bound2_b",
+          "args": [
+            "p31601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0366"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "c_bound2_b",
+          "args": [
+            "p31601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p31601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "太棒了。\\n令人驚嘆的計算速度。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_1079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "原來如此……\\n聖德芬小姐的目的，原來是算盤啊。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "c_bound_b",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "正是。若能提升計算速度，\\n對我平時的工作也有幫助。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "指揮組織，等同調動數字。\\n管理帳簿是我的工作。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p31601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110316_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "print",
+          "args": [
+            "小蕾",
+            "哎呀，這樣啊。\\n呵呵，我們似乎很合得來呢。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p31601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "身為被指派負責管理聖城的人，\\n我也非常能理解聖德芬小姐的辛苦……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "如果有什麼能做的事，\\n我們會不遺餘力幫忙的。\\n對吧，小蕾小姐？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p31601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "c_bound_b",
+          "args": [
+            "p31601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110316_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "小蕾",
+            "嗯，當然了。聖德芬小姐，\\n備用的算盤就請妳拿去吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p31601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "c_swing_h",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "這倒不必。\\n只要能理解算盤的構造及用法就夠了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "HATENA_EMO",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_100004_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "print",
+          "args": [
+            "克菈兒",
+            "咦？是這樣嗎……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "c_bound_b",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "是的。我們與各位所締結的，\\n是面對戰略性威脅時的同盟協定。\\n當中不包含物資往來。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "更何況我們的指揮官柯恩，\\n是「道具」方面的專家。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0103_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "──以上就是關於算盤的概要。\\n我想委託妳重現這個道具。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39501",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39501",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "c_bound_b",
+          "args": [
+            "p39501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110395_STORY_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "柯恩",
+            "傳自東方陶國的計算工具……是嗎。\\n好吧，似乎很有趣。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39501",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "print",
+          "args": [
+            "柯恩",
+            "不過話說回來還真難得，\\n妳竟然會有事拜託我。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "……經妳如此一說，確實。\\n這是第一次。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39501",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110395_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "print",
+          "args": [
+            "柯恩",
+            "嗯，我是完全無所謂啦。\\n只要有了算盤，\\n確實能在工作上提供妳很大的幫助。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p39501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110395_STORY_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "print",
+          "args": [
+            "柯恩",
+            "那麼，妳就放一百二十個心等著吧。\\n我會做出超乎妳想像的東西的。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "p39501",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39601",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120195_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "……對指揮官的拜託、嗎。\\n雖然試著回溯更久以前的記憶，\\n卻沒有相應的例子。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "聖德芬",
+            "明明侍奉梅塔特隆數百年期間\\n都不曾有過，為什麼……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
