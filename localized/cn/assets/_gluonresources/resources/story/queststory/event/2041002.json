@@ -1,0 +1,3358 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2041002",
+  "filename": "2041002",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 12,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "outline",
+          "args": [
+            "发现美猴王虽身为魔兽\\n却心地善良的悟空与其交好。\\n然而此时自称三藏随从的\\n八戒和悟净突然现身。原来二人\\n是奉三藏之命前来讨伐美猴王。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0064_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "Q",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "c_bound_b_veryslow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "StopLip",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0103",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "print",
+          "args": [
+            "兰扎卜",
+            "呼……总算出来了。\\n不过，把美猴王一起带出来\\n真的没问题吗？",
+            "VO_CHR_EVENTSTORY_20410_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0103"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "c_bound_b",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "这有什么关系？\\n他看上去不是什么坏人。\\n而且也不能断定他就是魔兽吧？",
+            "VO_CHR_EVENTSTORY_20410_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "c_swing_h",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "不……我观察了他的魔力流向，\\n他肯定不是人类……",
+            "VO_CHR_EVENTSTORY_20410_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0102",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "print",
+          "args": [
+            "埃尔菲莉丝",
+            "那就更令人不解了……\\n真的会有……\\n心地善良的魔兽吗……",
+            "VO_CHR_EVENTSTORY_20410_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0102"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "美猴王……\\n他到底是什么样的存在……",
+            "VO_CHR_EVENTSTORY_20410_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0106",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "卢卡",
+            "咦？说起来，\\n悟空和美猴王呢？",
+            "VO_CHR_EVENTSTORY_20410_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0106"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0104",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "print",
+          "args": [
+            "库菈乌",
+            "啊……真的，没看到他们！\\n到底去哪里了！？",
+            "VO_CHR_EVENTSTORY_20410_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0065_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "-0",
+            "-150",
+            "c0229b",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "180",
+            "-150",
+            "c0229c",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "-300",
+            "-150",
+            "c0229",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0323"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "BGMTUNE_DOWN_0",
+          "args": [
+            "SE_STORY_COMMON_0323"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "mnu",
+          "args": [
+            "c0229",
+            "true",
+            "0.4",
+            "120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "0",
+            "0.4",
+            "0",
+            "0",
+            "0.4",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "cmp",
+          "args": [
+            "c0229",
+            "0.4",
+            "120",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "NO_EMO",
+          "args": [
+            "c0229b"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "NO_EMO",
+          "args": [
+            "c0229c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0321"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "c_jump",
+          "args": [
+            "c0229"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "NO_EMO",
+          "args": [
+            "c0229b"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "NO_EMO",
+          "args": [
+            "c0229c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "mnu_move",
+          "args": [
+            "c0229b",
+            "true",
+            "0.2",
+            "0",
+            "50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "mnu_move",
+          "args": [
+            "c0229b",
+            "false",
+            "0.2",
+            "0",
+            "-60",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "mnu_move",
+          "args": [
+            "c0229b",
+            "false",
+            "0.2",
+            "0",
+            "60",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "mnu_move",
+          "args": [
+            "c0229b",
+            "false",
+            "0.2",
+            "0",
+            "-60",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "mnu_move",
+          "args": [
+            "c0229b",
+            "false",
+            "0.1",
+            "0",
+            "14",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "mnu_move",
+          "args": [
+            "c0229b",
+            "false",
+            "0.1",
+            "0",
+            "-4",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "cmp_move",
+          "args": [
+            "c0229b",
+            "1.0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "mnu_move",
+          "args": [
+            "c0229c",
+            "true",
+            "0.1",
+            "0",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "mnu_move",
+          "args": [
+            "c0229c",
+            "false",
+            "0.2",
+            "0",
+            "50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "mnu_move",
+          "args": [
+            "c0229c",
+            "false",
+            "0.2",
+            "0",
+            "-60",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "mnu_move",
+          "args": [
+            "c0229c",
+            "false",
+            "0.2",
+            "0",
+            "60",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "mnu_move",
+          "args": [
+            "c0229c",
+            "false",
+            "0.2",
+            "0",
+            "-60",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "mnu_move",
+          "args": [
+            "c0229c",
+            "false",
+            "0.1",
+            "0",
+            "14",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "mnu_move",
+          "args": [
+            "c0229c",
+            "false",
+            "0.1",
+            "0",
+            "-4",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "cmp_move",
+          "args": [
+            "c0229c",
+            "1.1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0322"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0323"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "KAMITE_OUT3_DEF",
+          "args": [
+            "c0229b",
+            "c0229c",
+            "c0229"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "找到了！太好了……\\n那松鼠顺利与它的伙伴\\n会合了啊。",
+            "VO_CHR_EVENTSTORY_20410_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c36242",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "悟空",
+            "（这家伙……虽然自称美猴王……\\n却其实是个好人吧？）",
+            "VO_CHR_EVENTSTORY_20410_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "悟空",
+            "（而且……）",
+            "VO_CHR_EVENTSTORY_20410_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c36242",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "HATENA_EMO",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "print",
+          "args": [
+            "悟空",
+            "话说……俺们俩以前\\n是不是在哪里见过？",
+            "VO_CHR_EVENTSTORY_20410_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "诶？不，我不记得……",
+            "VO_CHR_EVENTSTORY_20410_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "c_bound_b",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "print",
+          "args": [
+            "悟空",
+            "啊，也是。没有记忆的话\\n肯定不会记得吧。",
+            "VO_CHR_EVENTSTORY_20410_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "c_bound_b",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "嗯，抱歉……\\n你记得曾经见过我吗？",
+            "VO_CHR_EVENTSTORY_20410_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "悟空",
+            "唔……只是隐约觉得，\\n俺也没什么印象。",
+            "VO_CHR_EVENTSTORY_20410_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "是吗……呐，我果然\\n如你的伙伴们所说，\\n是魔兽吗？",
+            "VO_CHR_EVENTSTORY_20410_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "我之前是不是\\n也像袭击我的魔兽一样……\\n伤害过其它生物啊………",
+            "VO_CHR_EVENTSTORY_20410_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "c_swing_h",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "print",
+          "args": [
+            "悟空",
+            "那种事不必在意。\\n就算你是魔兽，\\n只要心地善良就没问题。",
+            "VO_CHR_EVENTSTORY_20410_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "是吗……谢谢你。",
+            "VO_CHR_EVENTSTORY_20410_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "HIRAMEKI_EMO",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "print",
+          "args": [
+            "悟空",
+            "对了！还没自我介绍呢。\\n俺叫悟空，是新晋封印师，\\n正在独自修行云游！",
+            "VO_CHR_EVENTSTORY_20410_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "c_bound_b",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "悟空吗……请多关照。\\n这么小就独自云游，\\n真了不起。",
+            "VO_CHR_EVENTSTORY_20410_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "c_bound_b",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "print",
+          "args": [
+            "悟空",
+            "嘿嘿！还行吧。俺可是跑遍了\\n不少地方呢。太吾国、阿尔贝里亚，\\n最近还去了北方大陆！",
+            "VO_CHR_EVENTSTORY_20410_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "诶……\\n你去过这么多地方啊……",
+            "VO_CHR_EVENTSTORY_20410_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "HATENA_EMO",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "print",
+          "args": [
+            "悟空",
+            "怎么？\\n你对其它国家有兴趣吗？",
+            "VO_CHR_EVENTSTORY_20410_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "c_swing2_h",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "倒也不是。\\n只是觉得你和我截然不同。",
+            "VO_CHR_EVENTSTORY_20410_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c1285",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "我没有记忆，什么都没有……",
+            "VO_CHR_EVENTSTORY_20410_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "悟空",
+            "你……",
+            "VO_CHR_EVENTSTORY_20410_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c36242",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "悟空",
+            "那不如……\\n你和俺一起来吧！",
+            "VO_CHR_EVENTSTORY_20410_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "诶？",
+            "VO_CHR_EVENTSTORY_20410_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "c_jump",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "悟空",
+            "就是让你跟着俺去云游！\\n要是你不想没有记忆，\\n跟俺在途中创造各种记忆就好。",
+            "VO_CHR_EVENTSTORY_20410_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "悟空",
+            "俺也是跟着师父云游四海，\\n才有了今天。",
+            "VO_CHR_EVENTSTORY_20410_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "悟空",
+            "所以哪怕只到你恢复记忆为止，\\n跟俺一起云游一定会很有趣哦！",
+            "VO_CHR_EVENTSTORY_20410_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c1285",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "悟空……哈哈……\\n也许那确实是个好主意。",
+            "VO_CHR_EVENTSTORY_20410_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "WARAI_EMO",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "c_bound_b",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "print",
+          "args": [
+            "悟空",
+            "噢！俺们说好了啊，美猴王！",
+            "VO_CHR_EVENTSTORY_20410_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "print",
+          "args": [
+            "？？？",
+            "嚯……原来如此原来如此。",
+            "VO_CHR_EVENTSTORY_20410_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "？？？",
+            "那家伙，就是美猴王吗！",
+            "VO_CHR_EVENTSTORY_20410_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "RESET_TEXT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "CHARA_SET2",
+          "args": [
+            "M",
+            "Q",
+            "c36242",
+            "7",
+            "M",
+            "Q",
+            "c1285",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "print",
+          "args": [
+            "美猴王",
+            "！？",
+            "VO_CHR_EVENTSTORY_20410_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "mnu_move",
+          "args": [
+            "c36242",
+            "true",
+            "0.3",
+            "-200",
+            "-50",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "cmp_move",
+          "args": [
+            "c36242",
+            "0.3",
+            "-200",
+            "-50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "mnu_move",
+          "args": [
+            "c1285",
+            "true",
+            "0.3",
+            "200",
+            "-50",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "cmp_move",
+          "args": [
+            "c1285",
+            "0.3",
+            "200",
+            "-50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "play_sound",
+          "args": [
+            "SE_046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_090",
+            "EFF_093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_090",
+            "-100",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_093",
+            "200",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "set_BG_effect_rotation",
+          "args": [
+            "EFF_090",
+            "20"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "wait",
+          "args": [
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "c_avoid_l_return",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "c_avoid_r_return",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c36242",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "NO_EMO",
+          "args": [
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "悟空",
+            "好险！你要干啥……\\n诶？你们是……",
+            "VO_CHR_EVENTSTORY_20410_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c36242",
+            "c1285"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "c3622",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "c3623",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "mnu",
+          "args": [
+            "c3622",
+            "true",
+            "0.05",
+            "-120",
+            "0",
+            "1",
+            "0.05",
+            "1",
+            "1",
+            "0",
+            "0.05",
+            "0",
+            "0",
+            "0.05",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "mnu",
+          "args": [
+            "c3622",
+            "false",
+            "0.4",
+            "120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "0",
+            "0.4",
+            "0",
+            "0",
+            "0.4",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "wait",
+          "args": [
+            "0.45"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "wait",
+          "args": [
+            "0.55"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "mnu",
+          "args": [
+            "c3623",
+            "true",
+            "0.05",
+            "-120",
+            "0",
+            "1",
+            "0.05",
+            "1",
+            "1",
+            "0",
+            "0.05",
+            "0",
+            "0",
+            "0.05",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "mnu",
+          "args": [
+            "c3623",
+            "false",
+            "0.4",
+            "120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "0",
+            "0.4",
+            "0",
+            "0",
+            "0.4",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "NO_EMO",
+          "args": [
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "wait",
+          "args": [
+            "0.45"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "wait",
+          "args": [
+            "0.75"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "chara_visible",
+          "args": [
+            "c3623",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "chara_visible",
+          "args": [
+            "c3622",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "c_bound_b",
+          "args": [
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "print",
+          "args": [
+            "？？？",
+            "嗨……好久不见了，悟空。",
+            "VO_CHR_EVENTSTORY_20410_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "RestartLip",
+          "args": [
+            "c3623"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c3623"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "StopLip_close",
+          "args": [
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "print",
+          "args": [
+            "？？？",
+            "几年不见，身手好像\\n变得厉害点了呢。",
+            "VO_CHR_EVENTSTORY_20410_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c3623",
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "悟空！",
+            "VO_CHR_EVENTSTORY_20410_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0101",
+            "11",
+            "SE_RUN_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "悟空，你没事吧？\\n他们是……",
+            "VO_CHR_EVENTSTORY_20410_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "悟空",
+            "他们叫八戒和悟净，\\n是俺和师父的伙伴。",
+            "VO_CHR_EVENTSTORY_20410_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c36242",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "print",
+          "args": [
+            "悟空",
+            "不过说是伙伴……其实只是\\n师父“不请自来的随从”而已。",
+            "VO_CHR_EVENTSTORY_20410_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c36242",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "print",
+          "args": [
+            "悟空",
+            "师父说封印师以外的人\\n不能和仙宝有牵连，\\n一直在想办法甩掉他们。",
+            "VO_CHR_EVENTSTORY_20410_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c36242",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "print",
+          "args": [
+            "悟空",
+            "可他俩一直说\\n师父对他们有恩，\\n死缠烂打地追着师父到处跑。",
+            "VO_CHR_EVENTSTORY_20410_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3622",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "WARAI_EMO",
+          "args": [
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "c_bound3_t",
+          "args": [
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "print",
+          "args": [
+            "八戒",
+            "哈哈哈！我老婆说过，\\n滴水之恩当涌泉相报。",
+            "VO_CHR_EVENTSTORY_20410_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "NO_EMO",
+          "args": [
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "print",
+          "args": [
+            "八戒",
+            "这就是我行仁义之道……\\n所谓的“道义”。",
+            "VO_CHR_EVENTSTORY_20410_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "CHARA_INTRO_SET",
+          "args": [
+            "c3622",
+            "八戒",
+            " ",
+            " ",
+            "不请自来的随从·其一",
+            " ",
+            "no"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3623",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c3623"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "print",
+          "args": [
+            "悟净",
+            "真是的，什么仁义道义，\\n现在早就不流行这些了，\\n八戒。",
+            "VO_CHR_EVENTSTORY_20410_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c3623",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "ONPU_EMO",
+          "args": [
+            "c3623"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c3623"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "print",
+          "args": [
+            "悟净",
+            "对我来说，比起报恩\\n还是探寻仙宝的秘密\\n更为重要。",
+            "VO_CHR_EVENTSTORY_20410_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3623"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "CHARA_INTRO_SET",
+          "args": [
+            "c3623",
+            "悟净",
+            " ",
+            " ",
+            "不请自来的随从·其二",
+            " ",
+            "no"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "print",
+          "args": [
+            "悟空",
+            "唉……你们两个……\\n意见还是那么不合啊……",
+            "VO_CHR_EVENTSTORY_20410_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "悟空",
+            "所以你们为什么会在这里？\\n又为什么不由分说地\\n对美猴王发动攻击啊！？",
+            "VO_CHR_EVENTSTORY_20410_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3623",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c3623"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "print",
+          "args": [
+            "悟净",
+            "这还用问嘛，当然是因为\\n三藏大人有令啊。",
+            "VO_CHR_EVENTSTORY_20410_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3623"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "IKARI_jump",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "print",
+          "args": [
+            "悟空",
+            "别瞎说！\\n师父怎么可能命令你们\\n不分青红皂白就动手！",
+            "VO_CHR_EVENTSTORY_20410_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3622",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "print",
+          "args": [
+            "八戒",
+            "大姐头只说了\\n“不能放任美猴王不管”，\\n这不就是让我们打倒他吗！",
+            "VO_CHR_EVENTSTORY_20410_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3622"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c36242",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "ASE_EMO",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_20410_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "print",
+          "args": [
+            "悟空",
+            "这是什么逻辑啊……",
+            "VO_CHR_EVENTSTORY_20410_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c36242"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "c_bound_b_veryslow",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "true",
+            "0.6",
+            "0",
+            "-24",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.6",
+            "0",
+            "24",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "cmp_move",
+          "args": [
+            "CID",
+            "1.2",
+            "0",
+            "0"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
