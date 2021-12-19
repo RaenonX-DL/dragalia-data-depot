@@ -10,9 +10,6 @@ concurrency:
   processes: 2
   batchSize: 100
 
-global:
-  exportUpdatedFileIndex: true
-
 assets:
   - name: Master Assets (all)
     asset: master
@@ -60,6 +57,7 @@ assets:
       - container: /resources/images/ingame/ui/atlas
         type: Sprite-UI
         isMultiLocale: true
+    exportUpdatedFileIndex: true
 
   - name: Icons
     asset: images/icon/
@@ -67,18 +65,21 @@ assets:
       - container: /resources/images/icon/
         type: Texture2D-Alpha
         isMultiLocale: true
+    exportUpdatedFileIndex: true
 
   - name: Unit Image
     asset: images/outgame/unitdetail/(amulet|chara|dragon)
     tasks:
       - container: /resources/images/outgame/unitdetail
         type: Texture2D-Alpha
+    exportUpdatedFileIndex: true
 
   - name: Story Image
     asset: emotion/story
     tasks:
       - container: /resources/emotion/story
         type: Texture2D-Story
+    exportUpdatedFileIndex: true
 
   - name: Story Content
     asset: story/(unit|castle|quest)story/
@@ -102,11 +103,13 @@ assets:
         isMultiLocale: true
     suppressWarnings:
       - nothingToExport
+    exportUpdatedFileIndex: true
 
   - name: Event CG
     asset: emotion/eventcg
     tasks:
       - container: /resources/emotion/eventcg
         type: Texture2D-Material
+    exportUpdatedFileIndex: true
 
 raw: [ ]
