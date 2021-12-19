@@ -4,11 +4,14 @@ paths:
   export: ../
   index: ../.index
   log: ../.exclude/logs
-
+  updated: ../updated
 
 concurrency:
   processes: 2
   batchSize: 100
+
+global:
+  exportUpdatedFileIndex: true
 
 assets:
   - name: Master Assets (all)
