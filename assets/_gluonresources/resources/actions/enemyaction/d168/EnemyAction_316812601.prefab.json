@@ -972,6 +972,7 @@
           "m_PostInfinity": 2,
           "m_RotationOrder": 4
         },
+        "_useRelativeY": 0,
         "_toTarget": 0,
         "_toRegisterPosition": 0,
         "_toGround": 0,
@@ -985,7 +986,9 @@
         "_curveScale": 1.0,
         "_flipX": 0,
         "_moveStyle": 0,
-        "_keepMoveDirection": 0
+        "_keepMoveDirection": 0,
+        "_applyActionSpeedScale": 0,
+        "_isZeroHeightWhenCancel": 0
       }
     },
     {
@@ -1294,6 +1297,7 @@
           "m_PostInfinity": 2,
           "m_RotationOrder": 4
         },
+        "_useRelativeY": 0,
         "_toTarget": 0,
         "_toRegisterPosition": 0,
         "_toGround": 0,
@@ -1307,7 +1311,9 @@
         "_curveScale": 1.0,
         "_flipX": 0,
         "_moveStyle": 0,
-        "_keepMoveDirection": 0
+        "_keepMoveDirection": 0,
+        "_applyActionSpeedScale": 0,
+        "_isZeroHeightWhenCancel": 0
       }
     },
     {
@@ -2021,6 +2027,7 @@
           "m_PostInfinity": 2,
           "m_RotationOrder": 4
         },
+        "_useRelativeY": 0,
         "_toTarget": 0,
         "_toRegisterPosition": 0,
         "_toGround": 0,
@@ -2034,7 +2041,9 @@
         "_curveScale": 1.0,
         "_flipX": 0,
         "_moveStyle": 0,
-        "_keepMoveDirection": 0
+        "_keepMoveDirection": 0,
+        "_applyActionSpeedScale": 0,
+        "_isZeroHeightWhenCancel": 0
       }
     },
     {
@@ -2694,6 +2703,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -2803,115 +2813,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 0,
-        "_targetCharaStatus": 0,
-        "_searchTargetRange": 0.0
-      }
-    },
-    {
-      "$Script": "ActionPartsEffect",
-      "m_GameObject": {
-        "m_FileID": 0,
-        "m_PathID": 2205852957524241089
-      },
-      "m_Enabled": 1,
-      "m_Script": {
-        "m_FileID": 0,
-        "m_PathID": 4339020120543897334
-      },
-      "m_Name": "",
-      "_data": {
-        "commandType": 11,
-        "_seconds": 4.6,
-        "_speed": 1.0,
-        "_duration": 0.0,
-        "_activateId": 0,
-        "_conditionData": {
-          "_conditionType": 0,
-          "_conditionValue": [
-            0,
-            0,
-            0,
-            0
-          ],
-          "_checkConditionTill": 0.0,
-          "_syncWithStartParam": 0
-        },
-        "_loopData": {
-          "flag": 0,
-          "loopNum": 0,
-          "restartFrame": 0,
-          "restartSec": 0.0
-        },
-        "_effectName": "EFF_BOS_DRG_21016803_001",
-        "_effectNameForLowestQuality": "",
-        "_elementalEffectName": [
-          "",
-          "",
-          "",
-          "",
-          ""
-        ],
-        "_effectControlerKey": "",
-        "_isOverwriteKey": 0,
-        "_effectTriggerIdx": 0,
-        "_isReplaceTrigger": 0,
-        "_influencedCharaterElement": 0,
-        "_influencedCharacterMode": 0,
-        "_influencedCharacterModeOffset": 0,
-        "_useElementalTrigger": 1,
-        "_useMarkerTrigger": 0,
-        "_followRotType": 16,
-        "_nearestRange": 0.0,
-        "_isFont": 0,
-        "_effectTriggerJudgedByBaseId": 0,
-        "_sameBaseIdTrigger": 0,
-        "_differentBaseIdTrigger": 0,
-        "_generatePos": 6,
-        "_generateOnY0": 0,
-        "_attachNodeName": "",
-        "_isRootAxisOffset": 0,
-        "_offsetPos": {
-          "x": 5.1,
-          "y": 0.0,
-          "z": 5.1
-        },
-        "_offsetRot": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "_offsetScale": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
-        },
-        "_useOwnerScale": 0,
-        "_isFollowing": 0,
-        "_isFollowOffForStop": 0,
-        "_isHorizon": 0,
-        "_isTakeOverRootDirection": 0,
-        "_isTakeOverMoveDirection": 0,
-        "_isTowardsTarget": 0,
-        "_isTowardsTargetYaw": 0,
-        "_isKeepOwnerDirection": 0,
-        "_useTargetSizeOffset": 0,
-        "_eraseType": 0,
-        "_disappearTime": 0.0,
-        "_playSpeedScale": 1.0,
-        "_isAdjustAttackSpeed": 0,
-        "_loadPositionId": 0,
-        "_savePositionId": 0,
-        "_eraseCtrl": 0,
-        "_enableForceStop": 1,
-        "_enableForceStopEffectWithControllerKeys": 0,
-        "_isHitAttributeShift": 0,
-        "_effectNameHAS": "",
-        "_isInfluencedHiding": 0,
-        "_useAnimatableObject": 0,
-        "_animatableObjectName": "",
-        "_animatableObjectStateName": "",
-        "_isAnimatableObjectDeleteOnAnimEnd": 0,
-        "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -2980,6 +2882,116 @@
         "_attachNodeName": "",
         "_isRootAxisOffset": 0,
         "_offsetPos": {
+          "x": 5.1,
+          "y": 0.0,
+          "z": 5.1
+        },
+        "_offsetRot": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "_offsetScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "_useOwnerScale": 0,
+        "_isFollowing": 0,
+        "_isFollowOffForStop": 0,
+        "_isHorizon": 0,
+        "_isTakeOverRootDirection": 0,
+        "_isTakeOverMoveDirection": 0,
+        "_isTowardsTarget": 0,
+        "_isTowardsTargetYaw": 0,
+        "_isKeepOwnerDirection": 0,
+        "_useTargetSizeOffset": 0,
+        "_eraseType": 0,
+        "_disappearTime": 0.0,
+        "_playSpeedScale": 1.0,
+        "_isAdjustAttackSpeed": 0,
+        "_loadPositionId": 0,
+        "_savePositionId": 0,
+        "_eraseCtrl": 0,
+        "_enableForceStop": 1,
+        "_enableForceStopEffectWithControllerKeys": 0,
+        "_isHitAttributeShift": 0,
+        "_effectNameHAS": "",
+        "_isInfluencedHiding": 0,
+        "_useAnimatableObject": 0,
+        "_animatableObjectName": "",
+        "_animatableObjectStateName": "",
+        "_isAnimatableObjectDeleteOnAnimEnd": 0,
+        "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
+        "_targetCharaStatus": 0,
+        "_searchTargetRange": 0.0
+      }
+    },
+    {
+      "$Script": "ActionPartsEffect",
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 2205852957524241089
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4339020120543897334
+      },
+      "m_Name": "",
+      "_data": {
+        "commandType": 11,
+        "_seconds": 4.6,
+        "_speed": 1.0,
+        "_duration": 0.0,
+        "_activateId": 0,
+        "_conditionData": {
+          "_conditionType": 0,
+          "_conditionValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "_checkConditionTill": 0.0,
+          "_syncWithStartParam": 0
+        },
+        "_loopData": {
+          "flag": 0,
+          "loopNum": 0,
+          "restartFrame": 0,
+          "restartSec": 0.0
+        },
+        "_effectName": "EFF_BOS_DRG_21016803_001",
+        "_effectNameForLowestQuality": "",
+        "_elementalEffectName": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "_effectControlerKey": "",
+        "_isOverwriteKey": 0,
+        "_effectTriggerIdx": 0,
+        "_isReplaceTrigger": 0,
+        "_influencedCharaterElement": 0,
+        "_influencedCharacterMode": 0,
+        "_influencedCharacterModeOffset": 0,
+        "_useElementalTrigger": 1,
+        "_useMarkerTrigger": 0,
+        "_followRotType": 16,
+        "_nearestRange": 0.0,
+        "_isFont": 0,
+        "_effectTriggerJudgedByBaseId": 0,
+        "_sameBaseIdTrigger": 0,
+        "_differentBaseIdTrigger": 0,
+        "_generatePos": 6,
+        "_generateOnY0": 0,
+        "_attachNodeName": "",
+        "_isRootAxisOffset": 0,
+        "_offsetPos": {
           "x": -5.1,
           "y": 0.0,
           "z": 5.1
@@ -3021,6 +3033,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -3194,6 +3207,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -3290,6 +3304,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -3467,6 +3482,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -3563,6 +3579,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -3740,6 +3757,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -3836,6 +3854,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -4013,6 +4032,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -4109,6 +4129,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -5046,6 +5067,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 1,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -5155,6 +5177,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 1,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -5264,6 +5287,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 1,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -5373,6 +5397,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 1,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -5546,6 +5571,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -5642,6 +5668,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -5819,6 +5846,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -5915,6 +5943,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -6092,6 +6121,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -6188,6 +6218,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -6365,6 +6396,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -6461,6 +6493,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -6883,6 +6916,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -6992,6 +7026,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -7101,6 +7136,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -7210,6 +7246,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -7383,6 +7420,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -7479,6 +7517,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -7656,6 +7695,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -7752,6 +7792,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
