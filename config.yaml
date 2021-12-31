@@ -5,6 +5,7 @@ paths:
   index: ../.index
   log: ../.exclude/logs
   updated: ../updated
+  temp: ../.exclude/temp
 
 concurrency:
   processes: 2
@@ -111,5 +112,3 @@ assets:
       - container: /resources/emotion/eventcg
         type: Texture2D-Material
     exportUpdatedFileIndex: true
-
-raw: [ ]
