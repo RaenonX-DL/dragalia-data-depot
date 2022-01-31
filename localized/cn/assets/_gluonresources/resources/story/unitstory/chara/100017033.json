@@ -1,0 +1,3398 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "100017033",
+  "filename": "100017033",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 24,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "outline",
+          "args": [
+            "要跳过此剧情吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0005_101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "bg_enable_shader",
+          "args": [
+            "sty_bg_0005_101",
+            "true",
+            "true",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "mnu_move",
+          "args": [
+            "m01703",
+            "true",
+            "0.75",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "mnu_move",
+          "args": [
+            "m01703",
+            "false",
+            "0.75",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "cmp_move",
+          "args": [
+            "m01703",
+            "1.5",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "呼……哈……\\n终、终于回到帝都了……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "唔……为了夺回帝位，\\n首先还是要有尽可能多的帮手。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "c_bound_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "看我带领子民们\\n让沃纳明白我们之间的差距！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "4",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "正好有人来了……\\n喂，你站住！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "HATENA_EMO",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "疲惫的男子",
+            "什么事？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "本皇帝艾缪尔大人回到帝都了！\\n你，跟着本大爷走吧！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "疲惫的男子",
+            "哈啊？皇帝？啊……\\n的确是有点像艾缪尔呢。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "c_jump_em",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "艾缪尔！？你一介庶民\\n竟敢直呼本大爷的名讳！？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "疲惫的男子",
+            "好好好，你说得有理。\\n快别缠着我了，\\n我可没时间陪你玩什么假扮皇帝的把戏。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "n01401",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "啊，喂！\\n真是个无礼的家伙。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "NO_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01801",
+            "4",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "喂！你！\\n本皇帝艾缪尔大人回到帝都了！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "n01801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "匆忙的女子",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "c_jump_em",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "喂！跟你说话呢！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "c_swing_h",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "print",
+          "args": [
+            "匆忙的女子",
+            "你真烦！我正忙着呢！\\n搞模仿秀的话找别人去看吧！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "n01801",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "IKARI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "说、说我是……模仿秀！？\\n真是无礼的女人！\\n看我回城堡之后不把你抓起来！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "NO_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "不过，怎么感觉这两个人\\n都着急忙慌的？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "他们父母难道没教过他们\\n要把别人的话听完吗。\\n所以说这些愚民真是……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "c_bound_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "哼，算了。\\n人多的地方肯定会有\\n几个肯尊重本大爷的家伙吧。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0026_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0195"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "噢，果然有人在。\\n不错，这里应该能行！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "皇帝艾缪尔大人回来啦啊啊啊！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "HATENA_EMO",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "艾缪尔？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "是那个艾缪尔吗？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "c_bound2_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（不错不错……\\n人们都往我这边看了。\\n快，为皇帝的归来而欢呼吧！）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n04201",
+            "5",
+            "M",
+            "M",
+            "C",
+            "C",
+            "n19801",
+            "5",
+            "Q",
+            "M",
+            "R",
+            "C",
+            "n19901",
+            "5",
+            "Q",
+            "M",
+            "L",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "c_bound3_t",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "c_bound3_t",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "c_bound3_t",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "print",
+          "args": [
+            "餐厅客人们",
+            "哇哈哈哈哈！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n04201",
+            "n19801",
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "小哥，你和前任皇帝长得可真像！\\n你是专门搞模仿的街头艺人？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "c_jump_em",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "哈！？\\n我可是皇帝本人！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "c_swing_h",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "开什么玩笑呢。\\n国葬都已经办完了。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "c_jump_em",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "什……什么！？\\n国葬……你说葬礼！？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "难不成小哥你是支持\\n艾缪尔那一派的？\\n难怪你不愿相信那暗杀的消息啊。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n04201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "但这样也只会让自己难受的，\\n学会接受现实吧？知道了吗？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "不过这还真令人吃惊啊。\\n那样的皇帝居然也会\\n有像你这样忠实的支持者。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "哈？喂，你这话什么意思啊！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "这不明摆着的吗？\\n前任皇帝那么昏庸。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "c_swing_h",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "一天到晚铸那些莫名其妙的铜像，\\n就知道浪费钱。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "那些铜像是为了\\n彰显皇帝的威严……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "为了立那破铜像，\\n我可是被强制要求搬迁。\\n而且一点赔偿都没有。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01901",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "而且那皇帝为了提升自己的支持率，\\n甚至还自己制造问题，\\n然后演一出解决问题的好戏。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "c_swing_h",
+          "args": [
+            "n01901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "真是蠢得可怜。\\n他难道还以为我们都看不出来吗？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "不会吧……\\n你们竟然都看出来了！？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "我记得他还让龙和战斗人偶\\n袭击城镇和村庄对吧？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "那是为了显示\\n本大爷的力量……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "c_swing_h",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "借别人之手做那么残忍的事，\\n真是无耻至极！\\n明明自己就是个废物。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "不过就算这样都还有支持者的话，\\n那家伙在地狱里应该还会笑出来吧？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n04201",
+            "5",
+            "M",
+            "M",
+            "C",
+            "C",
+            "n19801",
+            "5",
+            "Q",
+            "M",
+            "R",
+            "C",
+            "n19901",
+            "5",
+            "Q",
+            "M",
+            "L",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "c_bound3_t",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "c_bound3_t",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "c_bound3_t",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "print",
+          "args": [
+            "餐厅客人们",
+            "哇哈哈哈哈！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n04201",
+            "n19801",
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（完全无法反驳……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（他们说的这些全都是事实，\\n都是我做过的事情。）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（都是我为了让这个世界\\n认可我的力量……认可我这个人……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0018_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "SEPIA_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p38501",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "BGMTUNE_DOWN",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "c_bound_b",
+          "args": [
+            "p38501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "若是国家安定，\\n也许你的才能也\\n能够得到大众的认可。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p38501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0026_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "BGMTUNE_DEF",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "c_swing_h",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（我可真是愚蠢。\\n没想到竟是自己的所作所为，\\n把自己送上了死路……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（也许……\\n我根本就不适合做皇帝吧。）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（搞明的没能力，\\n搞暗的还被人识破，\\n我可真是一事无成啊。）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（我果然不是指挥别人的料，\\n可我究竟又能做些什么呢……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "不过说实话，\\n我觉得还是前任皇帝更好点。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "HATENA_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "诶？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "MOYA_EMO",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "现在这重税，\\n不起早贪黑工作根本交不起啊……\\n简直和奴隶没两样。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "NO_EMO",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "而且我还听说那加收的税\\n都要拿去当攻打圣罗塔斯的军费。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19801",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "明明不想打仗，\\n却还要拼命工作供人打仗。\\n这世道真是难啊。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 458,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01901",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "前任皇帝虽说执政很蛮横，\\n但收税方面倒是很宽松啊。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "c_swing_h",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "啊，不是，其实那只是\\n我推给马格努斯去做的……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（等等，这难道是个机会！？）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（这些人反对战争，\\n他们也渴望国家的安定……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（那只要能扳倒沃纳，\\n停止战争并下调税金……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m01703",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "HIRAMEKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "c_bound_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0007_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（本大爷的支持率就能上升，\\n本大爷的才能也能得到认可！\\n没错！）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "NO_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "c_bound2_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "呵呵呵……我的子民们啊，\\n我已经知晓你们的烦恼和痛苦了！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "就让我皇帝艾缪尔大人\\n来扳倒那个冒牌皇帝，\\n将你们从痛苦中拯救出来吧！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "你们就等着听好消息吧！\\n哈哈哈！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "m01703",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "HATENA_EMO",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "难道……刚才那小哥……\\n真是前任皇帝艾缪尔？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "print",
+          "args": [
+            "餐厅客人",
+            "不会吧……\\n不过，他竟然要反抗现任皇帝……\\n不会有事吧？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "c_bound3_t_sp",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 4,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "true",
+            "0.25",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.25",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.25",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.25",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.4",
+            "0",
+            "24",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.4",
+            "0",
+            "-24",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "cmp_move",
+          "args": [
+            "CID",
+            "1.8",
+            "0",
+            "0"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "c_bound_t_slow_sp",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 14,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "true",
+            "1.2",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "1.2",
+            "0",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.4",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "cmp_move",
+          "args": [
+            "CID",
+            "2.8",
+            "0",
+            "0"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

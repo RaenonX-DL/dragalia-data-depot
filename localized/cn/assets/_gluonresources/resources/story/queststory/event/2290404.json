@@ -1,0 +1,6685 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2290404",
+  "filename": "2290404",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "因圣城沦陷而灰心丧气的一行\\n重新制定了夺回圣城的计划。\\n计划起初看似一帆风顺，\\n却不想早已被阿尔贝琉斯识破，\\n王族一行纷纷溃败。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0059_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m00109",
+            "9",
+            "M",
+            "Q",
+            "-150",
+            "0",
+            "m00901",
+            "9",
+            "M",
+            "Q",
+            "150",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……",
+            "VO_CHR_EVENTSTORY_22904_04_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "m00109",
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m01305",
+            "9",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "m01402",
+            "9",
+            "M",
+            "Q",
+            "170",
+            "0",
+            "m01506",
+            "9",
+            "M",
+            "Q",
+            "C",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "m01305",
+            "m01402",
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m01703",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "（气氛好沉重……好想跑路啊……）",
+            "VO_CHR_EVENTSTORY_22904_04_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "唔……这里是……哪里？",
+            "VO_CHR_EVENTSTORY_22904_04_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "print",
+          "args": [
+            "塞西娅",
+            "巴尔库斯哥哥！？太好了，\\n你终于醒了。你在撤退途中晕了过去，\\n我们都很担心你。",
+            "VO_CHR_EVENTSTORY_22904_04_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这里是圣城南边的树海都市罗布雷尔。\\n我们向这里的人\\n借来了民宅的一角。",
+            "VO_CHR_EVENTSTORY_22904_04_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "塞西娅、{player_name}，\\n还有你们……\\n现在是什么状况？",
+            "VO_CHR_EVENTSTORY_22904_04_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m01506",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "状况……可谓非常糟糕。",
+            "VO_CHR_EVENTSTORY_22904_04_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "我们撤退了以后\\n便得到消息称圣城已经落入敌手。",
+            "VO_CHR_EVENTSTORY_22904_04_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01305",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "阿尔贝琉斯和被黑暗魔力\\n侵蚀的魔兽目前已经\\n占领了圣城并驻扎在那里。",
+            "VO_CHR_EVENTSTORY_22904_04_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01506",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "圣城是我们一切的起点……\\n如此轻易被夺去，\\n我军的士气遭受了严重的打击。",
+            "VO_CHR_EVENTSTORY_22904_04_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "彻底被摆了一道啊……\\n再加上圣城失守的挫败感，\\n难怪会有这战败的气氛。",
+            "VO_CHR_EVENTSTORY_22904_04_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我一定会夺回圣城……\\n今后的战斗中决不能没有圣城。",
+            "VO_CHR_EVENTSTORY_22904_04_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m00109",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "而且圣城也不是普通的一座城，\\n那是大家内心的归宿。\\n必须要尽快夺回才行……",
+            "VO_CHR_EVENTSTORY_22904_04_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "塞西娅",
+            "哥哥……",
+            "VO_CHR_EVENTSTORY_22904_04_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "夺回圣城说得好听，\\n但你有什么具体计划吗？\\n不会只是脑袋一热随口说的吧？",
+            "VO_CHR_EVENTSTORY_22904_04_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这……现在虽然还没有具体方案，\\n但我们必须得拿出态度，\\n让大家知道我们还没有放弃……",
+            "VO_CHR_EVENTSTORY_22904_04_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_bound_t",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "得了吧。我可不想陪你在没有\\n胜算的情况下去自杀。\\n赢不了的战斗又有什么意义！？",
+            "VO_CHR_EVENTSTORY_22904_04_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "不，艾缪尔。\\n无论形势有多严峻，\\n我们都不能放弃战斗。",
+            "VO_CHR_EVENTSTORY_22904_04_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "失去精神支柱的民众很容易成为暴徒，\\n导致国家动乱。为了防止其发生，\\n我们必须要展现出抗争到底的态度。",
+            "VO_CHR_EVENTSTORY_22904_04_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "这是身为王族保护子民的责任……\\n更何况对手是我们的祖先，\\n同样有着龙之血的阿尔贝琉斯。",
+            "VO_CHR_EVENTSTORY_22904_04_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "c_swing_h_mid",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "唔……确实……\\n倒也没错……",
+            "VO_CHR_EVENTSTORY_22904_04_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01506",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "c_bound_t",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "哎呀，我倒是觉得艾缪尔的\\n观点也非常正确呢。",
+            "VO_CHR_EVENTSTORY_22904_04_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01506",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "明知道会败还要上战场，\\n未免有失优雅风范。",
+            "VO_CHR_EVENTSTORY_22904_04_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01305",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "没错。优雅与否暂且不论，\\n无法胜利的战斗没有意义，\\n这一点艾缪尔说得很对。",
+            "VO_CHR_EVENTSTORY_22904_04_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那哥哥和谢斯姐姐也认为\\n我们不应该再去挑战\\n那个阿尔贝琉斯吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01305",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "你别误会，我只是在说，\\n不能以失败为前提去战斗。",
+            "VO_CHR_EVENTSTORY_22904_04_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "也就是说，若是要战，\\n便要以胜利为前提……对吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m01305",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "当然。此战不胜，我们便无路可走。\\n所以胜利是必须条件。",
+            "VO_CHR_EVENTSTORY_22904_04_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "RestartEye",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "还是说，\\n你们还想再败一场吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m01601",
+            "1",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "m01402",
+            "1",
+            "M",
+            "Q",
+            "170",
+            "0",
+            "m01506",
+            "5",
+            "M",
+            "Q",
+            "C",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "m01601",
+            "m01402",
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m01703",
+            "5",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "m00901",
+            "11",
+            "M",
+            "Q",
+            "170",
+            "0",
+            "m00109",
+            "11",
+            "M",
+            "Q",
+            "30",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "m01703",
+            "m00109",
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01305",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "c_bound_t",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "哼，那就立刻开始作战会议吧。\\n让那故作从容的冒牌英雄\\n彻彻底底地败在我们脚下！",
+            "VO_CHR_EVENTSTORY_22904_04_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0029_301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0029_101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0029_201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0022_200"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0006_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "原来你在这里。\\n你这伤刚好就跑出来，\\n艾缪尔他很担心你。",
+            "VO_CHR_EVENTSTORY_22904_04_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "能让那个弟弟替我操这样的心，\\n我这个当哥哥的还真是不中用啊。",
+            "VO_CHR_EVENTSTORY_22904_04_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "你是对明天的作战\\n还有什么不安吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "我们来引诱敌军，\\n{player_name}则伺机打败阿尔贝琉斯……\\n确实是个不错的反击方案。",
+            "VO_CHR_EVENTSTORY_22904_04_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01601",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "至于具体行动，也已经根据\\n不同的地形和天气预备了各种方案……\\n没有什么好不安的。",
+            "VO_CHR_EVENTSTORY_22904_04_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "那就是有什么不满了？",
+            "VO_CHR_EVENTSTORY_22904_04_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m01601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "你其实是想亲自去\\n打败阿尔贝琉斯对吧？",
+            "VO_CHR_EVENTSTORY_22904_04_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m01601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "“龙之血”、“英勇”和“人望”……\\n咱们那个弟弟已经皆数拥有。\\n我承认他是一名真正合格的王族。",
+            "VO_CHR_EVENTSTORY_22904_04_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "哦，你是说一国之主所需的\\n那“三种资质”啊。\\n我还记得儿时你曾经说过这些。",
+            "VO_CHR_EVENTSTORY_22904_04_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01402",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "当时的我为龙鳞病所折磨，\\n连房间都出不去。\\n所以特别羡慕你和其他的兄弟们。",
+            "VO_CHR_EVENTSTORY_22904_04_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "我曾诅咒那无法反抗的不公，也曾惧怕\\n那逐渐逼近的死亡。但仍为了那一丝希望，\\n在渴望的驱使下埋头于研究……",
+            "VO_CHR_EVENTSTORY_22904_04_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01402",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "正因为我与自己内心的渴望打了\\n很长时间的交道，所以我能明白……\\n你的内心压抑着一些东西。",
+            "VO_CHR_EVENTSTORY_22904_04_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "压抑……兄长你说得也许没错。\\n但即便如此，\\n现在也不是由我任性的时候。",
+            "VO_CHR_EVENTSTORY_22904_04_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "由{player_name}挑战阿尔贝琉斯一事\\n是你我以及其他所有人\\n都已经达成共识的选择。",
+            "VO_CHR_EVENTSTORY_22904_04_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "但你真正的想法是什么呢？\\n你一直都这样扼杀自己的意志，\\n被别人描绘的理想所束缚。",
+            "VO_CHR_EVENTSTORY_22904_04_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "你也是时候摆脱这理想的假面，\\n正视自己内心的渴望了吧？",
+            "VO_CHR_EVENTSTORY_22904_04_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m01601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "我的确想要以一名武者的身份\\n与那一直以来自己视作理想与\\n目标的英雄一决胜负。只是……",
+            "VO_CHR_EVENTSTORY_22904_04_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "兄长你又如何……\\n你不是也因为觉得当下的形势\\n是自己造成而难辞其咎吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "兄长你其实比我更想亲手\\n打败阿尔贝琉斯不是吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "你说得……也许没错。",
+            "VO_CHR_EVENTSTORY_22904_04_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "无论你说些什么，\\n事到如今我都没有反悔的想法。\\n这是身为王族应有的正确选择。",
+            "VO_CHR_EVENTSTORY_22904_04_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "m01601",
+            "SE_WALK_OUT_GR_ARM"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "巴尔库斯……\\n这样你真的甘心吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0076_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "print",
+          "args": [
+            "SYS",
+            "次日 圣城北方\\n莱昂尼多军临时据点·战斗指挥处"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01001",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "print",
+          "args": [
+            "莱昂尼多军幕僚",
+            "殿下，准备已经就绪。\\n请指示。",
+            "VO_CHR_EVENTSTORY_22904_04_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "_CharaSet",
+          "args": [
+            "SHIMOTE",
+            "n12801",
+            "1",
+            "M",
+            "M",
+            "-170",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 458,
+          "command": "_CharaSet",
+          "args": [
+            "KAMITE",
+            "n12701",
+            "1",
+            "M",
+            "M",
+            "170",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "mnu",
+          "args": [
+            "n12801",
+            "true",
+            "0.4",
+            "120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "1",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "cmp",
+          "args": [
+            "n12801",
+            "0.4",
+            "120",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "mnu",
+          "args": [
+            "n12701",
+            "true",
+            "0.4",
+            "-120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "1",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "cmp",
+          "args": [
+            "n12701",
+            "0.4",
+            "-120",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "NO_EMO",
+          "args": [
+            "n01001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n12801",
+            "n12701",
+            "n01001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01305",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "莱昂尼多",
+            "嗯，我知道了……\\n圣城夺回计划现在开始！\\n起狼烟为号！",
+            "VO_CHR_EVENTSTORY_22904_04_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01305"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n12801",
+            "4",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "n12701",
+            "4",
+            "M",
+            "Q",
+            "170",
+            "0",
+            "n01001",
+            "4",
+            "M",
+            "M",
+            "C",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n01001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "print",
+          "args": [
+            "莱昂尼多军幕僚",
+            "遵命！",
+            "VO_CHR_EVENTSTORY_22904_04_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n12701",
+            "n12801",
+            "n01001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0065_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "print",
+          "args": [
+            "SYS",
+            "圣城西方\\n谢斯军临时据点"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0172",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_147"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "-100",
+            "50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "0.5",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 500,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "0",
+            "350",
+            "2",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_147",
+            "0",
+            "2",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01506",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "狼烟起了啊。\\n女士优先，\\n我便先出手啦，哦呵呵呵！",
+            "VO_CHR_EVENTSTORY_22904_04_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n16301",
+            "4",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "n16201",
+            "4",
+            "M",
+            "Q",
+            "170",
+            "0",
+            "n00901",
+            "1",
+            "M",
+            "Q",
+            "C",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n16301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n16201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n16201",
+            "n16301",
+            "n01001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0021_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 529,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "print",
+          "args": [
+            "SYS",
+            "圣城南方\\n巴尔库斯军临时据点"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 533,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 537,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "作战开始的信号来了。\\n这边准备也已万无一失……\\n全军听令！前进！",
+            "VO_CHR_EVENTSTORY_22904_04_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 539,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n04101",
+            "4",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "n00801",
+            "4",
+            "M",
+            "Q",
+            "170",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "SHIMOTE_OUT2_DEF_SE",
+          "args": [
+            "n04101",
+            "n00801",
+            "SE_STORY_COMMON_0303"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 550,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0074_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "print",
+          "args": [
+            "SYS",
+            "圣城东方\\n艾缪尔军临时据点"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "第一波狼烟已经升起来了啊。\\n我们这边应该是下一波狼烟时\\n才行动……对吧，法尔艾斯哥哥？",
+            "VO_CHR_EVENTSTORY_22904_04_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "嗯，没错。\\n现在谢斯和巴尔库斯\\n应该正在向敌军进攻。",
+            "VO_CHR_EVENTSTORY_22904_04_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 576,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "待敌人出城迎战之时，\\n他们会逐渐后退，\\n将敌军主力引至圣城西面和南面。",
+            "VO_CHR_EVENTSTORY_22904_04_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "届时由我们和莱昂尼多哥哥\\n进攻兵力薄弱的北面和东面……\\n但计划真的能顺利实施吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 588,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 590,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "一切皆按计划发生\\n自然是不太可能，不过……",
+            "VO_CHR_EVENTSTORY_22904_04_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0172",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "噢，第二波狼烟已起。\\n看来目前计划进行得还是很顺利的。",
+            "VO_CHR_EVENTSTORY_22904_04_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "print",
+          "args": [
+            "艾缪尔",
+            "好、好的。那……\\n全军听令！跟本大爷前进！",
+            "VO_CHR_EVENTSTORY_22904_04_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "m01703",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n08101",
+            "1",
+            "M",
+            "Q",
+            "0",
+            "0",
+            "n08001",
+            "4",
+            "M",
+            "O",
+            "170",
+            "0",
+            "n08001b",
+            "4",
+            "M",
+            "O",
+            "-170",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 616,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 617,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 618,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0303"
+          ],
+          "end": 1
+        },
+        {
+          "row": 623,
+          "command": "SHIMOTE_OUT3_DEF",
+          "args": [
+            "n08101",
+            "n08001",
+            "n08001b"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "BGMTUNE_DOWN_0",
+          "args": [
+            "SE_STORY_COMMON_0303"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01402",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "从四个方向同时进攻……\\n阿尔贝琉斯那样的人应该能猜到\\n这都是佯攻。只是……",
+            "VO_CHR_EVENTSTORY_22904_04_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "正因如此，\\n他在分辨出这边的主力之前\\n应该不会贸然行动。",
+            "VO_CHR_EVENTSTORY_22904_04_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "接下来就该是\\n{player_name}的部队了……\\n有点让人担心啊。",
+            "VO_CHR_EVENTSTORY_22904_04_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "print",
+          "args": [
+            "法尔艾斯",
+            "艾缪尔指挥起来也没什么问题，\\n我就加入游击作战吧。",
+            "VO_CHR_EVENTSTORY_22904_04_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "m01402",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "fade_color",
+          "args": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "1",
+            "EaseLinear",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 657,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0018",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "wait",
+          "args": [
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "print",
+          "args": [
+            "塞西娅",
+            "看来已经开始佯攻了呢……",
+            "VO_CHR_EVENTSTORY_22904_04_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯。进展顺利的话，\\n敌人此时应该已经\\n从圣城里出来了……",
+            "VO_CHR_EVENTSTORY_22904_04_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 669,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0442"
+          ],
+          "end": 1
+        },
+        {
+          "row": 671,
+          "command": "wait",
+          "args": [
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "差不多是时候了……",
+            "VO_CHR_EVENTSTORY_22904_04_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 680,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0441"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0001_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "raid0017_002_8",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "CHARA_UNCOLOR",
+          "args": [
+            "raid0017_002_8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "fade_color",
+          "args": [
+            "0.3",
+            "0",
+            "0",
+            "0",
+            "0.7",
+            "EaseLinear",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "fade_color",
+          "args": [
+            "0.5",
+            "0",
+            "0",
+            "0",
+            "1",
+            "EaseLinear",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "mnu",
+          "args": [
+            "raid0017_002_8",
+            "true",
+            "2.0",
+            "0",
+            "0",
+            "1",
+            "2.0",
+            "2",
+            "2",
+            "1",
+            "2.0",
+            "0",
+            "1",
+            "2.0",
+            "0",
+            "EaseInQuint"
+          ],
+          "end": 1
+        },
+        {
+          "row": 687,
+          "command": "cmp",
+          "args": [
+            "raid0017_002_8",
+            "2.0",
+            "0",
+            "0",
+            "2",
+            "2",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 688,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 689,
+          "command": "fade_color",
+          "args": [
+            "2.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "EaseLinear",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0014_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 692,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 694,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 695,
+          "command": "CHARA_BOTTOM_ZIG",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 696,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "print",
+          "args": [
+            "塞西娅",
+            "这里是哥哥的……",
+            "VO_CHR_EVENTSTORY_22904_04_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 700,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 702,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 703,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "print",
+          "args": [
+            "SYS",
+            "圣城内部\\n{player_name}的房间"
+          ],
+          "end": 1
+        },
+        {
+          "row": 705,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 708,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 709,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 710,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "伙伴们为了应对紧急情况而\\n挖的这些逃生用的地道……\\n没想到会被用来潜入啊。",
+            "VO_CHR_EVENTSTORY_22904_04_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 713,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 714,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 715,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "大家都进来吧。",
+            "VO_CHR_EVENTSTORY_22904_04_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 718,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 719,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 723,
+          "command": "CharaSetSE",
+          "args": [
+            "KAMITE",
+            "SE_STORY_COMMON_0303",
+            "n12801",
+            "4",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "n12701",
+            "4",
+            "M",
+            "Q",
+            "170",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 724,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 725,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "n12801",
+            "n12701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 728,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 729,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 730,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "趁着圣城内部因佯攻而防守薄弱之时\\n击败城内指挥守军的阿尔贝琉斯……",
+            "VO_CHR_EVENTSTORY_22904_04_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 733,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m00109",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 734,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 735,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 736,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "大家跟我来！",
+            "VO_CHR_EVENTSTORY_22904_04_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 738,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 739,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "m00109",
+            "SE_RUN_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 742,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n12801",
+            "4",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "n12701",
+            "4",
+            "M",
+            "Q",
+            "170",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 743,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n12801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 744,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n12701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 745,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 746,
+          "command": "CharaDelSE",
+          "args": [
+            "SHIMOTE_REVERSE",
+            "SE_RUN_OUT_FL_ARM",
+            "n12801",
+            "n12701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 749,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 750,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 751,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 753,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 754,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 755,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 756,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 757,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 760,
+          "command": "CharaSetSE",
+          "args": [
+            "KAMITE",
+            "SE_WALK_IN_FL_ARM",
+            "n12801",
+            "4",
+            "M",
+            "Q",
+            "-170",
+            "0",
+            "n12701",
+            "4",
+            "M",
+            "Q",
+            "170",
+            "0",
+            "m00109",
+            "15",
+            "M",
+            "M",
+            "30",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 761,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 762,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "奇怪……\\n阿尔贝琉斯去哪儿了？",
+            "VO_CHR_EVENTSTORY_22904_04_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 764,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n12801",
+            "n12701",
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 767,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 768,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 769,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 770,
+          "command": "print",
+          "args": [
+            "塞西娅",
+            "城内没有阿尔贝琉斯的踪影……\\n而且连被黑暗魔力侵蚀的魔兽\\n和龙也没有出现……",
+            "VO_CHR_EVENTSTORY_22904_04_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 773,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 774,
+          "command": "print",
+          "args": [
+            "塞西娅",
+            "虽说有哥哥姐姐他们在城外佯攻，\\n但城内不可能没有任何防卫——",
+            "VO_CHR_EVENTSTORY_22904_04_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 776,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 777,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 779,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0013_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 781,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 782,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 783,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_016",
+            "0.6",
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 784,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_016",
+            "-85",
+            "330"
+          ],
+          "end": 1
+        },
+        {
+          "row": 785,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 786,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 787,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 788,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 790,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 791,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 792,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 793,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "塞西娅，小心！",
+            "VO_CHR_EVENTSTORY_22904_04_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 795,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 796,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 800,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 801,
+          "command": "c_swing_h_mid",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 802,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 803,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 804,
+          "command": "_CharaSet",
+          "args": [
+            "DEF",
+            "m00109",
+            "11",
+            "M",
+            "Q",
+            "R",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 805,
+          "command": "mnu",
+          "args": [
+            "m00901",
+            "true",
+            "0.2",
+            "0",
+            "0",
+            "1",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 806,
+          "command": "mnu",
+          "args": [
+            "m00901",
+            "false",
+            "0.2",
+            "-200",
+            "0",
+            "EaseOutSine",
+            "0",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.2",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 807,
+          "command": "cmp",
+          "args": [
+            "m00901",
+            "0.4",
+            "-200",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 808,
+          "command": "mnu",
+          "args": [
+            "m00109",
+            "true",
+            "0.4",
+            "-400",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 809,
+          "command": "mnu",
+          "args": [
+            "m00109",
+            "false",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0.2",
+            "0",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 810,
+          "command": "cmp",
+          "args": [
+            "m00109",
+            "0.4",
+            "-400",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 811,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 812,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 813,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 814,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0233"
+          ],
+          "end": 1
+        },
+        {
+          "row": 815,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 816,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 818,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 819,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 820,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 821,
+          "command": "print",
+          "args": [
+            "塞西娅",
+            "谢谢你，哥哥。\\n敌人竟然会偷袭我们……可这……",
+            "VO_CHR_EVENTSTORY_22904_04_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 823,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 824,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 828,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 829,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "-120",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 830,
+          "command": "mnu_move",
+          "args": [
+            "n03101",
+            "true",
+            "0.05",
+            "-120",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 831,
+          "command": "mnu_move",
+          "args": [
+            "n03101",
+            "false",
+            "0.4",
+            "120",
+            "0",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 832,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 833,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 834,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "120",
+            "0",
+            "0.4",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 835,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 836,
+          "command": "chara_fadein",
+          "args": [
+            "n03101",
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 837,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 838,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 839,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 840,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 843,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 844,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "120",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 845,
+          "command": "mnu_move",
+          "args": [
+            "n03101",
+            "true",
+            "0.05",
+            "120",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 846,
+          "command": "mnu_move",
+          "args": [
+            "n03101",
+            "false",
+            "0.4",
+            "-120",
+            "0",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 847,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 848,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 849,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "-120",
+            "0",
+            "0.4",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 850,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 851,
+          "command": "chara_fadein",
+          "args": [
+            "n03101",
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 852,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 853,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 854,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 855,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 858,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n12801",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 859,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n12801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 860,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 861,
+          "command": "print",
+          "args": [
+            "阿尔贝里亚士兵",
+            "被、被包围了！？\\n为什么会突然变成这样……",
+            "VO_CHR_EVENTSTORY_22904_04_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 863,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n12801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 866,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 867,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 868,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "对方埋伏已久……\\n是我们的计划被识破了！\\n那阿尔贝琉斯他——",
+            "VO_CHR_EVENTSTORY_22904_04_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 871,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 872,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 874,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0065_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 875,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 876,
+          "command": "chara_brightness",
+          "args": [
+            "m03104",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 877,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 878,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 879,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "255",
+            "255",
+            "255",
+            "1",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 880,
+          "command": "chara_brightness",
+          "args": [
+            "m03104",
+            "1.03",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 881,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 883,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 884,
+          "command": "print",
+          "args": [
+            "阿尔贝琉斯复制体",
+            "你以为我会在城内坐以待毙吗？",
+            "VO_CHR_EVENTSTORY_22904_04_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 886,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 887,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 890,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01506",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 891,
+          "command": "c_bound_t",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 892,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 893,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "你身为英雄还真是行事草率呢。\\n没想到竟然这么简单就被\\n我的佯攻引了出来。",
+            "VO_CHR_EVENTSTORY_22904_04_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 895,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 898,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 899,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03104",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 900,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 901,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 902,
+          "command": "print",
+          "args": [
+            "阿尔贝琉斯复制体",
+            "抱歉啊，\\n守株待兔不是我的作风。",
+            "VO_CHR_EVENTSTORY_22904_04_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 904,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 905,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 908,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01506",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 909,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 910,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "既然如此，\\n那就多谢头脑简单的大英雄\\n把圣城拱手相让了哦。",
+            "VO_CHR_EVENTSTORY_22904_04_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 912,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 915,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 916,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 917,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 918,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 919,
+          "command": "print",
+          "args": [
+            "阿尔贝琉斯复制体",
+            "呵，你这些拖延时间的手段毫无意义。\\n这种程度的佯攻，\\n我完全可以把你们各个击破再回圣城。",
+            "VO_CHR_EVENTSTORY_22904_04_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 921,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 922,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 925,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01506",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 926,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 927,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 928,
+          "command": "print",
+          "args": [
+            "谢斯",
+            "你也太过度自信了吧……\\n不过，你看起来也不像是\\n只会逞口舌之快的人……",
+            "VO_CHR_EVENTSTORY_22904_04_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 930,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 931,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01506"
+          ],
+          "end": 1
+        },
+        {
+          "row": 934,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 935,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 936,
+          "command": "CHARA_ATTACK_SWD",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 938,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 939,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 940,
+          "command": "SET_BG",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 941,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 942,
+          "command": "CHARA_RESET",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 943,
+          "command": "screen_fadein",
+          "args": [
+            "0.1",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 944,
+          "command": "stop_bgm",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 945,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0233"
+          ],
+          "end": 1
+        },
+        {
+          "row": 946,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 947,
+          "command": "CHARA_GUARD_MALIONE2",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 948,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 949,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0454"
+          ],
+          "end": 1
+        },
+        {
+          "row": 950,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_134"
+          ],
+          "end": 1
+        },
+        {
+          "row": 951,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_134",
+            "-110",
+            "-70"
+          ],
+          "end": 1
+        },
+        {
+          "row": 952,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.5",
+            "0.5",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 953,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 955,
+          "command": "screen_fadeout",
+          "args": [
+            "0.1",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 956,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_214"
+          ],
+          "end": 1
+        },
+        {
+          "row": 957,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 958,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0021_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 959,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 960,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 963,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n00801",
+            "6",
+            "SE_RUN_IN_GR_ARM"
+          ],
+          "end": 1
+        },
+        {
+          "row": 964,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 965,
+          "command": "print",
+          "args": [
+            "巴尔库斯军士兵",
+            "不、不好了！\\n谢斯大人和莱昂尼多大人战败，\\n各部队正在开始撤退！",
+            "VO_CHR_EVENTSTORY_22904_04_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 967,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n00801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 970,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 971,
+          "command": "c_swing_h_mid",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 972,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 973,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "你说什么！？他们两个怎么会……",
+            "VO_CHR_EVENTSTORY_22904_04_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 975,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 976,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 980,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "Q",
+            "150",
+            "0",
+            "n00801",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 981,
+          "command": "play_sound",
+          "args": [
+            "SE_RUN_IN_GR_ARM"
+          ],
+          "end": 1
+        },
+        {
+          "row": 982,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 983,
+          "command": "BGMTUNE_DOWN_0",
+          "args": [
+            "SE_RUN_IN_GR_ARM"
+          ],
+          "end": 1
+        },
+        {
+          "row": 984,
+          "command": "CHARA_SHIMOTE_POS",
+          "args": [
+            "M",
+            "M",
+            "-150",
+            "0",
+            "n04101",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 985,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 986,
+          "command": "print",
+          "args": [
+            "巴尔库斯军士兵",
+            "艾缪尔大人率领的狄涅尔军\\n似乎也惨败在了敌人手下！\\n这样下去的话我们也……",
+            "VO_CHR_EVENTSTORY_22904_04_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 988,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "n00801",
+            "n04101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 991,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 992,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 993,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 994,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "就算被黑暗魔力侵蚀的魔兽和龙\\n再怎么厉害，也不可能在如此\\n短时间内如此改变战况。",
+            "VO_CHR_EVENTSTORY_22904_04_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 997,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 998,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 999,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0095"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1000,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "这……难道是！？",
+            "VO_CHR_EVENTSTORY_22904_04_0095"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1002,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1005,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1006,
+          "command": "print",
+          "args": [
+            "阿尔贝琉斯复制体",
+            "你猜得没错。",
+            "VO_CHR_EVENTSTORY_22904_04_0096"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1008,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 1009,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1010,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "110"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1011,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-90",
+            "m03104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1012,
+          "command": "mnu_move",
+          "args": [
+            "m03104",
+            "true",
+            "0.05",
+            "0",
+            "200",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1013,
+          "command": "mnu_move",
+          "args": [
+            "m03104",
+            "false",
+            "0.25",
+            "0",
+            "-200",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1014,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1015,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "-200",
+            "0.25",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1016,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1017,
+          "command": "chara_fadein",
+          "args": [
+            "m03104",
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1018,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "90",
+            "0.2",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1019,
+          "command": "mnu_move",
+          "args": [
+            "m03104",
+            "true",
+            "0.2",
+            "0",
+            "90",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1020,
+          "command": "cmp_move",
+          "args": [
+            "m03104",
+            "0.2",
+            "0",
+            "90"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1021,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1022,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1023,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1027,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1028,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1029,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "阿尔贝琉斯！？",
+            "VO_CHR_EVENTSTORY_22904_04_0097"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1031,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1034,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1035,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03104",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1036,
+          "command": "c_bound_t",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1037,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0098"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1038,
+          "command": "print",
+          "args": [
+            "阿尔贝琉斯复制体",
+            "我想你们应该是想通过四面佯攻把兵力\\n引出圣城，然后趁机打败位于圣城之内\\n的我吧……可惜你们的计划落空了。",
+            "VO_CHR_EVENTSTORY_22904_04_0098"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1041,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m03104",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1042,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0099"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1043,
+          "command": "print",
+          "args": [
+            "阿尔贝琉斯复制体",
+            "想必你已经得到了其它三面\\n已被我攻破的消息。\\n现在就只剩下你了……你打算怎么办？",
+            "VO_CHR_EVENTSTORY_22904_04_0099"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1045,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_214",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1046,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03104"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1049,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01601",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1050,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1051,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "那还用说吗！",
+            "VO_CHR_EVENTSTORY_22904_04_0100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1053,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 1054,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m01601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1055,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 1056,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1057,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0237"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1058,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1060,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22904_04_0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1061,
+          "command": "print",
+          "args": [
+            "巴尔库斯",
+            "我便在这里将你击败，\\n一雪前耻！接招吧！",
+            "VO_CHR_EVENTSTORY_22904_04_0101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 1065,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 1066,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

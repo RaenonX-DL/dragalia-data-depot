@@ -1,0 +1,3398 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "100017033",
+  "filename": "100017033",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 24,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "outline",
+          "args": [
+            "請確認是否略過劇情？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0005_101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "bg_enable_shader",
+          "args": [
+            "sty_bg_0005_101",
+            "true",
+            "true",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "mnu_move",
+          "args": [
+            "m01703",
+            "true",
+            "0.75",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "mnu_move",
+          "args": [
+            "m01703",
+            "false",
+            "0.75",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "cmp_move",
+          "args": [
+            "m01703",
+            "1.5",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "呼──哈──……\\n終、終於回到帝都啦……！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "好了……為了奪回帝位，\\n同伴應該越多越好。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "c_bound_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "看我帶著人民，\\n讓衛魯納見識我們之間的差距！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "4",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "來得正是時候……\\n喂，那邊那個人！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "HATENA_EMO",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "疲憊的男子",
+            "怎麼了？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "皇帝埃米爾大人回到帝都了！\\n我命令你隨侍我身邊！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "print",
+          "args": [
+            "疲憊的男子",
+            "蛤？皇帝？\\n……啊──看起來的確有點像埃米爾。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "c_jump_em",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "埃米爾！？你這傢伙，\\n區區庶民竟然直呼本大爺名字！？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "疲憊的男子",
+            "好啦好啦。我沒空奉陪一個明星臉。\\n快放開我。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "n01401",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "啊啊，喂！\\n真是的，無禮的傢伙。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "NO_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01801",
+            "4",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "那邊那個傢伙！\\n皇帝埃米爾大人回到帝都了！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "n01801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "忙碌的女子",
+            "…………"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "c_jump_em",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "喂，不許無視我！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "c_swing_h",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "print",
+          "args": [
+            "忙碌的女子",
+            "吵死人了！我很忙！\\n想表演模仿的話去其他地方表演啦！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "n01801",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "IKARI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "竟、竟敢說我在……模仿……！？\\n無禮之徒！等我回到城裡，\\n一定要把剛才那個女的抓起來！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "NO_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "不過話說回來，剛才那男的也是，\\n每個人都很沒耐性呢。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "是父母沒教過要好好聽別人說話嗎。\\n難怪會身為愚民……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "c_bound_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "哼，算了。如果到人潮聚集的地方，\\n總會遇到尊敬本大爺的傢伙吧。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0026_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0195"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "喔，果然有不少人呢。\\n好，在這裡的話……！\\n吸──……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "皇帝埃米爾大人回來啦──！！！！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "HATENA_EMO",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "埃米爾？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "埃米爾，是那個埃米爾？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "c_bound2_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（很好很好……\\n確實吸引大家目光了。\\n來吧，為皇帝歸來歡喜吧！）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_04"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n04201",
+            "5",
+            "M",
+            "M",
+            "C",
+            "C",
+            "n19801",
+            "5",
+            "Q",
+            "M",
+            "R",
+            "C",
+            "n19901",
+            "5",
+            "Q",
+            "M",
+            "L",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "c_bound3_t",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "c_bound3_t",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "c_bound3_t",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "print",
+          "args": [
+            "餐廳客人們",
+            "哇、哈、哈、哈、哈！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n04201",
+            "n19801",
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "小哥，你長得還真像前任皇帝耶！\\n是專門模仿的搞笑藝人嗎？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "c_jump_em",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "蛤！？本大爺就是本人啦！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "c_swing_h",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "怎麼可能。\\n連國葬都早就結束了。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "c_jump_em",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "啥……咦！？\\n你說、國葬……是指葬禮！？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "難不成小哥，你是埃米爾的支持者嗎？\\n那想必他被暗殺的事，\\n你應該很不願意相信吧。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n04201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "但還是得認清現實，\\n不然只是讓自己難受而已喔？懂嗎？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "話說回來還真嚇了我一大跳。\\n沒想到那～種前任皇帝會有\\n這麼熱情的支持者。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "蛤？喂，你是什麼意思！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "什麼「什麼意思」，\\n前任皇帝的統治超淒慘的吧？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "c_swing_h",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "老是在做些莫名其妙的銅像。\\n浪費錢也有該個限度。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "那是為了展現皇帝的威嚴……！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "我們可是被迫必須搬離原本住的地方\\n感到很困擾啊。\\n補償金也是少到有跟沒有一樣。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01901",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "前任皇帝的自導自演也很不得了對吧！\\n為了提升自己的支持度，\\n竟然自己引發問題再自己解決。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "c_swing_h",
+          "args": [
+            "n01901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "真是沒看過這麼可悲的人。\\n難道他以為我們都沒發現嗎？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "騙人、那些、都被看穿了嗎……！？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "說到前任皇帝，我記得他曾經派龍族\\n和戰鬥人偶去襲擊城鎮和村子吧？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "那是、為了展現本大爺的力量……！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "c_swing_h",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "盡做些骯髒事卻不想弄髒自己的手，\\n實在太卑鄙了！\\n明明自己一點實力都沒有。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "連那種樣子都還是有支持者，\\n前任皇帝應該死也瞑目了吧？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n04201",
+            "5",
+            "M",
+            "M",
+            "C",
+            "C",
+            "n19801",
+            "5",
+            "Q",
+            "M",
+            "R",
+            "C",
+            "n19901",
+            "5",
+            "Q",
+            "M",
+            "L",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "c_bound3_t",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "c_bound3_t",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "c_bound3_t",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "print",
+          "args": [
+            "餐廳客人們",
+            "哇、哈、哈、哈、哈！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n04201",
+            "n19801",
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 370,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "…………",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（完全無法回嘴……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（這些傢伙所說的全都是事實。\\n是我曾經做過的事。）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（為了讓我的力量……我的存在，\\n得到世界的認同……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0018_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "SEPIA_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p38501",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "BGMTUNE_DOWN",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "c_bound_b",
+          "args": [
+            "p38501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "print",
+          "args": [
+            "墨丘利",
+            "若是在和平國度，\\n我想你的才能也能獲得評價吧。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p38501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0026_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "BGMTUNE_DEF",
+          "args": [
+            "BGM_IN_STORY_0009_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "c_swing_h",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（未免也太蠢了吧？\\n結果我過去做的所有事，\\n全都只是把自己逼入絕境……！）　",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（……或許從一開始就注定不可能吧，\\n就憑我這種人。）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（用正攻法也不行。\\n採取狡猾手段也不行。\\n不管做什麼事都會失敗。）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（我果然無法成為人上人。\\n這樣的我辦得到的事，根本──）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "不過說實話，\\n前任皇帝或許比現在還好一點吧──",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "HATENA_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "咦？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "MOYA_EMO",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "稅金高到不從早到晚工作就付不起，\\n實在太痛苦了……\\n這樣子，簡直和奴隸沒兩樣。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "NO_EMO",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "而且聽說增加的稅金，\\n全都會變成侵略聖魯塔斯的軍費喔。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19801",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "明明不希望發生戰爭，\\n辛苦賺來的錢卻被用在戰爭上，\\n生活實在很難如意啊。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 458,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01901",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 459,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "前任皇帝雖然在執政上很蠻橫，\\n但在稅金方面卻挺人性的呢。",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01703",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "c_swing_h",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "啊、不，那是因為、\\n我都全交給馬格那斯……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m01703",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（等等。難道，這是個機會！？）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m01703",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（戰爭的反面就是和平。\\n而這些傢伙也渴望和平國度。）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（只要徹底打倒衛魯納，\\n然後中止戰爭並調降稅金……）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "m01703",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "HIRAMEKI_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "c_bound_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0007_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "（本大爺的支持度就會上升，\\n這裡也會變成認同本大爺才能的國家！\\n就是它了！！！！）",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "NO_EMO",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "c_bound2_b",
+          "args": [
+            "m01703"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "呵、呵、呵……苦惱的民眾啊。\\n你們的痛苦我全──都明白了！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01703",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "眾人的痛苦，就由我皇帝埃米爾大人\\n來解決並拯救你們脫離苦海吧！\\n我一定會打倒冒牌皇帝的！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "print",
+          "args": [
+            "埃米爾",
+            "儘管滿心期待著我的好消息吧！\\n哈、哈、哈──！",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "m01703",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04201",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "HATENA_EMO",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "該不會……那位小哥，\\n真的是前任皇帝埃米爾……？",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n19901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "print",
+          "args": [
+            "餐廳客人",
+            "怎麼可能……不過，不要緊嗎？\\n違抗現任的皇帝……",
+            "VO_CHR_KNIGHTSSTORY_100017_03_02_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n19901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "c_bound3_t_sp",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 4,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "true",
+            "0.25",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.25",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.25",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.25",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.4",
+            "0",
+            "24",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.4",
+            "0",
+            "-24",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "cmp_move",
+          "args": [
+            "CID",
+            "1.8",
+            "0",
+            "0"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "c_bound_t_slow_sp",
+      "args": [
+        "CID"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 14,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "true",
+            "1.2",
+            "0",
+            "16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "1.2",
+            "0",
+            "0",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "mnu_move",
+          "args": [
+            "CID",
+            "false",
+            "0.4",
+            "0",
+            "-16",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "cmp_move",
+          "args": [
+            "CID",
+            "2.8",
+            "0",
+            "0"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
