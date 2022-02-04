@@ -15,9 +15,9 @@
       "m_Name": "",
       "_data": {
         "commandType": 6,
-        "_seconds": 0.266666681,
+        "_seconds": 0.2666667,
         "_speed": 1.0,
-        "_duration": 0.49999997,
+        "_duration": 0.5,
         "_activateId": 0,
         "_conditionData": {
           "_conditionType": 0,
@@ -150,7 +150,8 @@
         "_damageImmType": 0,
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
-        "_notNecessaryInvisibleWhenAttached": 0
+        "_notNecessaryInvisibleWhenAttached": 0,
+        "_isForcedDisp": 0
       }
     },
     {
@@ -167,9 +168,9 @@
       "m_Name": "",
       "_data": {
         "commandType": 11,
-        "_seconds": 0.0333333351,
+        "_seconds": 0.03333334,
         "_speed": 1.0,
-        "_duration": 3.4666667,
+        "_duration": 3.466667,
         "_activateId": 0,
         "_conditionData": {
           "_conditionType": 0,
@@ -258,6 +259,7 @@
         "_animatableObjectStateName": "",
         "_isAnimatableObjectDeleteOnAnimEnd": 0,
         "_isSeparatelyLoadEffect": 0,
+        "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
         "_searchTargetRange": 0.0
       }
@@ -276,9 +278,9 @@
       "m_Name": "",
       "_data": {
         "commandType": 72,
-        "_seconds": 0.0333333351,
+        "_seconds": 0.03333334,
         "_speed": 1.0,
-        "_duration": 3.4666667,
+        "_duration": 3.466667,
         "_activateId": 0,
         "_conditionData": {
           "_conditionType": 0,
@@ -327,9 +329,9 @@
       "m_Name": "",
       "_data": {
         "commandType": 23,
-        "_seconds": 0.0333333351,
+        "_seconds": 0.03333334,
         "_speed": 1.0,
-        "_duration": 3.9666667,
+        "_duration": 3.966667,
         "_activateId": 0,
         "_conditionData": {
           "_conditionType": 0,
@@ -452,7 +454,8 @@
         "_damageImmType": 0,
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
-        "_notNecessaryInvisibleWhenAttached": 0
+        "_notNecessaryInvisibleWhenAttached": 0,
+        "_isForcedDisp": 0
       }
     },
     {
@@ -557,7 +560,8 @@
         "_damageImmType": 0,
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
-        "_notNecessaryInvisibleWhenAttached": 0
+        "_notNecessaryInvisibleWhenAttached": 0,
+        "_isForcedDisp": 0
       }
     },
     {
@@ -698,7 +702,7 @@
         "commandType": 9,
         "_seconds": 2.5,
         "_speed": 1.0,
-        "_duration": 0.333333254,
+        "_duration": 0.3333333,
         "_activateId": 0,
         "_conditionData": {
           "_conditionType": 0,
@@ -744,6 +748,8 @@
         "_attenuationRate": 1.0,
         "_rebound": 0,
         "_reboundSEName": "",
+        "_reboundBulletActionId": 0,
+        "_reboundHostileAngle": 0.0,
         "_isSyncHitProcess": 0,
         "_isUseBulletModel": 0,
         "_decoId": 0,
@@ -815,7 +821,8 @@
         "_deleteTargetBulletOnHit": 0,
         "_nearest": 0.0,
         "_generateInTheWall": 0,
-        "_bulletSpeed": 0.200000003,
+        "_checkMisfire": 0,
+        "_bulletSpeed": 0.2,
         "_useSpeedCurve": 0,
         "_speedCurve": {
           "m_Curve": [],
@@ -944,6 +951,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -1040,6 +1048,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -1219,6 +1228,7 @@
             "_animatableObjectStateName": "",
             "_isAnimatableObjectDeleteOnAnimEnd": 0,
             "_isSeparatelyLoadEffect": 0,
+            "_alwaysDispEffect": 0,
             "_targetCharaStatus": 0,
             "_searchTargetRange": 0.0
           },
@@ -1245,7 +1255,10 @@
             "moveSpeed": 0.0
           },
           "_abCopySameTimeHitId": 1,
-          "_abSameTimeHitId": 0
+          "_abSameTimeHitId": 0,
+          "_abResponsiveActionId": 0,
+          "_abAttackActionId": 0,
+          "_abSkipOtherPlayer": 0
         },
         "_addNum": 0,
         "_distinctionTag": "",
@@ -1408,6 +1421,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -1434,7 +1448,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -1594,6 +1611,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -1620,7 +1638,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -1780,6 +1801,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -1806,7 +1828,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -1966,6 +1991,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -1992,7 +2018,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -2152,6 +2181,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -2178,7 +2208,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           }
         ],
         "_sameTimeHitId": 0,
@@ -2203,7 +2236,7 @@
         "commandType": 9,
         "_seconds": 2.5,
         "_speed": 1.0,
-        "_duration": 0.333333254,
+        "_duration": 0.3333333,
         "_activateId": 0,
         "_conditionData": {
           "_conditionType": 0,
@@ -2249,6 +2282,8 @@
         "_attenuationRate": 1.0,
         "_rebound": 0,
         "_reboundSEName": "",
+        "_reboundBulletActionId": 0,
+        "_reboundHostileAngle": 0.0,
         "_isSyncHitProcess": 0,
         "_isUseBulletModel": 0,
         "_decoId": 0,
@@ -2320,7 +2355,8 @@
         "_deleteTargetBulletOnHit": 0,
         "_nearest": 0.0,
         "_generateInTheWall": 0,
-        "_bulletSpeed": 0.200000003,
+        "_checkMisfire": 0,
+        "_bulletSpeed": 0.2,
         "_useSpeedCurve": 0,
         "_speedCurve": {
           "m_Curve": [],
@@ -2449,6 +2485,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -2545,6 +2582,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -2724,6 +2762,7 @@
             "_animatableObjectStateName": "",
             "_isAnimatableObjectDeleteOnAnimEnd": 0,
             "_isSeparatelyLoadEffect": 0,
+            "_alwaysDispEffect": 0,
             "_targetCharaStatus": 0,
             "_searchTargetRange": 0.0
           },
@@ -2750,7 +2789,10 @@
             "moveSpeed": 0.0
           },
           "_abCopySameTimeHitId": 1,
-          "_abSameTimeHitId": 0
+          "_abSameTimeHitId": 0,
+          "_abResponsiveActionId": 0,
+          "_abAttackActionId": 0,
+          "_abSkipOtherPlayer": 0
         },
         "_addNum": 0,
         "_distinctionTag": "",
@@ -2913,6 +2955,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -2939,7 +2982,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -3099,6 +3145,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -3125,7 +3172,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -3285,6 +3335,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -3311,7 +3362,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -3471,6 +3525,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -3497,7 +3552,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -3657,6 +3715,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -3683,7 +3742,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           }
         ],
         "_sameTimeHitId": 0,
@@ -3708,7 +3770,7 @@
         "commandType": 9,
         "_seconds": 2.5,
         "_speed": 1.0,
-        "_duration": 0.333333254,
+        "_duration": 0.3333333,
         "_activateId": 0,
         "_conditionData": {
           "_conditionType": 0,
@@ -3754,6 +3816,8 @@
         "_attenuationRate": 1.0,
         "_rebound": 0,
         "_reboundSEName": "",
+        "_reboundBulletActionId": 0,
+        "_reboundHostileAngle": 0.0,
         "_isSyncHitProcess": 0,
         "_isUseBulletModel": 0,
         "_decoId": 0,
@@ -3825,7 +3889,8 @@
         "_deleteTargetBulletOnHit": 0,
         "_nearest": 0.0,
         "_generateInTheWall": 0,
-        "_bulletSpeed": 0.200000003,
+        "_checkMisfire": 0,
+        "_bulletSpeed": 0.2,
         "_useSpeedCurve": 0,
         "_speedCurve": {
           "m_Curve": [],
@@ -3954,6 +4019,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -4050,6 +4116,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -4229,6 +4296,7 @@
             "_animatableObjectStateName": "",
             "_isAnimatableObjectDeleteOnAnimEnd": 0,
             "_isSeparatelyLoadEffect": 0,
+            "_alwaysDispEffect": 0,
             "_targetCharaStatus": 0,
             "_searchTargetRange": 0.0
           },
@@ -4255,7 +4323,10 @@
             "moveSpeed": 0.0
           },
           "_abCopySameTimeHitId": 1,
-          "_abSameTimeHitId": 0
+          "_abSameTimeHitId": 0,
+          "_abResponsiveActionId": 0,
+          "_abAttackActionId": 0,
+          "_abSkipOtherPlayer": 0
         },
         "_addNum": 0,
         "_distinctionTag": "",
@@ -4418,6 +4489,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -4444,7 +4516,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -4604,6 +4679,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -4630,7 +4706,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -4790,6 +4869,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -4816,7 +4896,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -4976,6 +5059,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -5002,7 +5086,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -5162,6 +5249,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -5188,7 +5276,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           }
         ],
         "_sameTimeHitId": 0,
@@ -5213,7 +5304,7 @@
         "commandType": 9,
         "_seconds": 2.5,
         "_speed": 1.0,
-        "_duration": 0.333333254,
+        "_duration": 0.3333333,
         "_activateId": 0,
         "_conditionData": {
           "_conditionType": 0,
@@ -5259,6 +5350,8 @@
         "_attenuationRate": 1.0,
         "_rebound": 0,
         "_reboundSEName": "",
+        "_reboundBulletActionId": 0,
+        "_reboundHostileAngle": 0.0,
         "_isSyncHitProcess": 0,
         "_isUseBulletModel": 0,
         "_decoId": 0,
@@ -5330,7 +5423,8 @@
         "_deleteTargetBulletOnHit": 0,
         "_nearest": 0.0,
         "_generateInTheWall": 0,
-        "_bulletSpeed": 0.200000003,
+        "_checkMisfire": 0,
+        "_bulletSpeed": 0.2,
         "_useSpeedCurve": 0,
         "_speedCurve": {
           "m_Curve": [],
@@ -5459,6 +5553,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -5555,6 +5650,7 @@
           "_animatableObjectStateName": "",
           "_isAnimatableObjectDeleteOnAnimEnd": 0,
           "_isSeparatelyLoadEffect": 0,
+          "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
           "_searchTargetRange": 0.0
         },
@@ -5734,6 +5830,7 @@
             "_animatableObjectStateName": "",
             "_isAnimatableObjectDeleteOnAnimEnd": 0,
             "_isSeparatelyLoadEffect": 0,
+            "_alwaysDispEffect": 0,
             "_targetCharaStatus": 0,
             "_searchTargetRange": 0.0
           },
@@ -5760,7 +5857,10 @@
             "moveSpeed": 0.0
           },
           "_abCopySameTimeHitId": 1,
-          "_abSameTimeHitId": 0
+          "_abSameTimeHitId": 0,
+          "_abResponsiveActionId": 0,
+          "_abAttackActionId": 0,
+          "_abSkipOtherPlayer": 0
         },
         "_addNum": 0,
         "_distinctionTag": "",
@@ -5923,6 +6023,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -5949,7 +6050,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -6109,6 +6213,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -6135,7 +6240,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -6295,6 +6403,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -6321,7 +6430,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -6481,6 +6593,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -6507,7 +6620,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           },
           {
             "commandType": 37,
@@ -6667,6 +6783,7 @@
               "_animatableObjectStateName": "",
               "_isAnimatableObjectDeleteOnAnimEnd": 0,
               "_isSeparatelyLoadEffect": 0,
+              "_alwaysDispEffect": 0,
               "_targetCharaStatus": 0,
               "_searchTargetRange": 0.0
             },
@@ -6693,7 +6810,10 @@
               "moveSpeed": 0.0
             },
             "_abCopySameTimeHitId": 1,
-            "_abSameTimeHitId": 0
+            "_abSameTimeHitId": 0,
+            "_abResponsiveActionId": 0,
+            "_abAttackActionId": 0,
+            "_abSkipOtherPlayer": 0
           }
         ],
         "_sameTimeHitId": 0,
@@ -6779,7 +6899,7 @@
           1.5,
           1.5
         ],
-        "_chargeAfterSec": 0.600000024,
+        "_chargeAfterSec": 0.6,
         "_traceSec": 0.0,
         "_useSkinScale": 0,
         "_useScaleAtTheTime": 0,
@@ -6882,7 +7002,7 @@
           1.5,
           1.5
         ],
-        "_chargeAfterSec": 0.600000024,
+        "_chargeAfterSec": 0.6,
         "_traceSec": 0.0,
         "_useSkinScale": 0,
         "_useScaleAtTheTime": 0,
@@ -6985,7 +7105,7 @@
           1.5,
           1.5
         ],
-        "_chargeAfterSec": 0.600000024,
+        "_chargeAfterSec": 0.6,
         "_traceSec": 0.0,
         "_useSkinScale": 0,
         "_useScaleAtTheTime": 0,
@@ -7088,7 +7208,7 @@
           1.5,
           1.5
         ],
-        "_chargeAfterSec": 0.600000024,
+        "_chargeAfterSec": 0.6,
         "_traceSec": 0.0,
         "_useSkinScale": 0,
         "_useScaleAtTheTime": 0,
