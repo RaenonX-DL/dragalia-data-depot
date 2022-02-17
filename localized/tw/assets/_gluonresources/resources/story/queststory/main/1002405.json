@@ -1,0 +1,4604 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1002405",
+  "filename": "1002405",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "葛托夫向希拉的靈魂表示自己將接納一切，\\n並與其共同背負罪孽。他的話讓其靈魂\\n從黑色瑪納中獲得解脫。取回心靈後，\\n希拉以巫女身分關閉了異界的夾縫間。\\n眾人終於能開拓通往龍之墓場的道路。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0020_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0130_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_031",
+            "EFF_SCE_2D_CMN_032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "這下就結束了！",
+            "VO_CHR_MAINSTORY_24_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "CHARA_ATTACK_SWD",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04904",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "EFF_093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "play_sound",
+          "args": [
+            "SE_116"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "n04904"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "wait",
+          "args": [
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "play_sound",
+          "args": [
+            "SE_205"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "print",
+          "args": [
+            "魔獸",
+            "嘎啊啊啊啊啊啊啊……！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "MONSTER_BEAT_AFTER",
+          "args": [
+            "n04904"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "c_swing_h_fast",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "……唔。",
+            "VO_CHR_MAINSTORY_24_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "葛托夫！",
+            "VO_CHR_MAINSTORY_24_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "StopLip_close",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "blur",
+          "args": [
+            "true",
+            "3",
+            "2.0",
+            "1",
+            "cameraType_Chara"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "呃唔……！",
+            "VO_CHR_MAINSTORY_24_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m00109",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你沒事吧！？振作一點！",
+            "VO_CHR_MAINSTORY_24_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "blur",
+          "args": [
+            "false",
+            "1",
+            "0",
+            "1",
+            "cameraType_Chara"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "呼、呼……！",
+            "VO_CHR_MAINSTORY_24_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0142",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "c_swing_h_fast",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（身體完全不聽使喚……\\n是待在黑色瑪納當中太久了嗎。）",
+            "VO_CHR_MAINSTORY_24_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（已瀕臨極限。但即使如此……）",
+            "VO_CHR_MAINSTORY_24_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "mnu_scale",
+          "args": [
+            "c0142",
+            "true",
+            "0.2",
+            "1.05",
+            "1.05",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "mnu_scale",
+          "args": [
+            "c0142",
+            "false",
+            "1.04",
+            "1.05",
+            "1.05",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "mnu_scale",
+          "args": [
+            "c0142",
+            "false",
+            "0.2",
+            "1.1",
+            "1.1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "mnu_scale",
+          "args": [
+            "c0142",
+            "false",
+            "1.04",
+            "1.1",
+            "1.1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "mnu_scale",
+          "args": [
+            "c0142",
+            "false",
+            "0.2",
+            "1.2",
+            "1.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "cmp_scale",
+          "args": [
+            "c0142",
+            "2.68",
+            "1.2",
+            "1.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "wait",
+          "args": [
+            "1.24"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "wait",
+          "args": [
+            "1.24"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "c_mnu_reset",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0144",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "print",
+          "args": [
+            "希拉",
+            "……！",
+            "VO_CHR_MAINSTORY_24_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0144"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "葛托夫！？再繼續靠近的話，\\n你會被黑色瑪納吞噬的！",
+            "VO_CHR_MAINSTORY_24_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "希拉……！",
+            "VO_CHR_MAINSTORY_24_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_SCE_2D_CMN_071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "35",
+            "30",
+            "41"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "希拉的靈魂",
+            "罰罪罰罪罰罪罰罪……\\n全部全部都是我……都是我──！",
+            "VO_CHR_MAINSTORY_24_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0142",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（希拉她之所以失去心靈，\\n以及會受到如此折磨，\\n都是我的責任。）",
+            "VO_CHR_MAINSTORY_24_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（身為父親，即使賭上這條命，\\n我也想為她取回心靈。但是……）",
+            "VO_CHR_MAINSTORY_24_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（該說什麼話才能傳達給她……？\\n希拉的期望為何……）",
+            "VO_CHR_MAINSTORY_24_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "BGMTUNE_DOWN_0",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0043_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "SEPIA_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0144",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "print",
+          "args": [
+            "希拉",
+            "我也想幫上爸爸跟大家的忙。\\n我想守護國家啊。",
+            "VO_CHR_MAINSTORY_24_05_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0130_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "BGMTUNE_DEF",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0144"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_031",
+            "EFF_SCE_2D_CMN_032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "WHITE_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "……！",
+            "VO_CHR_MAINSTORY_24_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0142",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（我過去曾經好好思考過\\n希拉的期望嗎？）",
+            "VO_CHR_MAINSTORY_24_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（擺出善良慈愛的父親面孔，\\n但其實只是將自身傲慢\\n強加到希拉身上而已不是嗎？）",
+            "VO_CHR_MAINSTORY_24_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（希拉的期望應該並非受人守護，\\n也非受人袒護才對。）",
+            "VO_CHR_MAINSTORY_24_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "（若是如此，此時此刻，\\n我該對她說的話是──）",
+            "VO_CHR_MAINSTORY_24_05_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_SCE_2D_CMN_071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "35",
+            "30",
+            "41"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "希拉的靈魂",
+            "我是……罪孽……",
+            "VO_CHR_MAINSTORY_24_05_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "……我明白了。那麼，\\n希望妳讓我共同背負那份罪孽。",
+            "VO_CHR_MAINSTORY_24_05_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "妳已經不用再獨自受苦了。\\n與我一起走吧，希拉……！",
+            "VO_CHR_MAINSTORY_24_05_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "希拉的靈魂",
+            "一起……？",
+            "VO_CHR_MAINSTORY_24_05_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "c_bound_b",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "嗯。我絕不會再以父愛為由，\\n奪取或踐踏妳的意志。",
+            "VO_CHR_MAINSTORY_24_05_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "妳的過去與罪孽，未來與懲罰，\\n都是屬於妳的。",
+            "VO_CHR_MAINSTORY_24_05_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "c_swing_h",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "但是，妳沒必要獨自受困受苦。\\n無論妳化為何種存在，\\n爸爸都會陪伴在側──",
+            "VO_CHR_MAINSTORY_24_05_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "1",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "print",
+          "args": [
+            "希拉的靈魂",
+            "爸爸……",
+            "VO_CHR_MAINSTORY_24_05_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "play_sound",
+          "args": [
+            "SE_048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "CHARA_SHIMOTE_POS",
+          "args": [
+            "M",
+            "M",
+            "-50",
+            "0",
+            "c0142",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "StopEye_close",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "c_push_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_071",
+            "0",
+            "-50",
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "EFF_SCE_2D_CMN_077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "9",
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_077",
+            "400",
+            "400"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "chara_brightness",
+          "args": [
+            "c0142",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "chara_fadeout",
+          "args": [
+            "c0142",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "葛托夫……！",
+            "VO_CHR_MAINSTORY_24_05_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0144",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "print",
+          "args": [
+            "希拉",
+            "……！",
+            "VO_CHR_MAINSTORY_24_05_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "chara_brightness",
+          "args": [
+            "c0144",
+            "0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "KAMITE_OUT_FAST_SE",
+          "args": [
+            "c0144",
+            "SE_RUN_OUT_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "希拉！？",
+            "VO_CHR_MAINSTORY_24_05_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_SCE_2D_CMN_165",
+            "EFF_SCE_2D_CMN_062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "51",
+            "0",
+            "118"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_165",
+            "94",
+            "0",
+            "176"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_165",
+            "3",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "5",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "8",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "c_swing_h_fast",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "唔……！\\n葛托夫！希拉！！",
+            "VO_CHR_MAINSTORY_24_05_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_165",
+            "0",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_031",
+            "0.5",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_032",
+            "0.5",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "黑色瑪納逐漸消散了……？",
+            "VO_CHR_MAINSTORY_24_05_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_031",
+            "0",
+            "5.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_032",
+            "0",
+            "5.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "Q",
+            "Q",
+            "0",
+            "-80",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "chara_brightness",
+          "args": [
+            "c0142",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_FADEIN_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "chara_brightness",
+          "args": [
+            "c0142",
+            "1",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "啊！你們兩位！都沒事吧！？",
+            "VO_CHR_MAINSTORY_24_05_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "KAMITE_OUT_FAST_SE",
+          "args": [
+            "m00109",
+            "SE_RUN_OUT_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "print",
+          "args": [
+            "希拉",
+            "爸爸……爸爸……！",
+            "VO_CHR_MAINSTORY_24_05_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "blur",
+          "args": [
+            "true",
+            "0.1",
+            "3.8",
+            "0.5",
+            "cameraType_Chara"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "mainstory_024001_2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "BLACK_IN_LONG",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "BLACK_OUT_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "blur",
+          "args": [
+            "false",
+            "0.1",
+            "3.8",
+            "0.5",
+            "cameraType_Chara"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "BLACK_IN_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "print",
+          "args": [
+            "希拉",
+            "爸爸……太好了……！",
+            "VO_CHR_MAINSTORY_24_05_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "希拉……妳的、心靈……",
+            "VO_CHR_MAINSTORY_24_05_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 358,
+          "command": "print",
+          "args": [
+            "希拉",
+            "嗯。我聽見爸爸的聲音……\\n才順利脫離了黑色瑪納……",
+            "VO_CHR_MAINSTORY_24_05_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "太好了……確實傳達給妳了……",
+            "VO_CHR_MAINSTORY_24_05_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "mainstory_024001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "chara_fadein",
+          "args": [
+            "mainstory_024001",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "print",
+          "args": [
+            "希拉",
+            "爸爸，對不起……\\n害勒夫克斯滅亡的是我……\\n都是我……",
+            "VO_CHR_MAINSTORY_24_05_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "沒關係。我也犯下了諸多過錯。\\n當中最大的過錯，\\n就是沒能察覺妳的心情……",
+            "VO_CHR_MAINSTORY_24_05_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "真的很抱歉，希拉……",
+            "VO_CHR_MAINSTORY_24_05_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "print",
+          "args": [
+            "希拉",
+            "爸爸……",
+            "VO_CHR_MAINSTORY_24_05_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "今後我會與妳相互尊重，並且支持妳。\\n也希望妳能支持我。",
+            "VO_CHR_MAINSTORY_24_05_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "因為我們是父女啊……",
+            "VO_CHR_MAINSTORY_24_05_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "chara_fadeout",
+          "args": [
+            "mainstory_024001",
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "print",
+          "args": [
+            "希拉",
+            "嗯……謝謝你，爸爸……",
+            "VO_CHR_MAINSTORY_24_05_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "BLACK_OUT_LONG",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "mainstory_024001_2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0020_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "希拉，身體狀況怎麼樣？",
+            "VO_CHR_MAINSTORY_24_05_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "c_swing_h",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "希拉",
+            "這個嘛……\\n似乎沒辦法跟以前一樣呢。",
+            "VO_CHR_MAINSTORY_24_05_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "HATENA_EMO",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "print",
+          "args": [
+            "拉契希",
+            "有哪裡故障嗎？",
+            "VO_CHR_MAINSTORY_24_05_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "print",
+          "args": [
+            "希拉",
+            "可能是吧。\\n總覺得心靈變得比之前遲鈍……",
+            "VO_CHR_MAINSTORY_24_05_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "chara_face",
+          "args": [
+            "m04403",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "print",
+          "args": [
+            "希拉",
+            "不過，擁有心……讓我很高興。\\n能擁有這份感受，也讓我很高興。",
+            "VO_CHR_MAINSTORY_24_05_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "畢竟妳的心靈跟身體\\n分離了很長一段時間。\\n或許很難立刻恢復得跟以前一樣。",
+            "VO_CHR_MAINSTORY_24_05_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "chara_face",
+          "args": [
+            "m00109",
+            "16"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "但是，聽到希拉能感受到喜悅，\\n我也很高興喔。",
+            "VO_CHR_MAINSTORY_24_05_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "print",
+          "args": [
+            "希拉",
+            "……嗯。",
+            "VO_CHR_MAINSTORY_24_05_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 452,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "CharaSetSE",
+          "args": [
+            "KAMITE_SYNC",
+            "SE_WALK_IN_SB",
+            "c3667",
+            "1",
+            "M",
+            "M",
+            "0",
+            "0",
+            "c0109",
+            "1",
+            "M",
+            "Q",
+            "180",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "……早安，各位。\\n咦，希拉。妳這身打扮不錯耶。\\n自己選的嗎？",
+            "VO_CHR_MAINSTORY_24_05_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 458,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "c3667",
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "c_bound_b",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "print",
+          "args": [
+            "希拉",
+            "嗯，因為取回了心靈……\\n所以現在能夠自己做選擇。",
+            "VO_CHR_MAINSTORY_24_05_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "chara_face",
+          "args": [
+            "m04403",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "希拉",
+            "這是舉行儀式時穿的服裝……\\n我將要關閉異界的夾縫間。",
+            "VO_CHR_MAINSTORY_24_05_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "關閉異界的夾縫間……\\n妳辦得到這種事嗎？",
+            "VO_CHR_MAINSTORY_24_05_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "print",
+          "args": [
+            "希拉",
+            "辦得到。因為我是刻印容器……",
+            "VO_CHR_MAINSTORY_24_05_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "果然是這麼回事。\\n妳也是巫女……",
+            "VO_CHR_MAINSTORY_24_05_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "print",
+          "args": [
+            "希拉",
+            "長久以來接觸黑色瑪納，\\n讓我明白了自己的身分……",
+            "VO_CHR_MAINSTORY_24_05_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 494,
+          "command": "chara_face",
+          "args": [
+            "m04403",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "c_bound_b",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "print",
+          "args": [
+            "希拉",
+            "即使接觸黑色瑪納，\\n我的靈魂也沒有產生變質……\\n因為我是與黑色瑪納相近的存在。",
+            "VO_CHR_MAINSTORY_24_05_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 502,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "如果妳是刻印容器兼巫女的話，\\n就能解釋妳為何對黑色瑪納擁有抗性，\\n並且還能加以操控了。",
+            "VO_CHR_MAINSTORY_24_05_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "HATENA_EMO",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "不過，雖然我是巫女，\\n卻對黑色瑪納沒有抗性。\\n這又是怎麼回事呢？",
+            "VO_CHR_MAINSTORY_24_05_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "嗯～雖然沒辦法斷定，\\n但可能是因為每位巫女\\n擁有各自不同的特徵吧。",
+            "VO_CHR_MAINSTORY_24_05_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "chara_face",
+          "args": [
+            "c3667",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "比方說，潔西雅擁有的瑪納量\\n龐大到其他人無法比擬，之類的。",
+            "VO_CHR_MAINSTORY_24_05_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "又或者，也可能是潔西雅的巫女之力\\n還沒完全發揮……",
+            "VO_CHR_MAINSTORY_24_05_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0109",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 529,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "是指我還有力量尚在沉睡……？",
+            "VO_CHR_MAINSTORY_24_05_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "c_bound_t",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 537,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "只是「可能」就是了。\\n總之，因為希拉是刻印容器，\\n讓我們大家得救了。",
+            "VO_CHR_MAINSTORY_24_05_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 539,
+          "command": "chara_face",
+          "args": [
+            "c3667",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "雖說如果不是刻印容器，\\n或許也不會產生\\n操控黑色瑪納的思考啦……",
+            "VO_CHR_MAINSTORY_24_05_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 543,
+          "command": "chara_face",
+          "args": [
+            "c3667",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 544,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "但假若不是刻印容器，\\n就無法取回心靈了。",
+            "VO_CHR_MAINSTORY_24_05_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "chara_face",
+          "args": [
+            "c3667",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "各種偶然與選擇彼此交疊，\\n而連繫上了「現在」。",
+            "VO_CHR_MAINSTORY_24_05_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "這應該被稱作「奇蹟」，\\n我是這麼想的。",
+            "VO_CHR_MAINSTORY_24_05_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 555,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 560,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯，妳說得沒錯。",
+            "VO_CHR_MAINSTORY_24_05_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "print",
+          "args": [
+            "希拉",
+            "……嗯，真的很感謝。\\n爸爸……還有，大家。",
+            "VO_CHR_MAINSTORY_24_05_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 569,
+          "command": "chara_face",
+          "args": [
+            "m04403",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "print",
+          "args": [
+            "希拉",
+            "……那麼，我出發了。",
+            "VO_CHR_MAINSTORY_24_05_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 576,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "print",
+          "args": [
+            "拉契希",
+            "去哪裡？",
+            "VO_CHR_MAINSTORY_24_05_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "print",
+          "args": [
+            "希拉",
+            "去關閉異界的夾縫間。這麼一來，\\n充斥這裡的黑色瑪納應該也會消失……",
+            "VO_CHR_MAINSTORY_24_05_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "c_bound_b",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "print",
+          "args": [
+            "希拉",
+            "之後……\\n便能開拓通往龍之墓場的路。",
+            "VO_CHR_MAINSTORY_24_05_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "好。拜託妳了，希拉。",
+            "VO_CHR_MAINSTORY_24_05_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04403",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 599,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "print",
+          "args": [
+            "希拉",
+            "嗯，包在我身上……",
+            "VO_CHR_MAINSTORY_24_05_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "m04403",
+            "SE_WALK_OUT_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_024",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0006_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 612,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "……謝謝您，\\n{player_name}殿下。\\n請讓我再次向您致謝。",
+            "VO_CHR_MAINSTORY_24_05_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 617,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "c_swing_h",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "這是葛托夫賭命呼喚希拉靈魂的結果。\\n我並沒做什麼。",
+            "VO_CHR_MAINSTORY_24_05_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 626,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "給予我契機前進的人是您。",
+            "VO_CHR_MAINSTORY_24_05_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "c0142",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "若只有我一人，想必不會造訪\\n這片沉睡著痛苦過去的土地吧。",
+            "VO_CHR_MAINSTORY_24_05_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0142",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 637,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "您果然是安羅拉斯王的兒子，\\n擁有引領他人邁向光明的力量。",
+            "VO_CHR_MAINSTORY_24_05_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "c_bound_b",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "如果是您，未來一定也無須擔心。\\n我與希拉將會陪伴您直到旅途最後。",
+            "VO_CHR_MAINSTORY_24_05_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 648,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0020_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0130_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_031",
+            "EFF_SCE_2D_CMN_032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_031",
+            "1",
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_032",
+            "1",
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 657,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_031",
+            "0",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_032",
+            "0",
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 660,
+          "command": "wait",
+          "args": [
+            "2.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0109",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 663,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "啊！瘴氣開始逐漸消散了！",
+            "VO_CHR_MAINSTORY_24_05_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 667,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 671,
+          "command": "c_bound_b",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 673,
+          "command": "print",
+          "args": [
+            "拉契希",
+            "確認黑色瑪納濃度降低。\\n前進可能。",
+            "VO_CHR_MAINSTORY_24_05_0090"
+          ],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 678,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 679,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "看來順利關閉異界的夾縫間了呢。\\n好，我們去和希拉會合吧。",
+            "VO_CHR_MAINSTORY_24_05_0091"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "c_bound_b",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 685,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "龍之墓場位在更深處。我來帶路。",
+            "VO_CHR_MAINSTORY_24_05_0092"
+          ],
+          "end": 1
+        },
+        {
+          "row": 688,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 692,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "那裡沉睡著原初之龍對吧。",
+            "VO_CHR_MAINSTORY_24_05_0093"
+          ],
+          "end": 1
+        },
+        {
+          "row": 694,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 696,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_05_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "我們去看看吧。\\n相信前方一定存在希望。",
+            "VO_CHR_MAINSTORY_24_05_0094"
+          ],
+          "end": 1
+        },
+        {
+          "row": 701,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 702,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 705,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

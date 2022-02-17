@@ -1,0 +1,1982 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1002401",
+  "filename": "1002401",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "OL_TITLE",
+          "args": [
+            "Summary"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "The party arrives in Gatov and Sheila's\\nhomeland of Lefkos, which has been turned\\ninto a desert wasteland due to a torrent of\\nblack mana. In order to make their way to the\\nDragon Necropolis, they decide to search for\\nthe source of the vile infection."
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0020_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4",
+            "SE_WALK_IN_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "So this is Lefkos?",
+            "VO_CHR_MAINSTORY_24_01_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "It is.",
+            "VO_CHR_MAINSTORY_24_01_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0167"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "wait",
+          "args": [
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m00301",
+            "7",
+            "M",
+            "Q",
+            "-180",
+            "0",
+            "m00601",
+            "7",
+            "M",
+            "Q",
+            "180",
+            "0",
+            "m00109",
+            "9",
+            "M",
+            "Q",
+            "C",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "m00301",
+            "m00601",
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0144",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "print",
+          "args": [
+            "Sheila",
+            "......"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0144"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "set_BG",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "post_film",
+          "args": [
+            "0",
+            "1.0",
+            "filmMode_Mul",
+            "1",
+            "2",
+            "0",
+            "0",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "telop",
+          "args": [
+            "Dragalia Lost: Chapter 24",
+            "Primal Strength",
+            " ",
+            " "
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "touch_wait",
+          "args": [
+            "0.5",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHAPTER_INTRO_START",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "CHAPTER_INTRO_BAND",
+          "args": [
+            "ChapterIntroduction_2401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "The Progenitor had returned to the world in\\nthe form of a man calling himself Xenos—\\nand we couldn't put a scratch on him.",
+            "VO_CHR_MAINSTORY_24_01_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHAPTER_INTRO_NEXT",
+          "args": [
+            "serif_2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Seeking a means to defeat this foe, we made\\nour way to the ruined land of Lefkos in hopes\\nof locating the Dragon Necropolis and\\nawakening the power of the Five Greatwyrms.",
+            "VO_CHR_MAINSTORY_24_01_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHAPTER_INTRO_END",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0020_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "c_swing_h",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "No offense, but it's sorta hard to believe\\nthere was ever ANYTHING here, much less\\nan entire country.",
+            "VO_CHR_MAINSTORY_24_01_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "And yet there was—the kingdom of Lefkos,\\nover which I governed.",
+            "VO_CHR_MAINSTORY_24_01_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0142",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "......"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Are you going to be all right, Gatov?",
+            "VO_CHR_MAINSTORY_24_01_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "Yes. I'd been planning to return someday\\nto face the aftermath of my crime.",
+            "VO_CHR_MAINSTORY_24_01_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "StopEye_close",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "Though I waited far longer than\\nI intended...",
+            "VO_CHR_MAINSTORY_24_01_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "The devastation you see before us is my\\ncrime, and my punishment.",
+            "VO_CHR_MAINSTORY_24_01_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "Punishment for a useless man who\\ncouldn't quell a war, stop his own land's\\nchaos, or protect a single damn thing that\\nmattered in the end.",
+            "VO_CHR_MAINSTORY_24_01_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0144",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "print",
+          "args": [
+            "Sheila",
+            "......"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0144"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "So, uh, can I ask a question?",
+            "VO_CHR_MAINSTORY_24_01_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "Lefkos lost the war, but there's also no\\nsign of the country that actually WON\\nthe thing anywhere.",
+            "VO_CHR_MAINSTORY_24_01_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "c_swing_h",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "And in my professional opinion, this place\\ncouldn't support life if you gave it a ten-\\nyear head start and sunk a well.",
+            "VO_CHR_MAINSTORY_24_01_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "chara_face",
+          "args": [
+            "c3667",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "I know there was a war and all,\\nbut that was only a couple decades ago.",
+            "VO_CHR_MAINSTORY_24_01_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "You said you couldn't ＂quell a war＂ or\\nstop your own land's ＂chaos.＂",
+            "VO_CHR_MAINSTORY_24_01_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "I understand the war is what destroyed\\nLefkos. So was it that ＂chaos＂ that caused\\nit to become a desert after that?",
+            "VO_CHR_MAINSTORY_24_01_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_bound_b",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "You surmise correctly.\\nThis place was cast aside even by the\\nvictors of the war.",
+            "VO_CHR_MAINSTORY_24_01_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "If you want to know why... Well, you will\\nunderstand that if we continue on.",
+            "VO_CHR_MAINSTORY_24_01_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m04201",
+            "1",
+            "M",
+            "M",
+            "-180",
+            "0",
+            "m04401",
+            "1",
+            "M",
+            "Q",
+            "180",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "SE_WALK_OUT_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "KAMITE_OUT2_DEF",
+          "args": [
+            "m04201",
+            "m04401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "(What could possibly be waiting for us?)",
+            "VO_CHR_MAINSTORY_24_01_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "m00109",
+            "SE_WALK_OUT_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "4",
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "Laxi",
+            "...Stop.",
+            "VO_CHR_MAINSTORY_24_01_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "HATENA_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "What is it, Laxi?",
+            "VO_CHR_MAINSTORY_24_01_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "c_bound_b",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "print",
+          "args": [
+            "Laxi",
+            "I detect black mana up ahead.\\nIt would be dangerous to proceed.",
+            "VO_CHR_MAINSTORY_24_01_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Black mana?!",
+            "VO_CHR_MAINSTORY_24_01_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "c_bound_b",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "And now you know the reason why even\\nour conquerors abandoned this land.",
+            "VO_CHR_MAINSTORY_24_01_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "Though it's long since dried up, the lake\\nbed that lies beyond this point contains\\nthe Dragon Necropolis.",
+            "VO_CHR_MAINSTORY_24_01_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "But for some time now, black mana has\\nbeen surging out of it.",
+            "VO_CHR_MAINSTORY_24_01_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "StopEye_close",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "It began in the days when the war was\\nintensifying and I was absorbed in\\nmatters of the kingdom's defense.",
+            "VO_CHR_MAINSTORY_24_01_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0142",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "Black mana began surging across the\\nland, plunging all Lefkos into terror.",
+            "VO_CHR_MAINSTORY_24_01_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "Our enemy took advantage of that turmoil\\nto attack, and we were quickly defeated.\\nSoon thereafter, Sheila and I fled the\\nkingdom in the dead of night.",
+            "VO_CHR_MAINSTORY_24_01_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "c_bound_b",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "So when the nation that defeated you ALSO\\ncouldn't do anything about the black mana,\\nI guess they chalked the place up as a\\nloss and went home?",
+            "VO_CHR_MAINSTORY_24_01_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "And then everything turned into a desert\\nwhen the black mana caused the local\\ndragons to run mad.",
+            "VO_CHR_MAINSTORY_24_01_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "That all makes sense.\\nBut it leaves one question...",
+            "VO_CHR_MAINSTORY_24_01_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "HATENA_EMO",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "print",
+          "args": [
+            "Laxi",
+            "What is the source of this black mana?",
+            "VO_CHR_MAINSTORY_24_01_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "The fact it sprung up before the fall of\\nLefkos suggests to me that the cause\\nWASN'T the Progenitor.",
+            "VO_CHR_MAINSTORY_24_01_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "c_swing_h",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "Unfortunately, I know nothing about the\\ncause; Sheila was in charge of looking\\ninto it at the time.",
+            "VO_CHR_MAINSTORY_24_01_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "But from what I heard, they weren't able to\\ncarry out a sufficient investigation due to\\nfiends driven berserk by the black mana.",
+            "VO_CHR_MAINSTORY_24_01_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "Ilia",
+            "Sounds to me like we need to go ahead\\nand carry out an investigation of our own.\\nWhatcha say, {player_name}?",
+            "VO_CHR_MAINSTORY_24_01_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "Good idea. If we can figure out what's\\ncausing the black mana, we might be able\\nto figure out a way to get rid of it.",
+            "VO_CHR_MAINSTORY_24_01_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "print",
+          "args": [
+            "Gatov",
+            "In that case, we'll proceed further in.\\nOh, but fiends are doubtless in the\\narea, so take caution.",
+            "VO_CHR_MAINSTORY_24_01_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "c_bound_b",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "We will. Let's go, everyone!",
+            "VO_CHR_MAINSTORY_24_01_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "Laxi",
+            "Understood. Commencing investigation.",
+            "VO_CHR_MAINSTORY_24_01_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,1982 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1002401",
+  "filename": "1002401",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "OL_TITLE",
+          "args": [
+            "剧情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "一行来到迦道夫和席菈的祖国勒福克斯。\\n不断涌出的黑暗魔力导致\\n那里已经化为一片沙漠。\\n若想前往龙之墓，就必须切断黑暗魔力。\\n于是一行决定寻找黑暗魔力的来源。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 6,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0020_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4",
+            "SE_WALK_IN_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "这里就是勒福克斯？",
+            "VO_CHR_MAINSTORY_24_01_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "嗯……",
+            "VO_CHR_MAINSTORY_24_01_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0167"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "wait",
+          "args": [
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m00301",
+            "7",
+            "M",
+            "Q",
+            "-180",
+            "0",
+            "m00601",
+            "7",
+            "M",
+            "Q",
+            "180",
+            "0",
+            "m00109",
+            "9",
+            "M",
+            "Q",
+            "C",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "m00301",
+            "m00601",
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0144",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "print",
+          "args": [
+            "席菈",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0144"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "set_BG",
+          "args": [
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "post_film",
+          "args": [
+            "0",
+            "1.0",
+            "filmMode_Mul",
+            "1",
+            "2",
+            "0",
+            "0",
+            "0",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "telop",
+          "args": [
+            "原初之力",
+            "Dragalia Lost ～失落的龙约～ 第24章",
+            " ",
+            " "
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "touch_wait",
+          "args": [
+            "0.5",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHAPTER_INTRO_START",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "CHAPTER_INTRO_BAND",
+          "args": [
+            "ChapterIntroduction_2401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "“起始之人”已经复活。\\n我们则对那自称泽诺斯的家伙\\n束手无策。",
+            "VO_CHR_MAINSTORY_24_01_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHAPTER_INTRO_NEXT",
+          "args": [
+            "serif_2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "为了寻求打败泽诺斯的方法，\\n我们前往亡国勒福克斯，\\n试图找到“龙之墓”让五龙觉醒。",
+            "VO_CHR_MAINSTORY_24_01_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHAPTER_INTRO_END",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0020_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "c_swing_h",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "这里竟然曾经有一个国家，\\n真是令人难以置信啊……",
+            "VO_CHR_MAINSTORY_24_01_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "这里确实有过一个国家。\\n正是我所统治的勒福克斯……",
+            "VO_CHR_MAINSTORY_24_01_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "c0142",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "15"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "迦道夫，你没事吧？",
+            "VO_CHR_MAINSTORY_24_01_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "嗯。我一直都在思考，\\n终有一天我需要回到这里\\n面对自己的罪行。",
+            "VO_CHR_MAINSTORY_24_01_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "StopEye_close",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "可在我犹豫之时，\\n时间却已经过去了这么久……",
+            "VO_CHR_MAINSTORY_24_01_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "眼前的这片光景，\\n正是我的罪过，亦是对我的惩罚。",
+            "VO_CHR_MAINSTORY_24_01_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "惩罚我这对战争和内乱束手无策，\\n什么都没能保护好的无能之人……",
+            "VO_CHR_MAINSTORY_24_01_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "c0144",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "print",
+          "args": [
+            "席菈",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0144"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "话说，我能问你一个问题吗？",
+            "VO_CHR_MAINSTORY_24_01_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "勒福克斯是在战争中失败了对吧。\\n那现在这里难道不应该是\\n由战胜国来统治吗？",
+            "VO_CHR_MAINSTORY_24_01_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "c_swing_h",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "即便这里的沙漠化是由龙所致，\\n可只要还有人在，\\n就一定会有抗争才对。",
+            "VO_CHR_MAINSTORY_24_01_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "chara_face",
+          "args": [
+            "c3667",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "可如今这里莫说是有国家，\\n连人们能不能在这里生存都是问题。\\n区区几十年就能让土地荒废成这样吗？",
+            "VO_CHR_MAINSTORY_24_01_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "你刚才说\\n对战争和内乱束手无策。",
+            "VO_CHR_MAINSTORY_24_01_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "如果战争是导致勒福克斯亡国的原因，\\n那导致这里变为沙漠的，\\n就是你所说的内乱吗？",
+            "VO_CHR_MAINSTORY_24_01_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_bound_b",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "没错。\\n连战胜国都放弃了这片土地。",
+            "VO_CHR_MAINSTORY_24_01_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "至于为什么会放弃……\\n继续往前走你自然就能明白。",
+            "VO_CHR_MAINSTORY_24_01_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m04201",
+            "1",
+            "M",
+            "M",
+            "-180",
+            "0",
+            "m04401",
+            "1",
+            "M",
+            "Q",
+            "180",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "SE_WALK_OUT_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "KAMITE_OUT2_DEF",
+          "args": [
+            "m04201",
+            "m04401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "（这前方究竟有着什么……）",
+            "VO_CHR_MAINSTORY_24_01_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "KAMITE_OUT_DEF_SE",
+          "args": [
+            "m00109",
+            "SE_WALK_OUT_SB"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "4",
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "莱姬希",
+            "停下……",
+            "VO_CHR_MAINSTORY_24_01_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "HATENA_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "莱姬希？怎么了？",
+            "VO_CHR_MAINSTORY_24_01_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "c_bound_b",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "print",
+          "args": [
+            "莱姬希",
+            "检测到前方有黑暗魔力。\\n判断继续前进会有危险。",
+            "VO_CHR_MAINSTORY_24_01_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "你说有黑暗魔力？",
+            "VO_CHR_MAINSTORY_24_01_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "c_bound_b",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "这黑暗魔力就是战胜国\\n放弃这片土地的原因。",
+            "VO_CHR_MAINSTORY_24_01_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "这前方原本有一大片湖水，\\n只不过现在已经干涸了。",
+            "VO_CHR_MAINSTORY_24_01_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "龙之墓也在那里。\\n只是，从某个时间起，\\n那里就开始不断地涌出黑暗魔力。",
+            "VO_CHR_MAINSTORY_24_01_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "StopEye_close",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "当时正值战争激烈之时，\\n我疲于应对战事。",
+            "VO_CHR_MAINSTORY_24_01_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "c0142",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "来源不明的黑暗魔力\\n扩散至全国范围，\\n将勒福克斯推向了恐惧的深渊。",
+            "VO_CHR_MAINSTORY_24_01_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "c_swing_h_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "敌国则趁着混乱入侵，\\n使得勒福克斯战败。\\n我和席菈便离开了这个国家……",
+            "VO_CHR_MAINSTORY_24_01_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "c_bound_b",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "原来如此。\\n也就是说战胜国也拿这黑暗魔力没办法，\\n最后只能放弃这片土地。",
+            "VO_CHR_MAINSTORY_24_01_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "而沙漠化应该就是黑暗魔力\\n导致龙丧失理智的结果吧。",
+            "VO_CHR_MAINSTORY_24_01_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "总算理清了来龙去脉……\\n只是还有疑问没能解开。",
+            "VO_CHR_MAINSTORY_24_01_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "HATENA_EMO",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "print",
+          "args": [
+            "莱姬希",
+            "疑问。\\n这黑暗魔力的来源是哪里？",
+            "VO_CHR_MAINSTORY_24_01_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "如果勒福克斯尚在之时\\n就已经有了这黑暗魔力的话，\\n似乎不会是“起始之人”搞的鬼。",
+            "VO_CHR_MAINSTORY_24_01_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "c_swing_h",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "来源……我也不清楚。\\n当时我将这一带的调查\\n都交给席菈负责监督了。",
+            "VO_CHR_MAINSTORY_24_01_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "chara_face",
+          "args": [
+            "c0142",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "但我听说因为黑暗魔力和\\n狂暴化的魔兽的影响\\n使得调查进行得并不顺利。",
+            "VO_CHR_MAINSTORY_24_01_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "伊莉雅",
+            "是吗。\\n那看来只能由我们自己来调查了。\\n你说是吧，{player_name}？",
+            "VO_CHR_MAINSTORY_24_01_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯。只要找出来源，\\n也许就能得知\\n切断这黑暗魔力的方法。",
+            "VO_CHR_MAINSTORY_24_01_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c0142",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "print",
+          "args": [
+            "迦道夫",
+            "我明白了。\\n那我们就在这附近调查一下吧。\\n毕竟会有魔兽，大家都小心点。",
+            "VO_CHR_MAINSTORY_24_01_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c0142"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "c_bound_b",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯。各位，我们出发！",
+            "VO_CHR_MAINSTORY_24_01_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_01_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "莱姬希",
+            "开始调查……",
+            "VO_CHR_MAINSTORY_24_01_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
