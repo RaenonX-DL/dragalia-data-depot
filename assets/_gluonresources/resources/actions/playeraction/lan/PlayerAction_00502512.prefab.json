@@ -96,7 +96,7 @@
         "_loadPositionId": 0,
         "_savePositionId": 0,
         "_eraseCtrl": 0,
-        "_enableForceStop": 1,
+        "_enableForceStop": 0,
         "_enableForceStopEffectWithControllerKeys": 0,
         "_isHitAttributeShift": 0,
         "_effectNameHAS": "",
@@ -108,7 +108,8 @@
         "_isSeparatelyLoadEffect": 0,
         "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
-        "_searchTargetRange": 0.0
+        "_searchTargetRange": 0.0,
+        "_removeFromCharacterEffectWhenStop": 0
       }
     },
     {
@@ -206,7 +207,7 @@
         "_loadPositionId": 0,
         "_savePositionId": 0,
         "_eraseCtrl": 0,
-        "_enableForceStop": 1,
+        "_enableForceStop": 0,
         "_enableForceStopEffectWithControllerKeys": 0,
         "_isHitAttributeShift": 0,
         "_effectNameHAS": "",
@@ -218,7 +219,8 @@
         "_isSeparatelyLoadEffect": 0,
         "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
-        "_searchTargetRange": 0.0
+        "_searchTargetRange": 0.0,
+        "_removeFromCharacterEffectWhenStop": 0
       }
     },
     {
@@ -411,7 +413,8 @@
           "_isSeparatelyLoadEffect": 0,
           "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
-          "_searchTargetRange": 0.0
+          "_searchTargetRange": 0.0,
+          "_removeFromCharacterEffectWhenStop": 0
         },
         "_bindEffect": {
           "commandType": 11,
@@ -508,7 +511,8 @@
           "_isSeparatelyLoadEffect": 0,
           "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
-          "_searchTargetRange": 0.0
+          "_searchTargetRange": 0.0,
+          "_removeFromCharacterEffectWhenStop": 0
         },
         "_hitSEName": "",
         "_isPlayNormalHitSE": 0,
@@ -666,7 +670,8 @@
         "_isSeparatelyLoadEffect": 0,
         "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
-        "_searchTargetRange": 0.0
+        "_searchTargetRange": 0.0,
+        "_removeFromCharacterEffectWhenStop": 0
       }
     },
     {
@@ -833,7 +838,49 @@
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
         "_notNecessaryInvisibleWhenAttached": 0,
-        "_isForcedDisp": 0
+        "_isForcedDisp": 0,
+        "_doNotExecuteWhenTransitionNextActionId": 0
+      }
+    },
+    {
+      "$Script": "ActionPartsActiveCancel",
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -7663592336959397342
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -3018229903005867301
+      },
+      "m_Name": "",
+      "_data": {
+        "commandType": 15,
+        "_seconds": 1.666667,
+        "_speed": 1.0,
+        "_duration": 0.0,
+        "_activateId": 0,
+        "_conditionData": {
+          "_conditionType": 0,
+          "_conditionValue": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "_checkConditionTill": 0.0,
+          "_syncWithStartParam": 0
+        },
+        "_loopData": {
+          "flag": 0,
+          "loopNum": 0,
+          "restartFrame": 0,
+          "restartSec": 0.0
+        },
+        "_actionId": 0,
+        "_actionType": 0,
+        "_motionEnd": 0,
+        "_needsUpdateOnce": 0
       }
     }
   ]

@@ -164,7 +164,8 @@
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
         "_notNecessaryInvisibleWhenAttached": 0,
-        "_isForcedDisp": 0
+        "_isForcedDisp": 0,
+        "_doNotExecuteWhenTransitionNextActionId": 0
       }
     },
     {
@@ -270,7 +271,8 @@
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
         "_notNecessaryInvisibleWhenAttached": 0,
-        "_isForcedDisp": 0
+        "_isForcedDisp": 0,
+        "_doNotExecuteWhenTransitionNextActionId": 0
       }
     },
     {
@@ -380,7 +382,8 @@
         "_isSeparatelyLoadEffect": 0,
         "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
-        "_searchTargetRange": 0.0
+        "_searchTargetRange": 0.0,
+        "_removeFromCharacterEffectWhenStop": 0
       }
     },
     {
@@ -490,7 +493,8 @@
         "_isSeparatelyLoadEffect": 0,
         "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
-        "_searchTargetRange": 0.0
+        "_searchTargetRange": 0.0,
+        "_removeFromCharacterEffectWhenStop": 0
       }
     },
     {
@@ -903,7 +907,8 @@
           "_isSeparatelyLoadEffect": 0,
           "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
-          "_searchTargetRange": 0.0
+          "_searchTargetRange": 0.0,
+          "_removeFromCharacterEffectWhenStop": 0
         },
         "_bindEffect": {
           "commandType": 11,
@@ -1000,7 +1005,8 @@
           "_isSeparatelyLoadEffect": 0,
           "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
-          "_searchTargetRange": 0.0
+          "_searchTargetRange": 0.0,
+          "_removeFromCharacterEffectWhenStop": 0
         },
         "_hitSEName": "",
         "_isPlayNormalHitSE": 0,
@@ -1233,7 +1239,8 @@
           "_isSeparatelyLoadEffect": 0,
           "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
-          "_searchTargetRange": 0.0
+          "_searchTargetRange": 0.0,
+          "_removeFromCharacterEffectWhenStop": 0
         },
         "_bindEffect": {
           "commandType": 11,
@@ -1330,7 +1337,8 @@
           "_isSeparatelyLoadEffect": 0,
           "_alwaysDispEffect": 0,
           "_targetCharaStatus": 0,
-          "_searchTargetRange": 0.0
+          "_searchTargetRange": 0.0,
+          "_removeFromCharacterEffectWhenStop": 0
         },
         "_hitSEName": "",
         "_isPlayNormalHitSE": 0,
@@ -1796,7 +1804,8 @@
         "_isSeparatelyLoadEffect": 0,
         "_alwaysDispEffect": 0,
         "_targetCharaStatus": 0,
-        "_searchTargetRange": 0.0
+        "_searchTargetRange": 0.0,
+        "_removeFromCharacterEffectWhenStop": 0
       }
     },
     {
@@ -1902,113 +1911,8 @@
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
         "_notNecessaryInvisibleWhenAttached": 0,
-        "_isForcedDisp": 0
-      }
-    },
-    {
-      "$Script": "ActionPartsCommand",
-      "m_GameObject": {
-        "m_FileID": 0,
-        "m_PathID": 3271312288863962160
-      },
-      "m_Enabled": 1,
-      "m_Script": {
-        "m_FileID": 0,
-        "m_PathID": 3176114714739509076
-      },
-      "m_Name": "",
-      "_data": {
-        "commandType": 30,
-        "_seconds": 0.0,
-        "_speed": 1.0,
-        "_duration": 0.0,
-        "_activateId": 0,
-        "_conditionData": {
-          "_conditionType": 0,
-          "_conditionValue": [
-            0,
-            0,
-            0,
-            0
-          ],
-          "_checkConditionTill": 0.0,
-          "_syncWithStartParam": 0
-        },
-        "_loopData": {
-          "flag": 0,
-          "loopNum": 0,
-          "restartFrame": 0,
-          "restartSec": 0.0
-        },
-        "_charaCommand": 22,
-        "_guarantee": 1,
-        "_onoff": 1,
-        "_id": 0,
-        "_num": 0,
-        "_rate": 0.0,
-        "_effectName": "",
-        "_delayTime": 0.0,
-        "_attachNodeName": "jHead",
-        "_offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "_ofsRot": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "_ofsScl": {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
-        },
-        "_displayTime": 0.0,
-        "_effectCtrlKey": "",
-        "_effectTrigger": 1,
-        "_changeTextureIndex": 0,
-        "_isActionClear": 0,
-        "_registerType": 0,
-        "_registerMultiType": 0,
-        "_registerMultiMarkerGroupId": 0,
-        "_childType": 0,
-        "_childCommand": 0,
-        "_bulletDistinctionTag": "",
-        "_skillTitle": "",
-        "_weakActionId": 0,
-        "_isTarget": 0,
-        "_targetCtrlObjectNames": [
-          "",
-          "",
-          "",
-          "",
-          ""
-        ],
-        "_isSkipThisActionEndPlayIdleMotion": 0,
-        "_soundCtrlKey": "",
-        "_soundFadeTime": 0.0,
-        "_bgmBlockIdx": 0,
-        "_productionKind": 0,
-        "_bgModelGroup": 0,
-        "_productionAnimationCurve": {
-          "m_Curve": [],
-          "m_PreInfinity": 2,
-          "m_PostInfinity": 2,
-          "m_RotationOrder": 4
-        },
-        "_productionDelay01": 0.0,
-        "_productionDelay02": 0.0,
-        "_attachEffIdx": 0,
-        "_overrideTargetOnCurrentAction": 0,
-        "_multiTargetType": 0,
-        "_attachObjectCategory": 0,
-        "_servantActionCommandId": 0,
-        "_damageImmType": 0,
-        "_doNotExecuteCommandOnDeadChild": 0,
-        "_doNotExecuteCommandOnRemotely": 0,
-        "_notNecessaryInvisibleWhenAttached": 0,
-        "_isForcedDisp": 0
+        "_isForcedDisp": 0,
+        "_doNotExecuteWhenTransitionNextActionId": 0
       }
     },
     {
@@ -2114,7 +2018,8 @@
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
         "_notNecessaryInvisibleWhenAttached": 0,
-        "_isForcedDisp": 0
+        "_isForcedDisp": 0,
+        "_doNotExecuteWhenTransitionNextActionId": 0
       }
     },
     {
@@ -2220,7 +2125,8 @@
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
         "_notNecessaryInvisibleWhenAttached": 0,
-        "_isForcedDisp": 0
+        "_isForcedDisp": 0,
+        "_doNotExecuteWhenTransitionNextActionId": 0
       }
     },
     {
@@ -2326,7 +2232,8 @@
         "_doNotExecuteCommandOnDeadChild": 0,
         "_doNotExecuteCommandOnRemotely": 0,
         "_notNecessaryInvisibleWhenAttached": 0,
-        "_isForcedDisp": 0
+        "_isForcedDisp": 0,
+        "_doNotExecuteWhenTransitionNextActionId": 0
       }
     },
     {
