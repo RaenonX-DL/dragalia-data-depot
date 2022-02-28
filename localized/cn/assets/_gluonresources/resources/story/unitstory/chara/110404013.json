@@ -1,0 +1,4666 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "110404013",
+  "filename": "110404013",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_CENTER",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "要跳过此剧情吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0086_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "play_sound",
+          "args": [
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "set_volume",
+          "args": [
+            "0",
+            "0.5",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "_CharaSet",
+          "args": [
+            "KAMITE",
+            "p40402",
+            "1",
+            "M",
+            "Q",
+            "150",
+            "0",
+            "n03701",
+            "4",
+            "Q",
+            "M",
+            "-150",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "mnu",
+          "args": [
+            "n03701",
+            "true",
+            "0.4",
+            "-120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "1",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "cmp",
+          "args": [
+            "n03701",
+            "0.4",
+            "-120",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "mnu",
+          "args": [
+            "p40402",
+            "true",
+            "0.4",
+            "-120",
+            "0",
+            "EaseOutSine",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "1",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "cmp",
+          "args": [
+            "p40402",
+            "0.4",
+            "-120",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "NO_EMO",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n03701",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "c_jump",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "我说啊！\\n你能不能不要再跟着我了！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "RestartLip",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "StopLip_close",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "我已经答应过您的父亲……\\n我有守护您的责任。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "p40402",
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "print",
+          "args": [
+            "SYS",
+            "事情起因要追溯到不久前——"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0002_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "print",
+          "args": [
+            "SYS",
+            "佐迪亚克来到了某个城镇。\\n那里的领主塞德里克\\n因溺爱女儿而远近闻名。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "print",
+          "args": [
+            "SYS",
+            "对领主抱有兴趣的佐迪亚克\\n凭着自己的经验成为了这家的佣人，\\n借此近距离观察领主和其女儿玛格丽特。\\n结果，他意外发现——"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "n03701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "HEART_EMO",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "爸爸，能再给我点零花钱吗？\\n之前的已经花光了。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "唔……是、是吗。\\n真拿你没办法啊……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "print",
+          "args": [
+            "SYS",
+            "玛格丽特不断地向父亲讨要金钱\\n并拿去挥霍。每天都和一些品行不端的人\\n混在一起，浑浑噩噩地度日……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "print",
+          "args": [
+            "SYS",
+            "女儿的行为让塞德里克很伤脑筋。\\n此时佐迪亚克已经得到了信赖，\\n于是塞德里克向他吐露了这个烦恼。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "我很爱我的女儿，\\n对此我会答应她所有的要求……\\n我这样是不是反而惯坏了她……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "答应她所有的要求……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "p40402",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "（这简直就像是昔日的我，\\n给予人类力量且不求任何回报……\\n所以如今我能够明白……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "RestartLip",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "主人啊……\\n适当的训斥也不失为一种\\n爱的表现不是吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p40402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "如果孩子将要误入歧途，\\n那么将其引导回正确的道路\\n也是为人父母的责任。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "是啊……\\n其实我自己心里也明白……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "StopEye_close",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "但我却做不到……\\n只要看到那孩子可爱的模样，\\n我就说不出任何重话……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n02601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "c_jump",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "对、对了！佐尔夫！\\n你能代我训斥她吗！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "我吗？训斥倒是简单……\\n但我只是一介佣人，\\n我不觉得她会听我的话。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "唔，也是……\\n那你能不能替我守护在她的身旁！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n02601",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "只要有你跟着她我就放心了！\\n要是有什么危险，\\n希望你能保护她！拜托了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "那倒是没问题……\\n交给我吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "TRANS_OUT_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0028_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "n03701",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "TRANS_IN_RIGHT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 161,
+          "command": "MOYA_EMO",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "就因为这点事……\\n那佣人就一直跟着我不走了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "n03601",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "c_bound2_t",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120036_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "这也太搞笑了！\\n把你当几岁小孩了？\\n你爸爸也太爱操心了吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04301",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "不过你那佣人在哪儿啊？\\n我怎么看不见他？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "诶？应该不会啊……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "set_render_target",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_REN_004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_004",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_004",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_004",
+            "255",
+            "255",
+            "255",
+            "1",
+            "2",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_004",
+            "1",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "wait",
+          "args": [
+            "2.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "mnu_fade",
+          "args": [
+            "p40402",
+            "true",
+            "0.01",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "cmp_fade",
+          "args": [
+            "p40402",
+            "0.01",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "wait",
+          "args": [
+            "0.01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "您叫我吗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n04301",
+            "7",
+            "M",
+            "M",
+            "-180",
+            "0",
+            "n03601",
+            "7",
+            "M",
+            "M",
+            "180",
+            "0",
+            "n03701",
+            "7",
+            "M",
+            "M",
+            "-40",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0006",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120036_STORY_0006",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0056",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "玛格丽特等人",
+            "噫！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "RestartLip",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "StopLip_close",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "StopLip_close",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "c_jump",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "NO_EMO",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "NO_EMO",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "怎、怎么回事！？\\n你从哪里冒出来的！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n04301",
+            "n03601",
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "我是您的影子，\\n无论何时都在您的身旁。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "c_swing_h_slow",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 233,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "我并不打算妨碍各位。\\n只是为了以防万一而守在一旁……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "StopEye_close",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "set_render_target",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_REN_003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_RESET",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_003",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0.5",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_003",
+            "0",
+            "2",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "wait",
+          "args": [
+            "2.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n04301",
+            "7",
+            "M",
+            "Q",
+            "-180",
+            "0",
+            "n03601",
+            "7",
+            "M",
+            "Q",
+            "180",
+            "0",
+            "n03701",
+            "7",
+            "M",
+            "Q",
+            "-40",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "print",
+          "args": [
+            "玛格丽特等人",
+            "……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "StopLip_close",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "RestartLip",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "StopLip_close",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "NO_EMO",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120036_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "感、感觉好像没必要在意\\n那个大叔吧？而且在意一个\\n看不见的家伙也没用……是吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "StopLip_close",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "StopLip_close",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "RestartLip",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "是、是啊……反正他好像也\\n没有捣乱的意思……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "RestartLip",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "StopLip_close",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "StopLip_close",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "NO_EMO",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "NO_EMO",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "是啊……\\n总之我们就还跟平时一样\\n吃吃喝喝嗨起来吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n04301",
+            "n03601",
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "set_render_target",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_REN_004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_004",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_004",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_004",
+            "255",
+            "255",
+            "255",
+            "1",
+            "2",
+            "EaseInCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_004",
+            "1",
+            "1",
+            "EaseInSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "wait",
+          "args": [
+            "2.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "mnu_fade",
+          "args": [
+            "p40402",
+            "true",
+            "0.01",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "cmp_fade",
+          "args": [
+            "p40402",
+            "0.01",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "wait",
+          "args": [
+            "0.01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "要开宴会吗？请交给我吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04301",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "c_jump",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "哇啊！？不、不要来吓人好吗！？\\n话说你不是说不会来捣乱吗！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "c_swing_h_slow",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "这是身为佣人的职责，并非捣乱。\\n请允许我为各位提供最美味的饮食。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n04301",
+            "5",
+            "Q",
+            "M",
+            "-180",
+            "0",
+            "n03601",
+            "5",
+            "M",
+            "M",
+            "180",
+            "0",
+            "n03701",
+            "7",
+            "M",
+            "M",
+            "-40",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0068",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120036_STORY_0068",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0016",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "玛格丽特等人",
+            "真——真好吃啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "StopLip_close",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "n03601",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "StopLip_close",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "c_jump2",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "NO_EMO",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120036_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "这什么情况！？\\n平日在小摊上买的垃圾食品\\n竟然也能如此美味！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n04301",
+            "n03601",
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "佣人秘技没有不可能三个字。\\n只要经过严苛的修行掌握这本领，\\n任何粗糙的食物都能变成美味佳肴！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "虽然我听说你是个优秀的佣人……\\n但没想到竟然会这么优秀。\\n真让人佩服……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "感谢您的赞赏。\\n那么请允许我也一同用餐吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "可以啊……诶等等！？\\n你吃的那不是生肉吗！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "嗯，这是我的最爱……\\n啊唔！吧唧吧唧吧唧！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "n03601",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "c_bound2_t",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120036_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "这也太搞笑了！\\n你家哪里找来的\\n这啃生骨头肉的管家啊！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "n04301",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "WARAI_EMO",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "啊哈哈！大叔你可真厉害，\\n而且还搞笑，我很中意！\\n跟我们一起玩吧！耶～"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "如果各位希望如此，没问题。\\n耶。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "print",
+          "args": [
+            "？？？",
+            "嚯，真热闹啊。\\n也带我们一起玩玩呗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 390,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_03"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "CharaSetSE",
+          "args": [
+            "KAMITE_REVERSE",
+            "SE_WALK_IN_GR",
+            "n03301",
+            "1",
+            "M",
+            "Q",
+            "180",
+            "0",
+            "n03201",
+            "1",
+            "M",
+            "M",
+            "-180",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 392,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "n03301",
+            "n03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n04301",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友",
+            "呃！？那群家伙是\\n这里的地头蛇……\\n我们惹不起的家伙！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "print",
+          "args": [
+            "流氓",
+            "听说最近有几个小鬼在这儿\\n耀武扬威的？说的就你们吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03301",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 411,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n03301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120033_STORY_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "print",
+          "args": [
+            "流氓",
+            "连领主的女儿也在，\\n你们这冤大头找得挺好啊。\\n把她送我们呗？要敢说个不字……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 417,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n03601",
+            "7",
+            "M",
+            "M",
+            "-180",
+            "0",
+            "n04301",
+            "7",
+            "M",
+            "Q",
+            "180",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "c_jump2",
+          "args": [
+            "n03601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "c_jump2",
+          "args": [
+            "n04301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120036_STORY_0056",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120043_STORY_0056",
+            "1.0",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 422,
+          "command": "print",
+          "args": [
+            "玛格丽特的朋友们",
+            "好、好！都听你的！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "SHIMOTE_OUT2_DEF_SE",
+          "args": [
+            "n03601",
+            "n04301",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "诶！？不、不会吧……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03201",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "c_bound2_t",
+          "args": [
+            "n03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120032_STORY_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "print",
+          "args": [
+            "流氓",
+            "哈哈哈！好可怜哦！\\n大小姐，人家不要你了！\\n不如陪我们玩玩呗？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "StopLip_close",
+          "args": [
+            "n03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "-220",
+            "0",
+            "n03701",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "c_bound_l",
+          "args": [
+            "n03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "wait",
+          "args": [
+            "0.25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "mnu",
+          "args": [
+            "n03701",
+            "true",
+            "0.25",
+            "60",
+            "0",
+            "EaseOutCubic",
+            "0.25",
+            "1",
+            "1",
+            "1",
+            "0.25",
+            "0",
+            "1",
+            "0.25",
+            "1",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "cmp",
+          "args": [
+            "n03701",
+            "0.25",
+            "60",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 448,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "不、不要……放开我！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "n03201",
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 454,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03301",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120033_STORY_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "print",
+          "args": [
+            "流氓",
+            "那边那位大叔还不赶紧跑路？\\n我猜你也不想挨揍吧？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "跑路？\\n不，现在正是该我出场的时候。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 464,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p40402",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "我答应过领主，\\n要保护玛格丽特远离危险……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "CHARA_ATTACK_HIT",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 468,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 469,
+          "command": "CHARA_ATTACK_HIT",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03201",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 476,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_001",
+            "-50",
+            "50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "play_sound",
+          "args": [
+            "SE_230"
+          ],
+          "end": 1
+        },
+        {
+          "row": 480,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n03201",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "mnu",
+          "args": [
+            "n03201",
+            "true",
+            "0.2",
+            "0",
+            "50",
+            "EaseOutCubic",
+            "0.6",
+            "0.9",
+            "0.9",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 482,
+          "command": "mnu",
+          "args": [
+            "n03201",
+            "false",
+            "0.2",
+            "0",
+            "-160",
+            "EaseInCubic",
+            "0",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "mnu",
+          "args": [
+            "n03201",
+            "false",
+            "0.1",
+            "0",
+            "24",
+            "EaseOutCubic",
+            "0",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "mnu",
+          "args": [
+            "n03201",
+            "false",
+            "0.1",
+            "0",
+            "-14",
+            "EaseInCubic",
+            "0",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "cmp",
+          "args": [
+            "n03201",
+            "0.6",
+            "0",
+            "-100",
+            "0.9",
+            "0.9",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_001",
+            "50",
+            "-50"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "play_sound",
+          "args": [
+            "SE_230"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 491,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.5",
+            "0.5",
+            "EaseOutBack"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "c_mnu_reset",
+          "args": [
+            "n03201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03301",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n03301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 499,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120033_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 500,
+          "command": "print",
+          "args": [
+            "流氓",
+            "咿！？这、这家伙是什么人！？\\n怎么这么厉害！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 501,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "滚吧。不然的话……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 507,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03301",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 511,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n03301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 512,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120033_STORY_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 513,
+          "command": "print",
+          "args": [
+            "流氓",
+            "是、是！打扰了！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "StopLip_close",
+          "args": [
+            "n03301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "Q",
+            "Q",
+            "-160",
+            "-100",
+            "n03201",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 517,
+          "command": "mnu_move",
+          "args": [
+            "n03301",
+            "true",
+            "0.4",
+            "0",
+            "-50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "mnu_move",
+          "args": [
+            "n03301",
+            "false",
+            "0.4",
+            "0",
+            "50",
+            "EaseOutCubic"
+          ],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "cmp_move",
+          "args": [
+            "n03301",
+            "0.8",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 520,
+          "command": "mnu",
+          "args": [
+            "n03201",
+            "true",
+            "0.4",
+            "0",
+            "0",
+            "EaseOutCubic",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.4",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "mnu",
+          "args": [
+            "n03201",
+            "false",
+            "0.4",
+            "0",
+            "50",
+            "EaseOutCubic",
+            "0.4",
+            "1",
+            "1",
+            "1",
+            "0.4",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "cmp",
+          "args": [
+            "n03201",
+            "0.8",
+            "0",
+            "50",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0144"
+          ],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 525,
+          "command": "KAMITE_OUT2_FAST_SE",
+          "args": [
+            "n03301",
+            "n03201",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 531,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "玛格丽特，你没受伤吧？\\n走……我们回去吧。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 536,
+          "command": "SET_BG",
+          "args": [
+            "sty_bg_0002_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 537,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 539,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "刚才发生了这样的事……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 542,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "什、什么！？我女儿她……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 549,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 550,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "n02601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "c_fallinto",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 553,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "爸爸！？你怎么了！？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 560,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "CHARA_SET_POS",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "-50",
+            "n02601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 565,
+          "command": "c_zigzag_h_t",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "唔……听说你遇到危险，\\n我的心都快跳出来了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 571,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "诶？爸爸……\\n你难道是在担心我？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 578,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "当然了。你是我的宝贝女儿，\\n要是你有个好歹，我……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n02601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 582,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "你给我添多少麻烦都无所谓。\\n但唯独不要让我担心！"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "n02601",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 586,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 588,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "你就是我生命的全部！\\n所以拜托你……\\n不要再和那种人一起鬼混了……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 592,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 594,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "爸爸！\\n啊啊，你终于肯训我了……\\n我好高兴……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 598,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0009_06"
+          ],
+          "end": 1
+        },
+        {
+          "row": 600,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "什、什么！？你说……高兴？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 608,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "嗯……我以为，只要我干了坏事，\\n爸爸你就一定会来训我……\\n可不管我做什么，爸爸都不来训我……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "唔……为什么？\\n你为什么要这样……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 616,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "谁让爸爸你工作那么忙，\\n根本都没时间来陪我……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 623,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "你一直都只会给我钱……\\n我还以为你根本就不在乎我，\\n无论我怎样你都无所谓……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 625,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n02601",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 629,
+          "command": "c_swing_h_mid",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 631,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "这、这是误会！\\n我是打心底里爱你才会——"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "n02601",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 635,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "不……原来是这样。\\n都是因为我没有好好让你感受到父爱，\\n你才会希望被我训斥……"
+          ],
+          "end": 1
+        },
+        {
+          "row": 637,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "n02601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 639,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120026_STORY_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "print",
+          "args": [
+            "塞德里克",
+            "是我不好……\\n我从来都没有问过你到底想要些什么，\\n以为你要什么就给什么就是爱你。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 641,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n02601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n03701",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_120037_STORY_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 646,
+          "command": "print",
+          "args": [
+            "玛格丽特",
+            "爸爸……我才要向你道歉。\\n是我一心想着吸引爸爸的注意，想要确认\\n爸爸是不是爱我……却反而伤害了爸爸。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n03701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "p40402",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 652,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "（这下他们父女间的误会\\n也解除了……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 654,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "p40402",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p40402"
+          ],
+          "end": 1
+        },
+        {
+          "row": 656,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 657,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "（我也明白了，如果不了解对方真正的\\n需求，一味地将自己所认为的爱强加给\\n对方，那便永远都无法互相理解……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 659,
+          "command": "c_face",
+          "args": [
+            "M",
+            "Q",
+            "p40402",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 660,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_110404_STORY_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "print",
+          "args": [
+            "佐迪亚克",
+            "（未能正确给予对方所所需要的爱，\\n有时也会伤害到对方吧……）"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

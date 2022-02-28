@@ -1,0 +1,5361 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "2222701",
+  "filename": "2222701",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "隨著神秘來信的指引，朱庇特一行\\n造訪了帝國兵四處猖狂的城鎮。\\n他們在當地邂逅了少女艾琳，\\n她打算挑戰「絕對無法獲勝的訴訟」。\\n朱庇特為助她勝訴，表示要成為辯護律師。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "show_prologue_book",
+          "args": [
+            "true",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "screen_fadeout",
+          "args": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "add_book_text",
+          "args": [
+            "致親愛的{player_name}王子\\n我有個請求\\n想拜託親民的殿下。\\n懇請您幫助我。\\n洛特魯鎮的居民敬上──"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "touch_wait",
+          "args": [
+            "3.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "screen_fadeout",
+          "args": [
+            "2.2",
+            "0",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "show_prologue_book",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0024_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0005_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……我收到了這樣一封信，\\n大家怎麼想？",
+            "VO_CHR_EVENTSTORY_22217_01_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00601",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "不覺得怪怪的嗎？\\n如果真的希望別人幫忙，\\n至少會寫出有什麼困擾吧。",
+            "VO_CHR_EVENTSTORY_22217_01_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "c_bound_t",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "print",
+          "args": [
+            "那姆",
+            "就是說啊～說不定，\\n這封信只是在惡作劇……？",
+            "VO_CHR_EVENTSTORY_22217_01_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "唔～嗯，果然這麼覺得嗎……\\n不過，要是真的有人遇到困難，\\n又無法坐視不管……",
+            "VO_CHR_EVENTSTORY_22217_01_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 92,
+          "command": "HATENA_EMO",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "話說回來這個「洛特魯鎮」\\n我從來沒聽過，\\n究竟是怎樣的地方呢？",
+            "VO_CHR_EVENTSTORY_22217_01_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "print",
+          "args": [
+            "神秘帥哥的聲音",
+            "是位在北方國境附近的一座小鎮喔。",
+            "VO_CHR_EVENTSTORY_22217_01_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "CHARA_KAMITE_SLOW_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "HAPPY",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "c_bound_b",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "神秘帥哥",
+            "由於靠近國境，所以伊利亞教\\n色彩濃厚……但也因此治安良好，\\n是個悠哉和平的地方喔。",
+            "VO_CHR_EVENTSTORY_22217_01_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "print",
+          "args": [
+            "神秘帥哥",
+            "順帶一提我最推薦的是\\n當地特產的玉米料理。",
+            "VO_CHR_EVENTSTORY_22217_01_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "SE_256"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_016",
+            "-100",
+            "250"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "c_face",
+          "args": [
+            "O",
+            "M",
+            "p39801",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "c_mnu_reset",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00601",
+            "10"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "c_swing_h_fast",
+          "args": [
+            "m00601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "print",
+          "args": [
+            "琉卡",
+            "誰……誰啊！？\\n這個莫名其妙四射光芒的大帥哥！！",
+            "VO_CHR_EVENTSTORY_22217_01_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00601"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "ASE_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "print",
+          "args": [
+            "那姆",
+            "謎之光芒讓我眼睛都要瞎掉了啦～！\\n到底是誰！？為什麼這麼刺眼！",
+            "VO_CHR_EVENTSTORY_22217_01_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "c_swing_h",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "怎麼，你們好過份喔。\\n難道大家都忘記我了嗎？\\n忘記我──輝龍朱庇特！",
+            "VO_CHR_EVENTSTORY_22217_01_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "HAPPY",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "c_zoom_stay",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "c_mnu_reset",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "ODOROKI_jump",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦……朱庇特！？\\n你怎麼變成人類的樣子……？",
+            "VO_CHR_EVENTSTORY_22217_01_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "p39801",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "ONPU_EMO",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "那當然是因為我聽見了\\n「洛特魯鎮」這個名字囉。\\n如果要去的話就得好好打扮一番嘛！",
+            "VO_CHR_EVENTSTORY_22217_01_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "NO_EMO",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "c_swing_h",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "其實我啊，跟那裡有點緣份呢。\\n既然聽說從那裡寄來了委託信，\\n就不能放著不管啊。",
+            "VO_CHR_EVENTSTORY_22217_01_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "print",
+          "args": [
+            "那姆",
+            "咦，朱庇特打算接受\\n這個可疑到極點的委託嗎？",
+            "VO_CHR_EVENTSTORY_22217_01_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "c_bound_b",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "嗯。是真是假只要去當地確認\\n就知道了。如果真的有人遇到困難\\n就幫忙，沒有也可以當作觀光囉。",
+            "VO_CHR_EVENTSTORY_22217_01_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "WARAI_EMO",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "那裡真的非常悠閒，我想應該可以\\n好好轉換心情呢。如何？",
+            "VO_CHR_EVENTSTORY_22217_01_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "……好吧。\\n既然知道那座小鎮的朱庇特\\n都這麼說了，就去看看吧。",
+            "VO_CHR_EVENTSTORY_22217_01_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0045_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0187"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "print",
+          "args": [
+            "SYS",
+            "幾天後\\n洛特魯鎮　大街上"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n08001",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "WARAI_jump",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "不正經的帝國兵",
+            "耶──────！這個鎮最棒啦！\\n是可以讓我們為所欲為的宴會會場！",
+            "VO_CHR_EVENTSTORY_22217_01_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "play_sound",
+          "args": [
+            "SE_195"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n08001b",
+            "5",
+            "M",
+            "Q",
+            "180",
+            "0",
+            "n08001",
+            "5",
+            "M",
+            "O",
+            "-180",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "c_bound2_t",
+          "args": [
+            "n08001b"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "WARAI_EMO",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "n08001b",
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "這是怎麼回事……\\n四處都有帝國兵在舉辦宴會……",
+            "VO_CHR_EVENTSTORY_22217_01_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "c_bound_t_slow",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "好奇怪喔……\\n原本應該不是這麼吵鬧的城鎮才對啊。",
+            "VO_CHR_EVENTSTORY_22217_01_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "c_swing_h",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "以前放眼望去都是玉米田，\\n氣氛更加和平喔。我說真的。\\n說到底，為什麼會有帝國兵啊？",
+            "VO_CHR_EVENTSTORY_22217_01_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "不曉得。正常來說，越靠近國境\\n帝國的影響力就會越弱才對──",
+            "VO_CHR_EVENTSTORY_22217_01_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "CHARA_SHIMOTE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n08001",
+            "5",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "print",
+          "args": [
+            "躁動的帝國兵",
+            "FU！這個聲音是聖城的第七王子！？",
+            "VO_CHR_EVENTSTORY_22217_01_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "c_swing_h_fast",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗚哇，他們好像發現我們了……",
+            "VO_CHR_EVENTSTORY_22217_01_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n08001",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "c_jump2",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "print",
+          "args": [
+            "不正經的帝國兵",
+            "竟然真的因為那封可疑的信跑來咧！\\n跟傳言一樣，是個聖人君子～！",
+            "VO_CHR_EVENTSTORY_22217_01_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n08001",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "ONPU_EMO",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "c_bound4_t",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "print",
+          "args": [
+            "躁動的帝國兵",
+            "我就感激涕零地帶走YO♪\\n目標人物，立刻捉住♪",
+            "VO_CHR_EVENTSTORY_22217_01_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "NO_EMO",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "play_sound",
+          "args": [
+            "SE_047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "CHARA_KAMITE_VERYFAST",
+          "args": [
+            "M",
+            "M",
+            "R",
+            "n08001b",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_KAMITE_VERYFAST",
+          "args": [
+            "M",
+            "M",
+            "L",
+            "n08001c",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "c_zoom_stay",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "c_zoom_stay",
+          "args": [
+            "n08001b"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "c_zoom_stay",
+          "args": [
+            "n08001c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "print",
+          "args": [
+            "帝國兵們",
+            "耶────────────咿！！",
+            "VO_CHR_EVENTSTORY_22217_01_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n08001",
+            "n08001b",
+            "n08001c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "play_sound",
+          "args": [
+            "SE_048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "CHARA_KAMITE_FAST_POS_d",
+          "args": [
+            "M",
+            "Q",
+            "180",
+            "0",
+            "n08001",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "CHARA_SHIMOTE_FAST_POS_d",
+          "args": [
+            "M",
+            "Q",
+            "-180",
+            "0",
+            "n08001b",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "咦，被包圍了！？\\n幫個忙，朱庇特！\\n我們要從這裡逃……",
+            "VO_CHR_EVENTSTORY_22217_01_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n08001",
+            "n08001b",
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n08001",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "c_jump2",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "print",
+          "args": [
+            "不正經的帝國兵",
+            "休想得逞～！\\n捉住王子一攫千金！為了實現夢想，\\n就要動如脫兔脫兔～！",
+            "VO_CHR_EVENTSTORY_22217_01_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n08001",
+            "5",
+            "M",
+            "Q",
+            "-180",
+            "0",
+            "n08001b",
+            "5",
+            "M",
+            "Q",
+            "180",
+            "0",
+            "m00101",
+            "7",
+            "M",
+            "M",
+            "C",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0394"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "trailing_Create",
+          "args": [
+            "n08001",
+            "n08001b",
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗚哇啊啊！？救～救～我～啊～！",
+            "VO_CHR_EVENTSTORY_22217_01_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 325,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "c_bound_t_slow",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "喔喔～手法還真是精湛。\\n嗯～這種情況要去救他比較好嗎？\\n……算了，我家主人應該不會有事吧。",
+            "VO_CHR_EVENTSTORY_22217_01_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "比起那些，我更想查一查\\n這個鎮變得這麼奇怪的理由呢。\\n好啦，我就去看看吧！",
+            "VO_CHR_EVENTSTORY_22217_01_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0047_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "7",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "……雖然在鎮上繞了繞，\\n但放眼望去都是奇怪的帝國兵呢。",
+            "VO_CHR_EVENTSTORY_22217_01_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "可以的話我想聽聽原本就住在\\n這座鎮上的居民怎麼說……喔？",
+            "VO_CHR_EVENTSTORY_22217_01_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "play_sound",
+          "args": [
+            "SE_195"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 359,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01501",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "c_swing_h_slow",
+          "args": [
+            "n01501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "看似不安的女性",
+            "怎麼會……\\n大小姐還是落入了檢察官手中……",
+            "VO_CHR_EVENTSTORY_22217_01_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 364,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "n01401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "c_swing_h_fast",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "print",
+          "args": [
+            "失落的男性",
+            "這下子，這個鎮真的完蛋了。\\n那位檢察官能讓帝國兵也站在他那邊，\\n沒有任何人可以贏得了的。",
+            "VO_CHR_EVENTSTORY_22217_01_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 376,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "那是……\\n大家似乎都在看布告欄上張貼的紙，\\n檢察官讓帝國兵站在他那邊是指……",
+            "VO_CHR_EVENTSTORY_22217_01_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "p39801",
+            "SE_WALK_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 381,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "打擾一下喔。\\n這張告示是什麼啊？\\n莫非和鎮上的帝國兵，有關係？",
+            "VO_CHR_EVENTSTORY_22217_01_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "print",
+          "args": [
+            "失落的男性",
+            "你是旅人嗎？這個鎮現在一直是這樣。\\n因為鎮上唯一的檢察官，\\n用錢收買了帝國兵。",
+            "VO_CHR_EVENTSTORY_22217_01_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "區區檢察官有這麼大的權力嗎？\\n鎮長究竟在做什麼。",
+            "VO_CHR_EVENTSTORY_22217_01_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01501",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "c_swing_h",
+          "args": [
+            "n01501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "print",
+          "args": [
+            "看似不安的女性",
+            "現在檢察官就是鎮長啊。\\n雖然大家心裡都不承認，\\n但表面上卻無法違抗。",
+            "VO_CHR_EVENTSTORY_22217_01_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "print",
+          "args": [
+            "失落的男性",
+            "因為如果被盯上而被告上法院，\\n是絕對贏不了的。",
+            "VO_CHR_EVENTSTORY_22217_01_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01501",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "print",
+          "args": [
+            "看似不安的女性",
+            "到目前為止雖然有不少人反對暴舉，\\n卻因為敗訴而被消失了。\\n那檢察官毫無疑問是壞人！可是……",
+            "VO_CHR_EVENTSTORY_22217_01_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "c_face",
+          "args": [
+            "Q",
+            "M",
+            "n01501",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "c_bound_b",
+          "args": [
+            "n01501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "print",
+          "args": [
+            "看似不安的女性",
+            "因為他宅邸的守衛太過森嚴，\\n就連守護鎮上治安的教會騎士，\\n都無法捉住他的狐狸尾巴。",
+            "VO_CHR_EVENTSTORY_22217_01_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "c_bound_t",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 428,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "那真是糟糕啊。不過這樣的話，\\n即使有人出面反抗檢察官\\n也不奇怪才對。",
+            "VO_CHR_EVENTSTORY_22217_01_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "HATENA_EMO",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "該不會，\\n就是你們剛才提到的「大小姐」？",
+            "VO_CHR_EVENTSTORY_22217_01_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 434,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 436,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "c_bound_b",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "print",
+          "args": [
+            "失落的男性",
+            "嗯。但那位大小姐，最後好像\\n也被帝國兵捉住並送進看守所了。\\n實在太可憐了……",
+            "VO_CHR_EVENTSTORY_22217_01_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "13"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "喔……\\n話說回來，那間看守所在哪裡？",
+            "VO_CHR_EVENTSTORY_22217_01_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01501",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 451,
+          "command": "print",
+          "args": [
+            "看似不安的女性",
+            "從這裡往北走一段路就會看到了。\\n是說你問這個要做什麼？\\n那裡也有帝國兵負責嚴加守衛──",
+            "VO_CHR_EVENTSTORY_22217_01_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 453,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 455,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 456,
+          "command": "c_bound_b",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 457,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 458,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "那還用說。當然是拜託他們裝沒看見，\\n讓我光明正大地偷闖進去囉。",
+            "VO_CHR_EVENTSTORY_22217_01_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 460,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 461,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 462,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 463,
+          "command": "SHIMOTE_OUT_FAST_SE",
+          "args": [
+            "p39801",
+            "SE_RUN_OUT_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 465,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 466,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 467,
+          "command": "print",
+          "args": [
+            "失落的男性",
+            "……咦？他說什麼？",
+            "VO_CHR_EVENTSTORY_22217_01_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 470,
+          "command": "BLACK_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 471,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 472,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 473,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0113_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 474,
+          "command": "BLACK_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 475,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 477,
+          "command": "window_type",
+          "args": [
+            "MONOLOGUE"
+          ],
+          "end": 1
+        },
+        {
+          "row": 478,
+          "command": "print",
+          "args": [
+            "SYS",
+            "同一天\\n洛特魯鎮　看守所"
+          ],
+          "end": 1
+        },
+        {
+          "row": 479,
+          "command": "SCREEN_COLOR_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 481,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0008_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 483,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n08001",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 484,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 485,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_151"
+          ],
+          "end": 1
+        },
+        {
+          "row": 486,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 487,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 488,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 489,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 490,
+          "command": "print",
+          "args": [
+            "帝國兵",
+            "噫呀──！好麻啊啊啊啊！",
+            "VO_CHR_EVENTSTORY_22217_01_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 492,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 493,
+          "command": "CHARA_BEAT_AFTER",
+          "args": [
+            "n08001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 495,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 496,
+          "command": "c_bound_t",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 497,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 498,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "好乖好乖，大家都是乖寶寶呢～\\n接下來，大小姐在哪裡呢……",
+            "VO_CHR_EVENTSTORY_22217_01_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 500,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 503,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 504,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 505,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 506,
+          "command": "print",
+          "args": [
+            "女性的聲音",
+            "──難以置信！為什麼會被捉住啊！？\\n這樣就真的全都完蛋了啦～～～～～！",
+            "VO_CHR_EVENTSTORY_22217_01_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 508,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 509,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 510,
+          "command": "print",
+          "args": [
+            "男性的聲音",
+            "妳、妳冷靜點……我也因為\\n突然發生很多事，還有點混亂。\\n雖說被捉住是我不好……",
+            "VO_CHR_EVENTSTORY_22217_01_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 514,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 515,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 516,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "嗯，在那邊吧。是說，\\n剛才傳來的另一個聲音……",
+            "VO_CHR_EVENTSTORY_22217_01_0057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 518,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 519,
+          "command": "SHIMOTE_OUT_DEF_SE",
+          "args": [
+            "p39801",
+            "SE_WALK_OUT_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 521,
+          "command": "BLACK_OUT_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 522,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 523,
+          "command": "BLACK_IN_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 524,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 526,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12",
+            "SE_WALK_IN_FL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 527,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 528,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "果然。王子你也在這裡啊。\\n喂──兩位……你們牢房又不同間，\\n幹嘛要特地大聲交談啊？",
+            "VO_CHR_EVENTSTORY_22217_01_0058"
+          ],
+          "end": 1
+        },
+        {
+          "row": 530,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 532,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 533,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 534,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 535,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "朱庇特！？你來救我了嗎！\\n呃嗯，其實，隔壁牢房的這位……\\n艾琳她似乎是前任鎮長的女兒。",
+            "VO_CHR_EVENTSTORY_22217_01_0059"
+          ],
+          "end": 1
+        },
+        {
+          "row": 537,
+          "command": "chara_face",
+          "args": [
+            "m00101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 538,
+          "command": "NO_EMO",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 539,
+          "command": "c_bound_b",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 540,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 541,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "因為她和身為現任鎮長的檢察官\\n在許多方面互相對立，\\n結果後來就遭到對方陷害而被拘留了。",
+            "VO_CHR_EVENTSTORY_22217_01_0060"
+          ],
+          "end": 1
+        },
+        {
+          "row": 543,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 545,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 546,
+          "command": "c_bound_b",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 547,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 548,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "沒錯。我被他陷害背上殺人的黑鍋。\\n那位檢察官，是看到我為了保護鑰匙\\n而從不離身，所以才採取了強硬手段。",
+            "VO_CHR_EVENTSTORY_22217_01_0061"
+          ],
+          "end": 1
+        },
+        {
+          "row": 550,
+          "command": "IKARI_jump",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 551,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 552,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "他打算先讓我背上罪名再拿走鑰匙，\\n除掉礙事者順便得到「聖櫃」裡的東西。\\n太貪心了，我要告死他！",
+            "VO_CHR_EVENTSTORY_22217_01_0062"
+          ],
+          "end": 1
+        },
+        {
+          "row": 554,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 556,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 557,
+          "command": "c_swing_h_slow",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 558,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 559,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "現在被告的人是妳吧。\\n啊啊，原來如此……\\n鎮上居民口中的大小姐，就是妳啊。",
+            "VO_CHR_EVENTSTORY_22217_01_0063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 561,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 562,
+          "command": "c_bound_t",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 563,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 564,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "深受人民信賴的前任鎮長之女……\\n沒有比這更礙事的存在了呢。\\n難怪檢察官會想除掉妳。",
+            "VO_CHR_EVENTSTORY_22217_01_0064"
+          ],
+          "end": 1
+        },
+        {
+          "row": 566,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 567,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 568,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "不過這樣的話，前任鎮長本人\\n應該比妳更有可能成為目標才對……",
+            "VO_CHR_EVENTSTORY_22217_01_0065"
+          ],
+          "end": 1
+        },
+        {
+          "row": 570,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 572,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "n01801",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 573,
+          "command": "c_bound_b_slow",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 574,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 575,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "父親大人，已經去世了。\\n他是死在牢裡的。\\n正因如此，我才必須保護這把鑰匙。",
+            "VO_CHR_EVENTSTORY_22217_01_0066"
+          ],
+          "end": 1
+        },
+        {
+          "row": 577,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 579,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 580,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 581,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "喔……抱歉啊。那我們改變話題吧。\\n那把鑰匙和什麼聖櫃的，\\n又是指什麼呢？",
+            "VO_CHR_EVENTSTORY_22217_01_0067"
+          ],
+          "end": 1
+        },
+        {
+          "row": 583,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 585,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 587,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 588,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 589,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "那些……聽說是用來保管\\n建國君王阿爾博流斯聖遺物的箱子，\\n以及其鑰匙。",
+            "VO_CHR_EVENTSTORY_22217_01_0068"
+          ],
+          "end": 1
+        },
+        {
+          "row": 591,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 593,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0006_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 595,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 596,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 597,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "……阿爾博流斯的？",
+            "VO_CHR_EVENTSTORY_22217_01_0069"
+          ],
+          "end": 1
+        },
+        {
+          "row": 599,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 601,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 602,
+          "command": "c_bound_b",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 603,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 604,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "沒錯，貨真價實！是傳說中\\n會給予持有者強大力量與繁榮，\\n我們家代代相傳的傳家寶。",
+            "VO_CHR_EVENTSTORY_22217_01_0070"
+          ],
+          "end": 1
+        },
+        {
+          "row": 606,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 607,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "那個檢察官害我父親大人下台的同時\\n就把箱子也奪走了。不過，\\n他到現在還沒成功打開聖櫃。",
+            "VO_CHR_EVENTSTORY_22217_01_0071"
+          ],
+          "end": 1
+        },
+        {
+          "row": 609,
+          "command": "c_swing_h",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 610,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 611,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "因為他還沒得到鑰匙。\\n而且，就算他得到鑰匙也沒用。",
+            "VO_CHR_EVENTSTORY_22217_01_0072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 613,
+          "command": "c_bound_b",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 614,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 615,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "要想啟動聖遺物，\\n必須使用王族才擁有的龍之血！\\n我之前就這樣罵給他聽！",
+            "VO_CHR_EVENTSTORY_22217_01_0073"
+          ],
+          "end": 1
+        },
+        {
+          "row": 617,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 619,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 620,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 621,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 622,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "喔～我大致知道是怎麼回事了。\\n所以聖城才會收到那封信嗎……",
+            "VO_CHR_EVENTSTORY_22217_01_0074"
+          ],
+          "end": 1
+        },
+        {
+          "row": 624,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 626,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 627,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 628,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "應該是吧。看來那位檢察官，\\n似乎無論如何都想得到\\n神秘聖遺物的力量。",
+            "VO_CHR_EVENTSTORY_22217_01_0075"
+          ],
+          "end": 1
+        },
+        {
+          "row": 630,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 632,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 633,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 634,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "唔～嗯。也就是說……\\n照這樣發展下去，\\n你也很有可能被隨便扣上某項罪名吧？",
+            "VO_CHR_EVENTSTORY_22217_01_0076"
+          ],
+          "end": 1
+        },
+        {
+          "row": 636,
+          "command": "c_swing_h_slow",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 637,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 638,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "比方「擅闖宴會罪」之類的。\\n接著只要那位檢察官在負責的法庭上\\n強行讓你背負罪名，你這輩子就完了。",
+            "VO_CHR_EVENTSTORY_22217_01_0077"
+          ],
+          "end": 1
+        },
+        {
+          "row": 640,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 642,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00101",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 643,
+          "command": "c_bound_b",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 644,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 645,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "大概……雖然很不合理，\\n但這裡似乎就是這樣的城鎮。\\n所以才會沒什麼律師……",
+            "VO_CHR_EVENTSTORY_22217_01_0078"
+          ],
+          "end": 1
+        },
+        {
+          "row": 647,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 649,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 650,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 651,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "也對啦，大家都不想應付\\n不正當的必敗之戰嘛。\\n這麼說來……妳也還沒找到律師嗎？",
+            "VO_CHR_EVENTSTORY_22217_01_0079"
+          ],
+          "end": 1
+        },
+        {
+          "row": 653,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 655,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01801",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 656,
+          "command": "c_swing_h_fast",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 657,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 658,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "這、這個……是沒錯……\\n那又怎樣！就算沒有什麼律師，\\n我也不會輸給那個檢察官的！",
+            "VO_CHR_EVENTSTORY_22217_01_0080"
+          ],
+          "end": 1
+        },
+        {
+          "row": 660,
+          "command": "chara_face",
+          "args": [
+            "n01801",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 661,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 662,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "光是之前家裡遭小偷就夠讓人沮喪了，\\n這次竟然還說我是殺人犯！\\n我絕不原諒他！",
+            "VO_CHR_EVENTSTORY_22217_01_0081"
+          ],
+          "end": 1
+        },
+        {
+          "row": 664,
+          "command": "IKARI_jump",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 665,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 666,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "既然如此我一定要靠自我辯護成功勝訴\\n無罪給他看。接著再反過來\\n告死那個檢察官～～～～！",
+            "VO_CHR_EVENTSTORY_22217_01_0082"
+          ],
+          "end": 1
+        },
+        {
+          "row": 668,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 670,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 671,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 672,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "哼～是嗎。原來如此……\\n所以妳即使受傷，\\n也不打算就這樣輸給對方吧。",
+            "VO_CHR_EVENTSTORY_22217_01_0083"
+          ],
+          "end": 1
+        },
+        {
+          "row": 674,
+          "command": "chara_face",
+          "args": [
+            "p39801",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 675,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p399801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 676,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 677,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "好耶，很有趣！既然如此，\\n要我幫妳一把也可以喔？",
+            "VO_CHR_EVENTSTORY_22217_01_0084"
+          ],
+          "end": 1
+        },
+        {
+          "row": 679,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 681,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "n01801",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 682,
+          "command": "HATENA_EMO",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 683,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 684,
+          "command": "print",
+          "args": [
+            "艾琳",
+            "咦？什麼意思？",
+            "VO_CHR_EVENTSTORY_22217_01_0085"
+          ],
+          "end": 1
+        },
+        {
+          "row": 686,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 688,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 690,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p39801",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 691,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 692,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "就是──這個意思！",
+            "VO_CHR_EVENTSTORY_22217_01_0086"
+          ],
+          "end": 1
+        },
+        {
+          "row": 694,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 696,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 697,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0112"
+          ],
+          "end": 1
+        },
+        {
+          "row": 698,
+          "command": "fade_color",
+          "args": [
+            "0.6",
+            "255",
+            "255",
+            "255",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 699,
+          "command": "wait",
+          "args": [
+            "0.4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 700,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 702,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_217"
+          ],
+          "end": 1
+        },
+        {
+          "row": 703,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 704,
+          "command": "VIS",
+          "args": [
+            "p39802",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 705,
+          "command": "c_face",
+          "args": [
+            "O",
+            "Q",
+            "p39802",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 706,
+          "command": "chara_pos",
+          "args": [
+            "p39802",
+            "0",
+            "400"
+          ],
+          "end": 1
+        },
+        {
+          "row": 707,
+          "command": "mnu",
+          "args": [
+            "p39802",
+            "true",
+            "0.01",
+            "0",
+            "0",
+            "1",
+            "0.01",
+            "1.4",
+            "1.4",
+            "1",
+            "0.01",
+            "0",
+            "1",
+            "0.01",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 708,
+          "command": "mnu",
+          "args": [
+            "p39802",
+            "false",
+            "3.0",
+            "0",
+            "-450",
+            "1",
+            "2.0",
+            "1.4",
+            "1.4",
+            "1",
+            "2.0",
+            "0",
+            "1",
+            "2.0",
+            "1",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 709,
+          "command": "cmp",
+          "args": [
+            "p39802",
+            "3.0",
+            "0",
+            "-450",
+            "1.4",
+            "1.4",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 710,
+          "command": "CHARA_UNCOLOR",
+          "args": [
+            "p39802"
+          ],
+          "end": 1
+        },
+        {
+          "row": 711,
+          "command": "CHARA_FADEIN_DEF",
+          "args": [
+            "p39802"
+          ],
+          "end": 1
+        },
+        {
+          "row": 712,
+          "command": "fade_color",
+          "args": [
+            "2.0",
+            "255",
+            "255",
+            "255",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 713,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 715,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_107"
+          ],
+          "end": 1
+        },
+        {
+          "row": 716,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 717,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 719,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p39802",
+            "12"
+          ],
+          "end": 1
+        },
+        {
+          "row": 720,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 721,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_217",
+            "0",
+            "0.4",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 722,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 724,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0004_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 726,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 727,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "就由我──朱庇特！\\n來當妳的辯護律師吧！",
+            "VO_CHR_EVENTSTORY_22217_01_0087"
+          ],
+          "end": 1
+        },
+        {
+          "row": 729,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 730,
+          "command": "print",
+          "args": [
+            "朱庇特",
+            "看我華麗地贏下訴訟，\\n再順便一舉揭露檢察官的不法行為，\\n取回你們兩位跟遺物吧！",
+            "VO_CHR_EVENTSTORY_22217_01_0088"
+          ],
+          "end": 1
+        },
+        {
+          "row": 732,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 733,
+          "command": "chara_face",
+          "args": [
+            "p39802",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 734,
+          "command": "play_sound",
+          "args": [
+            "SE_256"
+          ],
+          "end": 1
+        },
+        {
+          "row": 735,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_SCE_2D_CMN_016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 736,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_016",
+            "-120",
+            "300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 737,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 738,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 739,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 740,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p39802"
+          ],
+          "end": 1
+        },
+        {
+          "row": 741,
+          "command": "c_mnu_reset",
+          "args": [
+            "p39802"
+          ],
+          "end": 1
+        },
+        {
+          "row": 743,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m00101",
+            "7",
+            "M",
+            "M",
+            "-180",
+            "0",
+            "n01801",
+            "7",
+            "M",
+            "M",
+            "180",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 744,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_EVENTSTORY_22217_01_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 745,
+          "command": "print",
+          "args": [
+            "兩人",
+            "……呃。\\n咦咦──────！？",
+            "VO_CHR_EVENTSTORY_22217_01_0089"
+          ],
+          "end": 1
+        },
+        {
+          "row": 747,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "m00101",
+            "n01801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 749,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 750,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "CHARA_KAMITE_FAST_POS_d",
+      "args": [
+        "eye",
+        "lip",
+        "X",
+        "Y",
+        "CID",
+        "int"
+      ],
+      "defaultValues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 6,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "eye",
+            "lip",
+            "X",
+            "Y",
+            "CID",
+            "int"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "true",
+            "0.05",
+            "120",
+            "0",
+            "1",
+            "0.05",
+            "1",
+            "1",
+            "1",
+            "0.05",
+            "0",
+            "1",
+            "0.05",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.2",
+            "-120",
+            "0",
+            "EaseOutSine",
+            "0.3",
+            "1",
+            "1",
+            "1",
+            "0.3",
+            "0",
+            "1",
+            "0.3",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "cmp",
+          "args": [
+            "CID",
+            "0.25",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "NO_EMO",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "CHARA_SHIMOTE_FAST_POS_d",
+      "args": [
+        "eye",
+        "lip",
+        "X",
+        "Y",
+        "CID",
+        "int"
+      ],
+      "defaultValues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 13,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "eye",
+            "lip",
+            "X",
+            "Y",
+            "CID",
+            "int"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "true",
+            "0.05",
+            "-120",
+            "0",
+            "1",
+            "0.05",
+            "1",
+            "1",
+            "1",
+            "0.05",
+            "0",
+            "1",
+            "0.05",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.2",
+            "120",
+            "0",
+            "EaseOutSine",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.1",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "cmp",
+          "args": [
+            "CID",
+            "0.25",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "NO_EMO",
+          "args": [
+            "m00101"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "trailing_Create",
+      "args": [
+        "CID",
+        "CID2",
+        "CID3"
+      ],
+      "defaultValues": [
+        "",
+        "",
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 22,
+          "command": "SHAKE_CH_LOOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "true",
+            "0.2",
+            "-40",
+            "0",
+            "EaseOutSine",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.2",
+            "-40",
+            "0",
+            "EaseOutSine",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "false",
+            "0.5",
+            "-120",
+            "0",
+            "EaseOutSine",
+            "0.5",
+            "1",
+            "1",
+            "1",
+            "0.5",
+            "0",
+            "1",
+            "0.4",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "cmp",
+          "args": [
+            "CID",
+            "0.9",
+            "-200",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "mnu",
+          "args": [
+            "CID2",
+            "true",
+            "0.2",
+            "-40",
+            "0",
+            "EaseOutSine",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "mnu",
+          "args": [
+            "CID2",
+            "false",
+            "0.2",
+            "-40",
+            "0",
+            "EaseOutSine",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "mnu",
+          "args": [
+            "CID2",
+            "false",
+            "0.5",
+            "-120",
+            "0",
+            "EaseOutSine",
+            "0.5",
+            "1",
+            "1",
+            "1",
+            "0.5",
+            "0",
+            "1",
+            "0.4",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "cmp",
+          "args": [
+            "CID2",
+            "0.9",
+            "-200",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "mnu",
+          "args": [
+            "CID3",
+            "true",
+            "0.2",
+            "-40",
+            "0",
+            "EaseOutSine",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "mnu",
+          "args": [
+            "CID3",
+            "false",
+            "0.2",
+            "-40",
+            "0",
+            "EaseOutSine",
+            "0.2",
+            "1",
+            "1",
+            "1",
+            "0.2",
+            "0",
+            "1",
+            "0.2",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "mnu",
+          "args": [
+            "CID3",
+            "false",
+            "0.5",
+            "-120",
+            "0",
+            "EaseOutSine",
+            "0.5",
+            "1",
+            "1",
+            "1",
+            "0.5",
+            "0",
+            "1",
+            "0.4",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "cmp",
+          "args": [
+            "CID3",
+            "0.9",
+            "-200",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "SHAKE_CH_STOP",
+          "args": [
+            "0",
+            "0"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
