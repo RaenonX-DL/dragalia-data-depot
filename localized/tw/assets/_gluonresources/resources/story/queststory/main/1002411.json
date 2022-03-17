@@ -1,0 +1,1928 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1002411",
+  "filename": "1002411",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 5,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "OL_TITLE",
+          "args": [
+            "劇情概要"
+          ],
+          "end": 1
+        },
+        {
+          "row": 5,
+          "command": "outline",
+          "args": [
+            "五龍雖取回了原初之力，眾人卻也發現\\n光憑如此無法對抗瑟諾斯。\\n面對煩惱不已的一行人，\\n伊利亞表示為了戰勝瑟諾斯，\\n要集結巫女之力創造屬於自己的世界。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0130_300"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0010_02"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "涅帝爾的情況怎麼樣？",
+            "VO_CHR_MAINSTORY_24_11_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 32,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "是，看起來穩定了不少。\\n不過，使用原初之力所造成的影響\\n似乎還是相當嚴重……",
+            "VO_CHR_MAINSTORY_24_11_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04201",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "只要返回勒夫克斯遺跡，\\n應該找得到遺留的一、兩間房屋。\\n等他能行動之後大家再移動至那裡吧。",
+            "VO_CHR_MAINSTORY_24_11_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "涅帝爾所使用的力量，\\n原本應該是五龍的一切全部融合，\\n才終於有辦法操控的力量。",
+            "VO_CHR_MAINSTORY_24_11_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "光是現在還能保有意識，\\n或許就該感到慶幸吧。",
+            "VO_CHR_MAINSTORY_24_11_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p36701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "c_bound_b_slow",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "畢竟提出取回五龍原初之力的人是我，\\n沒演變成最糟的情況讓我鬆了口氣。",
+            "VO_CHR_MAINSTORY_24_11_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01005",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "不過，最終我們取回了原初之力，\\n結果好就好了不是嗎？",
+            "VO_CHR_MAINSTORY_24_11_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "確實，五龍取回原初之力\\n是該感到高興……",
+            "VO_CHR_MAINSTORY_24_11_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "但那原初之力──正確地說，\\n獲得原初之力的巴哈姆特破壞之力，\\n有辦法再次使用嗎？",
+            "VO_CHR_MAINSTORY_24_11_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "……或許很難。\\n畢竟光是稍微使用力量\\n就讓涅帝爾變成這樣了……",
+            "VO_CHR_MAINSTORY_24_11_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "c_swing_h",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "……如果換成我，\\n想必連使用力量都辦不到吧。",
+            "VO_CHR_MAINSTORY_24_11_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "b13101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "耶夢加得",
+            "如始祖昔日所為，\\n吾等五龍合一化身破壞之力容器，\\n或許尚有良機。",
+            "VO_CHR_MAINSTORY_24_11_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "b13101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01005",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "c_swing_h",
+          "args": [
+            "m01005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "我才不要呢！",
+            "VO_CHR_MAINSTORY_24_11_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m01005",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "……現在不是說這種話的時候，\\n我很清楚……可是，\\n我真的沒辦法乖乖答應啊。",
+            "VO_CHR_MAINSTORY_24_11_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "print",
+          "args": [
+            "那姆",
+            "如果那樣做，慕慕就會消失不見吧？\\n耶夢加得跟大家也是。\\n這種事、我也不要……",
+            "VO_CHR_MAINSTORY_24_11_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "c_bound_b",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是啊……況且，原初碧龍也說了。",
+            "VO_CHR_MAINSTORY_24_11_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "即使五龍融合為巴哈姆特，\\n也沒能戰勝瑟諾斯。",
+            "VO_CHR_MAINSTORY_24_11_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "是因為有「起始之龍」創造的世界，\\n和伊利西恩存在，才能再次將瑟諾斯\\n封印到異界盡頭。那麼……",
+            "VO_CHR_MAINSTORY_24_11_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "的確……伊利西恩已經不在了。\\n就算我們採取相同手段，\\n也可能無法封印瑟諾斯。",
+            "VO_CHR_MAINSTORY_24_11_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "c_bound_b",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "嗯。所以，\\n我認為要賭在這個方法上太危險了。",
+            "VO_CHR_MAINSTORY_24_11_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "雖說是妥當的判斷……\\n但如此一來，就沒什麼能對抗\\n瑟諾斯的手段了……",
+            "VO_CHR_MAINSTORY_24_11_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "m00901",
+            "9",
+            "M",
+            "Q",
+            "-200",
+            "0",
+            "p36701",
+            "4",
+            "M",
+            "Q",
+            "250",
+            "0",
+            "m00109",
+            "4",
+            "M",
+            "Q",
+            "C",
+            "C"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "print",
+          "args": [
+            "全員",
+            "…………",
+            "VO_CHR_MAINSTORY_24_11_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "m00901",
+            "p36701",
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0016_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 149,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "現在沮喪還太早了。\\n還有其他手段能對抗瑟諾斯。\\n關鍵就在妳身上，潔西雅。",
+            "VO_CHR_MAINSTORY_24_11_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 155,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "HATENA_EMO",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "咦？是什麼意思呢？",
+            "VO_CHR_MAINSTORY_24_11_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "不只是妳。還有潔那和希拉。\\n另外我也算是其中之一。",
+            "VO_CHR_MAINSTORY_24_11_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "CHARA_SET2",
+          "args": [
+            "M",
+            "Q",
+            "m00907",
+            "7",
+            "M",
+            "Q",
+            "m04403",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "HATENA_EMO",
+          "args": [
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "print",
+          "args": [
+            "潔那＆希拉",
+            "……？"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "m00907",
+            "m04403"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "print",
+          "args": [
+            "那姆",
+            "妳的意思是……「巫女」嗎？",
+            "VO_CHR_MAINSTORY_24_11_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "c_bound_b",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 181,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "答得漂亮。我們巫女，\\n正是對抗瑟諾斯的關鍵。",
+            "VO_CHR_MAINSTORY_24_11_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04201",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "巫女？究竟是怎麼回事？",
+            "VO_CHR_MAINSTORY_24_11_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 190,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "瑟諾斯的力量是創造世界之力。\\n他會創造出以自己為中心的世界，\\n如果我們身處其中當然束手無策。",
+            "VO_CHR_MAINSTORY_24_11_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "要想與其對抗，一個方法是破壞世界。\\n就是這次涅帝爾以巴哈姆特之力\\n做過的那樣。",
+            "VO_CHR_MAINSTORY_24_11_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "而另一個方法──\\n就是「創造我們的世界」。",
+            "VO_CHR_MAINSTORY_24_11_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00701",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "ODOROKI_jump",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "那姆",
+            "創、創造世界！？",
+            "VO_CHR_MAINSTORY_24_11_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "我們也創造出\\n以我們為中心的世界，\\n藉此覆蓋掉瑟諾斯的世界。",
+            "VO_CHR_MAINSTORY_24_11_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m01005",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "print",
+          "args": [
+            "慕慕",
+            "雖、雖然聽起來很簡單，\\n但那應該是很不得了的事吧！？",
+            "VO_CHR_MAINSTORY_24_11_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m01005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 224,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "當然，並不容易。\\n但有辦到的可能性。\\n這次貝維特已經為我們證明了。",
+            "VO_CHR_MAINSTORY_24_11_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "貝維特哥哥……？\\n唔！這樣啊，貝維特哥哥是刻印容器。\\n也就是說──",
+            "VO_CHR_MAINSTORY_24_11_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 234,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "c_bound_b",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "嗯。跟我們巫女一樣。",
+            "VO_CHR_MAINSTORY_24_11_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "p36701",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "當然，我們和貝維特\\n在力量方面有相當大的差距。",
+            "VO_CHR_MAINSTORY_24_11_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "不過，假設處在我們\\n延長線上的存在就是貝維特，\\n那我們應該也能跟他一樣創造世界！",
+            "VO_CHR_MAINSTORY_24_11_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m04201",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "print",
+          "args": [
+            "葛托夫",
+            "……這些話真是超乎想像。\\n不愧是女神……該這麼說嗎。",
+            "VO_CHR_MAINSTORY_24_11_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m04201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "呵呵。嗯，既然都被稱為神了，\\n就得創造一、兩個世界讓人看看嘛。",
+            "VO_CHR_MAINSTORY_24_11_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 260,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00901",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "ASE_EMO",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "print",
+          "args": [
+            "潔西雅",
+            "但、但是伊利亞，\\n該怎麼做才能創造世界，\\n我完全……",
+            "VO_CHR_MAINSTORY_24_11_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00901"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "當然，我們各自並沒有那樣的力量。",
+            "VO_CHR_MAINSTORY_24_11_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "不過，\\n如同五龍融合化為巴哈姆特那樣，\\n我們也要結合各自的力量。",
+            "VO_CHR_MAINSTORY_24_11_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "print",
+          "args": [
+            "{player_name}",
+            "結合巫女之力，創造世界……",
+            "VO_CHR_MAINSTORY_24_11_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "if",
+          "args": [
+            "ja_jp"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "else",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "p36701",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "c_bound_b",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "endif",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_24_11_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "print",
+          "args": [
+            "伊利亞",
+            "嗯。巫女聯手，通力合作……\\n用來對抗瑟諾斯的最後絕招──\\n正是「羈絆」！",
+            "VO_CHR_MAINSTORY_24_11_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "p36701"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
